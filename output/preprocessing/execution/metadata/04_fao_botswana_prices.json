@@ -1,0 +1,242 @@
+{
+  "dataset_name": "04_fao_botswana_prices",
+  "status": "SUCCESS",
+  "rows_before": 852,
+  "rows_after": 288,
+  "columns_before": [
+    "Date",
+    "Item Code",
+    "Item",
+    "Value"
+  ],
+  "columns_after": [
+    "Consumer Prices, Food Indices (2015 = 100)",
+    "Consumer Prices, General Indices (2015 = 100)",
+    "Date",
+    "Food price inflation"
+  ],
+  "execution_time": 0.016554,
+  "processed_file": "04_fao_botswana_prices_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Convert the Date column to datetime using the parameters supplied in the JSON contract.",
+      "status": "SUCCESS",
+      "rows_before": 852,
+      "rows_after": 852,
+      "columns_before": [
+        "Date",
+        "Item Code",
+        "Item",
+        "Value"
+      ],
+      "columns_after": [
+        "Date",
+        "Item Code",
+        "Item",
+        "Value"
+      ],
+      "execution_time": 0.001798,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "columns": [
+          "Date"
+        ],
+        "errors": "coerce",
+        "format": "auto",
+        "utc": false
+      },
+      "validation_details": {
+        "expected": [
+          "Date"
+        ],
+        "actual": [
+          "Date"
+        ],
+        "status": "PASS"
+      },
+      "enabled": true
+    },
+    {
+      "id": "P002",
+      "action": "Reshape long-format rows into wide format using the JSON-defined pivot parameters.",
+      "status": "SUCCESS",
+      "rows_before": 852,
+      "rows_after": 288,
+      "columns_before": [
+        "Date",
+        "Item Code",
+        "Item",
+        "Value"
+      ],
+      "columns_after": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "execution_time": 0.007341,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "index": [
+          "Date"
+        ],
+        "columns": [
+          "Item"
+        ],
+        "values": [
+          "Value"
+        ],
+        "aggfunc": "first",
+        "sort_columns": true,
+        "flatten_columns": true,
+        "remove_column_index_name": true
+      },
+      "validation_details": {
+        "expected": 288,
+        "actual": 288,
+        "status": "PASS"
+      },
+      "enabled": true
+    },
+    {
+      "id": "P003",
+      "action": "Validate that the expected reshaped columns are present.",
+      "status": "SUCCESS",
+      "rows_before": 288,
+      "rows_after": 288,
+      "columns_before": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "columns_after": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "execution_time": 0.000135,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {},
+      "validation_details": {
+        "expected": [
+          "Date",
+          "Consumer Prices, Food Indices (2015 = 100)",
+          "Consumer Prices, General Indices (2015 = 100)",
+          "Food price inflation"
+        ],
+        "actual": [
+          "Consumer Prices, Food Indices (2015 = 100)",
+          "Consumer Prices, General Indices (2015 = 100)",
+          "Date",
+          "Food price inflation"
+        ],
+        "status": "PASS"
+      },
+      "enabled": true
+    },
+    {
+      "id": "P004",
+      "action": "Validate that the reshaped dataset contains one row per unique Date.",
+      "status": "SUCCESS",
+      "rows_before": 288,
+      "rows_after": 288,
+      "columns_before": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "columns_after": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "execution_time": 8.7e-05,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {},
+      "validation_details": {
+        "expected": 288,
+        "actual": 288,
+        "status": "PASS"
+      },
+      "enabled": true
+    },
+    {
+      "id": "P005",
+      "action": "Validate that Date remains available for downstream joins.",
+      "status": "SUCCESS",
+      "rows_before": 288,
+      "rows_after": 288,
+      "columns_before": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "columns_after": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "execution_time": 8.9e-05,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {},
+      "validation_details": {
+        "expected": [
+          "Date"
+        ],
+        "actual": [
+          "Consumer Prices, Food Indices (2015 = 100)",
+          "Consumer Prices, General Indices (2015 = 100)",
+          "Date",
+          "Food price inflation"
+        ],
+        "status": "PASS"
+      },
+      "enabled": true
+    },
+    {
+      "id": "P006",
+      "action": "Validate that Date remains datetime-typed after reshaping.",
+      "status": "SUCCESS",
+      "rows_before": 288,
+      "rows_after": 288,
+      "columns_before": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "columns_after": [
+        "Consumer Prices, Food Indices (2015 = 100)",
+        "Consumer Prices, General Indices (2015 = 100)",
+        "Date",
+        "Food price inflation"
+      ],
+      "execution_time": 0.000188,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {},
+      "validation_details": {
+        "expected": [
+          "Date"
+        ],
+        "actual": [
+          "Date"
+        ],
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}

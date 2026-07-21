@@ -1,0 +1,212 @@
+{
+  "dataset_name": "05_human_capital_project",
+  "rows": 4320,
+  "columns": 6,
+  "structure": "Long-format panel data",
+  "duplicate_rows": 0,
+  "missing_percent": 0.23,
+  "candidate_join_keys": [
+    "Date",
+    "REF_AREA",
+    "INDICATOR"
+  ],
+  "column_names": [
+    "Date",
+    "REF_AREA",
+    "REF_AREA_LABEL",
+    "INDICATOR",
+    "INDICATOR_LABEL",
+    "Value"
+  ],
+  "number_of_transformations": 8,
+  "transformations": [
+    {
+      "id": "P001",
+      "execution_order": 1,
+      "enabled": true,
+      "category": "Datetime",
+      "action": "convert_datetime",
+      "description": "Convert the Date column to datetime using the parameters supplied in the JSON contract.",
+      "parameters": {
+        "columns": [
+          "Date"
+        ],
+        "errors": "coerce",
+        "format": "auto",
+        "utc": false
+      },
+      "validation": {
+        "type": "datetime",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date is datetime-typed after conversion."
+      }
+    },
+    {
+      "id": "P002",
+      "execution_order": 2,
+      "enabled": true,
+      "category": "Sorting",
+      "action": "sort_rows",
+      "description": "Sort the panel chronologically using the JSON-specified sort settings.",
+      "parameters": {
+        "by": [
+          "Date"
+        ],
+        "ascending": true,
+        "kind": "mergesort"
+      },
+      "validation": {
+        "type": "sorted",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that the rows are sorted by Date."
+      }
+    },
+    {
+      "id": "P003",
+      "execution_order": 3,
+      "enabled": true,
+      "category": "Reshape",
+      "action": "reshape_long_to_wide",
+      "description": "Reshape the long-format panel into a wide panel using the JSON-defined pivot parameters.",
+      "parameters": {
+        "index": [
+          "Date",
+          "REF_AREA"
+        ],
+        "columns": [
+          "INDICATOR"
+        ],
+        "values": [
+          "Value"
+        ],
+        "aggfunc": "first",
+        "sort_columns": true,
+        "flatten_columns": true,
+        "remove_column_index_name": true,
+        "preserve_columns": ["REF_AREA_LABEL"]
+      },
+      "validation": {
+        "type": "reshape",
+        "expected_rows": 1440,
+        "expected_columns": [
+          "Date",
+          "REF_AREA",
+          "REF_AREA_LABEL",
+          "FAO_CP_23012",
+          "FAO_CP_23013",
+          "FAO_CP_23014"
+        ],
+        "primary_key_columns": [
+          "Date",
+          "REF_AREA"
+        ],
+        "generated_feature_columns": [
+          "FAO_CP_23012",
+          "FAO_CP_23013",
+          "FAO_CP_23014"
+        ],
+        "duplicate_key_columns": [
+          "Date",
+          "REF_AREA"
+        ],
+        "expected_duplicate_keys": 0,
+        "loss_of_observations": 2880,
+        "description": "Validate that the reshape produces one row per unique Date and REF_AREA and all expected feature columns."
+      }
+    },
+    {
+      "id": "P004",
+      "execution_order": 4,
+      "enabled": true,
+      "category": "Schema_Checks",
+      "action": "validate_schema",
+      "description": "Validate that the expected reshaped schema is present.",
+      "parameters": {},
+      "validation": {
+        "type": "schema",
+        "expected_columns": [
+          "Date",
+          "REF_AREA",
+          "REF_AREA_LABEL",
+          "FAO_CP_23012",
+          "FAO_CP_23013",
+          "FAO_CP_23014"
+        ],
+        "description": "Validate that the expected output schema is present."
+      }
+    },
+    {
+      "id": "P005",
+      "execution_order": 5,
+      "enabled": true,
+      "category": "Row_Count_Checks",
+      "action": "validate_row_count",
+      "description": "Validate that the reshaped dataset contains one row per Date and REF_AREA combination.",
+      "parameters": {},
+      "validation": {
+        "type": "row_count",
+        "expected": 1440,
+        "description": "Validate that the output row count is 1440."
+      }
+    },
+    {
+      "id": "P006",
+      "execution_order": 6,
+      "enabled": true,
+      "category": "Join_Keys",
+      "action": "validate_join_keys",
+      "description": "Validate that Date and REF_AREA remain available for downstream joins.",
+      "parameters": {},
+      "validation": {
+        "type": "join_keys",
+        "columns": [
+          "Date",
+          "REF_AREA"
+        ],
+        "description": "Validate that Date and REF_AREA remain available for merge.py."
+      }
+    },
+    {
+      "id": "P007",
+      "execution_order": 7,
+      "enabled": true,
+      "category": "Datetime_Checks",
+      "action": "validate_datetime",
+      "description": "Validate that Date remains datetime-typed after reshaping.",
+      "parameters": {},
+      "validation": {
+        "type": "datetime",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date remains datetime-typed."
+      }
+    },
+    {
+      "id": "P008",
+      "execution_order": 8,
+      "enabled": true,
+      "category": "Missing_Values",
+      "action": "handle_missing_values",
+      "description": "Apply the JSON-defined missing-value strategy to the generated feature columns.",
+      "parameters": {
+        "strategy": "median",
+        "columns": [
+          "FAO_CP_23012",
+          "FAO_CP_23013",
+          "FAO_CP_23014"
+        ]
+      },
+      "validation": {
+        "type": "missing_values",
+        "expected_remaining": 0,
+        "description": "Validate that no missing values remain after the missing-value strategy is applied."
+      }
+    }
+  ],
+  "detailed_execution_specification": "This dataset is a longitudinal panel with repeated rows for each country and reporting period. The execution engine will honour the execution_order entries and enabled flags declared in the JSON specification, so the implementation order is fixed and no transformation is inferred or skipped silently. The preprocessing stage shall first convert Date to datetime using the parameters supplied by the JSON contract, then sort the rows chronologically by Date. The long-format panel shall then be reshaped using Date and REF_AREA as the row identifiers, INDICATOR as the source of the generated feature columns and Value as the measure. The expected output is one row per unique Date and REF_AREA combination, not one row per original long-format observation. Missing values shall be handled only in the generated feature columns using the JSON-specified strategy."
+}

@@ -1,0 +1,374 @@
+{
+  "candidate_join_keys": [
+    {
+      "columns": [
+        "Date"
+      ],
+      "kind": "Candidate Key"
+    }
+  ],
+  "categorical_columns": {},
+  "column_names": [
+    "Date",
+    "Brent_USD_per_barrel"
+  ],
+  "column_profile": [
+    {
+      "column": "Date",
+      "data_type": "object",
+      "example_value": "2000-01-15",
+      "memory_usage": "16.59 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 288
+    },
+    {
+      "column": "Brent_USD_per_barrel",
+      "data_type": "float64",
+      "example_value": 25.51,
+      "memory_usage": "2.25 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 286
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {},
+    "measurement_numeric_columns": [
+      "Brent_USD_per_barrel"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Date",
+        "dominant_count": 1,
+        "dominant_percent": 0.35,
+        "dominant_value": "2000-01-15",
+        "unique_values": 288
+      },
+      {
+        "column": "Brent_USD_per_barrel",
+        "dominant_count": 2,
+        "dominant_percent": 0.69,
+        "dominant_value": 25.66,
+        "unique_values": 286
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "None",
+        "status": "No duplicates"
+      }
+    ],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Brent_USD_per_barrel": 0
+    },
+    "missing_by_column": {
+      "Brent_USD_per_barrel": 0,
+      "Date": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "Brent_USD_per_barrel": 0.0,
+      "Date": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [
+      "Date"
+    ],
+    "positive_values": 288,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Brent_USD_per_barrel",
+        "negative_count": 0,
+        "positive_count": 288,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 0
+  },
+  "data_types": {
+    "Brent_USD_per_barrel": "float64",
+    "Date": "object"
+  },
+  "dataset_name": "02_brent_crude_monthly",
+  "dataset_specific_checks": {
+    "dataset_type": "Brent Crude",
+    "records": [
+      {
+        "metric": "Monthly continuity percent",
+        "value": 100.0
+      },
+      {
+        "metric": "Duplicate months",
+        "value": 0
+      },
+      {
+        "metric": "Missing months",
+        "value": 0
+      },
+      {
+        "metric": "Unique months",
+        "value": 288
+      },
+      {
+        "metric": "Expected months",
+        "value": 288
+      },
+      {
+        "metric": "First missing months",
+        "value": "None"
+      },
+      {
+        "metric": "Chronological ordering",
+        "value": true
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": true,
+      "column": "Date",
+      "date_span_days": 8735,
+      "duplicate_dates": 0,
+      "earliest_date": "2000-01-15T00:00:00",
+      "estimated_frequency": "Monthly-like",
+      "latest_date": "2023-12-15T00:00:00",
+      "median_spacing": "31 days 00:00:00",
+      "monotonic_increasing": true,
+      "most_common_spacing": "31 days 00:00:00",
+      "unique_dates": 288
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "None",
+        "status": "No duplicates"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Brent_USD_per_barrel"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Use observed candidate join keys",
+      "category": "join_keys",
+      "keys": [
+        "Date"
+      ]
+    },
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Convert Date to datetime",
+      "category": "datetime",
+      "priority": "high"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/02_brent_crude_monthly_boxplot.png",
+    "correlation": null,
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/02_brent_crude_monthly_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/02_brent_crude_monthly_missing.png",
+    "time_series": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/02_brent_crude_monthly_timeseries.png"
+  },
+  "file_name": "02_brent_crude_monthly.csv",
+  "frequency_analysis": [
+    {
+      "column": "Date",
+      "estimated_frequency": "Monthly-like"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Brent_USD_per_barrel",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 0.4417888693834869,
+      "column": "Brent_USD_per_barrel",
+      "count": 288,
+      "infinite_count": 0,
+      "iqr": 42.2675,
+      "kurtosis": -0.9297861505161817,
+      "maximum": 132.72,
+      "mean": 66.11479166666668,
+      "median": 63.94,
+      "minimum": 18.38,
+      "mode": 25.62,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 288,
+      "range": 114.34,
+      "skewness": 0.2793004415461597,
+      "standard_deviation": 29.208779059941453,
+      "variance": 853.1527741724743,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Date",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": "Monthly-like",
+      "observation": "Datetime frequency detected for Date"
+    },
+    {
+      "measured_value": "Brent_USD_per_barrel",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "Brent Crude",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Date"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Brent_USD_per_barrel"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 2,
+    "rows": 288
+  },
+  "summary_statistics": {
+    "categorical_columns": {},
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 0.4417888693834869,
+        "column": "Brent_USD_per_barrel",
+        "count": 288,
+        "infinite_count": 0,
+        "iqr": 42.2675,
+        "kurtosis": -0.9297861505161817,
+        "maximum": 132.72,
+        "mean": 66.11479166666668,
+        "median": 63.94,
+        "minimum": 18.38,
+        "mode": 25.62,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 288,
+        "range": 114.34,
+        "skewness": 0.2793004415461597,
+        "standard_deviation": 29.208779059941453,
+        "variance": 853.1527741724743,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Date",
+      "duplicate_periods": 0,
+      "estimated_frequency": "Monthly-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": 0,
+      "missing_periods": 0,
+      "monthly_applicable": true,
+      "monthly_continuity_percent": 100.0,
+      "regular_frequency": true,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

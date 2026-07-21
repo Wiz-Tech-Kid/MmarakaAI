@@ -1,0 +1,169 @@
+{
+  "dataset_name": "01_baltic_dry_index_daily",
+  "rows": 5992,
+  "columns": 4,
+  "structure": "Rectangular tabular data",
+  "duplicate_rows": 3,
+  "missing_percent": 0.0,
+  "candidate_join_keys": [
+    "Date"
+  ],
+  "column_names": [
+    "Date",
+    "BDI_Close",
+    "BDI_High",
+    "BDI_Low"
+  ],
+  "number_of_transformations": 8,
+  "transformations": [
+    {
+      "id": "P001",
+      "execution_order": 1,
+      "enabled": true,
+      "category": "Duplicate_Removal",
+      "action": "remove_duplicates",
+      "description": "Remove duplicate rows using the full row signature to preserve the intended observation grain.",
+      "parameters": {
+        "subset": [
+          "Date",
+          "BDI_Close",
+          "BDI_High",
+          "BDI_Low"
+        ],
+        "keep": "first",
+        "ignore_index": true
+      },
+      "validation": {
+        "type": "duplicate_rows",
+        "expected": 0,
+        "row_count_expected": 5989,
+        "description": "Validate that the expected duplicate rows were removed and the output contains 5989 rows."
+      }
+    },
+    {
+      "id": "P002",
+      "execution_order": 2,
+      "enabled": true,
+      "category": "Datetime",
+      "action": "convert_datetime",
+      "description": "Convert the Date column to datetime using the parameters provided in the JSON contract.",
+      "parameters": {
+        "columns": [
+          "Date"
+        ],
+        "errors": "coerce",
+        "format": "auto",
+        "utc": false
+      },
+      "validation": {
+        "type": "datetime",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date is datetime-typed after conversion."
+      }
+    },
+    {
+      "id": "P003",
+      "execution_order": 3,
+      "enabled": true,
+      "category": "Sorting",
+      "action": "sort_rows",
+      "description": "Sort the dataset in ascending order using the JSON-specified columns and sort options.",
+      "parameters": {
+        "by": [
+          "Date"
+        ],
+        "ascending": true,
+        "kind": "mergesort"
+      },
+      "validation": {
+        "type": "sorted",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that the rows are ordered strictly by Date."
+      }
+    },
+    {
+      "id": "P004",
+      "execution_order": 4,
+      "enabled": true,
+      "category": "Duplicate_Checks",
+      "action": "validate_duplicates",
+      "description": "Validate that duplicate rows are absent after the cleaning step.",
+      "parameters": {},
+      "validation": {
+        "type": "duplicate_rows",
+        "expected": 0,
+        "description": "Validate that zero duplicate rows remain."
+      }
+    },
+    {
+      "id": "P005",
+      "execution_order": 5,
+      "enabled": true,
+      "category": "Datetime_Checks",
+      "action": "validate_datetime",
+      "description": "Validate that Date remains datetime-typed after preprocessing.",
+      "parameters": {},
+      "validation": {
+        "type": "datetime",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date remains datetime-typed."
+      }
+    },
+    {
+      "id": "P006",
+      "execution_order": 6,
+      "enabled": true,
+      "category": "Schema_Checks",
+      "action": "validate_schema",
+      "description": "Validate that the expected columns remain present.",
+      "parameters": {},
+      "validation": {
+        "type": "schema",
+        "expected_columns": [
+          "Date",
+          "BDI_Close",
+          "BDI_High",
+          "BDI_Low"
+        ],
+        "description": "Validate that the expected schema is present."
+      }
+    },
+    {
+      "id": "P007",
+      "execution_order": 7,
+      "enabled": true,
+      "category": "Row_Count_Checks",
+      "action": "validate_row_count",
+      "description": "Validate that the output row count matches the expected value.",
+      "parameters": {},
+      "validation": {
+        "type": "row_count",
+        "expected": 5989,
+        "description": "Validate that the output row count is 5989."
+      }
+    },
+    {
+      "id": "P008",
+      "execution_order": 8,
+      "enabled": true,
+      "category": "Join_Keys",
+      "action": "validate_join_keys",
+      "description": "Validate that Date remains available for downstream joins.",
+      "parameters": {},
+      "validation": {
+        "type": "join_keys",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date remains available for merge.py."
+      }
+    }
+  ],
+  "detailed_execution_specification": "This dataset requires only structural cleaning and no structural reshaping. The execution engine will honour the execution_order entries and enabled flags declared in the JSON specification, so the implementation order is fixed and no transformation is inferred or skipped silently. Preprocessing shall begin by identifying duplicate observations using the complete observation composed of Date, BDI_Close, BDI_High and BDI_Low. The first occurrence of each duplicated observation shall be retained and all subsequent duplicates removed. The Date column shall be converted from object to datetime using the parameters supplied by the JSON contract, including the requested errors, format and UTC handling. After filtering and conversion the dataset shall be sorted in ascending chronological order using the Date column. The final dataset shall contain 5989 observations, four columns, zero duplicate observations, a datetime Date column and chronological ordering suitable for merge.py."
+}

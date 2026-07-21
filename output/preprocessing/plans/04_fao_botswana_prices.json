@@ -1,0 +1,156 @@
+{
+  "dataset_name": "04_fao_botswana_prices",
+  "rows": 852,
+  "columns": 4,
+  "structure": "Long-format panel data",
+  "duplicate_rows": 0,
+  "missing_percent": 0.0,
+  "candidate_join_keys": [
+    "Date"
+  ],
+  "column_names": [
+    "Date",
+    "Item Code",
+    "Item",
+    "Value"
+  ],
+  "number_of_transformations": 6,
+  "transformations": [
+    {
+      "id": "P001",
+      "execution_order": 1,
+      "enabled": true,
+      "category": "Datetime",
+      "action": "convert_datetime",
+      "description": "Convert the Date column to datetime using the parameters supplied in the JSON contract.",
+      "parameters": {
+        "columns": [
+          "Date"
+        ],
+        "errors": "coerce",
+        "format": "auto",
+        "utc": false
+      },
+      "validation": {
+        "type": "datetime",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date is datetime-typed after conversion."
+      }
+    },
+    {
+      "id": "P002",
+      "execution_order": 2,
+      "enabled": true,
+      "category": "Reshape",
+      "action": "reshape_long_to_wide",
+      "description": "Reshape long-format rows into wide format using the JSON-defined pivot parameters.",
+      "parameters": {
+        "index": [
+          "Date"
+        ],
+        "columns": [
+          "Item"
+        ],
+        "values": [
+          "Value"
+        ],
+        "aggfunc": "first",
+        "sort_columns": true,
+        "flatten_columns": true,
+        "remove_column_index_name": true
+      },
+      "validation": {
+        "type": "reshape",
+        "expected_rows": 288,
+        "expected_columns": [
+          "Date",
+          "Consumer Prices, Food Indices (2015 = 100)",
+          "Consumer Prices, General Indices (2015 = 100)",
+          "Food price inflation"
+        ],
+        "primary_key_columns": [
+          "Date"
+        ],
+        "generated_feature_columns": [
+          "Consumer Prices, Food Indices (2015 = 100)",
+          "Consumer Prices, General Indices (2015 = 100)",
+          "Food price inflation"
+        ],
+        "duplicate_key_columns": [
+          "Date"
+        ],
+        "expected_duplicate_keys": 0,
+        "loss_of_observations": 564,
+        "description": "Validate that the reshape produces one row per unique Date and all expected feature columns."
+      }
+    },
+    {
+      "id": "P003",
+      "execution_order": 3,
+      "enabled": true,
+      "category": "Schema_Checks",
+      "action": "validate_schema",
+      "description": "Validate that the expected reshaped columns are present.",
+      "parameters": {},
+      "validation": {
+        "type": "schema",
+        "expected_columns": [
+          "Date",
+          "Consumer Prices, Food Indices (2015 = 100)",
+          "Consumer Prices, General Indices (2015 = 100)",
+          "Food price inflation"
+        ],
+        "description": "Validate that the expected output schema is present."
+      }
+    },
+    {
+      "id": "P004",
+      "execution_order": 4,
+      "enabled": true,
+      "category": "Row_Count_Checks",
+      "action": "validate_row_count",
+      "description": "Validate that the reshaped dataset contains one row per unique Date.",
+      "parameters": {},
+      "validation": {
+        "type": "row_count",
+        "expected": 288,
+        "description": "Validate that the output row count is 288."
+      }
+    },
+    {
+      "id": "P005",
+      "execution_order": 5,
+      "enabled": true,
+      "category": "Join_Keys",
+      "action": "validate_join_keys",
+      "description": "Validate that Date remains available for downstream joins.",
+      "parameters": {},
+      "validation": {
+        "type": "join_keys",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date remains available for merge.py."
+      }
+    },
+    {
+      "id": "P006",
+      "execution_order": 6,
+      "enabled": true,
+      "category": "Datetime_Checks",
+      "action": "validate_datetime",
+      "description": "Validate that Date remains datetime-typed after reshaping.",
+      "parameters": {},
+      "validation": {
+        "type": "datetime",
+        "columns": [
+          "Date"
+        ],
+        "description": "Validate that Date remains datetime-typed."
+      }
+    }
+  ],
+  "detailed_execution_specification": "This dataset is a long-format panel with repeated monthly rows across indicators. The execution engine will honour the execution_order entries and enabled flags declared in the JSON specification, so the implementation order is fixed and no transformation is inferred or skipped silently. The preprocessing stage shall first convert Date to datetime using the parameters supplied by the JSON contract. The long-format rows shall then be reshaped into a wide format using Date as the row identifier, Item as the source of the generated feature columns, and Value as the measure. The expected output is one row per unique Date, not one row per long-format observation. The generated indicator columns shall be flattened and cleaned so that the resulting dataset contains one row for each unique Date and a feature column for each indicator."
+}

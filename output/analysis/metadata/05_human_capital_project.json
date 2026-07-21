@@ -1,0 +1,892 @@
+{
+  "candidate_join_keys": [
+    {
+      "columns": [
+        "Date",
+        "REF_AREA",
+        "INDICATOR"
+      ],
+      "kind": "Composite Candidate Key"
+    }
+  ],
+  "categorical_columns": {
+    "INDICATOR": {
+      "top_values": [
+        {
+          "frequency": 1440,
+          "frequency_percent": 33.33,
+          "value": "FAO_CP_23012"
+        },
+        {
+          "frequency": 1440,
+          "frequency_percent": 33.33,
+          "value": "FAO_CP_23013"
+        },
+        {
+          "frequency": 1440,
+          "frequency_percent": 33.33,
+          "value": "FAO_CP_23014"
+        }
+      ],
+      "unique_values": 3
+    },
+    "INDICATOR_LABEL": {
+      "top_values": [
+        {
+          "frequency": 1440,
+          "frequency_percent": 33.33,
+          "value": "Consumer Prices, General Indices (2015 = 100)"
+        },
+        {
+          "frequency": 1440,
+          "frequency_percent": 33.33,
+          "value": "Consumer Prices, Food Indices (2015 = 100)"
+        },
+        {
+          "frequency": 1440,
+          "frequency_percent": 33.33,
+          "value": "Food price inflation"
+        }
+      ],
+      "unique_values": 3
+    },
+    "REF_AREA": {
+      "top_values": [
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "BWA"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "KEN"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "NAM"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "ZAF"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "ZWE"
+        }
+      ],
+      "unique_values": 5
+    },
+    "REF_AREA_LABEL": {
+      "top_values": [
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "Botswana"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "Kenya"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "Namibia"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "South Africa"
+        },
+        {
+          "frequency": 864,
+          "frequency_percent": 20.0,
+          "value": "Zimbabwe"
+        }
+      ],
+      "unique_values": 5
+    }
+  },
+  "column_names": [
+    "Date",
+    "REF_AREA",
+    "REF_AREA_LABEL",
+    "INDICATOR",
+    "INDICATOR_LABEL",
+    "Value"
+  ],
+  "column_profile": [
+    {
+      "column": "Date",
+      "data_type": "object",
+      "example_value": "2000-01-01",
+      "memory_usage": "248.91 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 288
+    },
+    {
+      "column": "REF_AREA",
+      "data_type": "object",
+      "example_value": "BWA",
+      "memory_usage": "219.38 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 5
+    },
+    {
+      "column": "REF_AREA_LABEL",
+      "data_type": "object",
+      "example_value": "Botswana",
+      "memory_usage": "240.47 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 5
+    },
+    {
+      "column": "INDICATOR",
+      "data_type": "object",
+      "example_value": "FAO_CP_23012",
+      "memory_usage": "257.34 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3
+    },
+    {
+      "column": "INDICATOR_LABEL",
+      "data_type": "object",
+      "example_value": "Consumer Prices, General Indices (2015 = 100)",
+      "memory_usage": "357.19 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3
+    },
+    {
+      "column": "Value",
+      "data_type": "float64",
+      "example_value": 31.74832,
+      "memory_usage": "33.75 KB",
+      "missing_count": 60,
+      "missing_percent": 1.39,
+      "unique_values": 4013
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {},
+    "measurement_numeric_columns": [
+      "Value"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Date",
+        "dominant_count": 15,
+        "dominant_percent": 0.35,
+        "dominant_value": "2000-01-01",
+        "unique_values": 288
+      },
+      {
+        "column": "REF_AREA",
+        "dominant_count": 864,
+        "dominant_percent": 20.0,
+        "dominant_value": "BWA",
+        "unique_values": 5
+      },
+      {
+        "column": "REF_AREA_LABEL",
+        "dominant_count": 864,
+        "dominant_percent": 20.0,
+        "dominant_value": "Botswana",
+        "unique_values": 5
+      },
+      {
+        "column": "INDICATOR",
+        "dominant_count": 1440,
+        "dominant_percent": 33.33,
+        "dominant_value": "FAO_CP_23012",
+        "unique_values": 3
+      },
+      {
+        "column": "INDICATOR_LABEL",
+        "dominant_count": 1440,
+        "dominant_percent": 33.33,
+        "dominant_value": "Consumer Prices, General Indices (2015 = 100)",
+        "unique_values": 3
+      },
+      {
+        "column": "Value",
+        "dominant_count": 60,
+        "dominant_percent": 1.39,
+        "dominant_value": NaN,
+        "unique_values": 4013
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": true,
+        "first_duplicated_dates": "None",
+        "status": "Expected (Long/Panel Structure)"
+      }
+    ],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Value": 0
+    },
+    "missing_by_column": {
+      "Date": 0,
+      "INDICATOR": 0,
+      "INDICATOR_LABEL": 0,
+      "REF_AREA": 0,
+      "REF_AREA_LABEL": 0,
+      "Value": 60
+    },
+    "missing_percent": 0.23,
+    "missing_percent_by_column": {
+      "Date": 0.0,
+      "INDICATOR": 0.0,
+      "INDICATOR_LABEL": 0.0,
+      "REF_AREA": 0.0,
+      "REF_AREA_LABEL": 0.0,
+      "Value": 1.39
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 68,
+    "object_columns_containing_dates": [
+      "Date"
+    ],
+    "positive_values": 4191,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Value",
+        "negative_count": 68,
+        "positive_count": 4191,
+        "zero_count": 1
+      }
+    ],
+    "total_missing": 60,
+    "zero_values": 1
+  },
+  "data_types": {
+    "Date": "object",
+    "INDICATOR": "object",
+    "INDICATOR_LABEL": "object",
+    "REF_AREA": "object",
+    "REF_AREA_LABEL": "object",
+    "Value": "float64"
+  },
+  "dataset_name": "05_human_capital_project",
+  "dataset_specific_checks": {
+    "dataset_type": "Human Capital",
+    "records": [
+      {
+        "metric": "Countries",
+        "value": 5
+      },
+      {
+        "metric": "Country labels",
+        "value": 5
+      },
+      {
+        "metric": "Indicators",
+        "value": 3
+      },
+      {
+        "metric": "Indicator labels",
+        "value": 3
+      },
+      {
+        "metric": "Years",
+        "value": 24
+      },
+      {
+        "metric": "Duplicate country-date records",
+        "value": 2880
+      },
+      {
+        "metric": "Duplicate country-indicator-date records",
+        "value": 0
+      }
+    ],
+    "tables": {
+      "Missing values by country": [
+        {
+          "REF_AREA": "BWA",
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "KEN",
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "NAM",
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "ZAF",
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "ZWE",
+          "missing_rows": 12
+        }
+      ],
+      "Missing values by indicator": [
+        {
+          "INDICATOR": "FAO_CP_23014",
+          "missing_rows": 60
+        }
+      ],
+      "Missing values by year": [
+        {
+          "Year": 2000,
+          "missing_rows": 60
+        }
+      ]
+    }
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": true,
+      "column": "Date",
+      "date_span_days": 8735,
+      "duplicate_dates": 4032,
+      "earliest_date": "2000-01-01T00:00:00",
+      "estimated_frequency": "MS",
+      "latest_date": "2023-12-01T00:00:00",
+      "median_spacing": "31 days 00:00:00",
+      "monotonic_increasing": false,
+      "most_common_spacing": "31 days 00:00:00",
+      "unique_dates": 288
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": true,
+        "first_duplicated_dates": "None",
+        "status": "Expected (Long/Panel Structure)"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": true
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Value"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Use observed candidate join keys",
+      "category": "join_keys",
+      "keys": [
+        "Date + REF_AREA + INDICATOR"
+      ]
+    },
+    {
+      "action": "Preserve long-format identity columns",
+      "category": "panel_structure",
+      "keys": [
+        "Date"
+      ]
+    },
+    {
+      "action": "Merge on Date and indicator dimensions",
+      "category": "merge_key",
+      "keys": [
+        "Date",
+        "REF_AREA",
+        "INDICATOR"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Pivot indicator rows into columns",
+      "category": "reshape",
+      "priority": "high"
+    },
+    {
+      "action": "Preserve Country and Date columns",
+      "category": "column_management",
+      "priority": "high"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/05_human_capital_project_boxplot.png",
+    "correlation": null,
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/05_human_capital_project_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/05_human_capital_project_missing.png",
+    "time_series": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/05_human_capital_project_timeseries.png"
+  },
+  "file_name": "05_human_capital_project.csv",
+  "frequency_analysis": [
+    {
+      "column": "Date",
+      "estimated_frequency": "MS"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {
+      "INDICATOR": [
+        {
+          "INDICATOR": "FAO_CP_23014",
+          "missing_cells": 60,
+          "missing_rows": 60
+        }
+      ],
+      "INDICATOR_LABEL": [
+        {
+          "INDICATOR_LABEL": "Food price inflation",
+          "missing_cells": 60,
+          "missing_rows": 60
+        }
+      ],
+      "REF_AREA": [
+        {
+          "REF_AREA": "BWA",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "KEN",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "NAM",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "ZAF",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA": "ZWE",
+          "missing_cells": 12,
+          "missing_rows": 12
+        }
+      ],
+      "REF_AREA_LABEL": [
+        {
+          "REF_AREA_LABEL": "Botswana",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA_LABEL": "Kenya",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA_LABEL": "Namibia",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA_LABEL": "South Africa",
+          "missing_cells": 12,
+          "missing_rows": 12
+        },
+        {
+          "REF_AREA_LABEL": "Zimbabwe",
+          "missing_cells": 12,
+          "missing_rows": 12
+        }
+      ],
+      "Year": [
+        {
+          "Year": 2000,
+          "missing_cells": 60,
+          "missing_rows": 60
+        }
+      ]
+    },
+    "missing_by_column": [
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "REF_AREA",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "REF_AREA_LABEL",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "INDICATOR",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "INDICATOR_LABEL",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Value",
+        "missing_count": 60,
+        "missing_percent": 1.39
+      }
+    ],
+    "missing_rows_count": 60,
+    "missing_rows_percent": 1.39,
+    "missing_rows_preview": {
+      "11": {
+        "Date": "2000-01-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "ZAF",
+        "REF_AREA_LABEL": "South Africa",
+        "Value": NaN
+      },
+      "14": {
+        "Date": "2000-01-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "ZWE",
+        "REF_AREA_LABEL": "Zimbabwe",
+        "Value": NaN
+      },
+      "17": {
+        "Date": "2000-02-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "BWA",
+        "REF_AREA_LABEL": "Botswana",
+        "Value": NaN
+      },
+      "2": {
+        "Date": "2000-01-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "BWA",
+        "REF_AREA_LABEL": "Botswana",
+        "Value": NaN
+      },
+      "20": {
+        "Date": "2000-02-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "KEN",
+        "REF_AREA_LABEL": "Kenya",
+        "Value": NaN
+      },
+      "23": {
+        "Date": "2000-02-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "NAM",
+        "REF_AREA_LABEL": "Namibia",
+        "Value": NaN
+      },
+      "26": {
+        "Date": "2000-02-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "ZAF",
+        "REF_AREA_LABEL": "South Africa",
+        "Value": NaN
+      },
+      "29": {
+        "Date": "2000-02-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "ZWE",
+        "REF_AREA_LABEL": "Zimbabwe",
+        "Value": NaN
+      },
+      "5": {
+        "Date": "2000-01-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "KEN",
+        "REF_AREA_LABEL": "Kenya",
+        "Value": NaN
+      },
+      "8": {
+        "Date": "2000-01-01",
+        "INDICATOR": "FAO_CP_23014",
+        "INDICATOR_LABEL": "Food price inflation",
+        "REF_AREA": "NAM",
+        "REF_AREA_LABEL": "Namibia",
+        "Value": NaN
+      }
+    }
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 7.455111588988785,
+      "column": "Value",
+      "count": 4260,
+      "infinite_count": 0,
+      "iqr": 89.6660255,
+      "kurtosis": 201.8817548186503,
+      "maximum": 64932.5433,
+      "mean": 365.8036501232395,
+      "median": 61.418319499999996,
+      "minimum": -14.136633,
+      "mode": 99.123112,
+      "negative_count": 68,
+      "outlier_count_iqr": 133,
+      "positive_count": 4191,
+      "range": 64946.679933,
+      "skewness": 12.908351990881195,
+      "standard_deviation": 2727.1070313281616,
+      "variance": 7437112.760319497,
+      "zero_count": 1
+    }
+  ],
+  "panel_long_dataset": true,
+  "pipeline_observations": [
+    {
+      "measured_value": "Date",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": 60,
+      "observation": "Missing values present"
+    },
+    {
+      "measured_value": "MS",
+      "observation": "Datetime frequency detected for Date"
+    },
+    {
+      "measured_value": "Date, REF_AREA, INDICATOR, INDICATOR_LABEL",
+      "observation": "Long-structure columns present"
+    },
+    {
+      "measured_value": "Value",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "Human Capital",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 60
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Date"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Value"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 6,
+    "rows": 4320
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "INDICATOR": {
+        "top_values": [
+          {
+            "frequency": 1440,
+            "frequency_percent": 33.33,
+            "value": "FAO_CP_23012"
+          },
+          {
+            "frequency": 1440,
+            "frequency_percent": 33.33,
+            "value": "FAO_CP_23013"
+          },
+          {
+            "frequency": 1440,
+            "frequency_percent": 33.33,
+            "value": "FAO_CP_23014"
+          }
+        ],
+        "unique_values": 3
+      },
+      "INDICATOR_LABEL": {
+        "top_values": [
+          {
+            "frequency": 1440,
+            "frequency_percent": 33.33,
+            "value": "Consumer Prices, General Indices (2015 = 100)"
+          },
+          {
+            "frequency": 1440,
+            "frequency_percent": 33.33,
+            "value": "Consumer Prices, Food Indices (2015 = 100)"
+          },
+          {
+            "frequency": 1440,
+            "frequency_percent": 33.33,
+            "value": "Food price inflation"
+          }
+        ],
+        "unique_values": 3
+      },
+      "REF_AREA": {
+        "top_values": [
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "BWA"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "KEN"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "NAM"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "ZAF"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "ZWE"
+          }
+        ],
+        "unique_values": 5
+      },
+      "REF_AREA_LABEL": {
+        "top_values": [
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "Botswana"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "Kenya"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "Namibia"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "South Africa"
+          },
+          {
+            "frequency": 864,
+            "frequency_percent": 20.0,
+            "value": "Zimbabwe"
+          }
+        ],
+        "unique_values": 5
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 7.455111588988785,
+        "column": "Value",
+        "count": 4260,
+        "infinite_count": 0,
+        "iqr": 89.6660255,
+        "kurtosis": 201.8817548186503,
+        "maximum": 64932.5433,
+        "mean": 365.8036501232395,
+        "median": 61.418319499999996,
+        "minimum": -14.136633,
+        "mode": 99.123112,
+        "negative_count": 68,
+        "outlier_count_iqr": 133,
+        "positive_count": 4191,
+        "range": 64946.679933,
+        "skewness": 12.908351990881195,
+        "standard_deviation": 2727.1070313281616,
+        "variance": 7437112.760319497,
+        "zero_count": 1
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Date",
+      "duplicate_periods": 4032,
+      "estimated_frequency": "MS",
+      "missing_business_days": "Not applicable",
+      "missing_months": 0,
+      "missing_periods": 0,
+      "monthly_applicable": true,
+      "monthly_continuity_percent": 100.0,
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

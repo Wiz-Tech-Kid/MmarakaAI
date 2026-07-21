@@ -1,0 +1,548 @@
+{
+  "candidate_join_keys": [
+    {
+      "columns": [
+        "Date",
+        "Item Code"
+      ],
+      "kind": "Composite Candidate Key"
+    }
+  ],
+  "categorical_columns": {
+    "Item": {
+      "top_values": [
+        {
+          "frequency": 288,
+          "frequency_percent": 33.8,
+          "value": "Consumer Prices, General Indices (2015 = 100)"
+        },
+        {
+          "frequency": 288,
+          "frequency_percent": 33.8,
+          "value": "Consumer Prices, Food Indices (2015 = 100)"
+        },
+        {
+          "frequency": 276,
+          "frequency_percent": 32.39,
+          "value": "Food price inflation"
+        }
+      ],
+      "unique_values": 3
+    }
+  },
+  "column_names": [
+    "Date",
+    "Item Code",
+    "Item",
+    "Value"
+  ],
+  "column_profile": [
+    {
+      "column": "Date",
+      "data_type": "object",
+      "example_value": "2000-01-01",
+      "memory_usage": "49.09 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 288
+    },
+    {
+      "column": "Item Code",
+      "data_type": "int64",
+      "example_value": 23012,
+      "memory_usage": "6.66 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3
+    },
+    {
+      "column": "Item",
+      "data_type": "object",
+      "example_value": "Consumer Prices, General Indices (2015 = 100)",
+      "memory_usage": "70.63 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3
+    },
+    {
+      "column": "Value",
+      "data_type": "float64",
+      "example_value": 31.74832,
+      "memory_usage": "6.66 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 801
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {},
+    "measurement_numeric_columns": [
+      "Value"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Date",
+        "dominant_count": 3,
+        "dominant_percent": 0.35,
+        "dominant_value": "2022-08-01",
+        "unique_values": 288
+      },
+      {
+        "column": "Item Code",
+        "dominant_count": 288,
+        "dominant_percent": 33.8,
+        "dominant_value": 23012,
+        "unique_values": 3
+      },
+      {
+        "column": "Item",
+        "dominant_count": 288,
+        "dominant_percent": 33.8,
+        "dominant_value": "Consumer Prices, General Indices (2015 = 100)",
+        "unique_values": 3
+      },
+      {
+        "column": "Value",
+        "dominant_count": 4,
+        "dominant_percent": 0.47,
+        "dominant_value": 40.487972,
+        "unique_values": 801
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": true,
+        "first_duplicated_dates": "None",
+        "status": "Expected (Long/Panel Structure)"
+      }
+    ],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Item Code": 0,
+      "Value": 0
+    },
+    "missing_by_column": {
+      "Date": 0,
+      "Item": 0,
+      "Item Code": 0,
+      "Value": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "Date": 0.0,
+      "Item": 0.0,
+      "Item Code": 0.0,
+      "Value": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 10,
+    "object_columns_containing_dates": [
+      "Date"
+    ],
+    "positive_values": 1693,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Item Code",
+        "negative_count": 0,
+        "positive_count": 852,
+        "zero_count": 0
+      },
+      {
+        "column": "Value",
+        "negative_count": 10,
+        "positive_count": 841,
+        "zero_count": 1
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 1
+  },
+  "data_types": {
+    "Date": "object",
+    "Item": "object",
+    "Item Code": "int64",
+    "Value": "float64"
+  },
+  "dataset_name": "04_fao_botswana_prices",
+  "dataset_specific_checks": {
+    "dataset_type": "FAO Botswana",
+    "records": [
+      {
+        "metric": "Unique items",
+        "value": 3
+      },
+      {
+        "metric": "Unique item codes",
+        "value": 3
+      },
+      {
+        "metric": "Value column present",
+        "value": true
+      },
+      {
+        "metric": "Identifier columns present",
+        "value": "Date, Item Code, Item"
+      },
+      {
+        "metric": "Long-structure columns present",
+        "value": true
+      },
+      {
+        "metric": "Long vs wide structure",
+        "value": "long"
+      },
+      {
+        "metric": "Wide numeric measure columns",
+        "value": "None"
+      },
+      {
+        "metric": "Unique months",
+        "value": 288
+      },
+      {
+        "metric": "Missing months",
+        "value": 0
+      },
+      {
+        "metric": "Duplicate item-month combinations",
+        "value": 0
+      }
+    ],
+    "tables": {
+      "Duplicate item-month preview": []
+    }
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": true,
+      "column": "Date",
+      "date_span_days": 8735,
+      "duplicate_dates": 564,
+      "earliest_date": "2000-01-01T00:00:00",
+      "estimated_frequency": "MS",
+      "latest_date": "2023-12-01T00:00:00",
+      "median_spacing": "31 days 00:00:00",
+      "monotonic_increasing": false,
+      "most_common_spacing": "31 days 00:00:00",
+      "unique_dates": 288
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": true,
+        "first_duplicated_dates": "None",
+        "status": "Expected (Long/Panel Structure)"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": true
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Value"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Use observed candidate join keys",
+      "category": "join_keys",
+      "keys": [
+        "Date + Item Code"
+      ]
+    },
+    {
+      "action": "Preserve long-format identity columns",
+      "category": "panel_structure",
+      "keys": [
+        "Date"
+      ]
+    },
+    {
+      "action": "Merge on Date and Item Code",
+      "category": "merge_key",
+      "keys": [
+        "Date",
+        "Item Code"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Pivot Long to Wide",
+      "category": "reshape",
+      "priority": "high"
+    },
+    {
+      "action": "Rename indicator columns",
+      "category": "column_management",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/04_fao_botswana_prices_boxplot.png",
+    "correlation": null,
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/04_fao_botswana_prices_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/04_fao_botswana_prices_missing.png",
+    "time_series": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/04_fao_botswana_prices_timeseries.png"
+  },
+  "file_name": "04_fao_botswana_prices.csv",
+  "frequency_analysis": [
+    {
+      "column": "Date",
+      "estimated_frequency": "MS"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Item Code",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Item",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Value",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 3.537013504184201e-05,
+      "column": "Item Code",
+      "count": 852,
+      "infinite_count": 0,
+      "iqr": 2.0,
+      "kurtosis": -1.4901656853511007,
+      "maximum": 23014.0,
+      "mean": 23012.985915492958,
+      "median": 23013.0,
+      "minimum": 23012.0,
+      "mode": 23012,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 852,
+      "range": 2.0,
+      "skewness": 0.025829034710335128,
+      "standard_deviation": 0.8139724195469941,
+      "variance": 0.6625510997831877,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.770598809891851,
+      "column": "Value",
+      "count": 852,
+      "infinite_count": 0,
+      "iqr": 89.1817835,
+      "kurtosis": -1.2685362824349913,
+      "maximum": 149.353957,
+      "mean": 57.551959708920194,
+      "median": 50.680824,
+      "minimum": -1.352657,
+      "mode": 33.010116,
+      "negative_count": 10,
+      "outlier_count_iqr": 0,
+      "positive_count": 841,
+      "range": 150.706614,
+      "skewness": 0.23090246779023238,
+      "standard_deviation": 44.34947165863766,
+      "variance": 1966.8756364003054,
+      "zero_count": 1
+    }
+  ],
+  "panel_long_dataset": true,
+  "pipeline_observations": [
+    {
+      "measured_value": "Date",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": "MS",
+      "observation": "Datetime frequency detected for Date"
+    },
+    {
+      "measured_value": "Date, Item Code, Item",
+      "observation": "Long-structure columns present"
+    },
+    {
+      "measured_value": "Value",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "FAO Botswana",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Date"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Item Code",
+        "Value"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 4,
+    "rows": 852
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "Item": {
+        "top_values": [
+          {
+            "frequency": 288,
+            "frequency_percent": 33.8,
+            "value": "Consumer Prices, General Indices (2015 = 100)"
+          },
+          {
+            "frequency": 288,
+            "frequency_percent": 33.8,
+            "value": "Consumer Prices, Food Indices (2015 = 100)"
+          },
+          {
+            "frequency": 276,
+            "frequency_percent": 32.39,
+            "value": "Food price inflation"
+          }
+        ],
+        "unique_values": 3
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 3.537013504184201e-05,
+        "column": "Item Code",
+        "count": 852,
+        "infinite_count": 0,
+        "iqr": 2.0,
+        "kurtosis": -1.4901656853511007,
+        "maximum": 23014.0,
+        "mean": 23012.985915492958,
+        "median": 23013.0,
+        "minimum": 23012.0,
+        "mode": 23012,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 852,
+        "range": 2.0,
+        "skewness": 0.025829034710335128,
+        "standard_deviation": 0.8139724195469941,
+        "variance": 0.6625510997831877,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.770598809891851,
+        "column": "Value",
+        "count": 852,
+        "infinite_count": 0,
+        "iqr": 89.1817835,
+        "kurtosis": -1.2685362824349913,
+        "maximum": 149.353957,
+        "mean": 57.551959708920194,
+        "median": 50.680824,
+        "minimum": -1.352657,
+        "mode": 33.010116,
+        "negative_count": 10,
+        "outlier_count_iqr": 0,
+        "positive_count": 841,
+        "range": 150.706614,
+        "skewness": 0.23090246779023238,
+        "standard_deviation": 44.34947165863766,
+        "variance": 1966.8756364003054,
+        "zero_count": 1
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Date",
+      "duplicate_periods": 564,
+      "estimated_frequency": "MS",
+      "missing_business_days": "Not applicable",
+      "missing_months": 0,
+      "missing_periods": 0,
+      "monthly_applicable": true,
+      "monthly_continuity_percent": 100.0,
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

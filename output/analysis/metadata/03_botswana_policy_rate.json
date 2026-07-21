@@ -1,0 +1,409 @@
+{
+  "candidate_join_keys": [
+    {
+      "columns": [
+        "Date"
+      ],
+      "kind": "Candidate Key"
+    }
+  ],
+  "categorical_columns": {},
+  "column_names": [
+    "Date",
+    "policy_rate"
+  ],
+  "column_profile": [
+    {
+      "column": "Date",
+      "data_type": "object",
+      "example_value": "2000-01-01",
+      "memory_usage": "16.59 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 288
+    },
+    {
+      "column": "policy_rate",
+      "data_type": "float64",
+      "example_value": 14.0,
+      "memory_usage": "2.25 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 8
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {},
+    "measurement_numeric_columns": [
+      "policy_rate"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Date",
+        "dominant_count": 1,
+        "dominant_percent": 0.35,
+        "dominant_value": "2000-01-01",
+        "unique_values": 288
+      },
+      {
+        "column": "policy_rate",
+        "dominant_count": 221,
+        "dominant_percent": 76.74,
+        "dominant_value": 12.0,
+        "unique_values": 8
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "None",
+        "status": "No duplicates"
+      }
+    ],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "policy_rate": 0
+    },
+    "missing_by_column": {
+      "Date": 0,
+      "policy_rate": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "Date": 0.0,
+      "policy_rate": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [
+      "Date"
+    ],
+    "positive_values": 288,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "policy_rate",
+        "negative_count": 0,
+        "positive_count": 288,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 0
+  },
+  "data_types": {
+    "Date": "object",
+    "policy_rate": "float64"
+  },
+  "dataset_name": "03_botswana_policy_rate",
+  "dataset_specific_checks": {
+    "dataset_type": "Botswana Policy Rate",
+    "records": [
+      {
+        "metric": "Number of policy changes",
+        "value": 7
+      },
+      {
+        "metric": "Dates of changes",
+        "value": "2001-07-01, 2002-01-01, 2003-06-01, 2004-01-01, 2022-06-01, 2022-07-01, 2022-09-01"
+      },
+      {
+        "metric": "Longest unchanged period start",
+        "value": "2004-01-01"
+      },
+      {
+        "metric": "Longest unchanged period end",
+        "value": "2022-05-01"
+      },
+      {
+        "metric": "Longest unchanged period records",
+        "value": 221
+      },
+      {
+        "metric": "Longest unchanged period days",
+        "value": 6695
+      },
+      {
+        "metric": "Negative policy_rate values",
+        "value": 0
+      },
+      {
+        "metric": "Zero policy_rate values",
+        "value": 0
+      }
+    ],
+    "tables": {
+      "Policy change records": [
+        {
+          "date": "2001-07-01",
+          "policy_rate": 13.5
+        },
+        {
+          "date": "2002-01-01",
+          "policy_rate": 12.5
+        },
+        {
+          "date": "2003-06-01",
+          "policy_rate": 13.0
+        },
+        {
+          "date": "2004-01-01",
+          "policy_rate": 12.0
+        },
+        {
+          "date": "2022-06-01",
+          "policy_rate": 1.65
+        },
+        {
+          "date": "2022-07-01",
+          "policy_rate": 2.15
+        },
+        {
+          "date": "2022-09-01",
+          "policy_rate": 2.65
+        }
+      ]
+    }
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": true,
+      "column": "Date",
+      "date_span_days": 8735,
+      "duplicate_dates": 0,
+      "earliest_date": "2000-01-01T00:00:00",
+      "estimated_frequency": "MS",
+      "latest_date": "2023-12-01T00:00:00",
+      "median_spacing": "31 days 00:00:00",
+      "monotonic_increasing": true,
+      "most_common_spacing": "31 days 00:00:00",
+      "unique_dates": 288
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "None",
+        "status": "No duplicates"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "policy_rate"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Use observed candidate join keys",
+      "category": "join_keys",
+      "keys": [
+        "Date"
+      ]
+    },
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Convert Date to datetime",
+      "category": "datetime",
+      "priority": "high"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/03_botswana_policy_rate_boxplot.png",
+    "correlation": null,
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/03_botswana_policy_rate_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/03_botswana_policy_rate_missing.png",
+    "time_series": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/03_botswana_policy_rate_timeseries.png"
+  },
+  "file_name": "03_botswana_policy_rate.csv",
+  "frequency_analysis": [
+    {
+      "column": "Date",
+      "estimated_frequency": "MS"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "policy_rate",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 0.21296535001425912,
+      "column": "policy_rate",
+      "count": 288,
+      "infinite_count": 0,
+      "iqr": 0.0,
+      "kurtosis": 9.290175013326225,
+      "maximum": 14.0,
+      "mean": 11.586284722222224,
+      "median": 12.0,
+      "minimum": 1.65,
+      "mode": 12.0,
+      "negative_count": 0,
+      "outlier_count_iqr": 67,
+      "positive_count": 288,
+      "range": 12.35,
+      "skewness": -3.2080677711430576,
+      "standard_deviation": 2.467477181232919,
+      "variance": 6.088443639905151,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Date",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": "MS",
+      "observation": "Datetime frequency detected for Date"
+    },
+    {
+      "measured_value": "policy_rate",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "Botswana Policy Rate",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Date"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "policy_rate"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 2,
+    "rows": 288
+  },
+  "summary_statistics": {
+    "categorical_columns": {},
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 0.21296535001425912,
+        "column": "policy_rate",
+        "count": 288,
+        "infinite_count": 0,
+        "iqr": 0.0,
+        "kurtosis": 9.290175013326225,
+        "maximum": 14.0,
+        "mean": 11.586284722222224,
+        "median": 12.0,
+        "minimum": 1.65,
+        "mode": 12.0,
+        "negative_count": 0,
+        "outlier_count_iqr": 67,
+        "positive_count": 288,
+        "range": 12.35,
+        "skewness": -3.2080677711430576,
+        "standard_deviation": 2.467477181232919,
+        "variance": 6.088443639905151,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Date",
+      "duplicate_periods": 0,
+      "estimated_frequency": "MS",
+      "missing_business_days": "Not applicable",
+      "missing_months": 0,
+      "missing_periods": 0,
+      "monthly_applicable": true,
+      "monthly_continuity_percent": 100.0,
+      "regular_frequency": true,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

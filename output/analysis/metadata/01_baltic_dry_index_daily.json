@@ -1,0 +1,619 @@
+{
+  "candidate_join_keys": [],
+  "categorical_columns": {},
+  "column_names": [
+    "Date",
+    "BDI_Close",
+    "BDI_High",
+    "BDI_Low"
+  ],
+  "column_profile": [
+    {
+      "column": "Date",
+      "data_type": "object",
+      "example_value": "2000-01-04",
+      "memory_usage": "345.24 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 5989
+    },
+    {
+      "column": "BDI_Close",
+      "data_type": "float64",
+      "example_value": 1320.0,
+      "memory_usage": "46.81 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3108
+    },
+    {
+      "column": "BDI_High",
+      "data_type": "float64",
+      "example_value": 1320.0,
+      "memory_usage": "46.81 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3108
+    },
+    {
+      "column": "BDI_Low",
+      "data_type": "float64",
+      "example_value": 1320.0,
+      "memory_usage": "46.81 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3109
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": {
+      "columns": "BDI_High | BDI_Low",
+      "correlation": 0.9999994518323146
+    },
+    "lowest_pair": {
+      "columns": "BDI_Close | BDI_High",
+      "correlation": 0.999956681708736
+    },
+    "matrix": {
+      "BDI_Close": {
+        "BDI_Close": 1.0,
+        "BDI_High": 0.999956681708736,
+        "BDI_Low": 0.9999568339400587
+      },
+      "BDI_High": {
+        "BDI_Close": 0.999956681708736,
+        "BDI_High": 1.0,
+        "BDI_Low": 0.9999994518323146
+      },
+      "BDI_Low": {
+        "BDI_Close": 0.9999568339400587,
+        "BDI_High": 0.9999994518323146,
+        "BDI_Low": 1.0
+      }
+    },
+    "measurement_numeric_columns": [
+      "BDI_Close",
+      "BDI_High",
+      "BDI_Low"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Date",
+        "dominant_count": 2,
+        "dominant_percent": 0.03,
+        "dominant_value": "2020-01-06",
+        "unique_values": 5989
+      },
+      {
+        "column": "BDI_Close",
+        "dominant_count": 11,
+        "dominant_percent": 0.18,
+        "dominant_value": 978.0,
+        "unique_values": 3108
+      },
+      {
+        "column": "BDI_High",
+        "dominant_count": 11,
+        "dominant_percent": 0.18,
+        "dominant_value": 1296.0,
+        "unique_values": 3108
+      },
+      {
+        "column": "BDI_Low",
+        "dominant_count": 11,
+        "dominant_percent": 0.18,
+        "dominant_value": 1296.0,
+        "unique_values": 3109
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 3,
+        "duplicate_date_values": 3,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "2020-01-02, 2020-01-03, 2020-01-06",
+        "status": "Detected"
+      }
+    ],
+    "duplicate_dates_total": 3,
+    "duplicate_rows": 3,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "BDI_Close": 0,
+      "BDI_High": 0,
+      "BDI_Low": 0
+    },
+    "missing_by_column": {
+      "BDI_Close": 0,
+      "BDI_High": 0,
+      "BDI_Low": 0,
+      "Date": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "BDI_Close": 0.0,
+      "BDI_High": 0.0,
+      "BDI_Low": 0.0,
+      "Date": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [
+      "Date"
+    ],
+    "positive_values": 17974,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "BDI_Close",
+        "negative_count": 0,
+        "positive_count": 5992,
+        "zero_count": 0
+      },
+      {
+        "column": "BDI_High",
+        "negative_count": 0,
+        "positive_count": 5991,
+        "zero_count": 1
+      },
+      {
+        "column": "BDI_Low",
+        "negative_count": 0,
+        "positive_count": 5991,
+        "zero_count": 1
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 2
+  },
+  "data_types": {
+    "BDI_Close": "float64",
+    "BDI_High": "float64",
+    "BDI_Low": "float64",
+    "Date": "object"
+  },
+  "dataset_name": "01_baltic_dry_index_daily",
+  "dataset_specific_checks": {
+    "dataset_type": "Baltic Dry Index",
+    "records": [
+      {
+        "metric": "Duplicate trading days",
+        "value": 3
+      },
+      {
+        "metric": "Unexpected weekday gaps",
+        "value": 265
+      },
+      {
+        "metric": "Business-day continuity percent",
+        "value": 95.76
+      },
+      {
+        "metric": "Observed business days",
+        "value": 5989
+      },
+      {
+        "metric": "Expected business days",
+        "value": 6254
+      },
+      {
+        "metric": "Weekend records",
+        "value": 0
+      },
+      {
+        "metric": "Date continuity on business-day calendar",
+        "value": false
+      },
+      {
+        "metric": "First missing business days",
+        "value": "2000-04-14, 2000-04-21, 2000-04-24, 2000-05-01, 2000-05-15, 2000-05-29, 2000-08-04, 2000-08-28, 2000-12-25, 2000-12-26"
+      },
+      {
+        "metric": "Zero values across numeric columns",
+        "value": 2
+      }
+    ],
+    "tables": {
+      "Zero values by numeric column": [
+        {
+          "column": "BDI_Close",
+          "zero_count": 0
+        },
+        {
+          "column": "BDI_High",
+          "zero_count": 1
+        },
+        {
+          "column": "BDI_Low",
+          "zero_count": 1
+        }
+      ]
+    }
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": true,
+      "column": "Date",
+      "date_span_days": 8753,
+      "duplicate_dates": 3,
+      "earliest_date": "2000-01-04T00:00:00",
+      "estimated_frequency": "Business-day-like",
+      "latest_date": "2023-12-22T00:00:00",
+      "median_spacing": "1 days 00:00:00",
+      "monotonic_increasing": false,
+      "most_common_spacing": "1 days 00:00:00",
+      "unique_dates": 5989
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 3,
+    "records": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 3,
+        "duplicate_date_values": 3,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "2020-01-02, 2020-01-03, 2020-01-06",
+        "status": "Detected"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {
+      "4997": {
+        "BDI_Close": 976.0,
+        "BDI_High": 976.0,
+        "BDI_Low": 976.0,
+        "Date": "2020-01-02"
+      },
+      "4998": {
+        "BDI_Close": 976.0,
+        "BDI_High": 976.0,
+        "BDI_Low": 976.0,
+        "Date": "2020-01-02"
+      },
+      "4999": {
+        "BDI_Close": 907.0,
+        "BDI_High": 907.0,
+        "BDI_Low": 907.0,
+        "Date": "2020-01-03"
+      },
+      "5000": {
+        "BDI_Close": 907.0,
+        "BDI_High": 907.0,
+        "BDI_Low": 907.0,
+        "Date": "2020-01-03"
+      },
+      "5001": {
+        "BDI_Close": 844.0,
+        "BDI_High": 844.0,
+        "BDI_Low": 844.0,
+        "Date": "2020-01-06"
+      },
+      "5002": {
+        "BDI_Close": 844.0,
+        "BDI_High": 844.0,
+        "BDI_Low": 844.0,
+        "Date": "2020-01-06"
+      }
+    },
+    "duplicate_row_count": 3
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "BDI_Close",
+        "BDI_High",
+        "BDI_Low"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Remove duplicate rows",
+      "category": "duplicate_removal",
+      "priority": "high"
+    },
+    {
+      "action": "Convert Date to datetime",
+      "category": "datetime",
+      "priority": "high"
+    },
+    {
+      "action": "Sort chronologically by Date",
+      "category": "sorting",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify duplicate removal",
+      "category": "duplicate_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/01_baltic_dry_index_daily_boxplot.png",
+    "correlation": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/01_baltic_dry_index_daily_correlation.png",
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/01_baltic_dry_index_daily_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/01_baltic_dry_index_daily_missing.png",
+    "time_series": "/home/nickel/Documents/New Folder/MmarakaAI/output/analysis/figures/01_baltic_dry_index_daily_timeseries.png"
+  },
+  "file_name": "01_baltic_dry_index_daily.csv",
+  "frequency_analysis": [
+    {
+      "column": "Date",
+      "estimated_frequency": "Business-day-like"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "BDI_Close",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "BDI_High",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "BDI_Low",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 0.8605906147698146,
+      "column": "BDI_Close",
+      "count": 5992,
+      "infinite_count": 0,
+      "iqr": 1671.0,
+      "kurtosis": 5.623044733886337,
+      "maximum": 11793.0,
+      "mean": 2244.1371829105474,
+      "median": 1559.0,
+      "minimum": 290.0,
+      "mode": 978.0,
+      "negative_count": 0,
+      "outlier_count_iqr": 442,
+      "positive_count": 5992,
+      "range": 11503.0,
+      "skewness": 2.2336688366535196,
+      "standard_deviation": 1931.2833978687877,
+      "variance": 3729855.5628836104,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.8607501362135852,
+      "column": "BDI_High",
+      "count": 5992,
+      "infinite_count": 0,
+      "iqr": 1671.25,
+      "kurtosis": 5.620787322428624,
+      "maximum": 11793.0,
+      "mean": 2243.9452603471295,
+      "median": 1559.0,
+      "minimum": 0.0,
+      "mode": 978.0,
+      "negative_count": 0,
+      "outlier_count_iqr": 442,
+      "positive_count": 5991,
+      "range": 11793.0,
+      "skewness": 2.2330739696672515,
+      "standard_deviation": 1931.4761884996205,
+      "variance": 3730600.2667410215,
+      "zero_count": 1
+    },
+    {
+      "coefficient_of_variation": 0.8607736344310968,
+      "column": "BDI_Low",
+      "count": 5992,
+      "infinite_count": 0,
+      "iqr": 1671.25,
+      "kurtosis": 5.621140952308258,
+      "maximum": 11793.0,
+      "mean": 2243.8808411214955,
+      "median": 1559.0,
+      "minimum": 0.0,
+      "mode": 978.0,
+      "negative_count": 0,
+      "outlier_count_iqr": 442,
+      "positive_count": 5991,
+      "range": 11793.0,
+      "skewness": 2.2331512968885687,
+      "standard_deviation": 1931.473466842456,
+      "variance": 3730589.753116416,
+      "zero_count": 1
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Date",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": 3,
+      "observation": "Duplicate rows present"
+    },
+    {
+      "measured_value": 3,
+      "observation": "Duplicate datetime values present"
+    },
+    {
+      "measured_value": "Business-day-like",
+      "observation": "Datetime frequency detected for Date"
+    },
+    {
+      "measured_value": "BDI_Close, BDI_High, BDI_Low",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "Baltic Dry Index",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 3
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Date"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "BDI_Close",
+        "BDI_High",
+        "BDI_Low"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 4,
+    "rows": 5992
+  },
+  "summary_statistics": {
+    "categorical_columns": {},
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 0.8605906147698146,
+        "column": "BDI_Close",
+        "count": 5992,
+        "infinite_count": 0,
+        "iqr": 1671.0,
+        "kurtosis": 5.623044733886337,
+        "maximum": 11793.0,
+        "mean": 2244.1371829105474,
+        "median": 1559.0,
+        "minimum": 290.0,
+        "mode": 978.0,
+        "negative_count": 0,
+        "outlier_count_iqr": 442,
+        "positive_count": 5992,
+        "range": 11503.0,
+        "skewness": 2.2336688366535196,
+        "standard_deviation": 1931.2833978687877,
+        "variance": 3729855.5628836104,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.8607501362135852,
+        "column": "BDI_High",
+        "count": 5992,
+        "infinite_count": 0,
+        "iqr": 1671.25,
+        "kurtosis": 5.620787322428624,
+        "maximum": 11793.0,
+        "mean": 2243.9452603471295,
+        "median": 1559.0,
+        "minimum": 0.0,
+        "mode": 978.0,
+        "negative_count": 0,
+        "outlier_count_iqr": 442,
+        "positive_count": 5991,
+        "range": 11793.0,
+        "skewness": 2.2330739696672515,
+        "standard_deviation": 1931.4761884996205,
+        "variance": 3730600.2667410215,
+        "zero_count": 1
+      },
+      {
+        "coefficient_of_variation": 0.8607736344310968,
+        "column": "BDI_Low",
+        "count": 5992,
+        "infinite_count": 0,
+        "iqr": 1671.25,
+        "kurtosis": 5.621140952308258,
+        "maximum": 11793.0,
+        "mean": 2243.8808411214955,
+        "median": 1559.0,
+        "minimum": 0.0,
+        "mode": 978.0,
+        "negative_count": 0,
+        "outlier_count_iqr": 442,
+        "positive_count": 5991,
+        "range": 11793.0,
+        "skewness": 2.2331512968885687,
+        "standard_deviation": 1931.473466842456,
+        "variance": 3730589.753116416,
+        "zero_count": 1
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": true,
+      "business_day_continuity_percent": 95.76,
+      "column": "Date",
+      "duplicate_periods": 3,
+      "estimated_frequency": "Business-day-like",
+      "missing_business_days": 265,
+      "missing_months": "Not applicable",
+      "missing_periods": 265,
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": 265
+    }
+  ]
+}
