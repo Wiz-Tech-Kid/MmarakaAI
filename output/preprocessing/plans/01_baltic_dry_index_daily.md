@@ -104,13 +104,27 @@ These notes capture the non-functional assumptions and implementation boundaries
 
 ## Detailed Execution Specification
 
-This dataset requires only structural cleaning and no structural reshaping. Preprocessing shall begin by identifying duplicate observations using the complete observation composed of Date, BDI_Close, BDI_High and BDI_Low. Duplicate detection shall not rely on the Date column alone because multiple datasets within the pipeline may legitimately share identical dates while differing in recorded measurements. The first occurrence of each duplicated observation shall be retained and all subsequent duplicates removed. The preprocessing stage shall validate that exactly three duplicated observations were removed and that the resulting dataset contains 5989 observations.
+This dataset contains daily observations of the Baltic Dry Index, while the target variable for this project, Botswana Food Price Inflation, is reported at a monthly frequency. Therefore, preprocessing shall not only perform structural cleaning, but shall also transform the dataset into a statistically representative monthly dataset suitable for downstream integration and modelling.
 
-The Date column shall be converted from object to datetime using automatic format detection with invalid values coerced according to the preprocessing policy. Following conversion the earliest and latest dates shall remain identical to those identified during the audit. No observations shall be created or removed during datetime conversion.
+Preprocessing shall begin by identifying duplicate observations using the complete observation composed of Date, BDI_Close, BDI_High, and BDI_Low. Duplicate detection shall use the complete row rather than the Date column alone. The first occurrence of every duplicated observation shall be retained while all subsequent duplicates shall be removed. The preprocessing stage shall validate that all duplicate observations have been successfully removed.
 
-After duplicate removal and datetime conversion the dataset shall be sorted in ascending chronological order using the Date column. The ordering shall be strictly increasing so that downstream lag generation, rolling statistics and temporal joins operate deterministically.
+The Date column shall then be converted from an object datatype to a standardized datetime datatype using automatic format detection. Invalid dates shall be handled according to the preprocessing policy. Following conversion, the dataset shall be sorted in ascending chronological order to ensure a consistent temporal sequence for subsequent processing.
 
-The schema shall remain unchanged apart from the Date datatype. The output dataset shall contain the columns Date, BDI_Close, BDI_High and BDI_Low in the same order. No additional columns shall be created and no existing columns shall be removed or renamed.
+Following structural cleaning, preprocessing shall perform Temporal Statistical Aggregation. Daily observations shall first be partitioned into calendar weeks using the Date column. Weekly aggregation shall preserve the behaviour of the original daily time series and shall become the primary statistical representation of the dataset. Under no circumstances shall the daily observations be reduced directly to simple monthly averages, as doing so would discard valuable information regarding short-term market behaviour and intra-month variability.
 
-The final dataset shall satisfy the following contract. It shall contain 5989 observations, four columns, zero duplicate observations, zero missing values, a datetime Date column, chronological ordering, and shall be immediately ready for merge.py using Date as the temporal alignment field.
+For every calendar week, preprocessing shall compute the following statistical features independently for each numerical variable (BDI_Close, BDI_High, and BDI_Low):
+
+Mean
+Median
+Standard Deviation
+Range (Maximum − Minimum)
+Percentage Change
+
+These weekly statistical summaries shall preserve the central tendency, volatility, price spread, and directional movement observed during each week.
+
+Once weekly statistical summaries have been generated, preprocessing shall construct the final monthly feature representation. The monthly dataset shall be derived from the weekly statistical summaries rather than directly from the raw daily observations. This approach preserves substantially more information from the original time series while producing a dataset that is fully compatible with the monthly frequency of the remaining project datasets.
+
+The final output dataset shall contain one observation per calendar month. Each monthly observation shall contain the statistical features derived from the weekly summaries together with a standardized monthly Date field suitable for downstream merging.
+
+Preprocessing shall validate that every month represented in the original dataset is preserved in the transformed dataset. Validation shall further confirm that all generated statistical features are numeric, free from missing values, and internally consistent. The resulting monthly dataset shall be considered the authoritative version for feature engineering, dataset integration, and machine learning.
 
