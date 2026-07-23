@@ -1,0 +1,58 @@
+MMARAKAAI STAGE B CLASSICAL ML RESULTS
+
+WHAT THE NOTEBOOK DID
+The notebook used the cleaned feature matrix, sorted observations by date, and reserved the most recent 20% for a held-out test. The earlier 80% was used for feature ranking and time-aware cross-validation.
+
+Total observations: 288
+Training observations: 230
+Held-out test observations: 58
+Training period: 2000-01-01 to 2019-02-01
+Test period: 2019-03-01 to 2023-12-01
+Target: food_price_inflation
+
+MAIN RESULT
+Best model: LightGBMRegressor
+Best feature subset: top 100 features
+Cross-validation RMSE: 3.3555
+Cross-validation MAE: 2.7377
+Held-out test RMSE: 4.2954
+Held-out test MAE: 2.8506
+Held-out test R-squared: 0.2720
+
+WHAT THE NUMBERS MEAN
+
+RMSE 4.2954:
+This measures prediction error and penalizes large errors more heavily. Lower is better. The model's typical error is roughly 4.30 target units under this measure.
+
+MAE 2.8506:
+This is the average absolute prediction error. Predictions were off by about 2.85 target units on average in the held-out test period.
+
+R-squared 0.2720:
+This compares the model with a baseline that always predicts the average value. A value of 1 is perfect, 0 means no improvement over that baseline, and a negative value is worse than that baseline. This model explains about 27.2% of the variation in the held-out period, which is useful signal but still a modest forecasting result.
+
+GENERALIZATION
+The test RMSE of 4.2954 is higher than the cross-validation RMSE of 3.3555. The latest test period was harder than the earlier validation periods. This may reflect changing economic conditions or some overfitting to earlier periods.
+
+TOP FEATURE NAMES
+1. food_index_std12
+2. BDI_High_median_std12
+3. BDI_Close_variance_std12
+4. BDI_High_std_std12
+5. BDI_Low_median_std12
+6. BDI_High_variance_std12
+7. PI201135_std12
+8. BDI_Low_variance_std12
+9. BDI_Close_last_std12
+10. BDI_Low_std_std12
+
+Feature importance indicates usefulness inside the model. It does not prove causation or represent a percentage contribution to inflation.
+
+FILES
+Model: models/stageB_best_classic_ml_model.joblib
+Feature ranking: output/feature_importance.csv
+Model comparison: output/model_comparison.csv
+Selected features: output/selected_features.csv
+Figures: output/analysis/figures/ml/
+
+BOTTOM LINE
+The experiment produced a working baseline. LightGBM using the top 100 ranked features performed best among the tested combinations. The held-out R-squared of 0.2720 shows that much variation remains unexplained, so this should be treated as a baseline for further development rather than a production forecasting system.
