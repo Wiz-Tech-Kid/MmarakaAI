@@ -1,0 +1,2 @@
+model,feature_subset,n_features,test_mae,test_rmse,test_r2,training_time_seconds
+LightGBMRegressor,top_100,100,2.8506206075544434,4.2954303421287054,0.2719780329843162,0.29509778099964024
