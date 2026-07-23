@@ -1,0 +1,245 @@
+# Feature Selection Stage A Report
+
+Structural feature cleaning only. No predictive importance, correlation analysis, imputation, or feature-family removal was performed.
+
+## Summary
+
+- Input file: `/home/nickel/Documents/New Folder/MmarakaAI/data/features/mmarakai_feature_matrix.csv`
+- Output file: `/home/nickel/Documents/New Folder/MmarakaAI/data/features/mmarakai_clean_feature_matrix.csv`
+- Rows: 288
+- Protected date column: `Date`
+- Protected target column: `food_price_inflation`
+- Original number of features: 3174
+- Number of empty features removed: 1
+- Number of duplicate features removed: 247
+- Number of constant features removed: 23
+- Number of near-constant features removed: 0
+- Final number of features: 2903
+
+## Removed Empty Features
+
+- `PI101164_pct_change`
+
+## Removed Duplicate Features
+
+- Kept `BDI_Close_max`; removed: `BDI_High_max`, `BDI_Low_max`
+- Kept `BDI_Close_first`; removed: `BDI_High_first`, `BDI_Low_first`
+- Kept `BDI_Close_last`; removed: `BDI_High_last`, `BDI_Low_last`
+- Kept `BDI_Close_count`; removed: `BDI_High_count`, `BDI_Low_count`
+- Kept `BDI_High_min`; removed: `BDI_Low_min`
+- Kept `headline_cpi`; removed: `Annual Inflation, Rural Village`
+- Kept `imported_tradeables_inflation`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)`
+- Kept `food_inflation`; removed: `Annual Inflation, Urban Village`
+- Kept `core_inflation`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)`
+- Kept `PI101111`; removed: `PI101113`
+- Kept `PI101161`; removed: `PI101163`
+- Kept `PI101164`; removed: `PI101164*x*general_index`
+- Kept `PI101165`; removed: `PI101174`
+- Kept `PI101171`; removed: `PI101173`
+- Kept `BDI_Close_max_lag1`; removed: `BDI_High_max_lag1`, `BDI_Low_max_lag1`
+- Kept `BDI_Close_first_lag1`; removed: `BDI_High_first_lag1`, `BDI_Low_first_lag1`
+- Kept `BDI_Close_last_lag1`; removed: `BDI_High_last_lag1`, `BDI_Low_last_lag1`
+- Kept `BDI_Close_count_lag1`; removed: `BDI_High_count_lag1`, `BDI_Low_count_lag1`
+- Kept `BDI_High_min_lag1`; removed: `BDI_Low_min_lag1`
+- Kept `headline_cpi_lag1`; removed: `Annual Inflation, Rural Village_lag1`
+- Kept `imported_tradeables_inflation_lag1`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_lag1`
+- Kept `food_inflation_lag1`; removed: `Annual Inflation, Urban Village_lag1`
+- Kept `core_inflation_lag1`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_lag1`
+- Kept `PI101111_lag1`; removed: `PI101113_lag1`
+- Kept `PI101161_lag1`; removed: `PI101163_lag1`
+- Kept `PI101165_lag1`; removed: `PI101174_lag1`
+- Kept `PI101171_lag1`; removed: `PI101173_lag1`
+- Kept `BDI_Close_max_lag2`; removed: `BDI_High_max_lag2`, `BDI_Low_max_lag2`
+- Kept `BDI_Close_first_lag2`; removed: `BDI_High_first_lag2`, `BDI_Low_first_lag2`
+- Kept `BDI_Close_last_lag2`; removed: `BDI_High_last_lag2`, `BDI_Low_last_lag2`
+- Kept `BDI_Close_count_lag2`; removed: `BDI_High_count_lag2`, `BDI_Low_count_lag2`
+- Kept `BDI_High_min_lag2`; removed: `BDI_Low_min_lag2`
+- Kept `headline_cpi_lag2`; removed: `Annual Inflation, Rural Village_lag2`
+- Kept `imported_tradeables_inflation_lag2`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_lag2`
+- Kept `food_inflation_lag2`; removed: `Annual Inflation, Urban Village_lag2`
+- Kept `core_inflation_lag2`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_lag2`
+- Kept `PI101111_lag2`; removed: `PI101113_lag2`
+- Kept `PI101161_lag2`; removed: `PI101163_lag2`
+- Kept `PI101165_lag2`; removed: `PI101174_lag2`
+- Kept `PI101171_lag2`; removed: `PI101173_lag2`
+- Kept `BDI_Close_max_lag3`; removed: `BDI_High_max_lag3`, `BDI_Low_max_lag3`
+- Kept `BDI_Close_first_lag3`; removed: `BDI_High_first_lag3`, `BDI_Low_first_lag3`
+- Kept `BDI_Close_last_lag3`; removed: `BDI_High_last_lag3`, `BDI_Low_last_lag3`
+- Kept `BDI_Close_count_lag3`; removed: `BDI_High_count_lag3`, `BDI_Low_count_lag3`
+- Kept `BDI_High_min_lag3`; removed: `BDI_Low_min_lag3`
+- Kept `headline_cpi_lag3`; removed: `Annual Inflation, Rural Village_lag3`
+- Kept `imported_tradeables_inflation_lag3`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_lag3`
+- Kept `food_inflation_lag3`; removed: `Annual Inflation, Urban Village_lag3`
+- Kept `core_inflation_lag3`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_lag3`
+- Kept `PI101111_lag3`; removed: `PI101113_lag3`
+- Kept `PI101161_lag3`; removed: `PI101163_lag3`
+- Kept `PI101165_lag3`; removed: `PI101174_lag3`
+- Kept `PI101171_lag3`; removed: `PI101173_lag3`
+- Kept `BDI_Close_max_lag6`; removed: `BDI_High_max_lag6`, `BDI_Low_max_lag6`
+- Kept `BDI_Close_first_lag6`; removed: `BDI_High_first_lag6`, `BDI_Low_first_lag6`
+- Kept `BDI_Close_last_lag6`; removed: `BDI_High_last_lag6`, `BDI_Low_last_lag6`
+- Kept `BDI_Close_count_lag6`; removed: `BDI_High_count_lag6`, `BDI_Low_count_lag6`
+- Kept `BDI_High_min_lag6`; removed: `BDI_Low_min_lag6`
+- Kept `headline_cpi_lag6`; removed: `Annual Inflation, Rural Village_lag6`
+- Kept `imported_tradeables_inflation_lag6`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_lag6`
+- Kept `food_inflation_lag6`; removed: `Annual Inflation, Urban Village_lag6`
+- Kept `core_inflation_lag6`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_lag6`
+- Kept `PI101111_lag6`; removed: `PI101113_lag6`
+- Kept `PI101161_lag6`; removed: `PI101163_lag6`
+- Kept `PI101165_lag6`; removed: `PI101174_lag6`
+- Kept `PI101171_lag6`; removed: `PI101173_lag6`
+- Kept `BDI_Close_max_lag12`; removed: `BDI_High_max_lag12`, `BDI_Low_max_lag12`
+- Kept `BDI_Close_first_lag12`; removed: `BDI_High_first_lag12`, `BDI_Low_first_lag12`
+- Kept `BDI_Close_last_lag12`; removed: `BDI_High_last_lag12`, `BDI_Low_last_lag12`
+- Kept `BDI_Close_count_lag12`; removed: `BDI_High_count_lag12`, `BDI_Low_count_lag12`
+- Kept `BDI_High_min_lag12`; removed: `BDI_Low_min_lag12`
+- Kept `headline_cpi_lag12`; removed: `Annual Inflation, Rural Village_lag12`
+- Kept `imported_tradeables_inflation_lag12`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_lag12`
+- Kept `food_inflation_lag12`; removed: `Annual Inflation, Urban Village_lag12`
+- Kept `core_inflation_lag12`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_lag12`
+- Kept `PI101111_lag12`; removed: `PI101113_lag12`
+- Kept `PI101161_lag12`; removed: `PI101163_lag12`
+- Kept `PI101165_lag12`; removed: `PI101174_lag12`
+- Kept `PI101171_lag12`; removed: `PI101173_lag12`
+- Kept `BDI_Close_max_pct_change`; removed: `BDI_High_max_pct_change`, `BDI_Low_max_pct_change`
+- Kept `BDI_Close_first_pct_change`; removed: `BDI_High_first_pct_change`, `BDI_Low_first_pct_change`
+- Kept `BDI_Close_last_pct_change`; removed: `BDI_High_last_pct_change`, `BDI_Low_last_pct_change`
+- Kept `BDI_Close_count_pct_change`; removed: `BDI_High_count_pct_change`, `BDI_Low_count_pct_change`
+- Kept `BDI_High_min_pct_change`; removed: `BDI_Low_min_pct_change`
+- Kept `headline_cpi_pct_change`; removed: `Annual Inflation, Rural Village_pct_change`
+- Kept `imported_tradeables_inflation_pct_change`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_pct_change`
+- Kept `food_inflation_pct_change`; removed: `Annual Inflation, Urban Village_pct_change`
+- Kept `core_inflation_pct_change`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_pct_change`
+- Kept `PI101111_pct_change`; removed: `PI101113_pct_change`
+- Kept `PI101161_pct_change`; removed: `PI101163_pct_change`
+- Kept `PI101165_pct_change`; removed: `PI101174_pct_change`
+- Kept `PI101171_pct_change`; removed: `PI101173_pct_change`
+- Kept `PI101444_pct_change`; removed: `PI101444_trend`
+- Kept `BDI_Close_max_roll3`; removed: `BDI_High_max_roll3`, `BDI_Low_max_roll3`
+- Kept `BDI_Close_max_std3`; removed: `BDI_High_max_std3`, `BDI_Low_max_std3`
+- Kept `BDI_Close_max_roll6`; removed: `BDI_High_max_roll6`, `BDI_Low_max_roll6`
+- Kept `BDI_Close_max_std6`; removed: `BDI_High_max_std6`, `BDI_Low_max_std6`
+- Kept `BDI_Close_max_roll12`; removed: `BDI_High_max_roll12`, `BDI_Low_max_roll12`
+- Kept `BDI_Close_max_std12`; removed: `BDI_High_max_std12`, `BDI_Low_max_std12`
+- Kept `BDI_Close_first_roll3`; removed: `BDI_High_first_roll3`, `BDI_Low_first_roll3`
+- Kept `BDI_Close_first_std3`; removed: `BDI_High_first_std3`, `BDI_Low_first_std3`
+- Kept `BDI_Close_first_roll6`; removed: `BDI_High_first_roll6`, `BDI_Low_first_roll6`
+- Kept `BDI_Close_first_std6`; removed: `BDI_High_first_std6`, `BDI_Low_first_std6`
+- Kept `BDI_Close_first_roll12`; removed: `BDI_High_first_roll12`, `BDI_Low_first_roll12`
+- Kept `BDI_Close_first_std12`; removed: `BDI_High_first_std12`, `BDI_Low_first_std12`
+- Kept `BDI_Close_last_roll3`; removed: `BDI_High_last_roll3`, `BDI_Low_last_roll3`
+- Kept `BDI_Close_last_std3`; removed: `BDI_High_last_std3`, `BDI_Low_last_std3`
+- Kept `BDI_Close_last_roll6`; removed: `BDI_High_last_roll6`, `BDI_Low_last_roll6`
+- Kept `BDI_Close_last_std6`; removed: `BDI_High_last_std6`, `BDI_Low_last_std6`
+- Kept `BDI_Close_last_roll12`; removed: `BDI_High_last_roll12`, `BDI_Low_last_roll12`
+- Kept `BDI_Close_last_std12`; removed: `BDI_High_last_std12`, `BDI_Low_last_std12`
+- Kept `BDI_Close_count_roll3`; removed: `BDI_High_count_roll3`, `BDI_Low_count_roll3`
+- Kept `BDI_Close_count_std3`; removed: `BDI_High_count_std3`, `BDI_Low_count_std3`
+- Kept `BDI_Close_count_roll6`; removed: `BDI_High_count_roll6`, `BDI_Low_count_roll6`
+- Kept `BDI_Close_count_std6`; removed: `BDI_High_count_std6`, `BDI_Low_count_std6`
+- Kept `BDI_Close_count_roll12`; removed: `BDI_High_count_roll12`, `BDI_Low_count_roll12`
+- Kept `BDI_Close_count_std12`; removed: `BDI_High_count_std12`, `BDI_Low_count_std12`
+- Kept `BDI_High_min_roll3`; removed: `BDI_Low_min_roll3`
+- Kept `BDI_High_min_std3`; removed: `BDI_Low_min_std3`
+- Kept `BDI_High_min_roll6`; removed: `BDI_Low_min_roll6`
+- Kept `BDI_High_min_std6`; removed: `BDI_Low_min_std6`
+- Kept `BDI_High_min_roll12`; removed: `BDI_Low_min_roll12`
+- Kept `BDI_High_min_std12`; removed: `BDI_Low_min_std12`
+- Kept `headline_cpi_roll3`; removed: `Annual Inflation, Rural Village_roll3`
+- Kept `headline_cpi_std3`; removed: `Annual Inflation, Rural Village_std3`
+- Kept `headline_cpi_roll6`; removed: `Annual Inflation, Rural Village_roll6`
+- Kept `headline_cpi_std6`; removed: `Annual Inflation, Rural Village_std6`
+- Kept `headline_cpi_roll12`; removed: `Annual Inflation, Rural Village_roll12`
+- Kept `headline_cpi_std12`; removed: `Annual Inflation, Rural Village_std12`
+- Kept `imported_tradeables_inflation_roll3`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_roll3`
+- Kept `imported_tradeables_inflation_std3`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_std3`
+- Kept `imported_tradeables_inflation_roll6`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_roll6`
+- Kept `imported_tradeables_inflation_std6`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_std6`
+- Kept `imported_tradeables_inflation_roll12`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_roll12`
+- Kept `imported_tradeables_inflation_std12`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_std12`
+- Kept `food_inflation_roll3`; removed: `Annual Inflation, Urban Village_roll3`
+- Kept `food_inflation_std3`; removed: `Annual Inflation, Urban Village_std3`
+- Kept `food_inflation_roll6`; removed: `Annual Inflation, Urban Village_roll6`
+- Kept `food_inflation_std6`; removed: `Annual Inflation, Urban Village_std6`
+- Kept `food_inflation_roll12`; removed: `Annual Inflation, Urban Village_roll12`
+- Kept `food_inflation_std12`; removed: `Annual Inflation, Urban Village_std12`
+- Kept `core_inflation_roll3`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_roll3`
+- Kept `core_inflation_std3`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_std3`
+- Kept `core_inflation_roll6`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_roll6`
+- Kept `core_inflation_std6`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_std6`
+- Kept `core_inflation_roll12`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_roll12`
+- Kept `core_inflation_std12`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_std12`
+- Kept `PI101111_roll3`; removed: `PI101113_roll3`
+- Kept `PI101111_std3`; removed: `PI101113_std3`
+- Kept `PI101111_roll6`; removed: `PI101113_roll6`
+- Kept `PI101111_std6`; removed: `PI101113_std6`
+- Kept `PI101111_roll12`; removed: `PI101113_roll12`
+- Kept `PI101111_std12`; removed: `PI101113_std12`
+- Kept `PI101161_roll3`; removed: `PI101163_roll3`
+- Kept `PI101161_std3`; removed: `PI101163_std3`
+- Kept `PI101161_roll6`; removed: `PI101163_roll6`
+- Kept `PI101161_std6`; removed: `PI101163_std6`
+- Kept `PI101161_roll12`; removed: `PI101163_roll12`
+- Kept `PI101161_std12`; removed: `PI101163_std12`
+- Kept `PI101164_roll3`; removed: `PI101164_std3`
+- Kept `PI101164_roll6`; removed: `PI101164_std6`
+- Kept `PI101164_roll12`; removed: `PI101164_std12`
+- Kept `PI101165_roll3`; removed: `PI101174_roll3`
+- Kept `PI101165_std3`; removed: `PI101174_std3`
+- Kept `PI101165_roll6`; removed: `PI101174_roll6`
+- Kept `PI101165_std6`; removed: `PI101174_std6`
+- Kept `PI101165_roll12`; removed: `PI101174_roll12`
+- Kept `PI101165_std12`; removed: `PI101174_std12`
+- Kept `PI101171_roll3`; removed: `PI101173_roll3`
+- Kept `PI101171_std3`; removed: `PI101173_std3`
+- Kept `PI101171_roll6`; removed: `PI101173_roll6`
+- Kept `PI101171_std6`; removed: `PI101173_std6`
+- Kept `PI101171_roll12`; removed: `PI101173_roll12`
+- Kept `PI101171_std12`; removed: `PI101173_std12`
+- Kept `BDI_Close_max_trend`; removed: `BDI_High_max_trend`, `BDI_Low_max_trend`
+- Kept `BDI_Close_first_trend`; removed: `BDI_High_first_trend`, `BDI_Low_first_trend`
+- Kept `BDI_Close_last_trend`; removed: `BDI_High_last_trend`, `BDI_Low_last_trend`
+- Kept `BDI_Close_count_trend`; removed: `BDI_High_count_trend`, `BDI_Low_count_trend`
+- Kept `BDI_High_min_trend`; removed: `BDI_Low_min_trend`
+- Kept `headline_cpi_trend`; removed: `Annual Inflation, Rural Village_trend`
+- Kept `imported_tradeables_inflation_trend`; removed: `Core Monthly Inflation (Excluding Administered Prices) (percentage)_trend`
+- Kept `food_inflation_trend`; removed: `Annual Inflation, Urban Village_trend`
+- Kept `core_inflation_trend`; removed: `Consumer Price Index (Trimmed Mean) (September 2016 = 100)_trend`
+- Kept `PI101111_trend`; removed: `PI101113_trend`
+- Kept `PI101161_trend`; removed: `PI101163_trend`
+- Kept `PI101165_trend`; removed: `PI101174_trend`
+- Kept `PI101171_trend`; removed: `PI101173_trend`
+- Kept `PI101111*x*general_index`; removed: `PI101113*x*general_index`
+- Kept `PI101161*x*general_index`; removed: `PI101163*x*general_index`
+- Kept `PI101165*x*general_index`; removed: `PI101174*x*general_index`
+- Kept `PI101171*x*general_index`; removed: `PI101173*x*general_index`
+
+## Removed Constant Features
+
+- `PI101164`
+- `PI101444`
+- `PI101164_lag1`
+- `PI101444_lag1`
+- `PI101164_lag2`
+- `PI101444_lag2`
+- `PI101164_lag3`
+- `PI101444_lag3`
+- `PI101164_lag6`
+- `PI101444_lag6`
+- `PI101164_lag12`
+- `PI101444_lag12`
+- `PI101444_pct_change`
+- `PI101164_roll3`
+- `PI101164_roll6`
+- `PI101164_roll12`
+- `PI101444_roll3`
+- `PI101444_std3`
+- `PI101444_roll6`
+- `PI101444_std6`
+- `PI101444_roll12`
+- `PI101444_std12`
+- `PI101164_trend`
+
+## Removed Near-Constant Features
+
+- None

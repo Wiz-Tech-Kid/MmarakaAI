@@ -1,0 +1,63 @@
+{
+  "dataset_name": "ObservationData_bkgkbwg",
+  "status": "SUCCESS",
+  "rows_before": 1108,
+  "rows_after": 126,
+  "columns_before": [
+    "indicator",
+    "Unit",
+    "Date",
+    "Value"
+  ],
+  "columns_after": [
+    "Date",
+    "Annual Inflation, Rural Village",
+    "Annual Inflation, Urban Village",
+    "Food_and_Non_Alcoholic_Beverages_Index",
+    "Imported Tradeables Index",
+    "Inflation (%)",
+    "Core Monthly Inflation (Excluding Administered Prices) (percentage)",
+    "Consumer Price Index (Trimmed Mean) (September 2016 = 100)",
+    "Core Monthly Inflation Rate (Trimmed Mean) (percentage)"
+  ],
+  "execution_time": 0.558839,
+  "processed_file": "ObservationData_bkgkbwg_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Apply dataset-specific preprocessing for ObservationData_bkgkbwg from the external data directory.",
+      "status": "SUCCESS",
+      "rows_before": 1108,
+      "rows_after": 126,
+      "columns_before": [
+        "indicator",
+        "Unit",
+        "Date",
+        "Value"
+      ],
+      "columns_after": [
+        "Date",
+        "Annual Inflation, Rural Village",
+        "Annual Inflation, Urban Village",
+        "Food_and_Non_Alcoholic_Beverages_Index",
+        "Imported Tradeables Index",
+        "Inflation (%)",
+        "Core Monthly Inflation (Excluding Administered Prices) (percentage)",
+        "Consumer Price Index (Trimmed Mean) (September 2016 = 100)",
+        "Core Monthly Inflation Rate (Trimmed Mean) (percentage)"
+      ],
+      "execution_time": 0.549186,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "dataset_name": "ObservationData_bkgkbwg"
+      },
+      "validation_details": {
+        "expected": null,
+        "actual": null,
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}

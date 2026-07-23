@@ -1,0 +1,11 @@
+{
+  "dataset_name": "F6-13",
+  "status": "FAILED",
+  "rows_before": 0,
+  "rows_after": 0,
+  "columns_before": [],
+  "columns_after": [],
+  "execution_time": 0.001712,
+  "processed_file": "F6-13_processed.csv",
+  "transformations": []
+}

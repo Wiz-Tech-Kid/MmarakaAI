@@ -1,0 +1,552 @@
+{
+  "candidate_join_keys": [],
+  "categorical_columns": {
+    "Date": {
+      "top_values": [
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M1"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M2"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M3"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M4"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M5"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M6"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M7"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M8"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M9"
+        },
+        {
+          "frequency": 9,
+          "frequency_percent": 0.81,
+          "value": "2016M10"
+        }
+      ],
+      "unique_values": 126
+    },
+    "Unit": {
+      "top_values": [
+        {
+          "frequency": 756,
+          "frequency_percent": 68.23,
+          "value": "Index Sep 2016 = 100"
+        },
+        {
+          "frequency": 352,
+          "frequency_percent": 31.77,
+          "value": "%"
+        }
+      ],
+      "unique_values": 2
+    },
+    "indicator": {
+      "top_values": [
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Annual Inflation, Rural Village"
+        },
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Annual Inflation, Urban Village"
+        },
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Food & Non-"
+        },
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Alcohol"
+        },
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Imported Tradeables Index"
+        },
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Inflation (%)"
+        },
+        {
+          "frequency": 126,
+          "frequency_percent": 11.37,
+          "value": "Consumer Price Index (Trimmed Mean) (September 2016 = 100)"
+        },
+        {
+          "frequency": 113,
+          "frequency_percent": 10.2,
+          "value": "Core Monthly Inflation (Excluding Administered Prices) (percentage)"
+        },
+        {
+          "frequency": 113,
+          "frequency_percent": 10.2,
+          "value": "Core Monthly Inflation Rate (Trimmed Mean) (percentage)"
+        }
+      ],
+      "unique_values": 9
+    }
+  },
+  "column_names": [
+    "indicator",
+    "Unit",
+    "Date",
+    "Value"
+  ],
+  "column_profile": [
+    {
+      "column": "indicator",
+      "data_type": "str",
+      "example_value": "Annual Inflation, Rural Village",
+      "memory_usage": "88.14 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 9
+    },
+    {
+      "column": "Unit",
+      "data_type": "str",
+      "example_value": "Index Sep 2016 = 100",
+      "memory_usage": "68.13 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 2
+    },
+    {
+      "column": "Date",
+      "data_type": "str",
+      "example_value": "2016M1",
+      "memory_usage": "59.77 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 126
+    },
+    {
+      "column": "Value",
+      "data_type": "float64",
+      "example_value": 2.8,
+      "memory_usage": "8.66 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 731
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {},
+    "measurement_numeric_columns": [
+      "Value"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "indicator",
+        "dominant_count": 126,
+        "dominant_percent": 11.37,
+        "dominant_value": "Annual Inflation, Rural Village",
+        "unique_values": 9
+      },
+      {
+        "column": "Unit",
+        "dominant_count": 756,
+        "dominant_percent": 68.23,
+        "dominant_value": "Index Sep 2016 = 100",
+        "unique_values": 2
+      },
+      {
+        "column": "Date",
+        "dominant_count": 9,
+        "dominant_percent": 0.81,
+        "dominant_value": "2016M1",
+        "unique_values": 126
+      },
+      {
+        "column": "Value",
+        "dominant_count": 22,
+        "dominant_percent": 1.99,
+        "dominant_value": 2.9,
+        "unique_values": 731
+      }
+    ],
+    "duplicate_dates": [],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Value": 0
+    },
+    "missing_by_column": {
+      "Date": 0,
+      "Unit": 0,
+      "Value": 0,
+      "indicator": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "Date": 0.0,
+      "Unit": 0.0,
+      "Value": 0.0,
+      "indicator": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 14,
+    "object_columns_containing_dates": [],
+    "positive_values": 1094,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Value",
+        "negative_count": 14,
+        "positive_count": 1094,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 0
+  },
+  "data_types": {
+    "Date": "str",
+    "Unit": "str",
+    "Value": "float64",
+    "indicator": "str"
+  },
+  "dataset_name": "ObservationData_bkgkbwg",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": []
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Value"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": []
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_bkgkbwg_boxplot.png",
+    "correlation": null,
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_bkgkbwg_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_bkgkbwg_missing.png",
+    "time_series": null
+  },
+  "file_name": "ObservationData_bkgkbwg.csv",
+  "frequency_analysis": [],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "indicator",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Unit",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Value",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 1.0315493751490215,
+      "column": "Value",
+      "count": 1108,
+      "infinite_count": 0,
+      "iqr": 103.4,
+      "kurtosis": -1.6883708948754426,
+      "maximum": 168.3244,
+      "mean": 56.454496188550536,
+      "median": 10.649999999999999,
+      "minimum": -2.7093788627477,
+      "mode": 2.9,
+      "negative_count": 14,
+      "outlier_count_iqr": 0,
+      "positive_count": 1094,
+      "range": 171.0337788627477,
+      "skewness": 0.32061020878266344,
+      "standard_deviation": 58.235600267652124,
+      "variance": 3391.3851385337643,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Value",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": []
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Value"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 4,
+    "rows": 1108
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "Date": {
+        "top_values": [
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M1"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M2"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M3"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M4"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M5"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M6"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M7"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M8"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M9"
+          },
+          {
+            "frequency": 9,
+            "frequency_percent": 0.81,
+            "value": "2016M10"
+          }
+        ],
+        "unique_values": 126
+      },
+      "Unit": {
+        "top_values": [
+          {
+            "frequency": 756,
+            "frequency_percent": 68.23,
+            "value": "Index Sep 2016 = 100"
+          },
+          {
+            "frequency": 352,
+            "frequency_percent": 31.77,
+            "value": "%"
+          }
+        ],
+        "unique_values": 2
+      },
+      "indicator": {
+        "top_values": [
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Annual Inflation, Rural Village"
+          },
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Annual Inflation, Urban Village"
+          },
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Food & Non-"
+          },
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Alcohol"
+          },
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Imported Tradeables Index"
+          },
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Inflation (%)"
+          },
+          {
+            "frequency": 126,
+            "frequency_percent": 11.37,
+            "value": "Consumer Price Index (Trimmed Mean) (September 2016 = 100)"
+          },
+          {
+            "frequency": 113,
+            "frequency_percent": 10.2,
+            "value": "Core Monthly Inflation (Excluding Administered Prices) (percentage)"
+          },
+          {
+            "frequency": 113,
+            "frequency_percent": 10.2,
+            "value": "Core Monthly Inflation Rate (Trimmed Mean) (percentage)"
+          }
+        ],
+        "unique_values": 9
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 1.0315493751490215,
+        "column": "Value",
+        "count": 1108,
+        "infinite_count": 0,
+        "iqr": 103.4,
+        "kurtosis": -1.6883708948754426,
+        "maximum": 168.3244,
+        "mean": 56.454496188550536,
+        "median": 10.649999999999999,
+        "minimum": -2.7093788627477,
+        "mode": 2.9,
+        "negative_count": 14,
+        "outlier_count_iqr": 0,
+        "positive_count": 1094,
+        "range": 171.0337788627477,
+        "skewness": 0.32061020878266344,
+        "standard_deviation": 58.235600267652124,
+        "variance": 3391.3851385337643,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": []
+}

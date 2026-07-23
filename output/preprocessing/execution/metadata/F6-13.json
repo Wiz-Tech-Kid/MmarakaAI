@@ -1,0 +1,73 @@
+{
+  "dataset_name": "F6-13",
+  "status": "SUCCESS",
+  "rows_before": 57,
+  "rows_after": 79,
+  "columns_before": [
+    "TABLE 6.13",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9",
+    "Unnamed: 10",
+    "Unnamed: 11",
+    "Unnamed: 12",
+    "Unnamed: 13",
+    "Unnamed: 14"
+  ],
+  "columns_after": [
+    "Date",
+    "series",
+    "value"
+  ],
+  "execution_time": 0.009071,
+  "processed_file": "F6-13_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Apply dataset-specific preprocessing for F6-13 from the external data directory.",
+      "status": "SUCCESS",
+      "rows_before": 57,
+      "rows_after": 79,
+      "columns_before": [
+        "TABLE 6.13",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14"
+      ],
+      "columns_after": [
+        "Date",
+        "series",
+        "value"
+      ],
+      "execution_time": 0.005421,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "dataset_name": "F6-13"
+      },
+      "validation_details": {
+        "expected": null,
+        "actual": null,
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}

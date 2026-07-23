@@ -1,0 +1,81 @@
+{
+  "dataset_name": "6-16",
+  "status": "SUCCESS",
+  "rows_before": 65,
+  "rows_after": 132,
+  "columns_before": [
+    "TABLE 6.16 ",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9",
+    "Unnamed: 10",
+    "Unnamed: 11",
+    "Unnamed: 12",
+    "Unnamed: 13",
+    "Unnamed: 14",
+    "Unnamed: 15",
+    "Unnamed: 16",
+    "Unnamed: 17",
+    "Unnamed: 18"
+  ],
+  "columns_after": [
+    "Date",
+    "indicator",
+    "value"
+  ],
+  "execution_time": 0.350415,
+  "processed_file": "6-16_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Apply dataset-specific preprocessing for 6-16 from the external data directory.",
+      "status": "SUCCESS",
+      "rows_before": 65,
+      "rows_after": 132,
+      "columns_before": [
+        "TABLE 6.16 ",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 16",
+        "Unnamed: 17",
+        "Unnamed: 18"
+      ],
+      "columns_after": [
+        "Date",
+        "indicator",
+        "value"
+      ],
+      "execution_time": 0.008974,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "dataset_name": "6-16"
+      },
+      "validation_details": {
+        "expected": null,
+        "actual": null,
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}

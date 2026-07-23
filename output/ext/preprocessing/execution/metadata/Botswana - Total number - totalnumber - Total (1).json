@@ -1,0 +1,11 @@
+{
+  "dataset_name": "Botswana - Total number - totalnumber - Total (1)",
+  "status": "FAILED",
+  "rows_before": 0,
+  "rows_after": 0,
+  "columns_before": [],
+  "columns_after": [],
+  "execution_time": 0.006214,
+  "processed_file": "Botswana - Total number - totalnumber - Total (1)_processed.csv",
+  "transformations": []
+}

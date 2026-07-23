@@ -1,0 +1,1234 @@
+{
+  "candidate_join_keys": [
+    {
+      "columns": [
+        "Unnamed: 0"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1"
+      ],
+      "kind": "Composite Candidate Key"
+    }
+  ],
+  "categorical_columns": {},
+  "column_names": [
+    "Unnamed: 0",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9"
+  ],
+  "column_profile": [
+    {
+      "column": "Unnamed: 0",
+      "data_type": "str",
+      "example_value": "Time",
+      "memory_usage": "7.27 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 129
+    },
+    {
+      "column": "Unnamed: 1",
+      "data_type": "object",
+      "example_value": "Annual Inflation, Rural Village",
+      "memory_usage": "4.28 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 89
+    },
+    {
+      "column": "Unnamed: 2",
+      "data_type": "object",
+      "example_value": "Annual Inflation, Urban Village",
+      "memory_usage": "4.27 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 78
+    },
+    {
+      "column": "Unnamed: 3",
+      "data_type": "object",
+      "example_value": "Food & Non-",
+      "memory_usage": "4.27 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 110
+    },
+    {
+      "column": "Unnamed: 4",
+      "data_type": "object",
+      "example_value": "Alcohol",
+      "memory_usage": "4.27 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 104
+    },
+    {
+      "column": "Unnamed: 5",
+      "data_type": "object",
+      "example_value": "Imported Tradeables Index",
+      "memory_usage": "4.25 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 127
+    },
+    {
+      "column": "Unnamed: 6",
+      "data_type": "object",
+      "example_value": "Inflation (%)",
+      "memory_usage": "4.21 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 125
+    },
+    {
+      "column": "Unnamed: 7",
+      "data_type": "object",
+      "example_value": "Core Monthly Inflation (Excluding Administered Prices) (percentage)",
+      "memory_usage": "4.29 KB",
+      "missing_count": 18,
+      "missing_percent": 13.53,
+      "unique_values": 84
+    },
+    {
+      "column": "Unnamed: 8",
+      "data_type": "object",
+      "example_value": "Consumer Price Index (Trimmed Mean) (September 2016 = 100)",
+      "memory_usage": "4.32 KB",
+      "missing_count": 5,
+      "missing_percent": 3.76,
+      "unique_values": 109
+    },
+    {
+      "column": "Unnamed: 9",
+      "data_type": "object",
+      "example_value": "Core Monthly Inflation Rate (Trimmed Mean) (percentage)",
+      "memory_usage": "4.27 KB",
+      "missing_count": 18,
+      "missing_percent": 13.53,
+      "unique_values": 76
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {},
+    "measurement_numeric_columns": []
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Unnamed: 0",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 129
+      },
+      {
+        "column": "Unnamed: 1",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 89
+      },
+      {
+        "column": "Unnamed: 2",
+        "dominant_count": 9,
+        "dominant_percent": 6.77,
+        "dominant_value": 2.9,
+        "unique_values": 78
+      },
+      {
+        "column": "Unnamed: 3",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 110
+      },
+      {
+        "column": "Unnamed: 4",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 104
+      },
+      {
+        "column": "Unnamed: 5",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 127
+      },
+      {
+        "column": "Unnamed: 6",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 125
+      },
+      {
+        "column": "Unnamed: 7",
+        "dominant_count": 18,
+        "dominant_percent": 13.53,
+        "dominant_value": NaN,
+        "unique_values": 84
+      },
+      {
+        "column": "Unnamed: 8",
+        "dominant_count": 5,
+        "dominant_percent": 3.76,
+        "dominant_value": NaN,
+        "unique_values": 109
+      },
+      {
+        "column": "Unnamed: 9",
+        "dominant_count": 18,
+        "dominant_percent": 13.53,
+        "dominant_value": NaN,
+        "unique_values": 76
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Unnamed: 0",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "None",
+        "status": "No duplicates"
+      },
+      {
+        "column": "Unnamed: 1",
+        "duplicate_date_rows": 111,
+        "duplicate_date_values": 11,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 2",
+        "duplicate_date_rows": 111,
+        "duplicate_date_values": 11,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 3",
+        "duplicate_date_rows": 74,
+        "duplicate_date_values": 24,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 4",
+        "duplicate_date_rows": 77,
+        "duplicate_date_values": 27,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 5",
+        "duplicate_date_rows": 88,
+        "duplicate_date_values": 27,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 6",
+        "duplicate_date_rows": 102,
+        "duplicate_date_values": 15,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1969-12-31, 1969-12-31, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 7",
+        "duplicate_date_rows": 104,
+        "duplicate_date_values": 8,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 8",
+        "duplicate_date_rows": 91,
+        "duplicate_date_values": 26,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 9",
+        "duplicate_date_rows": 103,
+        "duplicate_date_values": 10,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      }
+    ],
+    "duplicate_dates_total": 861,
+    "duplicate_rows": 4,
+    "infinite_values": 0,
+    "infinite_values_by_column": {},
+    "missing_by_column": {
+      "Unnamed: 0": 5,
+      "Unnamed: 1": 5,
+      "Unnamed: 2": 5,
+      "Unnamed: 3": 5,
+      "Unnamed: 4": 5,
+      "Unnamed: 5": 5,
+      "Unnamed: 6": 5,
+      "Unnamed: 7": 18,
+      "Unnamed: 8": 5,
+      "Unnamed: 9": 18
+    },
+    "missing_percent": 5.71,
+    "missing_percent_by_column": {
+      "Unnamed: 0": 3.76,
+      "Unnamed: 1": 3.76,
+      "Unnamed: 2": 3.76,
+      "Unnamed: 3": 3.76,
+      "Unnamed: 4": 3.76,
+      "Unnamed: 5": 3.76,
+      "Unnamed: 6": 3.76,
+      "Unnamed: 7": 13.53,
+      "Unnamed: 8": 3.76,
+      "Unnamed: 9": 13.53
+    },
+    "mixed_data_type_columns": [
+      {
+        "column": "Unnamed: 1",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 2",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 3",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 4",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 5",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 6",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 7",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 8",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 9",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      }
+    ],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [
+      "Unnamed: 0",
+      "Unnamed: 1",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4",
+      "Unnamed: 5",
+      "Unnamed: 6",
+      "Unnamed: 7",
+      "Unnamed: 8",
+      "Unnamed: 9"
+    ],
+    "positive_values": 0,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [],
+    "total_missing": 76,
+    "zero_values": 0
+  },
+  "data_types": {
+    "Unnamed: 0": "str",
+    "Unnamed: 1": "object",
+    "Unnamed: 2": "object",
+    "Unnamed: 3": "object",
+    "Unnamed: 4": "object",
+    "Unnamed: 5": "object",
+    "Unnamed: 6": "object",
+    "Unnamed: 7": "object",
+    "Unnamed: 8": "object",
+    "Unnamed: 9": "object"
+  },
+  "dataset_name": "Botswana Consumer Price Index",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": true,
+      "column": "Unnamed: 0",
+      "date_span_days": 3804,
+      "duplicate_dates": 0,
+      "earliest_date": "2016-01-01T00:00:00",
+      "estimated_frequency": "MS",
+      "latest_date": "2026-06-01T00:00:00",
+      "median_spacing": "31 days 00:00:00",
+      "monotonic_increasing": true,
+      "most_common_spacing": "31 days 00:00:00",
+      "unique_dates": 126
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 1",
+      "date_span_days": 0,
+      "duplicate_dates": 111,
+      "earliest_date": "1970-01-01T00:00:00",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000015",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 15
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 2",
+      "date_span_days": 0,
+      "duplicate_dates": 111,
+      "earliest_date": "1970-01-01T00:00:00",
+      "estimated_frequency": "ns",
+      "latest_date": "1970-01-01T00:00:00.000000014",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 15
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 3",
+      "date_span_days": 0,
+      "duplicate_dates": 74,
+      "earliest_date": "1970-01-01T00:00:00.000000097",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000161",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 52
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 4",
+      "date_span_days": 0,
+      "duplicate_dates": 77,
+      "earliest_date": "1970-01-01T00:00:00.000000098",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000161",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 49
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 5",
+      "date_span_days": 0,
+      "duplicate_dates": 88,
+      "earliest_date": "1970-01-01T00:00:00.000000093",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000168",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 38
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 6",
+      "date_span_days": 0,
+      "duplicate_dates": 102,
+      "earliest_date": "1969-12-31T23:59:59.999999998",
+      "estimated_frequency": "Business-day-like",
+      "latest_date": "1970-01-01T00:00:00.000000023",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 24
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 7",
+      "date_span_days": 0,
+      "duplicate_dates": 104,
+      "earliest_date": "1970-01-01T00:00:00.000000001",
+      "estimated_frequency": "ns",
+      "latest_date": "1970-01-01T00:00:00.000000009",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 9
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 8",
+      "date_span_days": 0,
+      "duplicate_dates": 91,
+      "earliest_date": "1970-01-01T00:00:00.000000097",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000149",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 35
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 9",
+      "date_span_days": 0,
+      "duplicate_dates": 103,
+      "earliest_date": "1970-01-01T00:00:00.000000001",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000011",
+      "median_spacing": "0 days 00:00:00.000000001",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 10
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 861,
+    "records": [
+      {
+        "column": "Unnamed: 0",
+        "duplicate_date_rows": 0,
+        "duplicate_date_values": 0,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "None",
+        "status": "No duplicates"
+      },
+      {
+        "column": "Unnamed: 1",
+        "duplicate_date_rows": 111,
+        "duplicate_date_values": 11,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 2",
+        "duplicate_date_rows": 111,
+        "duplicate_date_values": 11,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 3",
+        "duplicate_date_rows": 74,
+        "duplicate_date_values": 24,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 4",
+        "duplicate_date_rows": 77,
+        "duplicate_date_values": 27,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 5",
+        "duplicate_date_rows": 88,
+        "duplicate_date_values": 27,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 6",
+        "duplicate_date_rows": 102,
+        "duplicate_date_values": 15,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1969-12-31, 1969-12-31, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 7",
+        "duplicate_date_rows": 104,
+        "duplicate_date_values": 8,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 8",
+        "duplicate_date_rows": 91,
+        "duplicate_date_values": 26,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 9",
+        "duplicate_date_rows": 103,
+        "duplicate_date_values": 10,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {
+      "0": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "1": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "2": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "3": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "4": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      }
+    },
+    "duplicate_row_count": 4
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": []
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Use observed candidate join keys",
+      "category": "join_keys",
+      "keys": [
+        "Unnamed: 0",
+        "Unnamed: 0 + Unnamed: 1"
+      ]
+    },
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify duplicate removal",
+      "category": "duplicate_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": null,
+    "correlation": null,
+    "histogram": null,
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/Botswana Consumer Price Index_missing.png",
+    "time_series": null
+  },
+  "file_name": "Botswana Consumer Price Index.xlsx",
+  "frequency_analysis": [
+    {
+      "column": "Unnamed: 0",
+      "estimated_frequency": "MS"
+    },
+    {
+      "column": "Unnamed: 1",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 2",
+      "estimated_frequency": "ns"
+    },
+    {
+      "column": "Unnamed: 3",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 4",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 5",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 6",
+      "estimated_frequency": "Business-day-like"
+    },
+    {
+      "column": "Unnamed: 7",
+      "estimated_frequency": "ns"
+    },
+    {
+      "column": "Unnamed: 8",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 9",
+      "estimated_frequency": "Daily-like"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {
+      "Year": [
+        {
+          "Year": NaN,
+          "missing_cells": 50,
+          "missing_rows": 5
+        },
+        {
+          "Year": 2019.0,
+          "missing_cells": 24,
+          "missing_rows": 12
+        },
+        {
+          "Year": 2018.0,
+          "missing_cells": 2,
+          "missing_rows": 1
+        }
+      ]
+    },
+    "missing_by_column": [
+      {
+        "column": "Unnamed: 0",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 1",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 2",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 3",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 4",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 5",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 6",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 7",
+        "missing_count": 18,
+        "missing_percent": 13.53
+      },
+      {
+        "column": "Unnamed: 8",
+        "missing_count": 5,
+        "missing_percent": 3.76
+      },
+      {
+        "column": "Unnamed: 9",
+        "missing_count": 18,
+        "missing_percent": 13.53
+      }
+    ],
+    "missing_rows_count": 18,
+    "missing_rows_percent": 13.53,
+    "missing_rows_preview": {
+      "0": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "1": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "2": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "3": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "4": {
+        "Unnamed: 0": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "42": {
+        "Unnamed: 0": "Dec 2018",
+        "Unnamed: 1": 2.5,
+        "Unnamed: 2": 3.5,
+        "Unnamed: 3": 100,
+        "Unnamed: 4": 100,
+        "Unnamed: 5": 100,
+        "Unnamed: 6": 4.37562751786298,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 108,
+        "Unnamed: 9": NaN
+      },
+      "43": {
+        "Unnamed: 0": "Jan 2019",
+        "Unnamed: 1": 2.4,
+        "Unnamed: 2": 3.4,
+        "Unnamed: 3": 100.4,
+        "Unnamed: 4": 99.8,
+        "Unnamed: 5": 100.305,
+        "Unnamed: 6": 4.38925397024219,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 100.4,
+        "Unnamed: 9": NaN
+      },
+      "44": {
+        "Unnamed: 0": "Feb 2019",
+        "Unnamed: 1": 2.27919205759122,
+        "Unnamed: 2": 3.2,
+        "Unnamed: 3": 100.6,
+        "Unnamed: 4": 99.6,
+        "Unnamed: 5": 100.5116,
+        "Unnamed: 6": 4.22000951206012,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 100.5,
+        "Unnamed: 9": NaN
+      },
+      "45": {
+        "Unnamed: 0": "Mar 2019",
+        "Unnamed: 1": 2.18589485803398,
+        "Unnamed: 2": 3.2,
+        "Unnamed: 3": 101,
+        "Unnamed: 4": 99.9,
+        "Unnamed: 5": 100.5562,
+        "Unnamed: 6": 4.20480621449884,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 100.6,
+        "Unnamed: 9": NaN
+      },
+      "46": {
+        "Unnamed: 0": "Apr 2019",
+        "Unnamed: 1": 1.6620443462442,
+        "Unnamed: 2": 2.6,
+        "Unnamed: 3": 101.4,
+        "Unnamed: 4": 101.2,
+        "Unnamed: 5": 100.811,
+        "Unnamed: 6": 4.26495108953868,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 101.3,
+        "Unnamed: 9": NaN
+      }
+    }
+  },
+  "numeric_columns": [],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Unnamed: 0, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, Unnamed: 9",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": 4,
+      "observation": "Duplicate rows present"
+    },
+    {
+      "measured_value": 861,
+      "observation": "Duplicate datetime values present"
+    },
+    {
+      "measured_value": 76,
+      "observation": "Missing values present"
+    },
+    {
+      "measured_value": "MS",
+      "observation": "Datetime frequency detected for Unnamed: 0"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 1"
+    },
+    {
+      "measured_value": "ns",
+      "observation": "Datetime frequency detected for Unnamed: 2"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 3"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 4"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 5"
+    },
+    {
+      "measured_value": "Business-day-like",
+      "observation": "Datetime frequency detected for Unnamed: 6"
+    },
+    {
+      "measured_value": "ns",
+      "observation": "Datetime frequency detected for Unnamed: 7"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 8"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 9"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 4
+    },
+    {
+      "category": "missing_values",
+      "value": 76
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": []
+    }
+  ],
+  "shape": {
+    "columns": 10,
+    "rows": 133
+  },
+  "summary_statistics": {
+    "categorical_columns": {},
+    "numeric_columns": []
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 0",
+      "duplicate_periods": 0,
+      "estimated_frequency": "MS",
+      "missing_business_days": "Not applicable",
+      "missing_months": 0,
+      "missing_periods": 0,
+      "monthly_applicable": true,
+      "monthly_continuity_percent": 100.0,
+      "regular_frequency": true,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 1",
+      "duplicate_periods": 111,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 2",
+      "duplicate_periods": 111,
+      "estimated_frequency": "ns",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 3",
+      "duplicate_periods": 74,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 4",
+      "duplicate_periods": 77,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 5",
+      "duplicate_periods": 88,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": true,
+      "business_day_continuity_percent": 100.0,
+      "column": "Unnamed: 6",
+      "duplicate_periods": 102,
+      "estimated_frequency": "Business-day-like",
+      "missing_business_days": 0,
+      "missing_months": "Not applicable",
+      "missing_periods": 0,
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": 0
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 7",
+      "duplicate_periods": 104,
+      "estimated_frequency": "ns",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 8",
+      "duplicate_periods": 91,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 9",
+      "duplicate_periods": 103,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

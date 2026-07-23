@@ -137,10 +137,17 @@ def ensure_output_directories() -> None:
 
 
 def load_dataset(path: Path) -> pd.DataFrame:
-    """Load a CSV dataset without writing back to the source path."""
+    """Load a dataset from CSV or Excel without writing back to the source path."""
 
     logger.info("Loading raw dataset: %s", path)
-    return pd.read_csv(path, low_memory=False)
+    suffix = path.suffix.lower()
+    if suffix == ".csv":
+        return pd.read_csv(path, low_memory=False)
+    if suffix in {".xlsx", ".xls"}:
+        workbook = pd.ExcelFile(path, engine="openpyxl")
+        sheet_name = workbook.sheet_names[0]
+        return pd.read_excel(path, sheet_name=sheet_name, engine="openpyxl")
+    raise ValueError(f"Unsupported dataset format for analysis: {path}")
 
 
 def format_bytes(value: int) -> str:
@@ -2548,15 +2555,16 @@ def analyse_dataset(dataset_path: Path) -> Path:
 
 
 def analyse_all_raw_csvs(raw_data_dir: Path = RAW_DATA_DIR) -> list[Path]:
-    """Audit every CSV file in the configured raw-data directory."""
+    """Audit every supported dataset file in the configured raw-data directory."""
 
     if not raw_data_dir.exists():
         raise FileNotFoundError(f"Raw data directory does not exist: {raw_data_dir}")
 
-    csv_files = sorted(raw_data_dir.glob("*.csv"))
-    logger.info("Detected %s CSV files in %s", len(csv_files), raw_data_dir)
+    supported_suffixes = {".csv", ".xlsx", ".xls"}
+    dataset_files = sorted([path for path in raw_data_dir.iterdir() if path.is_file() and path.suffix.lower() in supported_suffixes])
+    logger.info("Detected %s supported dataset files in %s", len(dataset_files), raw_data_dir)
     reports: list[Path] = []
-    for dataset_path in csv_files:
+    for dataset_path in dataset_files:
         try:
             reports.append(analyse_dataset(dataset_path))
         except Exception:

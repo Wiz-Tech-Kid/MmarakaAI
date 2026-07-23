@@ -21,8 +21,10 @@ import pandas as pd
 
 try:
     from .config import PROCESSED_DATA_DIR, RAW_DATA_DIR, OUTPUT_DIR
+    from .external_preprocessing import preprocess_external_dataset
 except ImportError:  # pragma: no cover - supports running this file directly.
     from config import PROCESSED_DATA_DIR, RAW_DATA_DIR, OUTPUT_DIR
+    from external_preprocessing import preprocess_external_dataset
 
 
 logging.basicConfig(
@@ -67,6 +69,7 @@ class Operation(ABC):
         self.enabled = bool(self.specification.get("enabled", True))
         self.description = str(self.specification.get("description") or self.action)
         self.identifier = str(self.specification.get("id") or self.action)
+        self.source_path: Path | None = None
 
     @abstractmethod
     def execute(self, dataset: TabularDataset) -> TabularDataset:
@@ -267,6 +270,17 @@ class NormalizeDataTypesOperation(Operation):
         return "PASS", "Data types were normalized according to the specification.", {"expected": None, "actual": None, "status": "PASS"}
 
 
+class ExternalDatasetPreprocessOperation(Operation):
+    def execute(self, dataset: TabularDataset) -> TabularDataset:
+        dataset_name = self.dataset_name or self.parameters.get("dataset_name") or ""
+        if not dataset_name:
+            return dataset.copy()
+        return preprocess_external_dataset(dataset_name, dataset, source_path=self.source_path)
+
+    def validate(self, dataset: TabularDataset) -> tuple[str, str, dict[str, Any]]:
+        return "PASS", "Dataset-specific external preprocessing completed.", {"expected": None, "actual": None, "status": "PASS"}
+
+
 class ReshapeLongToWideOperation(Operation):
     def execute(self, dataset: TabularDataset) -> TabularDataset:
         index = list(self.parameters.get("index") or [])
@@ -429,6 +443,7 @@ OPERATION_REGISTRY: dict[str, type[Operation]] = {
     "rename_columns": RenameColumnsOperation,
     "reorder_columns": ReorderColumnsOperation,
     "normalize_data_types": NormalizeDataTypesOperation,
+    "external_dataset_preprocess": ExternalDatasetPreprocessOperation,
     "reshape_long_to_wide": ReshapeLongToWideOperation,
     "reshape_wide_to_long": ReshapeWideToLongOperation,
     "validate_schema": ValidateSchemaOperation,
@@ -475,6 +490,8 @@ def _normalize_action_name(action: str) -> str:
         "validate_missing_values": "validate_missing_values",
         "data_type_normalization": "normalize_data_types",
         "normalize_data_types": "normalize_data_types",
+        "external_dataset_preprocess": "external_dataset_preprocess",
+        "dataset_specific_preprocess": "external_dataset_preprocess",
         "reshape_long_to_wide": "reshape_long_to_wide",
         "reshape_wide_to_long": "reshape_wide_to_long",
     }
@@ -535,7 +552,7 @@ def resolve_dataset_id(specification: Mapping[str, Any], spec_path: str | Path) 
 
 
 def locate_raw_dataset(dataset_id: str, raw_data_dir: str | Path) -> Path:
-    """Locate the matching raw dataset file from the raw data directory."""
+    """Locate the matching raw dataset file from the configured raw data directory or the external-data directory."""
 
     raw_dir = Path(raw_data_dir)
     candidates = [dataset_id, dataset_id.replace("_processed", "")]
@@ -546,6 +563,12 @@ def locate_raw_dataset(dataset_id: str, raw_data_dir: str | Path) -> Path:
                 if match.is_file():
                     return match
     for match in sorted(raw_dir.glob("*.csv")):
+        if dataset_id in match.stem:
+            return match
+    for match in sorted(raw_dir.glob("*.xlsx")):
+        if dataset_id in match.stem:
+            return match
+    for match in sorted(raw_dir.glob("*.xls")):
         if dataset_id in match.stem:
             return match
     raise FileNotFoundError(f"No raw dataset found for {dataset_id} in {raw_dir}")
@@ -571,6 +594,7 @@ def execute_transformations(
     dataset: TabularDataset,
     specification: Mapping[str, Any],
     dataset_name: str | None = None,
+    source_path: str | Path | None = None,
 ) -> tuple[TabularDataset, list[dict[str, Any]], list[str]]:
     """Execute the transformations defined in the specification JSON."""
 
@@ -590,6 +614,7 @@ def execute_transformations(
         rows_before = len(current_dataset)
         columns_before = list(current_dataset.columns)
         operation = create_operation(transformation, dataset_name=dataset_name)
+        operation.source_path = Path(source_path) if source_path is not None else None
         enabled = bool(transformation.get("enabled", True))
         start = time.perf_counter()
 
@@ -682,6 +707,7 @@ def generate_execution_report(
     """Generate a human-readable execution markdown report."""
 
     report_path = OUTPUT_DIR / "preprocessing" / "execution" / "markdown" / f"{dataset_name}.md"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
     duplicate_rows_removed = 0
     datetime_converted = False
     join_keys_preserved = True
@@ -793,6 +819,7 @@ def generate_execution_metadata(
     """Generate machine-readable execution metadata."""
 
     metadata_path = OUTPUT_DIR / "preprocessing" / "execution" / "metadata" / f"{dataset_name}.json"
+    metadata_path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "dataset_name": dataset_name,
         "status": status,
@@ -810,6 +837,12 @@ def generate_execution_metadata(
 
 def process_dataset(metadata_path: str | Path, raw_data_dir: str | Path = RAW_DATA_DIR) -> dict[str, Any]:
     """Process a single dataset from the preprocessing specification JSON."""
+
+    raw_data_dir = Path(raw_data_dir)
+    if not raw_data_dir.exists() or raw_data_dir == Path(RAW_DATA_DIR):
+        external_dir = Path("data/external")
+        if external_dir.exists():
+            raw_data_dir = external_dir
 
     input_path = Path(metadata_path)
     spec_path = input_path
@@ -835,7 +868,12 @@ def process_dataset(metadata_path: str | Path, raw_data_dir: str | Path = RAW_DA
         dataset = load_raw_dataset(raw_dataset_path)
         rows_before = len(dataset)
         columns_before = list(dataset.columns)
-        processed_dataset, transformations, notes = execute_transformations(dataset, specification, dataset_name=dataset_id)
+        processed_dataset, transformations, notes = execute_transformations(
+            dataset,
+            specification,
+            dataset_name=dataset_id,
+            source_path=raw_dataset_path,
+        )
         rows_after = len(processed_dataset)
         columns_after = list(processed_dataset.columns)
         output_path = save_processed_dataset(processed_dataset, output_path)

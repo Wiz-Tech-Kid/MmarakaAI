@@ -1,0 +1,2202 @@
+{
+  "candidate_join_keys": [],
+  "categorical_columns": {
+    "TABLE 6.13": {
+      "top_values": [
+        {
+          "frequency": 40,
+          "frequency_percent": 70.18,
+          "value": NaN
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "REAL EXCHANGE RATES INDICES: FOREIGN CURRENCY PER PULA1"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "(December 2018 = 100)"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "End of "
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "2015"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "2016"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "2017"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "2018"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "2019"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "2020"
+        }
+      ],
+      "unique_values": 18
+    },
+    "Unnamed: 1": {
+      "top_values": [
+        {
+          "frequency": 16,
+          "frequency_percent": 28.07,
+          "value": NaN
+        },
+        {
+          "frequency": 3,
+          "frequency_percent": 5.26,
+          "value": "Jan"
+        },
+        {
+          "frequency": 3,
+          "frequency_percent": 5.26,
+          "value": "Feb"
+        },
+        {
+          "frequency": 3,
+          "frequency_percent": 5.26,
+          "value": "Mar"
+        },
+        {
+          "frequency": 3,
+          "frequency_percent": 5.26,
+          "value": "Apr"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "Q1"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "Q2"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "Q3"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "Q4"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "May"
+        }
+      ],
+      "unique_values": 22
+    },
+    "Unnamed: 14": {
+      "top_values": [
+        {
+          "frequency": 56,
+          "frequency_percent": 98.25,
+          "value": NaN
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "  "
+        }
+      ],
+      "unique_values": 2
+    },
+    "Unnamed: 2": {
+      "top_values": [
+        {
+          "frequency": 14,
+          "frequency_percent": 24.56,
+          "value": NaN
+        },
+        {
+          "frequency": 3,
+          "frequency_percent": 5.26,
+          "value": "84.5"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "100.9"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "92.0"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "83.2"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "US"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "dollar"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "92.2"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "98.1"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "107.1"
+        }
+      ],
+      "unique_values": 39
+    },
+    "Unnamed: 3": {
+      "top_values": [
+        {
+          "frequency": 15,
+          "frequency_percent": 26.32,
+          "value": NaN
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "94.4"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "92.3"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "Euro"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "105.3"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "102.0"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "100.0"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "103.9"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "94.5"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "93.1"
+        }
+      ],
+      "unique_values": 41
+    },
+    "Unnamed: 4": {
+      "top_values": [
+        {
+          "frequency": 14,
+          "frequency_percent": 24.56,
+          "value": NaN
+        },
+        {
+          "frequency": 3,
+          "frequency_percent": 5.26,
+          "value": "85.1"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "98.6"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "96.3"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "95.1"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "Pound"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "sterling"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "79.4"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "102.5"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "101.1"
+        }
+      ],
+      "unique_values": 39
+    },
+    "Unnamed: 5": {
+      "top_values": [
+        {
+          "frequency": 14,
+          "frequency_percent": 24.56,
+          "value": NaN
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "107.7"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "130.6"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "Japanese"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "yen"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "96.2"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "101.0"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "107.6"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "100.0"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "100.8"
+        }
+      ],
+      "unique_values": 42
+    },
+    "Unnamed: 6": {
+      "top_values": [
+        {
+          "frequency": 14,
+          "frequency_percent": 24.56,
+          "value": NaN
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "101.4"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "92.9"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "98.2"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "95.9"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "100.5"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "100.3"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "102.7"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "Chinese"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "yuan2"
+        }
+      ],
+      "unique_values": 37
+    },
+    "Unnamed: 7": {
+      "top_values": [
+        {
+          "frequency": 14,
+          "frequency_percent": 24.56,
+          "value": NaN
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "97.5"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "106.0"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "104.9"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "103.6"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "105.4"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "106.7"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "SA"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "rand"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "109.2"
+        }
+      ],
+      "unique_values": 38
+    },
+    "Unnamed: 8": {
+      "top_values": [
+        {
+          "frequency": 15,
+          "frequency_percent": 26.32,
+          "value": NaN
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "91.8"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "92.2"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "92.1"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "100.8"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "98.9"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "SDR"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "91.5"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "101.0"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.75,
+          "value": "104.3"
+        }
+      ],
+      "unique_values": 38
+    },
+    "Unnamed: 9": {
+      "top_values": [
+        {
+          "frequency": 15,
+          "frequency_percent": 26.32,
+          "value": NaN
+        },
+        {
+          "frequency": 4,
+          "frequency_percent": 7.02,
+          "value": "99.2"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "99.4"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "99.7"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "99.6"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "97.7"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "97.8"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "97.9"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "98.3"
+        },
+        {
+          "frequency": 2,
+          "frequency_percent": 3.51,
+          "value": "97.6"
+        }
+      ],
+      "unique_values": 31
+    }
+  },
+  "column_names": [
+    "TABLE 6.13",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9",
+    "Unnamed: 10",
+    "Unnamed: 11",
+    "Unnamed: 12",
+    "Unnamed: 13",
+    "Unnamed: 14"
+  ],
+  "column_profile": [
+    {
+      "column": "TABLE 6.13",
+      "data_type": "str",
+      "example_value": "REAL EXCHANGE RATES INDICES: FOREIGN CURRENCY PER PULA1",
+      "memory_usage": "2.22 KB",
+      "missing_count": 40,
+      "missing_percent": 70.18,
+      "unique_values": 18
+    },
+    {
+      "column": "Unnamed: 1",
+      "data_type": "str",
+      "example_value": "Q1",
+      "memory_usage": "2.82 KB",
+      "missing_count": 16,
+      "missing_percent": 28.07,
+      "unique_values": 22
+    },
+    {
+      "column": "Unnamed: 2",
+      "data_type": "str",
+      "example_value": "US",
+      "memory_usage": "2.67 KB",
+      "missing_count": 14,
+      "missing_percent": 24.56,
+      "unique_values": 39
+    },
+    {
+      "column": "Unnamed: 3",
+      "data_type": "str",
+      "example_value": "Euro",
+      "memory_usage": "2.66 KB",
+      "missing_count": 15,
+      "missing_percent": 26.32,
+      "unique_values": 41
+    },
+    {
+      "column": "Unnamed: 4",
+      "data_type": "str",
+      "example_value": "Pound",
+      "memory_usage": "2.67 KB",
+      "missing_count": 14,
+      "missing_percent": 24.56,
+      "unique_values": 39
+    },
+    {
+      "column": "Unnamed: 5",
+      "data_type": "str",
+      "example_value": "Japanese",
+      "memory_usage": "2.70 KB",
+      "missing_count": 14,
+      "missing_percent": 24.56,
+      "unique_values": 42
+    },
+    {
+      "column": "Unnamed: 6",
+      "data_type": "str",
+      "example_value": "Chinese",
+      "memory_usage": "2.71 KB",
+      "missing_count": 14,
+      "missing_percent": 24.56,
+      "unique_values": 37
+    },
+    {
+      "column": "Unnamed: 7",
+      "data_type": "str",
+      "example_value": "SA",
+      "memory_usage": "2.69 KB",
+      "missing_count": 14,
+      "missing_percent": 24.56,
+      "unique_values": 38
+    },
+    {
+      "column": "Unnamed: 8",
+      "data_type": "str",
+      "example_value": "SDR",
+      "memory_usage": "2.65 KB",
+      "missing_count": 15,
+      "missing_percent": 26.32,
+      "unique_values": 38
+    },
+    {
+      "column": "Unnamed: 9",
+      "data_type": "str",
+      "example_value": "REER3",
+      "memory_usage": "2.65 KB",
+      "missing_count": 15,
+      "missing_percent": 26.32,
+      "unique_values": 31
+    },
+    {
+      "column": "Unnamed: 10",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "456 B",
+      "missing_count": 57,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 11",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "456 B",
+      "missing_count": 57,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 12",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "456 B",
+      "missing_count": 57,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 13",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "456 B",
+      "missing_count": 57,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 14",
+      "data_type": "str",
+      "example_value": "  ",
+      "memory_usage": "1.80 KB",
+      "missing_count": 56,
+      "missing_percent": 98.25,
+      "unique_values": 2
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {
+      "Unnamed: 10": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN
+      },
+      "Unnamed: 11": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN
+      },
+      "Unnamed: 12": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN
+      },
+      "Unnamed: 13": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN
+      }
+    },
+    "measurement_numeric_columns": [
+      "Unnamed: 10",
+      "Unnamed: 11",
+      "Unnamed: 12",
+      "Unnamed: 13"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [
+      "Unnamed: 10",
+      "Unnamed: 11",
+      "Unnamed: 12",
+      "Unnamed: 13"
+    ],
+    "dominant_value_details": [
+      {
+        "column": "TABLE 6.13",
+        "dominant_count": 40,
+        "dominant_percent": 70.18,
+        "dominant_value": NaN,
+        "unique_values": 18
+      },
+      {
+        "column": "Unnamed: 1",
+        "dominant_count": 16,
+        "dominant_percent": 28.07,
+        "dominant_value": NaN,
+        "unique_values": 22
+      },
+      {
+        "column": "Unnamed: 2",
+        "dominant_count": 14,
+        "dominant_percent": 24.56,
+        "dominant_value": NaN,
+        "unique_values": 39
+      },
+      {
+        "column": "Unnamed: 3",
+        "dominant_count": 15,
+        "dominant_percent": 26.32,
+        "dominant_value": NaN,
+        "unique_values": 41
+      },
+      {
+        "column": "Unnamed: 4",
+        "dominant_count": 14,
+        "dominant_percent": 24.56,
+        "dominant_value": NaN,
+        "unique_values": 39
+      },
+      {
+        "column": "Unnamed: 5",
+        "dominant_count": 14,
+        "dominant_percent": 24.56,
+        "dominant_value": NaN,
+        "unique_values": 42
+      },
+      {
+        "column": "Unnamed: 6",
+        "dominant_count": 14,
+        "dominant_percent": 24.56,
+        "dominant_value": NaN,
+        "unique_values": 37
+      },
+      {
+        "column": "Unnamed: 7",
+        "dominant_count": 14,
+        "dominant_percent": 24.56,
+        "dominant_value": NaN,
+        "unique_values": 38
+      },
+      {
+        "column": "Unnamed: 8",
+        "dominant_count": 15,
+        "dominant_percent": 26.32,
+        "dominant_value": NaN,
+        "unique_values": 38
+      },
+      {
+        "column": "Unnamed: 9",
+        "dominant_count": 15,
+        "dominant_percent": 26.32,
+        "dominant_value": NaN,
+        "unique_values": 31
+      },
+      {
+        "column": "Unnamed: 10",
+        "dominant_count": 57,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 11",
+        "dominant_count": 57,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 12",
+        "dominant_count": 57,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 13",
+        "dominant_count": 57,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 14",
+        "dominant_count": 56,
+        "dominant_percent": 98.25,
+        "dominant_value": NaN,
+        "unique_values": 2
+      }
+    ],
+    "duplicate_dates": [],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 5,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Unnamed: 10": 0,
+      "Unnamed: 11": 0,
+      "Unnamed: 12": 0,
+      "Unnamed: 13": 0
+    },
+    "missing_by_column": {
+      "TABLE 6.13": 40,
+      "Unnamed: 1": 16,
+      "Unnamed: 10": 57,
+      "Unnamed: 11": 57,
+      "Unnamed: 12": 57,
+      "Unnamed: 13": 57,
+      "Unnamed: 14": 56,
+      "Unnamed: 2": 14,
+      "Unnamed: 3": 15,
+      "Unnamed: 4": 14,
+      "Unnamed: 5": 14,
+      "Unnamed: 6": 14,
+      "Unnamed: 7": 14,
+      "Unnamed: 8": 15,
+      "Unnamed: 9": 15
+    },
+    "missing_percent": 53.22,
+    "missing_percent_by_column": {
+      "TABLE 6.13": 70.18,
+      "Unnamed: 1": 28.07,
+      "Unnamed: 10": 100.0,
+      "Unnamed: 11": 100.0,
+      "Unnamed: 12": 100.0,
+      "Unnamed: 13": 100.0,
+      "Unnamed: 14": 98.25,
+      "Unnamed: 2": 24.56,
+      "Unnamed: 3": 26.32,
+      "Unnamed: 4": 24.56,
+      "Unnamed: 5": 24.56,
+      "Unnamed: 6": 24.56,
+      "Unnamed: 7": 24.56,
+      "Unnamed: 8": 26.32,
+      "Unnamed: 9": 26.32
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [
+      {
+        "column": "Unnamed: 14",
+        "dominant_count": 56,
+        "dominant_percent": 98.25,
+        "dominant_value": NaN,
+        "unique_values": 2
+      }
+    ],
+    "negative_values": 0,
+    "object_columns_containing_dates": [],
+    "positive_values": 0,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Unnamed: 10",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 11",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 12",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 13",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 455,
+    "zero_values": 0
+  },
+  "data_types": {
+    "TABLE 6.13": "str",
+    "Unnamed: 1": "str",
+    "Unnamed: 10": "float64",
+    "Unnamed: 11": "float64",
+    "Unnamed: 12": "float64",
+    "Unnamed: 13": "float64",
+    "Unnamed: 14": "str",
+    "Unnamed: 2": "str",
+    "Unnamed: 3": "str",
+    "Unnamed: 4": "str",
+    "Unnamed: 5": "str",
+    "Unnamed: 6": "str",
+    "Unnamed: 7": "str",
+    "Unnamed: 8": "str",
+    "Unnamed: 9": "str"
+  },
+  "dataset_name": "F6-13",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": []
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {
+      "0": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "11": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "21": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "3": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "34": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "47": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      }
+    },
+    "duplicate_row_count": 5
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": []
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify duplicate removal",
+      "category": "duplicate_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": null,
+    "correlation": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/F6-13_correlation.png",
+    "histogram": null,
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/F6-13_missing.png",
+    "time_series": null
+  },
+  "file_name": "F6-13.csv",
+  "frequency_analysis": [],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "TABLE 6.13",
+        "missing_count": 40,
+        "missing_percent": 70.18
+      },
+      {
+        "column": "Unnamed: 1",
+        "missing_count": 16,
+        "missing_percent": 28.07
+      },
+      {
+        "column": "Unnamed: 2",
+        "missing_count": 14,
+        "missing_percent": 24.56
+      },
+      {
+        "column": "Unnamed: 3",
+        "missing_count": 15,
+        "missing_percent": 26.32
+      },
+      {
+        "column": "Unnamed: 4",
+        "missing_count": 14,
+        "missing_percent": 24.56
+      },
+      {
+        "column": "Unnamed: 5",
+        "missing_count": 14,
+        "missing_percent": 24.56
+      },
+      {
+        "column": "Unnamed: 6",
+        "missing_count": 14,
+        "missing_percent": 24.56
+      },
+      {
+        "column": "Unnamed: 7",
+        "missing_count": 14,
+        "missing_percent": 24.56
+      },
+      {
+        "column": "Unnamed: 8",
+        "missing_count": 15,
+        "missing_percent": 26.32
+      },
+      {
+        "column": "Unnamed: 9",
+        "missing_count": 15,
+        "missing_percent": 26.32
+      },
+      {
+        "column": "Unnamed: 10",
+        "missing_count": 57,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 11",
+        "missing_count": 57,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 12",
+        "missing_count": 57,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 13",
+        "missing_count": 57,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 14",
+        "missing_count": 56,
+        "missing_percent": 98.25
+      }
+    ],
+    "missing_rows_count": 57,
+    "missing_rows_percent": 100.0,
+    "missing_rows_preview": {
+      "0": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "1": {
+        "TABLE 6.13": "REAL EXCHANGE RATES INDICES: FOREIGN CURRENCY PER PULA1",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "2": {
+        "TABLE 6.13": "(December 2018 = 100)",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "3": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "4": {
+        "TABLE 6.13": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": "US",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": "Pound",
+        "Unnamed: 5": "Japanese",
+        "Unnamed: 6": "Chinese",
+        "Unnamed: 7": "SA",
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "5": {
+        "TABLE 6.13": "End of ",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": "dollar",
+        "Unnamed: 3": "Euro",
+        "Unnamed: 4": "sterling",
+        "Unnamed: 5": "yen",
+        "Unnamed: 6": "yuan2",
+        "Unnamed: 7": "rand",
+        "Unnamed: 8": "SDR",
+        "Unnamed: 9": "REER3"
+      },
+      "6": {
+        "TABLE 6.13": "2015",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": "92.2",
+        "Unnamed: 3": "94.4",
+        "Unnamed: 4": "79.4",
+        "Unnamed: 5": "96.2",
+        "Unnamed: 6": "\u2026",
+        "Unnamed: 7": "109.2",
+        "Unnamed: 8": "91.5",
+        "Unnamed: 9": "100.1"
+      },
+      "7": {
+        "TABLE 6.13": "2016",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": "98.1",
+        "Unnamed: 3": "105.3",
+        "Unnamed: 4": "102.5",
+        "Unnamed: 5": "101.0",
+        "Unnamed: 6": "99.1",
+        "Unnamed: 7": "97.5",
+        "Unnamed: 8": "101.0",
+        "Unnamed: 9": "99.4"
+      },
+      "8": {
+        "TABLE 6.13": "2017",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": "107.1",
+        "Unnamed: 3": "102.0",
+        "Unnamed: 4": "101.1",
+        "Unnamed: 5": "107.6",
+        "Unnamed: 6": "101.4",
+        "Unnamed: 7": "94.3",
+        "Unnamed: 8": "104.3",
+        "Unnamed: 9": "99.7"
+      },
+      "9": {
+        "TABLE 6.13": "2018",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 2": "100.0",
+        "Unnamed: 3": "100.0",
+        "Unnamed: 4": "100.0",
+        "Unnamed: 5": "100.0",
+        "Unnamed: 6": "100.0",
+        "Unnamed: 7": "100.0",
+        "Unnamed: 8": "100.0",
+        "Unnamed: 9": "100.0"
+      }
+    }
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 10",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 11",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 12",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 13",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": 5,
+      "observation": "Duplicate rows present"
+    },
+    {
+      "measured_value": 455,
+      "observation": "Missing values present"
+    },
+    {
+      "measured_value": "Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13",
+      "observation": "Constant columns present"
+    },
+    {
+      "measured_value": "Unnamed: 14",
+      "observation": "Near-constant columns at configured threshold"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 5
+    },
+    {
+      "category": "missing_values",
+      "value": 455
+    },
+    {
+      "category": "object_date_columns",
+      "value": []
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 15,
+    "rows": 57
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "TABLE 6.13": {
+        "top_values": [
+          {
+            "frequency": 40,
+            "frequency_percent": 70.18,
+            "value": NaN
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "REAL EXCHANGE RATES INDICES: FOREIGN CURRENCY PER PULA1"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "(December 2018 = 100)"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "End of "
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "2015"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "2016"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "2017"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "2018"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "2019"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "2020"
+          }
+        ],
+        "unique_values": 18
+      },
+      "Unnamed: 1": {
+        "top_values": [
+          {
+            "frequency": 16,
+            "frequency_percent": 28.07,
+            "value": NaN
+          },
+          {
+            "frequency": 3,
+            "frequency_percent": 5.26,
+            "value": "Jan"
+          },
+          {
+            "frequency": 3,
+            "frequency_percent": 5.26,
+            "value": "Feb"
+          },
+          {
+            "frequency": 3,
+            "frequency_percent": 5.26,
+            "value": "Mar"
+          },
+          {
+            "frequency": 3,
+            "frequency_percent": 5.26,
+            "value": "Apr"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "Q1"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "Q2"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "Q3"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "Q4"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "May"
+          }
+        ],
+        "unique_values": 22
+      },
+      "Unnamed: 14": {
+        "top_values": [
+          {
+            "frequency": 56,
+            "frequency_percent": 98.25,
+            "value": NaN
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "  "
+          }
+        ],
+        "unique_values": 2
+      },
+      "Unnamed: 2": {
+        "top_values": [
+          {
+            "frequency": 14,
+            "frequency_percent": 24.56,
+            "value": NaN
+          },
+          {
+            "frequency": 3,
+            "frequency_percent": 5.26,
+            "value": "84.5"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "100.9"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "92.0"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "83.2"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "US"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "dollar"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "92.2"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "98.1"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "107.1"
+          }
+        ],
+        "unique_values": 39
+      },
+      "Unnamed: 3": {
+        "top_values": [
+          {
+            "frequency": 15,
+            "frequency_percent": 26.32,
+            "value": NaN
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "94.4"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "92.3"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "Euro"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "105.3"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "102.0"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "100.0"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "103.9"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "94.5"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "93.1"
+          }
+        ],
+        "unique_values": 41
+      },
+      "Unnamed: 4": {
+        "top_values": [
+          {
+            "frequency": 14,
+            "frequency_percent": 24.56,
+            "value": NaN
+          },
+          {
+            "frequency": 3,
+            "frequency_percent": 5.26,
+            "value": "85.1"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "98.6"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "96.3"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "95.1"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "Pound"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "sterling"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "79.4"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "102.5"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "101.1"
+          }
+        ],
+        "unique_values": 39
+      },
+      "Unnamed: 5": {
+        "top_values": [
+          {
+            "frequency": 14,
+            "frequency_percent": 24.56,
+            "value": NaN
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "107.7"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "130.6"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "Japanese"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "yen"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "96.2"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "101.0"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "107.6"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "100.0"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "100.8"
+          }
+        ],
+        "unique_values": 42
+      },
+      "Unnamed: 6": {
+        "top_values": [
+          {
+            "frequency": 14,
+            "frequency_percent": 24.56,
+            "value": NaN
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "101.4"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "92.9"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "98.2"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "95.9"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "100.5"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "100.3"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "102.7"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "Chinese"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "yuan2"
+          }
+        ],
+        "unique_values": 37
+      },
+      "Unnamed: 7": {
+        "top_values": [
+          {
+            "frequency": 14,
+            "frequency_percent": 24.56,
+            "value": NaN
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "97.5"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "106.0"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "104.9"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "103.6"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "105.4"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "106.7"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "SA"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "rand"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "109.2"
+          }
+        ],
+        "unique_values": 38
+      },
+      "Unnamed: 8": {
+        "top_values": [
+          {
+            "frequency": 15,
+            "frequency_percent": 26.32,
+            "value": NaN
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "91.8"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "92.2"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "92.1"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "100.8"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "98.9"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "SDR"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "91.5"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "101.0"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.75,
+            "value": "104.3"
+          }
+        ],
+        "unique_values": 38
+      },
+      "Unnamed: 9": {
+        "top_values": [
+          {
+            "frequency": 15,
+            "frequency_percent": 26.32,
+            "value": NaN
+          },
+          {
+            "frequency": 4,
+            "frequency_percent": 7.02,
+            "value": "99.2"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "99.4"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "99.7"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "99.6"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "97.7"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "97.8"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "97.9"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "98.3"
+          },
+          {
+            "frequency": 2,
+            "frequency_percent": 3.51,
+            "value": "97.6"
+          }
+        ],
+        "unique_values": 31
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 10",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 11",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 12",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 13",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": []
+}

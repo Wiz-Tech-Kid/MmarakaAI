@@ -1,0 +1,30 @@
+{
+  "dataset_name": "food_price_indices_data",
+  "rows": null,
+  "columns": null,
+  "structure": "External tabular source",
+  "duplicate_rows": null,
+  "missing_percent": null,
+  "candidate_join_keys": [
+    "Date"
+  ],
+  "number_of_transformations": 1,
+  "transformations": [
+    {
+      "id": "P001",
+      "execution_order": 1,
+      "enabled": true,
+      "category": "External_Preprocessing",
+      "action": "external_dataset_preprocess",
+      "description": "Apply dataset-specific preprocessing for food_price_indices_data from the external data directory.",
+      "parameters": {
+        "dataset_name": "food_price_indices_data"
+      },
+      "validation": {
+        "type": "dataset_specific",
+        "description": "Validate that the dataset-specific preprocessing produced a non-empty structured dataframe."
+      }
+    }
+  ],
+  "detailed_execution_specification": "Use the external preprocessing branch for food_price_indices_data and persist the normalized dataframe to an output CSV in the processed directory."
+}

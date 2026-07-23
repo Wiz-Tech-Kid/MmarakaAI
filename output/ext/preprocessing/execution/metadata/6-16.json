@@ -1,0 +1,11 @@
+{
+  "dataset_name": "6-16",
+  "status": "FAILED",
+  "rows_before": 0,
+  "rows_after": 0,
+  "columns_before": [],
+  "columns_after": [],
+  "execution_time": 0.025357,
+  "processed_file": "6-16_processed.csv",
+  "transformations": []
+}

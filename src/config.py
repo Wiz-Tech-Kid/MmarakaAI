@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import logging
+import os
 from pathlib import Path
 
 
@@ -24,10 +25,11 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data"
 
 RAW_DATA_DIR = DATA_DIR / "raw"
-PROCESSED_DATA_DIR = DATA_DIR / "processed"
 EXTERNAL_DATA_DIR = DATA_DIR / "external"
 MODEL_DIR = PROJECT_ROOT / "models"
-OUTPUT_DIR = PROJECT_ROOT / "output"
+OUTPUT_ROOT = Path(os.getenv("MMARAKA_OUTPUT_ROOT", str(PROJECT_ROOT / "output")))
+OUTPUT_DIR = OUTPUT_ROOT
+PROCESSED_DATA_DIR = OUTPUT_DIR / "processed"
 NOTEBOOK_DIR = PROJECT_ROOT / "notebooks"
 
 

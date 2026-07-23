@@ -1,0 +1,11 @@
+{
+  "dataset_name": "Botswana Consumer Price Index",
+  "status": "FAILED",
+  "rows_before": 0,
+  "rows_after": 0,
+  "columns_before": [],
+  "columns_after": [],
+  "execution_time": 0.001727,
+  "processed_file": "Botswana Consumer Price Index_processed.csv",
+  "transformations": []
+}

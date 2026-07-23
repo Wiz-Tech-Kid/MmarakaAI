@@ -1,0 +1,845 @@
+{
+  "candidate_join_keys": [],
+  "categorical_columns": {
+    "Unit": {
+      "top_values": [
+        {
+          "frequency": 334,
+          "frequency_percent": 37.7,
+          "value": "Thousand Hectares"
+        },
+        {
+          "frequency": 222,
+          "frequency_percent": 25.06,
+          "value": "metric tonnes"
+        },
+        {
+          "frequency": 198,
+          "frequency_percent": 22.35,
+          "value": "KG/HA"
+        },
+        {
+          "frequency": 132,
+          "frequency_percent": 14.9,
+          "value": "Number"
+        }
+      ],
+      "unique_values": 4
+    },
+    "age-group": {
+      "top_values": [
+        {
+          "frequency": 886,
+          "frequency_percent": 100.0,
+          "value": "totalnumber"
+        }
+      ],
+      "unique_values": 1
+    },
+    "district": {
+      "top_values": [
+        {
+          "frequency": 886,
+          "frequency_percent": 100.0,
+          "value": "Botswana"
+        }
+      ],
+      "unique_values": 1
+    },
+    "indicator": {
+      "top_values": [
+        {
+          "frequency": 132,
+          "frequency_percent": 14.9,
+          "value": "Sorghum"
+        },
+        {
+          "frequency": 132,
+          "frequency_percent": 14.9,
+          "value": "Maize"
+        },
+        {
+          "frequency": 132,
+          "frequency_percent": 14.9,
+          "value": "Pulses"
+        },
+        {
+          "frequency": 131,
+          "frequency_percent": 14.79,
+          "value": "Millet"
+        },
+        {
+          "frequency": 121,
+          "frequency_percent": 13.66,
+          "value": "Groundnuts"
+        },
+        {
+          "frequency": 106,
+          "frequency_percent": 11.96,
+          "value": "Sunflower"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 3.72,
+          "value": "Cattle"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 3.72,
+          "value": "Goats"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 3.72,
+          "value": "Sheep"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 3.72,
+          "value": "Chicken"
+        }
+      ],
+      "unique_values": 10
+    },
+    "marital-status": {
+      "top_values": [
+        {
+          "frequency": 886,
+          "frequency_percent": 100.0,
+          "value": "Total"
+        }
+      ],
+      "unique_values": 1
+    },
+    "sex": {
+      "top_values": [
+        {
+          "frequency": 886,
+          "frequency_percent": 100.0,
+          "value": "Total number"
+        }
+      ],
+      "unique_values": 1
+    }
+  },
+  "column_names": [
+    "district",
+    "indicator",
+    "sex",
+    "age-group",
+    "marital-status",
+    "Unit",
+    "Date",
+    "Value"
+  ],
+  "column_profile": [
+    {
+      "column": "district",
+      "data_type": "str",
+      "example_value": "Botswana",
+      "memory_usage": "49.32 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "indicator",
+      "data_type": "str",
+      "example_value": "Sorghum",
+      "memory_usage": "48.34 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 10
+    },
+    {
+      "column": "sex",
+      "data_type": "str",
+      "example_value": "Total number",
+      "memory_usage": "52.78 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "age-group",
+      "data_type": "str",
+      "example_value": "totalnumber",
+      "memory_usage": "51.91 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "marital-status",
+      "data_type": "str",
+      "example_value": "Total",
+      "memory_usage": "46.72 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unit",
+      "data_type": "str",
+      "example_value": "Thousand Hectares",
+      "memory_usage": "52.50 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 4
+    },
+    {
+      "column": "Date",
+      "data_type": "int64",
+      "example_value": 1979,
+      "memory_usage": "6.92 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 33
+    },
+    {
+      "column": "Value",
+      "data_type": "int64",
+      "example_value": 67,
+      "memory_usage": "6.92 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 463
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": {
+      "columns": "Date | Value",
+      "correlation": 0.013149875176151583
+    },
+    "lowest_pair": {
+      "columns": "Date | Value",
+      "correlation": 0.013149875176151583
+    },
+    "matrix": {
+      "Date": {
+        "Date": 1.0,
+        "Value": 0.013149875176151583
+      },
+      "Value": {
+        "Date": 0.013149875176151583,
+        "Value": 1.0
+      }
+    },
+    "measurement_numeric_columns": [
+      "Date",
+      "Value"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [
+      "district",
+      "sex",
+      "age-group",
+      "marital-status"
+    ],
+    "dominant_value_details": [
+      {
+        "column": "district",
+        "dominant_count": 886,
+        "dominant_percent": 100.0,
+        "dominant_value": "Botswana",
+        "unique_values": 1
+      },
+      {
+        "column": "indicator",
+        "dominant_count": 132,
+        "dominant_percent": 14.9,
+        "dominant_value": "Sorghum",
+        "unique_values": 10
+      },
+      {
+        "column": "sex",
+        "dominant_count": 886,
+        "dominant_percent": 100.0,
+        "dominant_value": "Total number",
+        "unique_values": 1
+      },
+      {
+        "column": "age-group",
+        "dominant_count": 886,
+        "dominant_percent": 100.0,
+        "dominant_value": "totalnumber",
+        "unique_values": 1
+      },
+      {
+        "column": "marital-status",
+        "dominant_count": 886,
+        "dominant_percent": 100.0,
+        "dominant_value": "Total",
+        "unique_values": 1
+      },
+      {
+        "column": "Unit",
+        "dominant_count": 334,
+        "dominant_percent": 37.7,
+        "dominant_value": "Thousand Hectares",
+        "unique_values": 4
+      },
+      {
+        "column": "Date",
+        "dominant_count": 28,
+        "dominant_percent": 3.16,
+        "dominant_value": 1979,
+        "unique_values": 33
+      },
+      {
+        "column": "Value",
+        "dominant_count": 53,
+        "dominant_percent": 5.98,
+        "dominant_value": 1,
+        "unique_values": 463
+      }
+    ],
+    "duplicate_dates": [],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 9,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Date": 0,
+      "Value": 0
+    },
+    "missing_by_column": {
+      "Date": 0,
+      "Unit": 0,
+      "Value": 0,
+      "age-group": 0,
+      "district": 0,
+      "indicator": 0,
+      "marital-status": 0,
+      "sex": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "Date": 0.0,
+      "Unit": 0.0,
+      "Value": 0.0,
+      "age-group": 0.0,
+      "district": 0.0,
+      "indicator": 0.0,
+      "marital-status": 0.0,
+      "sex": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [],
+    "positive_values": 1766,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Date",
+        "negative_count": 0,
+        "positive_count": 886,
+        "zero_count": 0
+      },
+      {
+        "column": "Value",
+        "negative_count": 0,
+        "positive_count": 880,
+        "zero_count": 6
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 6
+  },
+  "data_types": {
+    "Date": "int64",
+    "Unit": "str",
+    "Value": "int64",
+    "age-group": "str",
+    "district": "str",
+    "indicator": "str",
+    "marital-status": "str",
+    "sex": "str"
+  },
+  "dataset_name": "ObservationData_dioidmb",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": []
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {
+      "133": {
+        "Date": 1980,
+        "Unit": "Thousand Hectares",
+        "Value": 5,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "134": {
+        "Date": 1981,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "135": {
+        "Date": 1982,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "144": {
+        "Date": 1997,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "145": {
+        "Date": 2000,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "146": {
+        "Date": 2001,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "149": {
+        "Date": 2009,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "151": {
+        "Date": 2011,
+        "Unit": "Thousand Hectares",
+        "Value": 14,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "154": {
+        "Date": 2014,
+        "Unit": "Thousand Hectares",
+        "Value": 1,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      },
+      "318": {
+        "Date": 1980,
+        "Unit": "Thousand Hectares",
+        "Value": 5,
+        "age-group": "totalnumber",
+        "district": "Botswana",
+        "indicator": "Sunflower",
+        "marital-status": "Total",
+        "sex": "Total number"
+      }
+    },
+    "duplicate_row_count": 9
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": true
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Date",
+        "Value"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": []
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Preserve long-format identity columns",
+      "category": "panel_structure",
+      "keys": [
+        "Date"
+      ]
+    },
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify duplicate removal",
+      "category": "duplicate_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_dioidmb_boxplot.png",
+    "correlation": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_dioidmb_correlation.png",
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_dioidmb_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_dioidmb_missing.png",
+    "time_series": null
+  },
+  "file_name": "ObservationData_dioidmb.csv",
+  "frequency_analysis": [],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "district",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "indicator",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "sex",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "age-group",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "marital-status",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Unit",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Value",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 0.00560512297441,
+      "column": "Date",
+      "count": 886,
+      "infinite_count": 0,
+      "iqr": 20.0,
+      "kurtosis": -1.309076976680542,
+      "maximum": 2015.0,
+      "mean": 1997.2268623024831,
+      "median": 1998.0,
+      "minimum": 1979.0,
+      "mode": 1979,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 886,
+      "range": 36.0,
+      "skewness": -0.06073065396847168,
+      "standard_deviation": 11.194702171000447,
+      "variance": 125.32135669740214,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 3.860781771559615,
+      "column": "Value",
+      "count": 886,
+      "infinite_count": 0,
+      "iqr": 839.5,
+      "kurtosis": 112.00440703444619,
+      "maximum": 113547.0,
+      "mean": 1835.9367945823928,
+      "median": 116.5,
+      "minimum": 0.0,
+      "mode": 1,
+      "negative_count": 0,
+      "outlier_count_iqr": 126,
+      "positive_count": 880,
+      "range": 113547.0,
+      "skewness": 9.10113940953848,
+      "standard_deviation": 7088.151310259292,
+      "variance": 50241888.99713051,
+      "zero_count": 6
+    }
+  ],
+  "panel_long_dataset": true,
+  "pipeline_observations": [
+    {
+      "measured_value": 9,
+      "observation": "Duplicate rows present"
+    },
+    {
+      "measured_value": "district, sex, age-group, marital-status",
+      "observation": "Constant columns present"
+    },
+    {
+      "measured_value": "Value",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 9
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": []
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Date",
+        "Value"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 8,
+    "rows": 886
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "Unit": {
+        "top_values": [
+          {
+            "frequency": 334,
+            "frequency_percent": 37.7,
+            "value": "Thousand Hectares"
+          },
+          {
+            "frequency": 222,
+            "frequency_percent": 25.06,
+            "value": "metric tonnes"
+          },
+          {
+            "frequency": 198,
+            "frequency_percent": 22.35,
+            "value": "KG/HA"
+          },
+          {
+            "frequency": 132,
+            "frequency_percent": 14.9,
+            "value": "Number"
+          }
+        ],
+        "unique_values": 4
+      },
+      "age-group": {
+        "top_values": [
+          {
+            "frequency": 886,
+            "frequency_percent": 100.0,
+            "value": "totalnumber"
+          }
+        ],
+        "unique_values": 1
+      },
+      "district": {
+        "top_values": [
+          {
+            "frequency": 886,
+            "frequency_percent": 100.0,
+            "value": "Botswana"
+          }
+        ],
+        "unique_values": 1
+      },
+      "indicator": {
+        "top_values": [
+          {
+            "frequency": 132,
+            "frequency_percent": 14.9,
+            "value": "Sorghum"
+          },
+          {
+            "frequency": 132,
+            "frequency_percent": 14.9,
+            "value": "Maize"
+          },
+          {
+            "frequency": 132,
+            "frequency_percent": 14.9,
+            "value": "Pulses"
+          },
+          {
+            "frequency": 131,
+            "frequency_percent": 14.79,
+            "value": "Millet"
+          },
+          {
+            "frequency": 121,
+            "frequency_percent": 13.66,
+            "value": "Groundnuts"
+          },
+          {
+            "frequency": 106,
+            "frequency_percent": 11.96,
+            "value": "Sunflower"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 3.72,
+            "value": "Cattle"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 3.72,
+            "value": "Goats"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 3.72,
+            "value": "Sheep"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 3.72,
+            "value": "Chicken"
+          }
+        ],
+        "unique_values": 10
+      },
+      "marital-status": {
+        "top_values": [
+          {
+            "frequency": 886,
+            "frequency_percent": 100.0,
+            "value": "Total"
+          }
+        ],
+        "unique_values": 1
+      },
+      "sex": {
+        "top_values": [
+          {
+            "frequency": 886,
+            "frequency_percent": 100.0,
+            "value": "Total number"
+          }
+        ],
+        "unique_values": 1
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 0.00560512297441,
+        "column": "Date",
+        "count": 886,
+        "infinite_count": 0,
+        "iqr": 20.0,
+        "kurtosis": -1.309076976680542,
+        "maximum": 2015.0,
+        "mean": 1997.2268623024831,
+        "median": 1998.0,
+        "minimum": 1979.0,
+        "mode": 1979,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 886,
+        "range": 36.0,
+        "skewness": -0.06073065396847168,
+        "standard_deviation": 11.194702171000447,
+        "variance": 125.32135669740214,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 3.860781771559615,
+        "column": "Value",
+        "count": 886,
+        "infinite_count": 0,
+        "iqr": 839.5,
+        "kurtosis": 112.00440703444619,
+        "maximum": 113547.0,
+        "mean": 1835.9367945823928,
+        "median": 116.5,
+        "minimum": 0.0,
+        "mode": 1,
+        "negative_count": 0,
+        "outlier_count_iqr": 126,
+        "positive_count": 880,
+        "range": 113547.0,
+        "skewness": 9.10113940953848,
+        "standard_deviation": 7088.151310259292,
+        "variance": 50241888.99713051,
+        "zero_count": 6
+      }
+    ]
+  },
+  "time_series_diagnostics": []
+}

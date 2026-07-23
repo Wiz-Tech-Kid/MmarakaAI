@@ -1,0 +1,67 @@
+{
+  "dataset_name": "Botswana Consumer Price Index",
+  "status": "SUCCESS",
+  "rows_before": 133,
+  "rows_after": 126,
+  "columns_before": [
+    "Unnamed: 0",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9"
+  ],
+  "columns_after": [
+    "Date",
+    "headline_cpi",
+    "imported_tradeables_inflation",
+    "food_inflation",
+    "core_inflation"
+  ],
+  "execution_time": 0.177812,
+  "processed_file": "Botswana Consumer Price Index_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Apply dataset-specific preprocessing for Botswana Consumer Price Index from the external data directory.",
+      "status": "SUCCESS",
+      "rows_before": 133,
+      "rows_after": 126,
+      "columns_before": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9"
+      ],
+      "columns_after": [
+        "Date",
+        "headline_cpi",
+        "imported_tradeables_inflation",
+        "food_inflation",
+        "core_inflation"
+      ],
+      "execution_time": 0.129073,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "dataset_name": "Botswana Consumer Price Index"
+      },
+      "validation_details": {
+        "expected": null,
+        "actual": null,
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -406,6 +406,7 @@ def build_plan_payload(metadata: dict[str, Any]) -> dict[str, Any]:
             join_columns.append(str(item))
     transformations = _build_transformations(metadata)
     execution_transformations: list[dict[str, Any]] = []
+    dataset_slug = str(dataset_name).lower()
 
     for transformation in transformations:
         action = str(transformation.get("action", "")).strip()
@@ -414,7 +415,11 @@ def build_plan_payload(metadata: dict[str, Any]) -> dict[str, Any]:
         parameters: dict[str, Any] = {}
         validation: dict[str, Any] = {}
 
-        if "duplicate" in lowered_action and "remove" in lowered_action:
+        if any(token in dataset_slug for token in ["bank-of-botswana-exchange-rates", "food_price_indices", "producer_price_index", "6-16", "consumer_price_index", "observationdata_dioidmb", "observationdata_qhkxkob", "totalnumber", "f6-10", "f6-13", "observationdata_bkgkbwg"]):
+            execution_action = "external_dataset_preprocess"
+            parameters = {"dataset_name": dataset_name}
+            validation = {"type": "dataset_specific"}
+        elif "duplicate" in lowered_action and "remove" in lowered_action:
             execution_action = "remove_duplicates"
             parameters = {"subset": [column_names[0]] if column_names else []}
             validation = {"type": "duplicate_rows", "expected": 0}

@@ -1,0 +1,863 @@
+{
+  "candidate_join_keys": [],
+  "categorical_columns": {},
+  "column_names": [
+    "Date",
+    "CHN",
+    "EUR",
+    "GBP",
+    "USD",
+    "SDR",
+    "YEN",
+    "ZAR"
+  ],
+  "column_profile": [
+    {
+      "column": "Date",
+      "data_type": "str",
+      "example_value": "17 Jul 2026",
+      "memory_usage": "370.72 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 6324
+    },
+    {
+      "column": "CHN",
+      "data_type": "float64",
+      "example_value": 0.5112,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1002
+    },
+    {
+      "column": "EUR",
+      "data_type": "float64",
+      "example_value": 0.0659,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1151
+    },
+    {
+      "column": "GBP",
+      "data_type": "float64",
+      "example_value": 0.056,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 756
+    },
+    {
+      "column": "USD",
+      "data_type": "float64",
+      "example_value": 0.0755,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1413
+    },
+    {
+      "column": "SDR",
+      "data_type": "float64",
+      "example_value": 0.0555,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 941
+    },
+    {
+      "column": "YEN",
+      "data_type": "float64",
+      "example_value": 12.25,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1264
+    },
+    {
+      "column": "ZAR",
+      "data_type": "float64",
+      "example_value": 1.241,
+      "memory_usage": "49.43 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 3509
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": {
+      "columns": "USD | SDR",
+      "correlation": 0.9329506209728375
+    },
+    "lowest_pair": {
+      "columns": "CHN | USD",
+      "correlation": -0.7317911958216667
+    },
+    "matrix": {
+      "CHN": {
+        "CHN": 1.0,
+        "EUR": -0.5694988712123796,
+        "GBP": -0.6040681403520106,
+        "SDR": -0.649619606924529,
+        "USD": -0.7317911958216667,
+        "YEN": -0.5762400711430858,
+        "ZAR": 0.2514795575924337
+      },
+      "EUR": {
+        "CHN": -0.5694988712123796,
+        "EUR": 1.0,
+        "GBP": 0.9029595886995437,
+        "SDR": 0.8566809959525626,
+        "USD": 0.8412059348182469,
+        "YEN": 0.8490688168135843,
+        "ZAR": 0.22422342291834302
+      },
+      "GBP": {
+        "CHN": -0.6040681403520106,
+        "EUR": 0.9029595886995437,
+        "GBP": 1.0,
+        "SDR": 0.9176720580594916,
+        "USD": 0.9276603657069099,
+        "YEN": 0.8430874606188969,
+        "ZAR": 0.1554001589736229
+      },
+      "SDR": {
+        "CHN": -0.649619606924529,
+        "EUR": 0.8566809959525626,
+        "GBP": 0.9176720580594916,
+        "SDR": 1.0,
+        "USD": 0.9329506209728375,
+        "YEN": 0.893330943257982,
+        "ZAR": 0.132179201040642
+      },
+      "USD": {
+        "CHN": -0.7317911958216667,
+        "EUR": 0.8412059348182469,
+        "GBP": 0.9276603657069099,
+        "SDR": 0.9329506209728375,
+        "USD": 1.0,
+        "YEN": 0.8973369567177795,
+        "ZAR": -0.023508237182278072
+      },
+      "YEN": {
+        "CHN": -0.5762400711430858,
+        "EUR": 0.8490688168135843,
+        "GBP": 0.8430874606188969,
+        "SDR": 0.893330943257982,
+        "USD": 0.8973369567177795,
+        "YEN": 1.0,
+        "ZAR": 0.24179341775879187
+      },
+      "ZAR": {
+        "CHN": 0.2514795575924337,
+        "EUR": 0.22422342291834302,
+        "GBP": 0.1554001589736229,
+        "SDR": 0.132179201040642,
+        "USD": -0.023508237182278072,
+        "YEN": 0.24179341775879187,
+        "ZAR": 1.0
+      }
+    },
+    "measurement_numeric_columns": [
+      "CHN",
+      "EUR",
+      "GBP",
+      "USD",
+      "SDR",
+      "YEN",
+      "ZAR"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [],
+    "dominant_value_details": [
+      {
+        "column": "Date",
+        "dominant_count": 2,
+        "dominant_percent": 0.03,
+        "dominant_value": "13 Aug 2019",
+        "unique_values": 6324
+      },
+      {
+        "column": "CHN",
+        "dominant_count": 3909,
+        "dominant_percent": 61.78,
+        "dominant_value": 0.0,
+        "unique_values": 1002
+      },
+      {
+        "column": "EUR",
+        "dominant_count": 37,
+        "dominant_percent": 0.58,
+        "dominant_value": 0.0831,
+        "unique_values": 1151
+      },
+      {
+        "column": "GBP",
+        "dominant_count": 38,
+        "dominant_percent": 0.6,
+        "dominant_value": 0.0666,
+        "unique_values": 756
+      },
+      {
+        "column": "USD",
+        "dominant_count": 30,
+        "dominant_percent": 0.47,
+        "dominant_value": 0.0733,
+        "unique_values": 1413
+      },
+      {
+        "column": "SDR",
+        "dominant_count": 59,
+        "dominant_percent": 0.93,
+        "dominant_value": 0.0557,
+        "unique_values": 941
+      },
+      {
+        "column": "YEN",
+        "dominant_count": 29,
+        "dominant_percent": 0.46,
+        "dominant_value": 10.97,
+        "unique_values": 1264
+      },
+      {
+        "column": "ZAR",
+        "dominant_count": 9,
+        "dominant_percent": 0.14,
+        "dominant_value": 1.323,
+        "unique_values": 3509
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 3,
+        "duplicate_date_values": 3,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "2019-08-13, 2018-10-23, 2018-01-17",
+        "status": "Detected"
+      }
+    ],
+    "duplicate_dates_total": 3,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "CHN": 0,
+      "EUR": 0,
+      "GBP": 0,
+      "SDR": 0,
+      "USD": 0,
+      "YEN": 0,
+      "ZAR": 0
+    },
+    "missing_by_column": {
+      "CHN": 0,
+      "Date": 0,
+      "EUR": 0,
+      "GBP": 0,
+      "SDR": 0,
+      "USD": 0,
+      "YEN": 0,
+      "ZAR": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "CHN": 0.0,
+      "Date": 0.0,
+      "EUR": 0.0,
+      "GBP": 0.0,
+      "SDR": 0.0,
+      "USD": 0.0,
+      "YEN": 0.0,
+      "ZAR": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [
+      "Date"
+    ],
+    "positive_values": 40378,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "CHN",
+        "negative_count": 0,
+        "positive_count": 2418,
+        "zero_count": 3909
+      },
+      {
+        "column": "EUR",
+        "negative_count": 0,
+        "positive_count": 6327,
+        "zero_count": 0
+      },
+      {
+        "column": "GBP",
+        "negative_count": 0,
+        "positive_count": 6327,
+        "zero_count": 0
+      },
+      {
+        "column": "USD",
+        "negative_count": 0,
+        "positive_count": 6327,
+        "zero_count": 0
+      },
+      {
+        "column": "SDR",
+        "negative_count": 0,
+        "positive_count": 6327,
+        "zero_count": 0
+      },
+      {
+        "column": "YEN",
+        "negative_count": 0,
+        "positive_count": 6325,
+        "zero_count": 2
+      },
+      {
+        "column": "ZAR",
+        "negative_count": 0,
+        "positive_count": 6327,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 3911
+  },
+  "data_types": {
+    "CHN": "float64",
+    "Date": "str",
+    "EUR": "float64",
+    "GBP": "float64",
+    "SDR": "float64",
+    "USD": "float64",
+    "YEN": "float64",
+    "ZAR": "float64"
+  },
+  "dataset_name": "bank-of-botswana-exchange-rates",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": false,
+      "column": "Date",
+      "date_span_days": 9326,
+      "duplicate_dates": 3,
+      "earliest_date": "2001-01-03T00:00:00",
+      "estimated_frequency": "Irregular",
+      "latest_date": "2026-07-17T00:00:00",
+      "median_spacing": "1 days 00:00:00",
+      "monotonic_increasing": false,
+      "most_common_spacing": "1 days 00:00:00",
+      "unique_dates": 6324
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 3,
+    "records": [
+      {
+        "column": "Date",
+        "duplicate_date_rows": 3,
+        "duplicate_date_values": 3,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "2019-08-13, 2018-10-23, 2018-01-17",
+        "status": "Detected"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "CHN",
+        "EUR",
+        "GBP",
+        "USD",
+        "SDR",
+        "YEN",
+        "ZAR"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/bank-of-botswana-exchange-rates_boxplot.png",
+    "correlation": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/bank-of-botswana-exchange-rates_correlation.png",
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/bank-of-botswana-exchange-rates_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/bank-of-botswana-exchange-rates_missing.png",
+    "time_series": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/bank-of-botswana-exchange-rates_timeseries.png"
+  },
+  "file_name": "bank-of-botswana-exchange-rates.csv",
+  "frequency_analysis": [
+    {
+      "column": "Date",
+      "estimated_frequency": "Irregular"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "CHN",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "EUR",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "GBP",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "USD",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "SDR",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "YEN",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "ZAR",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 1.2803133917043952,
+      "column": "CHN",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 0.53825,
+      "kurtosis": -1.6699735623310803,
+      "maximum": 0.6787,
+      "mean": 0.2228906274695748,
+      "median": 0.0,
+      "minimum": 0.0,
+      "mode": 0.0,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 2418,
+      "range": 0.6787,
+      "skewness": 0.525819069809048,
+      "standard_deviation": 0.28536985523469216,
+      "variance": 0.08143595427666915,
+      "zero_count": 3909
+    },
+    {
+      "coefficient_of_variation": 0.38663731312289157,
+      "column": "EUR",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 0.0407,
+      "kurtosis": 159.52314349836115,
+      "maximum": 1.4117,
+      "mean": 0.10637659238185553,
+      "median": 0.0911,
+      "minimum": 0.0634,
+      "mode": 0.0831,
+      "negative_count": 0,
+      "outlier_count_iqr": 297,
+      "positive_count": 6327,
+      "range": 1.3483,
+      "skewness": 5.850599198529725,
+      "standard_deviation": 0.041129159857689675,
+      "variance": 0.0016916077905993919,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.24408493890270738,
+      "column": "GBP",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 0.027899999999999994,
+      "kurtosis": -0.3443355422252279,
+      "maximum": 0.1875,
+      "mean": 0.08188697645013433,
+      "median": 0.0765,
+      "minimum": 0.0544,
+      "mode": 0.0666,
+      "negative_count": 0,
+      "outlier_count_iqr": 1,
+      "positive_count": 6327,
+      "range": 0.1331,
+      "skewness": 0.7628618862521457,
+      "standard_deviation": 0.019987377643758478,
+      "variance": 0.00039949526507421614,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.3408521221291461,
+      "column": "USD",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 0.06760000000000001,
+      "kurtosis": -0.7733518475263805,
+      "maximum": 0.2349,
+      "mean": 0.12637284653074127,
+      "median": 0.1161,
+      "minimum": 0.0705,
+      "mode": 0.0733,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 6327,
+      "range": 0.1644,
+      "skewness": 0.5536046333330853,
+      "standard_deviation": 0.04307445291950406,
+      "variance": 0.001855408494314572,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.3491798905090166,
+      "column": "SDR",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 0.042300000000000004,
+      "kurtosis": 49.97988937345775,
+      "maximum": 0.821,
+      "mean": 0.0880830883515094,
+      "median": 0.0764,
+      "minimum": 0.0528,
+      "mode": 0.0553,
+      "negative_count": 0,
+      "outlier_count_iqr": 1,
+      "positive_count": 6327,
+      "range": 0.7682,
+      "skewness": 2.806668833813364,
+      "standard_deviation": 0.030756843146276087,
+      "variance": 0.0009459834003246303,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.334108165444751,
+      "column": "YEN",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 8.17,
+      "kurtosis": -0.6543103698771295,
+      "maximum": 25.15,
+      "mean": 14.005773652599968,
+      "median": 11.66,
+      "minimum": 0.0,
+      "mode": 10.91,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 6325,
+      "range": 25.15,
+      "skewness": 0.9257706543675697,
+      "standard_deviation": 4.679443340704605,
+      "variance": 21.89718997886467,
+      "zero_count": 2
+    },
+    {
+      "coefficient_of_variation": 0.11429277116288507,
+      "column": "ZAR",
+      "count": 6327,
+      "infinite_count": 0,
+      "iqr": 0.18999999999999995,
+      "kurtosis": 1.1217308645992636,
+      "maximum": 1.8006,
+      "mean": 1.287309878299352,
+      "median": 1.3002,
+      "minimum": 0.1429,
+      "mode": 1.323,
+      "negative_count": 0,
+      "outlier_count_iqr": 182,
+      "positive_count": 6327,
+      "range": 1.6577,
+      "skewness": 0.37493076265122727,
+      "standard_deviation": 0.14713021333618925,
+      "variance": 0.021647299676352563,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Date",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": 3,
+      "observation": "Duplicate datetime values present"
+    },
+    {
+      "measured_value": "USD",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Date"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "CHN",
+        "EUR",
+        "GBP",
+        "USD",
+        "SDR",
+        "YEN",
+        "ZAR"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 8,
+    "rows": 6327
+  },
+  "summary_statistics": {
+    "categorical_columns": {},
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 1.2803133917043952,
+        "column": "CHN",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 0.53825,
+        "kurtosis": -1.6699735623310803,
+        "maximum": 0.6787,
+        "mean": 0.2228906274695748,
+        "median": 0.0,
+        "minimum": 0.0,
+        "mode": 0.0,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 2418,
+        "range": 0.6787,
+        "skewness": 0.525819069809048,
+        "standard_deviation": 0.28536985523469216,
+        "variance": 0.08143595427666915,
+        "zero_count": 3909
+      },
+      {
+        "coefficient_of_variation": 0.38663731312289157,
+        "column": "EUR",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 0.0407,
+        "kurtosis": 159.52314349836115,
+        "maximum": 1.4117,
+        "mean": 0.10637659238185553,
+        "median": 0.0911,
+        "minimum": 0.0634,
+        "mode": 0.0831,
+        "negative_count": 0,
+        "outlier_count_iqr": 297,
+        "positive_count": 6327,
+        "range": 1.3483,
+        "skewness": 5.850599198529725,
+        "standard_deviation": 0.041129159857689675,
+        "variance": 0.0016916077905993919,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.24408493890270738,
+        "column": "GBP",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 0.027899999999999994,
+        "kurtosis": -0.3443355422252279,
+        "maximum": 0.1875,
+        "mean": 0.08188697645013433,
+        "median": 0.0765,
+        "minimum": 0.0544,
+        "mode": 0.0666,
+        "negative_count": 0,
+        "outlier_count_iqr": 1,
+        "positive_count": 6327,
+        "range": 0.1331,
+        "skewness": 0.7628618862521457,
+        "standard_deviation": 0.019987377643758478,
+        "variance": 0.00039949526507421614,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.3408521221291461,
+        "column": "USD",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 0.06760000000000001,
+        "kurtosis": -0.7733518475263805,
+        "maximum": 0.2349,
+        "mean": 0.12637284653074127,
+        "median": 0.1161,
+        "minimum": 0.0705,
+        "mode": 0.0733,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 6327,
+        "range": 0.1644,
+        "skewness": 0.5536046333330853,
+        "standard_deviation": 0.04307445291950406,
+        "variance": 0.001855408494314572,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.3491798905090166,
+        "column": "SDR",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 0.042300000000000004,
+        "kurtosis": 49.97988937345775,
+        "maximum": 0.821,
+        "mean": 0.0880830883515094,
+        "median": 0.0764,
+        "minimum": 0.0528,
+        "mode": 0.0553,
+        "negative_count": 0,
+        "outlier_count_iqr": 1,
+        "positive_count": 6327,
+        "range": 0.7682,
+        "skewness": 2.806668833813364,
+        "standard_deviation": 0.030756843146276087,
+        "variance": 0.0009459834003246303,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.334108165444751,
+        "column": "YEN",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 8.17,
+        "kurtosis": -0.6543103698771295,
+        "maximum": 25.15,
+        "mean": 14.005773652599968,
+        "median": 11.66,
+        "minimum": 0.0,
+        "mode": 10.91,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 6325,
+        "range": 25.15,
+        "skewness": 0.9257706543675697,
+        "standard_deviation": 4.679443340704605,
+        "variance": 21.89718997886467,
+        "zero_count": 2
+      },
+      {
+        "coefficient_of_variation": 0.11429277116288507,
+        "column": "ZAR",
+        "count": 6327,
+        "infinite_count": 0,
+        "iqr": 0.18999999999999995,
+        "kurtosis": 1.1217308645992636,
+        "maximum": 1.8006,
+        "mean": 1.287309878299352,
+        "median": 1.3002,
+        "minimum": 0.1429,
+        "mode": 1.323,
+        "negative_count": 0,
+        "outlier_count_iqr": 182,
+        "positive_count": 6327,
+        "range": 1.6577,
+        "skewness": 0.37493076265122727,
+        "standard_deviation": 0.14713021333618925,
+        "variance": 0.021647299676352563,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Date",
+      "duplicate_periods": 3,
+      "estimated_frequency": "Irregular",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

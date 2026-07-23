@@ -1,0 +1,2320 @@
+{
+  "candidate_join_keys": [
+    {
+      "columns": [
+        "Unnamed: 2"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 3"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 5"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 6"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 8"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 9"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 11"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 12"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 14"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 15"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 17"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 18"
+      ],
+      "kind": "Candidate Key"
+    },
+    {
+      "columns": [
+        "Unnamed: 1",
+        "Unnamed: 2"
+      ],
+      "kind": "Composite Candidate Key"
+    }
+  ],
+  "categorical_columns": {
+    "TABLE 6.16 ": {
+      "top_values": [
+        {
+          "frequency": 50,
+          "frequency_percent": 76.92,
+          "value": NaN
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": "IMPORTS: OTHER PRINCIPAL IMPORTS1"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": "(Million)"
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2014
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2015
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2016
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2017
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2018
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2019
+        },
+        {
+          "frequency": 1,
+          "frequency_percent": 1.54,
+          "value": 2020
+        }
+      ],
+      "unique_values": 16
+    }
+  },
+  "column_names": [
+    "TABLE 6.16 ",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9",
+    "Unnamed: 10",
+    "Unnamed: 11",
+    "Unnamed: 12",
+    "Unnamed: 13",
+    "Unnamed: 14",
+    "Unnamed: 15",
+    "Unnamed: 16",
+    "Unnamed: 17",
+    "Unnamed: 18"
+  ],
+  "column_profile": [
+    {
+      "column": "TABLE 6.16 ",
+      "data_type": "object",
+      "example_value": "IMPORTS: OTHER PRINCIPAL IMPORTS1",
+      "memory_usage": "2.22 KB",
+      "missing_count": 50,
+      "missing_percent": 76.92,
+      "unique_values": 16
+    },
+    {
+      "column": "Unnamed: 1",
+      "data_type": "str",
+      "example_value": " ",
+      "memory_usage": "3.16 KB",
+      "missing_count": 16,
+      "missing_percent": 24.62,
+      "unique_values": 19
+    },
+    {
+      "column": "Unnamed: 2",
+      "data_type": "object",
+      "example_value": "Fuel",
+      "memory_usage": "2.07 KB",
+      "missing_count": 11,
+      "missing_percent": 16.92,
+      "unique_values": 55
+    },
+    {
+      "column": "Unnamed: 3",
+      "data_type": "object",
+      "example_value": "Pula",
+      "memory_usage": "2.05 KB",
+      "missing_count": 12,
+      "missing_percent": 18.46,
+      "unique_values": 54
+    },
+    {
+      "column": "Unnamed: 4",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "520 B",
+      "missing_count": 65,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 5",
+      "data_type": "object",
+      "example_value": "Food, Beverages & Tobacco",
+      "memory_usage": "2.09 KB",
+      "missing_count": 11,
+      "missing_percent": 16.92,
+      "unique_values": 55
+    },
+    {
+      "column": "Unnamed: 6",
+      "data_type": "object",
+      "example_value": "Pula",
+      "memory_usage": "2.06 KB",
+      "missing_count": 12,
+      "missing_percent": 18.46,
+      "unique_values": 54
+    },
+    {
+      "column": "Unnamed: 7",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "520 B",
+      "missing_count": 65,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 8",
+      "data_type": "object",
+      "example_value": "Machinery & Electrical Equipment",
+      "memory_usage": "2.10 KB",
+      "missing_count": 11,
+      "missing_percent": 16.92,
+      "unique_values": 55
+    },
+    {
+      "column": "Unnamed: 9",
+      "data_type": "object",
+      "example_value": "Pula",
+      "memory_usage": "2.05 KB",
+      "missing_count": 12,
+      "missing_percent": 18.46,
+      "unique_values": 54
+    },
+    {
+      "column": "Unnamed: 10",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "520 B",
+      "missing_count": 65,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 11",
+      "data_type": "object",
+      "example_value": "Chemical & Rubber Products",
+      "memory_usage": "2.09 KB",
+      "missing_count": 11,
+      "missing_percent": 16.92,
+      "unique_values": 55
+    },
+    {
+      "column": "Unnamed: 12",
+      "data_type": "object",
+      "example_value": "Pula",
+      "memory_usage": "2.05 KB",
+      "missing_count": 12,
+      "missing_percent": 18.46,
+      "unique_values": 54
+    },
+    {
+      "column": "Unnamed: 13",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "520 B",
+      "missing_count": 65,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 14",
+      "data_type": "object",
+      "example_value": "Vehicles & Transport Equipment",
+      "memory_usage": "2.10 KB",
+      "missing_count": 11,
+      "missing_percent": 16.92,
+      "unique_values": 55
+    },
+    {
+      "column": "Unnamed: 15",
+      "data_type": "object",
+      "example_value": "Pula",
+      "memory_usage": "2.06 KB",
+      "missing_count": 12,
+      "missing_percent": 18.46,
+      "unique_values": 54
+    },
+    {
+      "column": "Unnamed: 16",
+      "data_type": "float64",
+      "example_value": "",
+      "memory_usage": "520 B",
+      "missing_count": 65,
+      "missing_percent": 100.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unnamed: 17",
+      "data_type": "object",
+      "example_value": "Metal & Metal Products",
+      "memory_usage": "2.09 KB",
+      "missing_count": 11,
+      "missing_percent": 16.92,
+      "unique_values": 55
+    },
+    {
+      "column": "Unnamed: 18",
+      "data_type": "object",
+      "example_value": "Pula",
+      "memory_usage": "2.06 KB",
+      "missing_count": 12,
+      "missing_percent": 18.46,
+      "unique_values": 54
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": null,
+    "lowest_pair": null,
+    "matrix": {
+      "Unnamed: 10": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 7": NaN
+      },
+      "Unnamed: 13": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 7": NaN
+      },
+      "Unnamed: 16": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 7": NaN
+      },
+      "Unnamed: 4": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 7": NaN
+      },
+      "Unnamed: 7": {
+        "Unnamed: 10": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 7": NaN
+      }
+    },
+    "measurement_numeric_columns": [
+      "Unnamed: 4",
+      "Unnamed: 7",
+      "Unnamed: 10",
+      "Unnamed: 13",
+      "Unnamed: 16"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [
+      "Unnamed: 4",
+      "Unnamed: 7",
+      "Unnamed: 10",
+      "Unnamed: 13",
+      "Unnamed: 16"
+    ],
+    "dominant_value_details": [
+      {
+        "column": "TABLE 6.16 ",
+        "dominant_count": 50,
+        "dominant_percent": 76.92,
+        "dominant_value": NaN,
+        "unique_values": 16
+      },
+      {
+        "column": "Unnamed: 1",
+        "dominant_count": 16,
+        "dominant_percent": 24.62,
+        "dominant_value": NaN,
+        "unique_values": 19
+      },
+      {
+        "column": "Unnamed: 2",
+        "dominant_count": 11,
+        "dominant_percent": 16.92,
+        "dominant_value": NaN,
+        "unique_values": 55
+      },
+      {
+        "column": "Unnamed: 3",
+        "dominant_count": 12,
+        "dominant_percent": 18.46,
+        "dominant_value": NaN,
+        "unique_values": 54
+      },
+      {
+        "column": "Unnamed: 4",
+        "dominant_count": 65,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 5",
+        "dominant_count": 11,
+        "dominant_percent": 16.92,
+        "dominant_value": NaN,
+        "unique_values": 55
+      },
+      {
+        "column": "Unnamed: 6",
+        "dominant_count": 12,
+        "dominant_percent": 18.46,
+        "dominant_value": NaN,
+        "unique_values": 54
+      },
+      {
+        "column": "Unnamed: 7",
+        "dominant_count": 65,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 8",
+        "dominant_count": 11,
+        "dominant_percent": 16.92,
+        "dominant_value": NaN,
+        "unique_values": 55
+      },
+      {
+        "column": "Unnamed: 9",
+        "dominant_count": 12,
+        "dominant_percent": 18.46,
+        "dominant_value": NaN,
+        "unique_values": 54
+      },
+      {
+        "column": "Unnamed: 10",
+        "dominant_count": 65,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 11",
+        "dominant_count": 11,
+        "dominant_percent": 16.92,
+        "dominant_value": NaN,
+        "unique_values": 55
+      },
+      {
+        "column": "Unnamed: 12",
+        "dominant_count": 12,
+        "dominant_percent": 18.46,
+        "dominant_value": NaN,
+        "unique_values": 54
+      },
+      {
+        "column": "Unnamed: 13",
+        "dominant_count": 65,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 14",
+        "dominant_count": 11,
+        "dominant_percent": 16.92,
+        "dominant_value": NaN,
+        "unique_values": 55
+      },
+      {
+        "column": "Unnamed: 15",
+        "dominant_count": 12,
+        "dominant_percent": 18.46,
+        "dominant_value": NaN,
+        "unique_values": 54
+      },
+      {
+        "column": "Unnamed: 16",
+        "dominant_count": 65,
+        "dominant_percent": 100.0,
+        "dominant_value": NaN,
+        "unique_values": 1
+      },
+      {
+        "column": "Unnamed: 17",
+        "dominant_count": 11,
+        "dominant_percent": 16.92,
+        "dominant_value": NaN,
+        "unique_values": 55
+      },
+      {
+        "column": "Unnamed: 18",
+        "dominant_count": 12,
+        "dominant_percent": 18.46,
+        "dominant_value": NaN,
+        "unique_values": 54
+      }
+    ],
+    "duplicate_dates": [
+      {
+        "column": "Unnamed: 1",
+        "duplicate_date_rows": 27,
+        "duplicate_date_values": 12,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "0001-01-01, 0001-02-01, 0001-03-01, 0001-04-01, 0001-05-01, 0001-06-01, 0001-07-01, 0001-08-01, 0001-09-01, 0001-10-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 2",
+        "duplicate_date_rows": 11,
+        "duplicate_date_values": 9,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 3",
+        "duplicate_date_rows": 1,
+        "duplicate_date_values": 1,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 5",
+        "duplicate_date_rows": 17,
+        "duplicate_date_values": 10,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 6",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 8",
+        "duplicate_date_rows": 15,
+        "duplicate_date_values": 8,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 9",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 11",
+        "duplicate_date_rows": 17,
+        "duplicate_date_values": 14,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 12",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 14",
+        "duplicate_date_rows": 15,
+        "duplicate_date_values": 8,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 15",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 17",
+        "duplicate_date_rows": 24,
+        "duplicate_date_values": 11,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 18",
+        "duplicate_date_rows": 5,
+        "duplicate_date_values": 5,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      }
+    ],
+    "duplicate_dates_total": 140,
+    "duplicate_rows": 6,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Unnamed: 10": 0,
+      "Unnamed: 13": 0,
+      "Unnamed: 16": 0,
+      "Unnamed: 4": 0,
+      "Unnamed: 7": 0
+    },
+    "missing_by_column": {
+      "TABLE 6.16 ": 50,
+      "Unnamed: 1": 16,
+      "Unnamed: 10": 65,
+      "Unnamed: 11": 11,
+      "Unnamed: 12": 12,
+      "Unnamed: 13": 65,
+      "Unnamed: 14": 11,
+      "Unnamed: 15": 12,
+      "Unnamed: 16": 65,
+      "Unnamed: 17": 11,
+      "Unnamed: 18": 12,
+      "Unnamed: 2": 11,
+      "Unnamed: 3": 12,
+      "Unnamed: 4": 65,
+      "Unnamed: 5": 11,
+      "Unnamed: 6": 12,
+      "Unnamed: 7": 65,
+      "Unnamed: 8": 11,
+      "Unnamed: 9": 12
+    },
+    "missing_percent": 42.83,
+    "missing_percent_by_column": {
+      "TABLE 6.16 ": 76.92,
+      "Unnamed: 1": 24.62,
+      "Unnamed: 10": 100.0,
+      "Unnamed: 11": 16.92,
+      "Unnamed: 12": 18.46,
+      "Unnamed: 13": 100.0,
+      "Unnamed: 14": 16.92,
+      "Unnamed: 15": 18.46,
+      "Unnamed: 16": 100.0,
+      "Unnamed: 17": 16.92,
+      "Unnamed: 18": 18.46,
+      "Unnamed: 2": 16.92,
+      "Unnamed: 3": 18.46,
+      "Unnamed: 4": 100.0,
+      "Unnamed: 5": 16.92,
+      "Unnamed: 6": 18.46,
+      "Unnamed: 7": 100.0,
+      "Unnamed: 8": 16.92,
+      "Unnamed: 9": 18.46
+    },
+    "mixed_data_type_columns": [
+      {
+        "column": "TABLE 6.16 ",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "int, str"
+      },
+      {
+        "column": "Unnamed: 2",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 3",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 5",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 6",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 8",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 9",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 11",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 12",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 14",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 15",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      },
+      {
+        "column": "Unnamed: 17",
+        "inferred_dtype": "mixed",
+        "python_types": "float, str"
+      },
+      {
+        "column": "Unnamed: 18",
+        "inferred_dtype": "mixed-integer",
+        "python_types": "float, int, str"
+      }
+    ],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [
+      "Unnamed: 1",
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 5",
+      "Unnamed: 6",
+      "Unnamed: 8",
+      "Unnamed: 9",
+      "Unnamed: 11",
+      "Unnamed: 12",
+      "Unnamed: 14",
+      "Unnamed: 15",
+      "Unnamed: 17",
+      "Unnamed: 18"
+    ],
+    "positive_values": 0,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Unnamed: 4",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 7",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 10",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 13",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      },
+      {
+        "column": "Unnamed: 16",
+        "negative_count": 0,
+        "positive_count": 0,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 529,
+    "zero_values": 0
+  },
+  "data_types": {
+    "TABLE 6.16 ": "object",
+    "Unnamed: 1": "str",
+    "Unnamed: 10": "float64",
+    "Unnamed: 11": "object",
+    "Unnamed: 12": "object",
+    "Unnamed: 13": "float64",
+    "Unnamed: 14": "object",
+    "Unnamed: 15": "object",
+    "Unnamed: 16": "float64",
+    "Unnamed: 17": "object",
+    "Unnamed: 18": "object",
+    "Unnamed: 2": "object",
+    "Unnamed: 3": "object",
+    "Unnamed: 4": "float64",
+    "Unnamed: 5": "object",
+    "Unnamed: 6": "object",
+    "Unnamed: 7": "float64",
+    "Unnamed: 8": "object",
+    "Unnamed: 9": "object"
+  },
+  "dataset_name": "6-16",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 1",
+      "date_span_days": 334,
+      "duplicate_dates": 27,
+      "earliest_date": "0001-01-01T00:00:00",
+      "estimated_frequency": "MS",
+      "latest_date": "0001-12-01T00:00:00",
+      "median_spacing": "31 days 00:00:00",
+      "monotonic_increasing": false,
+      "most_common_spacing": "31 days 00:00:00",
+      "unique_dates": 12
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 2",
+      "date_span_days": 0,
+      "duplicate_dates": 11,
+      "earliest_date": "1970-01-01T00:00:00.000000059",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000001214",
+      "median_spacing": "0 days 00:00:00.000000004",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000002",
+      "unique_dates": 41
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 3",
+      "date_span_days": 0,
+      "duplicate_dates": 1,
+      "earliest_date": "1970-01-01T00:00:00.000000653",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000010894",
+      "median_spacing": "0 days 00:00:00.000000030",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000002",
+      "unique_dates": 51
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 5",
+      "date_span_days": 0,
+      "duplicate_dates": 17,
+      "earliest_date": "1970-01-01T00:00:00.000000071",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000776",
+      "median_spacing": "0 days 00:00:00.000000002",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 35
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 6",
+      "date_span_days": 0,
+      "duplicate_dates": 2,
+      "earliest_date": "1970-01-01T00:00:00.000000795",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000007915",
+      "median_spacing": "0 days 00:00:00.000000019",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000004",
+      "unique_dates": 50
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 8",
+      "date_span_days": 0,
+      "duplicate_dates": 15,
+      "earliest_date": "1970-01-01T00:00:00.000000055",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000920",
+      "median_spacing": "0 days 00:00:00.000000002",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 37
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 9",
+      "date_span_days": 0,
+      "duplicate_dates": 2,
+      "earliest_date": "1970-01-01T00:00:00.000000611",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000009205",
+      "median_spacing": "0 days 00:00:00.000000013",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000003",
+      "unique_dates": 50
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 11",
+      "date_span_days": 0,
+      "duplicate_dates": 17,
+      "earliest_date": "1970-01-01T00:00:00.000000050",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000654",
+      "median_spacing": "0 days 00:00:00.000000002",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 35
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 12",
+      "date_span_days": 0,
+      "duplicate_dates": 2,
+      "earliest_date": "1970-01-01T00:00:00.000000550",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000006561",
+      "median_spacing": "0 days 00:00:00.000000013",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000002",
+      "unique_dates": 50
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 14",
+      "date_span_days": 0,
+      "duplicate_dates": 15,
+      "earliest_date": "1970-01-01T00:00:00.000000028",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000628",
+      "median_spacing": "0 days 00:00:00.000000003",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 37
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 15",
+      "date_span_days": 0,
+      "duplicate_dates": 2,
+      "earliest_date": "1970-01-01T00:00:00.000000359",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000005638",
+      "median_spacing": "0 days 00:00:00.000000013",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000004",
+      "unique_dates": 50
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 17",
+      "date_span_days": 0,
+      "duplicate_dates": 24,
+      "earliest_date": "1970-01-01T00:00:00.000000021",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000000312",
+      "median_spacing": "0 days 00:00:00.000000002",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000001",
+      "unique_dates": 28
+    },
+    {
+      "chronological_ordering": false,
+      "column": "Unnamed: 18",
+      "date_span_days": 0,
+      "duplicate_dates": 5,
+      "earliest_date": "1970-01-01T00:00:00.000000274",
+      "estimated_frequency": "Daily-like",
+      "latest_date": "1970-01-01T00:00:00.000003046",
+      "median_spacing": "0 days 00:00:00.000000005",
+      "monotonic_increasing": false,
+      "most_common_spacing": "0 days 00:00:00.000000003",
+      "unique_dates": 47
+    }
+  ],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 140,
+    "records": [
+      {
+        "column": "Unnamed: 1",
+        "duplicate_date_rows": 27,
+        "duplicate_date_values": 12,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "0001-01-01, 0001-02-01, 0001-03-01, 0001-04-01, 0001-05-01, 0001-06-01, 0001-07-01, 0001-08-01, 0001-09-01, 0001-10-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 2",
+        "duplicate_date_rows": 11,
+        "duplicate_date_values": 9,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 3",
+        "duplicate_date_rows": 1,
+        "duplicate_date_values": 1,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 5",
+        "duplicate_date_rows": 17,
+        "duplicate_date_values": 10,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 6",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 8",
+        "duplicate_date_rows": 15,
+        "duplicate_date_values": 8,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 9",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 11",
+        "duplicate_date_rows": 17,
+        "duplicate_date_values": 14,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 12",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 14",
+        "duplicate_date_rows": 15,
+        "duplicate_date_values": 8,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 15",
+        "duplicate_date_rows": 2,
+        "duplicate_date_values": 2,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 17",
+        "duplicate_date_rows": 24,
+        "duplicate_date_values": 11,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      },
+      {
+        "column": "Unnamed: 18",
+        "duplicate_date_rows": 5,
+        "duplicate_date_values": 5,
+        "expected_repeated_dates": false,
+        "first_duplicated_dates": "1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01, 1970-01-01",
+        "status": "Detected"
+      }
+    ]
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {
+      "0": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "10": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "15": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "20": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "33": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "46": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "59": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      }
+    },
+    "duplicate_row_count": 6
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": false
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Unnamed: 4",
+        "Unnamed: 7",
+        "Unnamed: 10",
+        "Unnamed: 13",
+        "Unnamed: 16"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": [
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 17",
+        "Unnamed: 18"
+      ]
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Use observed candidate join keys",
+      "category": "join_keys",
+      "keys": [
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 17",
+        "Unnamed: 18",
+        "Unnamed: 1 + Unnamed: 2"
+      ]
+    },
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify duplicate removal",
+      "category": "duplicate_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify datetime conversion",
+      "category": "datetime_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": null,
+    "correlation": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/6-16_correlation.png",
+    "histogram": null,
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/6-16_missing.png",
+    "time_series": null
+  },
+  "file_name": "6-16.xlsx",
+  "frequency_analysis": [
+    {
+      "column": "Unnamed: 1",
+      "estimated_frequency": "MS"
+    },
+    {
+      "column": "Unnamed: 2",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 3",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 5",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 6",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 8",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 9",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 11",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 12",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 14",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 15",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 17",
+      "estimated_frequency": "Daily-like"
+    },
+    {
+      "column": "Unnamed: 18",
+      "estimated_frequency": "Daily-like"
+    }
+  ],
+  "missing_value_analysis": {
+    "grouped_missing": {
+      "Year": [
+        {
+          "Year": NaN,
+          "missing_cells": 299,
+          "missing_rows": 26
+        },
+        {
+          "Year": 1.0,
+          "missing_cells": 230,
+          "missing_rows": 39
+        }
+      ]
+    },
+    "missing_by_column": [
+      {
+        "column": "TABLE 6.16 ",
+        "missing_count": 50,
+        "missing_percent": 76.92
+      },
+      {
+        "column": "Unnamed: 1",
+        "missing_count": 16,
+        "missing_percent": 24.62
+      },
+      {
+        "column": "Unnamed: 2",
+        "missing_count": 11,
+        "missing_percent": 16.92
+      },
+      {
+        "column": "Unnamed: 3",
+        "missing_count": 12,
+        "missing_percent": 18.46
+      },
+      {
+        "column": "Unnamed: 4",
+        "missing_count": 65,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 5",
+        "missing_count": 11,
+        "missing_percent": 16.92
+      },
+      {
+        "column": "Unnamed: 6",
+        "missing_count": 12,
+        "missing_percent": 18.46
+      },
+      {
+        "column": "Unnamed: 7",
+        "missing_count": 65,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 8",
+        "missing_count": 11,
+        "missing_percent": 16.92
+      },
+      {
+        "column": "Unnamed: 9",
+        "missing_count": 12,
+        "missing_percent": 18.46
+      },
+      {
+        "column": "Unnamed: 10",
+        "missing_count": 65,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 11",
+        "missing_count": 11,
+        "missing_percent": 16.92
+      },
+      {
+        "column": "Unnamed: 12",
+        "missing_count": 12,
+        "missing_percent": 18.46
+      },
+      {
+        "column": "Unnamed: 13",
+        "missing_count": 65,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 14",
+        "missing_count": 11,
+        "missing_percent": 16.92
+      },
+      {
+        "column": "Unnamed: 15",
+        "missing_count": 12,
+        "missing_percent": 18.46
+      },
+      {
+        "column": "Unnamed: 16",
+        "missing_count": 65,
+        "missing_percent": 100.0
+      },
+      {
+        "column": "Unnamed: 17",
+        "missing_count": 11,
+        "missing_percent": 16.92
+      },
+      {
+        "column": "Unnamed: 18",
+        "missing_count": 12,
+        "missing_percent": 18.46
+      }
+    ],
+    "missing_rows_count": 65,
+    "missing_rows_percent": 100.0,
+    "missing_rows_preview": {
+      "0": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "1": {
+        "TABLE 6.16 ": "IMPORTS: OTHER PRINCIPAL IMPORTS1",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "2": {
+        "TABLE 6.16 ": "(Million)",
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": NaN,
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": NaN,
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": NaN,
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": NaN,
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": NaN,
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": NaN,
+        "Unnamed: 9": NaN
+      },
+      "3": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": "Chemical & Rubber Products",
+        "Unnamed: 12": NaN,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": "Vehicles & Transport Equipment",
+        "Unnamed: 15": NaN,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": "Metal & Metal Products",
+        "Unnamed: 18": NaN,
+        "Unnamed: 2": "Fuel",
+        "Unnamed: 3": NaN,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": "Food, Beverages & Tobacco",
+        "Unnamed: 6": NaN,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": "Machinery & Electrical Equipment",
+        "Unnamed: 9": NaN
+      },
+      "4": {
+        "TABLE 6.16 ": NaN,
+        "Unnamed: 1": " ",
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": "US$",
+        "Unnamed: 12": "Pula",
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": "US$",
+        "Unnamed: 15": "Pula",
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": "US$",
+        "Unnamed: 18": "Pula",
+        "Unnamed: 2": "US$",
+        "Unnamed: 3": "Pula",
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": "US$",
+        "Unnamed: 6": "Pula",
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": "US$",
+        "Unnamed: 9": "Pula"
+      },
+      "5": {
+        "TABLE 6.16 ": 2014,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": 654.398367241014,
+        "Unnamed: 12": 5870.6,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": 628.470342810758,
+        "Unnamed: 15": 5638,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": 312.262144610816,
+        "Unnamed: 18": 2801.3,
+        "Unnamed: 2": 1214.45930079619,
+        "Unnamed: 3": 10894.9,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": 700.781217479318,
+        "Unnamed: 6": 6286.7,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 920.244220481415,
+        "Unnamed: 9": 8255.5
+      },
+      "6": {
+        "TABLE 6.16 ": 2015,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": 631.571933167633,
+        "Unnamed: 12": 6385.9,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": 526.26214215354,
+        "Unnamed: 15": 5321.1,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": 287.465663562699,
+        "Unnamed: 18": 2906.6,
+        "Unnamed: 2": 901.650799904377,
+        "Unnamed: 3": 9116.7,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": 694.532313482783,
+        "Unnamed: 6": 7022.5,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 910.393648820273,
+        "Unnamed: 9": 9205.1
+      },
+      "7": {
+        "TABLE 6.16 ": 2016,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": 602.451357343432,
+        "Unnamed: 12": 6561.6,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": 462.314575657063,
+        "Unnamed: 15": 5035.3,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": 279.667586330787,
+        "Unnamed: 18": 3046,
+        "Unnamed: 2": 794.399176116625,
+        "Unnamed: 3": 8652.2,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": 686.773980877968,
+        "Unnamed: 6": 7480,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 843.740397683981,
+        "Unnamed: 9": 9189.6
+      },
+      "8": {
+        "TABLE 6.16 ": 2017,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": 549.160958988376,
+        "Unnamed: 12": 5680.81622032,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": 402.647284768092,
+        "Unnamed: 15": 4165.2,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": 239.647865408944,
+        "Unnamed: 18": 2479.046368278,
+        "Unnamed: 2": 783.108221027398,
+        "Unnamed: 3": 8100.892482367,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": 672.615851024658,
+        "Unnamed: 6": 6957.9,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 701.066488294247,
+        "Unnamed: 9": 7252.208688617
+      },
+      "9": {
+        "TABLE 6.16 ": 2018,
+        "Unnamed: 1": NaN,
+        "Unnamed: 10": NaN,
+        "Unnamed: 11": 560.156087274694,
+        "Unnamed: 12": 5726.717400818,
+        "Unnamed: 13": NaN,
+        "Unnamed: 14": 519.82318928175,
+        "Unnamed: 15": 5308.620445589,
+        "Unnamed: 16": NaN,
+        "Unnamed: 17": 284.712588508363,
+        "Unnamed: 18": 2910.812188204,
+        "Unnamed: 2": 833.350423475237,
+        "Unnamed: 3": 8515.397625045,
+        "Unnamed: 4": NaN,
+        "Unnamed: 5": 776.01766262999,
+        "Unnamed: 6": 7915.329250562,
+        "Unnamed: 7": NaN,
+        "Unnamed: 8": 825.884796434895,
+        "Unnamed: 9": 8431.743379019
+      }
+    }
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 4",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 7",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 10",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 13",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": NaN,
+      "column": "Unnamed: 16",
+      "count": 0,
+      "infinite_count": 0,
+      "iqr": NaN,
+      "kurtosis": NaN,
+      "maximum": NaN,
+      "mean": NaN,
+      "median": NaN,
+      "minimum": NaN,
+      "mode": NaN,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 0,
+      "range": NaN,
+      "skewness": NaN,
+      "standard_deviation": NaN,
+      "variance": NaN,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": false,
+  "pipeline_observations": [
+    {
+      "measured_value": "Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 5, Unnamed: 6, Unnamed: 8, Unnamed: 9, Unnamed: 11, Unnamed: 12, Unnamed: 14, Unnamed: 15, Unnamed: 17, Unnamed: 18",
+      "observation": "Object columns containing date-like values"
+    },
+    {
+      "measured_value": 6,
+      "observation": "Duplicate rows present"
+    },
+    {
+      "measured_value": 140,
+      "observation": "Duplicate datetime values present"
+    },
+    {
+      "measured_value": 529,
+      "observation": "Missing values present"
+    },
+    {
+      "measured_value": "Unnamed: 4, Unnamed: 7, Unnamed: 10, Unnamed: 13, Unnamed: 16",
+      "observation": "Constant columns present"
+    },
+    {
+      "measured_value": "MS",
+      "observation": "Datetime frequency detected for Unnamed: 1"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 2"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 3"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 5"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 6"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 8"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 9"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 11"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 12"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 14"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 15"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 17"
+    },
+    {
+      "measured_value": "Daily-like",
+      "observation": "Datetime frequency detected for Unnamed: 18"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 6
+    },
+    {
+      "category": "missing_values",
+      "value": 529
+    },
+    {
+      "category": "object_date_columns",
+      "value": [
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 17",
+        "Unnamed: 18"
+      ]
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Unnamed: 4",
+        "Unnamed: 7",
+        "Unnamed: 10",
+        "Unnamed: 13",
+        "Unnamed: 16"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 19,
+    "rows": 65
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "TABLE 6.16 ": {
+        "top_values": [
+          {
+            "frequency": 50,
+            "frequency_percent": 76.92,
+            "value": NaN
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": "IMPORTS: OTHER PRINCIPAL IMPORTS1"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": "(Million)"
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2014
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2015
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2016
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2017
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2018
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2019
+          },
+          {
+            "frequency": 1,
+            "frequency_percent": 1.54,
+            "value": 2020
+          }
+        ],
+        "unique_values": 16
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 4",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 7",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 10",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 13",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": NaN,
+        "column": "Unnamed: 16",
+        "count": 0,
+        "infinite_count": 0,
+        "iqr": NaN,
+        "kurtosis": NaN,
+        "maximum": NaN,
+        "mean": NaN,
+        "median": NaN,
+        "minimum": NaN,
+        "mode": NaN,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 0,
+        "range": NaN,
+        "skewness": NaN,
+        "standard_deviation": NaN,
+        "variance": NaN,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": [
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 1",
+      "duplicate_periods": 27,
+      "estimated_frequency": "MS",
+      "missing_business_days": "Not applicable",
+      "missing_months": 0,
+      "missing_periods": 0,
+      "monthly_applicable": true,
+      "monthly_continuity_percent": 100.0,
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 2",
+      "duplicate_periods": 11,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 3",
+      "duplicate_periods": 1,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 5",
+      "duplicate_periods": 17,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 6",
+      "duplicate_periods": 2,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 8",
+      "duplicate_periods": 15,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 9",
+      "duplicate_periods": 2,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 11",
+      "duplicate_periods": 17,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 12",
+      "duplicate_periods": 2,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 14",
+      "duplicate_periods": 15,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 15",
+      "duplicate_periods": 2,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 17",
+      "duplicate_periods": 24,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    },
+    {
+      "business_day_applicable": false,
+      "business_day_continuity_percent": "Not applicable",
+      "column": "Unnamed: 18",
+      "duplicate_periods": 5,
+      "estimated_frequency": "Daily-like",
+      "missing_business_days": "Not applicable",
+      "missing_months": "Not applicable",
+      "missing_periods": "Not calculated",
+      "monthly_applicable": false,
+      "monthly_continuity_percent": "Not applicable",
+      "regular_frequency": false,
+      "unexpected_weekday_gaps": "Not applicable"
+    }
+  ]
+}

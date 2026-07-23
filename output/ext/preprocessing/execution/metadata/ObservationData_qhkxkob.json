@@ -1,0 +1,65 @@
+{
+  "dataset_name": "ObservationData_qhkxkob",
+  "status": "SUCCESS",
+  "rows_before": 165,
+  "rows_after": 396,
+  "columns_before": [
+    "district",
+    "indicator",
+    "sex",
+    "age-group",
+    "marital-status",
+    "Unit",
+    "Date",
+    "Value"
+  ],
+  "columns_after": [
+    "Date",
+    "Cattle_Number",
+    "Goats_Number",
+    "Sheep_Number",
+    "Chicken_Number",
+    "Pigs_Number"
+  ],
+  "execution_time": 0.206171,
+  "processed_file": "ObservationData_qhkxkob_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Apply dataset-specific preprocessing for ObservationData_qhkxkob from the external data directory.",
+      "status": "SUCCESS",
+      "rows_before": 165,
+      "rows_after": 396,
+      "columns_before": [
+        "district",
+        "indicator",
+        "sex",
+        "age-group",
+        "marital-status",
+        "Unit",
+        "Date",
+        "Value"
+      ],
+      "columns_after": [
+        "Date",
+        "Cattle_Number",
+        "Goats_Number",
+        "Sheep_Number",
+        "Chicken_Number",
+        "Pigs_Number"
+      ],
+      "execution_time": 0.200842,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "dataset_name": "ObservationData_qhkxkob"
+      },
+      "validation_details": {
+        "expected": null,
+        "actual": null,
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}

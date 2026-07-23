@@ -1,0 +1,656 @@
+{
+  "candidate_join_keys": [],
+  "categorical_columns": {
+    "Unit": {
+      "top_values": [
+        {
+          "frequency": 165,
+          "frequency_percent": 100.0,
+          "value": "Number"
+        }
+      ],
+      "unique_values": 1
+    },
+    "age-group": {
+      "top_values": [
+        {
+          "frequency": 165,
+          "frequency_percent": 100.0,
+          "value": "totalnumber"
+        }
+      ],
+      "unique_values": 1
+    },
+    "district": {
+      "top_values": [
+        {
+          "frequency": 165,
+          "frequency_percent": 100.0,
+          "value": "Botswana"
+        }
+      ],
+      "unique_values": 1
+    },
+    "indicator": {
+      "top_values": [
+        {
+          "frequency": 33,
+          "frequency_percent": 20.0,
+          "value": "Cattle"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 20.0,
+          "value": "Goats"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 20.0,
+          "value": "Sheep"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 20.0,
+          "value": "Chicken"
+        },
+        {
+          "frequency": 33,
+          "frequency_percent": 20.0,
+          "value": "Pigs"
+        }
+      ],
+      "unique_values": 5
+    },
+    "marital-status": {
+      "top_values": [
+        {
+          "frequency": 165,
+          "frequency_percent": 100.0,
+          "value": "Total"
+        }
+      ],
+      "unique_values": 1
+    },
+    "sex": {
+      "top_values": [
+        {
+          "frequency": 165,
+          "frequency_percent": 100.0,
+          "value": "Total number"
+        }
+      ],
+      "unique_values": 1
+    }
+  },
+  "column_names": [
+    "district",
+    "indicator",
+    "sex",
+    "age-group",
+    "marital-status",
+    "Unit",
+    "Date",
+    "Value"
+  ],
+  "column_profile": [
+    {
+      "column": "district",
+      "data_type": "str",
+      "example_value": "Botswana",
+      "memory_usage": "9.18 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "indicator",
+      "data_type": "str",
+      "example_value": "Cattle",
+      "memory_usage": "8.77 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 5
+    },
+    {
+      "column": "sex",
+      "data_type": "str",
+      "example_value": "Total number",
+      "memory_usage": "9.83 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "age-group",
+      "data_type": "str",
+      "example_value": "totalnumber",
+      "memory_usage": "9.67 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "marital-status",
+      "data_type": "str",
+      "example_value": "Total",
+      "memory_usage": "8.70 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Unit",
+      "data_type": "str",
+      "example_value": "Number",
+      "memory_usage": "8.86 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 1
+    },
+    {
+      "column": "Date",
+      "data_type": "int64",
+      "example_value": 1979,
+      "memory_usage": "1.29 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 33
+    },
+    {
+      "column": "Value",
+      "data_type": "int64",
+      "example_value": 2840,
+      "memory_usage": "1.29 KB",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_values": 143
+    }
+  ],
+  "correlation_summary": {
+    "highest_pair": {
+      "columns": "Date | Value",
+      "correlation": 0.01323523212309689
+    },
+    "lowest_pair": {
+      "columns": "Date | Value",
+      "correlation": 0.01323523212309689
+    },
+    "matrix": {
+      "Date": {
+        "Date": 1.0,
+        "Value": 0.01323523212309689
+      },
+      "Value": {
+        "Date": 0.01323523212309689,
+        "Value": 1.0
+      }
+    },
+    "measurement_numeric_columns": [
+      "Date",
+      "Value"
+    ]
+  },
+  "data_quality": {
+    "constant_columns": [
+      "district",
+      "sex",
+      "age-group",
+      "marital-status",
+      "Unit"
+    ],
+    "dominant_value_details": [
+      {
+        "column": "district",
+        "dominant_count": 165,
+        "dominant_percent": 100.0,
+        "dominant_value": "Botswana",
+        "unique_values": 1
+      },
+      {
+        "column": "indicator",
+        "dominant_count": 33,
+        "dominant_percent": 20.0,
+        "dominant_value": "Cattle",
+        "unique_values": 5
+      },
+      {
+        "column": "sex",
+        "dominant_count": 165,
+        "dominant_percent": 100.0,
+        "dominant_value": "Total number",
+        "unique_values": 1
+      },
+      {
+        "column": "age-group",
+        "dominant_count": 165,
+        "dominant_percent": 100.0,
+        "dominant_value": "totalnumber",
+        "unique_values": 1
+      },
+      {
+        "column": "marital-status",
+        "dominant_count": 165,
+        "dominant_percent": 100.0,
+        "dominant_value": "Total",
+        "unique_values": 1
+      },
+      {
+        "column": "Unit",
+        "dominant_count": 165,
+        "dominant_percent": 100.0,
+        "dominant_value": "Number",
+        "unique_values": 1
+      },
+      {
+        "column": "Date",
+        "dominant_count": 5,
+        "dominant_percent": 3.03,
+        "dominant_value": 1979,
+        "unique_values": 33
+      },
+      {
+        "column": "Value",
+        "dominant_count": 6,
+        "dominant_percent": 3.64,
+        "dominant_value": 5,
+        "unique_values": 143
+      }
+    ],
+    "duplicate_dates": [],
+    "duplicate_dates_total": 0,
+    "duplicate_rows": 0,
+    "infinite_values": 0,
+    "infinite_values_by_column": {
+      "Date": 0,
+      "Value": 0
+    },
+    "missing_by_column": {
+      "Date": 0,
+      "Unit": 0,
+      "Value": 0,
+      "age-group": 0,
+      "district": 0,
+      "indicator": 0,
+      "marital-status": 0,
+      "sex": 0
+    },
+    "missing_percent": 0.0,
+    "missing_percent_by_column": {
+      "Date": 0.0,
+      "Unit": 0.0,
+      "Value": 0.0,
+      "age-group": 0.0,
+      "district": 0.0,
+      "indicator": 0.0,
+      "marital-status": 0.0,
+      "sex": 0.0
+    },
+    "mixed_data_type_columns": [],
+    "near_constant_columns": [],
+    "negative_values": 0,
+    "object_columns_containing_dates": [],
+    "positive_values": 330,
+    "potential_identifier_columns": [],
+    "signed_value_counts": [
+      {
+        "column": "Date",
+        "negative_count": 0,
+        "positive_count": 165,
+        "zero_count": 0
+      },
+      {
+        "column": "Value",
+        "negative_count": 0,
+        "positive_count": 165,
+        "zero_count": 0
+      }
+    ],
+    "total_missing": 0,
+    "zero_values": 0
+  },
+  "data_types": {
+    "Date": "int64",
+    "Unit": "str",
+    "Value": "int64",
+    "age-group": "str",
+    "district": "str",
+    "indicator": "str",
+    "marital-status": "str",
+    "sex": "str"
+  },
+  "dataset_name": "ObservationData_qhkxkob",
+  "dataset_specific_checks": {
+    "dataset_type": "No filename-specific rule matched",
+    "records": [
+      {
+        "metric": "Dataset-specific checks generated",
+        "value": 0
+      }
+    ],
+    "tables": {}
+  },
+  "datetime_analysis": [],
+  "duplicate_date_analysis": {
+    "duplicate_dates_total": 0,
+    "records": []
+  },
+  "duplicate_row_analysis": {
+    "duplicate_records_preview": {},
+    "duplicate_row_count": 0
+  },
+  "engineering_observations": [
+    {
+      "category": "long_format",
+      "value": true
+    },
+    {
+      "category": "measurement_numeric_columns",
+      "value": [
+        "Date",
+        "Value"
+      ]
+    },
+    {
+      "category": "datetime_columns",
+      "value": []
+    }
+  ],
+  "expected_merge_considerations": [
+    {
+      "action": "Preserve long-format identity columns",
+      "category": "panel_structure",
+      "keys": [
+        "Date"
+      ]
+    },
+    {
+      "action": "Merge on primary date column",
+      "category": "merge_key",
+      "keys": [
+        "Date"
+      ]
+    }
+  ],
+  "expected_preprocessing_considerations": [
+    {
+      "action": "Verify expected columns",
+      "category": "schema_checks",
+      "priority": "medium"
+    },
+    {
+      "action": "Verify row counts",
+      "category": "row_count_checks",
+      "priority": "medium"
+    }
+  ],
+  "figure_paths": {
+    "boxplot": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_qhkxkob_boxplot.png",
+    "correlation": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_qhkxkob_correlation.png",
+    "histogram": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_qhkxkob_histogram.png",
+    "missing": "/home/nickel/Documents/New Folder/MmarakaAI/output/ext/analysis/figures/ObservationData_qhkxkob_missing.png",
+    "time_series": null
+  },
+  "file_name": "ObservationData_qhkxkob.csv",
+  "frequency_analysis": [],
+  "missing_value_analysis": {
+    "grouped_missing": {},
+    "missing_by_column": [
+      {
+        "column": "district",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "indicator",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "sex",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "age-group",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "marital-status",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Unit",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Date",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      },
+      {
+        "column": "Value",
+        "missing_count": 0,
+        "missing_percent": 0.0
+      }
+    ],
+    "missing_rows_count": 0,
+    "missing_rows_percent": 0.0,
+    "missing_rows_preview": {}
+  },
+  "numeric_columns": [
+    {
+      "coefficient_of_variation": 0.005586378138829671,
+      "column": "Date",
+      "count": 165,
+      "infinite_count": 0,
+      "iqr": 20.0,
+      "kurtosis": -1.3014934791073074,
+      "maximum": 2015.0,
+      "mean": 1997.1818181818182,
+      "median": 1998.0,
+      "minimum": 1979.0,
+      "mode": 1979,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 165,
+      "range": 36.0,
+      "skewness": -0.05269314840000575,
+      "standard_deviation": 11.157012848359004,
+      "variance": 124.4789356984479,
+      "zero_count": 0
+    },
+    {
+      "coefficient_of_variation": 0.8700713985229819,
+      "column": "Value",
+      "count": 165,
+      "infinite_count": 0,
+      "iqr": 1652.0,
+      "kurtosis": -1.1793028754829338,
+      "maximum": 3157.0,
+      "mean": 1090.939393939394,
+      "median": 961.0,
+      "minimum": 1.0,
+      "mode": 5,
+      "negative_count": 0,
+      "outlier_count_iqr": 0,
+      "positive_count": 165,
+      "range": 3156.0,
+      "skewness": 0.39787455120771986,
+      "standard_deviation": 949.1951641886628,
+      "variance": 900971.4597191425,
+      "zero_count": 0
+    }
+  ],
+  "panel_long_dataset": true,
+  "pipeline_observations": [
+    {
+      "measured_value": "district, sex, age-group, marital-status, Unit",
+      "observation": "Constant columns present"
+    },
+    {
+      "measured_value": "Value",
+      "observation": "Numeric measure-like column names present"
+    },
+    {
+      "measured_value": "No filename-specific rule matched",
+      "observation": "Dataset-specific rule applied"
+    }
+  ],
+  "preprocessing_observations": [
+    {
+      "category": "duplicate_rows",
+      "value": 0
+    },
+    {
+      "category": "missing_values",
+      "value": 0
+    },
+    {
+      "category": "object_date_columns",
+      "value": []
+    },
+    {
+      "category": "numeric_columns",
+      "value": [
+        "Date",
+        "Value"
+      ]
+    }
+  ],
+  "shape": {
+    "columns": 8,
+    "rows": 165
+  },
+  "summary_statistics": {
+    "categorical_columns": {
+      "Unit": {
+        "top_values": [
+          {
+            "frequency": 165,
+            "frequency_percent": 100.0,
+            "value": "Number"
+          }
+        ],
+        "unique_values": 1
+      },
+      "age-group": {
+        "top_values": [
+          {
+            "frequency": 165,
+            "frequency_percent": 100.0,
+            "value": "totalnumber"
+          }
+        ],
+        "unique_values": 1
+      },
+      "district": {
+        "top_values": [
+          {
+            "frequency": 165,
+            "frequency_percent": 100.0,
+            "value": "Botswana"
+          }
+        ],
+        "unique_values": 1
+      },
+      "indicator": {
+        "top_values": [
+          {
+            "frequency": 33,
+            "frequency_percent": 20.0,
+            "value": "Cattle"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 20.0,
+            "value": "Goats"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 20.0,
+            "value": "Sheep"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 20.0,
+            "value": "Chicken"
+          },
+          {
+            "frequency": 33,
+            "frequency_percent": 20.0,
+            "value": "Pigs"
+          }
+        ],
+        "unique_values": 5
+      },
+      "marital-status": {
+        "top_values": [
+          {
+            "frequency": 165,
+            "frequency_percent": 100.0,
+            "value": "Total"
+          }
+        ],
+        "unique_values": 1
+      },
+      "sex": {
+        "top_values": [
+          {
+            "frequency": 165,
+            "frequency_percent": 100.0,
+            "value": "Total number"
+          }
+        ],
+        "unique_values": 1
+      }
+    },
+    "numeric_columns": [
+      {
+        "coefficient_of_variation": 0.005586378138829671,
+        "column": "Date",
+        "count": 165,
+        "infinite_count": 0,
+        "iqr": 20.0,
+        "kurtosis": -1.3014934791073074,
+        "maximum": 2015.0,
+        "mean": 1997.1818181818182,
+        "median": 1998.0,
+        "minimum": 1979.0,
+        "mode": 1979,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 165,
+        "range": 36.0,
+        "skewness": -0.05269314840000575,
+        "standard_deviation": 11.157012848359004,
+        "variance": 124.4789356984479,
+        "zero_count": 0
+      },
+      {
+        "coefficient_of_variation": 0.8700713985229819,
+        "column": "Value",
+        "count": 165,
+        "infinite_count": 0,
+        "iqr": 1652.0,
+        "kurtosis": -1.1793028754829338,
+        "maximum": 3157.0,
+        "mean": 1090.939393939394,
+        "median": 961.0,
+        "minimum": 1.0,
+        "mode": 5,
+        "negative_count": 0,
+        "outlier_count_iqr": 0,
+        "positive_count": 165,
+        "range": 3156.0,
+        "skewness": 0.39787455120771986,
+        "standard_deviation": 949.1951641886628,
+        "variance": 900971.4597191425,
+        "zero_count": 0
+      }
+    ]
+  },
+  "time_series_diagnostics": []
+}

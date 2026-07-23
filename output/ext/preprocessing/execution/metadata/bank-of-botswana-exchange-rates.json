@@ -1,0 +1,11 @@
+{
+  "dataset_name": "bank-of-botswana-exchange-rates",
+  "status": "FAILED",
+  "rows_before": 0,
+  "rows_after": 0,
+  "columns_before": [],
+  "columns_after": [],
+  "execution_time": 0.002995,
+  "processed_file": "bank-of-botswana-exchange-rates_processed.csv",
+  "transformations": []
+}

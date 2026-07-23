@@ -1,0 +1,103 @@
+{
+  "dataset_name": "ObservationData_dioidmb",
+  "status": "SUCCESS",
+  "rows_before": 886,
+  "rows_after": 396,
+  "columns_before": [
+    "district",
+    "indicator",
+    "sex",
+    "age-group",
+    "marital-status",
+    "Unit",
+    "Date",
+    "Value"
+  ],
+  "columns_after": [
+    "Date",
+    "Sorghum_Thousand Hectares",
+    "Maize_Thousand Hectares",
+    "Millet_Thousand Hectares",
+    "Pulses_Thousand Hectares",
+    "Sunflower_Thousand Hectares",
+    "Groundnuts_Thousand Hectares",
+    "Sorghum_Thousand Hectares_2",
+    "Maize_Thousand Hectares_2",
+    "Millet_Thousand Hectares_2",
+    "Pulses_Thousand Hectares_2",
+    "Sunflower_Thousand Hectares_2",
+    "Groundnuts_metric tonnes",
+    "Sorghum_KG/HA",
+    "Maize_KG/HA",
+    "Millet_KG/HA",
+    "Pulses_KG/HA",
+    "Sunflower_KG/HA",
+    "Groundnuts_KG/HA",
+    "Sorghum_metric tonnes",
+    "Maize_metric tonnes",
+    "Millet_metric tonnes",
+    "Pulses_metric tonnes",
+    "Sunflower_metric tonnes",
+    "Groundnuts_metric tonnes_2"
+  ],
+  "execution_time": 0.819906,
+  "processed_file": "ObservationData_dioidmb_processed.csv",
+  "transformations": [
+    {
+      "id": "P001",
+      "action": "Apply dataset-specific preprocessing for ObservationData_dioidmb from the external data directory.",
+      "status": "SUCCESS",
+      "rows_before": 886,
+      "rows_after": 396,
+      "columns_before": [
+        "district",
+        "indicator",
+        "sex",
+        "age-group",
+        "marital-status",
+        "Unit",
+        "Date",
+        "Value"
+      ],
+      "columns_after": [
+        "Date",
+        "Sorghum_Thousand Hectares",
+        "Maize_Thousand Hectares",
+        "Millet_Thousand Hectares",
+        "Pulses_Thousand Hectares",
+        "Sunflower_Thousand Hectares",
+        "Groundnuts_Thousand Hectares",
+        "Sorghum_Thousand Hectares_2",
+        "Maize_Thousand Hectares_2",
+        "Millet_Thousand Hectares_2",
+        "Pulses_Thousand Hectares_2",
+        "Sunflower_Thousand Hectares_2",
+        "Groundnuts_metric tonnes",
+        "Sorghum_KG/HA",
+        "Maize_KG/HA",
+        "Millet_KG/HA",
+        "Pulses_KG/HA",
+        "Sunflower_KG/HA",
+        "Groundnuts_KG/HA",
+        "Sorghum_metric tonnes",
+        "Maize_metric tonnes",
+        "Millet_metric tonnes",
+        "Pulses_metric tonnes",
+        "Sunflower_metric tonnes",
+        "Groundnuts_metric tonnes_2"
+      ],
+      "execution_time": 0.808687,
+      "validation": "PASS",
+      "error_message": "",
+      "parameters": {
+        "dataset_name": "ObservationData_dioidmb"
+      },
+      "validation_details": {
+        "expected": null,
+        "actual": null,
+        "status": "PASS"
+      },
+      "enabled": true
+    }
+  ]
+}
