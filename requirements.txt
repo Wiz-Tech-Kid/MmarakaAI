@@ -3,5 +3,10 @@ pandas
 matplotlib
 scikit-learn
 lightgbm
+xgboost
+optuna
+shap
+statsmodels
+scipy
 joblib
 ipython
