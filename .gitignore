@@ -52,6 +52,7 @@ models/*.h5
 models/*.keras
 models/*.onnx
 !models/stageB_best_classic_ml_model.joblib
+!models/stageC_best_model.joblib
 
 # ============================================================
 # Temporary Outputs
