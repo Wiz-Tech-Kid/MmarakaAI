@@ -1,0 +1,56 @@
+# Original Data Provenance Report
+
+| final_column_name    | source_processed_dataset                  | source_column                                 | transformation_or_aggregation                                                               | role       |
+|:---------------------|:------------------------------------------|:----------------------------------------------|:--------------------------------------------------------------------------------------------|:-----------|
+| Date                 | 01_baltic_dry_index_monthly_processed.csv | Date                                          | Month-start normalization using repository monthly alignment contract                       | identifier |
+| BDI_Close_mean       | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_mean                                | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_median     | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_median                              | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_min        | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_min                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_max        | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_max                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_range      | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_range                               | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_std        | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_std                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_variance   | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_variance                            | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_first      | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_first                               | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_last       | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_last                                | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_pct_change | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_pct_change                          | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Close_count      | 01_baltic_dry_index_monthly_processed.csv | BDI_Close_count                               | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_mean        | 01_baltic_dry_index_monthly_processed.csv | BDI_High_mean                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_median      | 01_baltic_dry_index_monthly_processed.csv | BDI_High_median                               | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_min         | 01_baltic_dry_index_monthly_processed.csv | BDI_High_min                                  | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_max         | 01_baltic_dry_index_monthly_processed.csv | BDI_High_max                                  | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_range       | 01_baltic_dry_index_monthly_processed.csv | BDI_High_range                                | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_std         | 01_baltic_dry_index_monthly_processed.csv | BDI_High_std                                  | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_variance    | 01_baltic_dry_index_monthly_processed.csv | BDI_High_variance                             | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_first       | 01_baltic_dry_index_monthly_processed.csv | BDI_High_first                                | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_last        | 01_baltic_dry_index_monthly_processed.csv | BDI_High_last                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_pct_change  | 01_baltic_dry_index_monthly_processed.csv | BDI_High_pct_change                           | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_High_count       | 01_baltic_dry_index_monthly_processed.csv | BDI_High_count                                | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_mean         | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_mean                                  | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_median       | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_median                                | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_min          | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_min                                   | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_max          | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_max                                   | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_range        | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_range                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_std          | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_std                                   | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_variance     | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_variance                              | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_first        | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_first                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_last         | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_last                                  | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_pct_change   | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_pct_change                            | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| BDI_Low_count        | 01_baltic_dry_index_monthly_processed.csv | BDI_Low_count                                 | Retained from verified monthly BDI preprocessing output                                     | predictor  |
+| Brent_USD_per_barrel | 02_brent_crude_monthly_processed.csv      | Brent_USD_per_barrel                          | Retained monthly Brent aligned on Date                                                      | predictor  |
+| policy_rate          | 03_botswana_policy_rate_processed.csv     | policy_rate                                   | Retained monthly policy rate aligned on Date                                                | predictor  |
+| food_index           | 04_fao_botswana_prices_processed.csv      | Consumer Prices, Food Indices (2015 = 100)    | Renamed to the repository modelling contract without feature engineering                    | predictor  |
+| general_index        | 04_fao_botswana_prices_processed.csv      | Consumer Prices, General Indices (2015 = 100) | Renamed to the repository modelling contract without feature engineering                    | predictor  |
+| food_price_inflation | 04_fao_botswana_prices_processed.csv      | Food price inflation                          | Renamed to the repository modelling contract without feature engineering                    | target     |
+| FAO_CP_23012_KEN     | 05_human_capital_project_processed.csv    | FAO_CP_23012_KEN                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23012_NAM     | 05_human_capital_project_processed.csv    | FAO_CP_23012_NAM                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23012_ZAF     | 05_human_capital_project_processed.csv    | FAO_CP_23012_ZAF                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23012_ZWE     | 05_human_capital_project_processed.csv    | FAO_CP_23012_ZWE                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23013_KEN     | 05_human_capital_project_processed.csv    | FAO_CP_23013_KEN                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23013_NAM     | 05_human_capital_project_processed.csv    | FAO_CP_23013_NAM                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23013_ZAF     | 05_human_capital_project_processed.csv    | FAO_CP_23013_ZAF                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+| FAO_CP_23013_ZWE     | 05_human_capital_project_processed.csv    | FAO_CP_23013_ZWE                              | Country-specific HCP comparator pivot excluding Botswana and excluding FAO_CP_23014 leakage | predictor  |
+
+## Notes
+- The monthly BDI representation is used rather than the daily or weekly files.
+- HCP is represented using non-Botswana country comparators only.
+- No external datasets or exchange-rate variables are included.

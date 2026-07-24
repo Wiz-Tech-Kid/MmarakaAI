@@ -1,0 +1,2904 @@
+rank,random_forest,lightgbm
+0,BDI_High_std_std12,food_index_std12
+1,BDI_Low_std_std12,food_index_std6
+2,BDI_Low_variance_std12,general_index_std12
+3,PI101125_lag6,USD_pct_change_roll12
+4,BDI_High_median_std12,GBP_range
+5,BDI_Low_range_std12,BDI_Close_pct_change_std3
+6,BDI_Close_variance_std12,food_index_pct_change
+7,BDI_High_range_std12,Brent_USD_per_barrel_std12
+8,BDI_Low_mean_lag12,PI201135_std12
+9,BDI_Low_variance_roll12,Global_Food_Price_Index_std12
+10,PI101105_roll3,Global_Cereals_Index_lag6
+11,food_index_std12,Global_Food_Price_Index*x*USD_pct_change
+12,PI201135_std12,Imported Tradeables Index_roll6
+13,BDI_High_variance_std12,Global_Food_Price_Index*x*SDR_range
+14,PI101152_roll12,PI201113_lag12
+15,BDI_Close_std_std12,Global_Meat_Index_trend
+16,BDI_Close_last_std12,SDR_pct_change_std3
+17,BDI_Close_first_std12,BDI_Close_std_lag2
+18,BDI_Close_mean_std12,USD_range_std3
+19,BDI_Close_min_std12,USD_pct_change_lag2
+20,PI211442*x*general_index,USD_std_lag12
+21,BDI_Close_variance_roll12,food_index_std3
+22,BDI_Low_median_std12,Global_Food_Price_Index_std6
+23,BDI_Close_max_std12,Global_Oils_Index_std6
+24,BDI_Close_median_std12,PI201051_std12
+25,PI101125_lag3,GBP_mean_std12
+26,PI101402_lag6,Global_Meat_Index_std12
+27,BDI_Close_range_std12,BDI_Close_variance_lag2
+28,PI101402_roll6,BDI_Close_pct_change_roll12
+29,PI101125_roll6,Global_Oils_Index_roll6
+30,BDI_High_min_std12,ZAR_range_lag12
+31,BDI_Close_std_roll12,Global_Sugar_Index_std12
+32,PI101105_roll6,BDI_High_variance_std12
+33,PI101405_roll3,BDI_Close_last
+34,PI101444*x*general_index,BDI_Close_pct_change_trend
+35,PI101404*x*general_index,ZAR_std_std12
+36,BDI_Close_first_roll12,general_index_std6
+37,PI101125_roll12,EUR_std_lag3
+38,PI101125_lag1,SDR_pct_change_roll6
+39,PI101432_roll12,USD_mean_std6
+40,PI101105_lag2,EUR_mean_trend
+41,PI211442,PI101203_std6
+42,BDI_Low_std_roll12,GBP_std_lag6
+43,PI101402*x*general_index,EUR_pct_change_std3
+44,BDI_Close_max_roll12,Global_Meat_Index_std6
+45,BDI_High_std_roll12,PI201111_std3
+46,PI101402_lag2,USD_pct_change_lag12
+47,PI101402_roll12,Global_Oils_Index_trend
+48,BDI_Close_median_lag12,USD_pct_change_pct_change
+49,PI201051_roll3,PI201091*x*general_index
+50,PI211444,ZAR_pct_change_std3
+51,PI101432_lag6,USD_pct_change_trend
+52,PI101422*x*general_index,Global_Oils_Index_std3
+53,BDI_High_min_lag12,Global_Food_Price_Index*x*GBP_mean
+54,PI101132_std12,BDI_Close_pct_change
+55,PI101124_roll12,USD_pct_change_roll6
+56,BDI_High_variance_roll12,BDI_Close_range_std6
+57,PI101105_lag1,Imported Tradeables Index_lag12
+58,general_index_std12,YEN_range_std3
+59,PI101105_lag3,USD_range_std12
+60,PI211444_lag3,GBP_pct_change_lag2
+61,PI101002_std12,ZAR_range_std12
+62,PI201091*x*general_index,Brent_USD_per_barrel*x*SDR_range
+63,PI101432*x*general_index,Global_Meat_Index_pct_change
+64,PI101131_roll3,Global_Food_Price_Index_std3
+65,PI101104_roll12,BDI_High_variance_roll6
+66,BDI_Close_min_roll12,SDR_mean_std12
+67,BDI_High_mean_std12,GBP_range_std12
+68,PI201053_lag3,Global_Food_Price_Index*x*GBP_std
+69,SDR_median_lag12,Global_Oils_Index_lag3
+70,PI101402_lag12,Global_Food_Price_Index*x*SDR_std
+71,BDI_Low_range_roll12,BDI_High_std_std12
+72,BDI_Low_median_roll12,Brent_USD_per_barrel*x*YEN_mean
+73,PI101161,EUR_mean_lag6
+74,PI201053_lag1,Global_Oils_Index_std12
+75,BDI_Close_last_roll12,Imported Tradeables Index_lag6
+76,PI201093*x*general_index,Global_Sugar_Index_std3
+77,PI101141*x*general_index,PI101204_std6
+78,BDI_Close_first_lag12,EUR_pct_change_pct_change
+79,PI211444_lag1,BDI_Close_max_pct_change
+80,PI101402_roll3,USD_pct_change_std3
+81,PI101133_lag12,BDI_Close_pct_change_lag3
+82,PI101124_lag6,BDI_Close_max_lag12
+83,GBP_mean_lag12,EUR_std_std12
+84,PI101005_roll12,BDI_Close_first_lag12
+85,Global_Food_Price_Index*x*EUR_mean,YEN_pct_change_pct_change
+86,BDI_Low_median_std6,headline_cpi_lag12
+87,PI101131_roll6,Global_Food_Price_Index*x*YEN_pct_change
+88,PI201062_std12,PI101121_std6
+89,PI201081_lag3,Millet_KG/HA_lag2
+90,PI101432_roll6,ZAR_mean_lag12
+91,PI101143*x*general_index,BDI_Close_max_std3
+92,PI201113_lag12,Imported Tradeables Index_lag2
+93,USD_mean_lag12,PI101162_std6
+94,BDI_High_variance_std6,PI201134_std12
+95,PI101205_roll6,Global_Dairy_Index_pct_change
+96,PI101402_lag3,BDI_Close_range_lag3
+97,food_index_std6,BDI_Close_pct_change_roll6
+98,PI101133_roll6,YEN_std_pct_change
+99,PI211442_lag1,Global_Oils_Index_roll12
+100,EUR_median_lag12,SDR_range_lag1
+101,PI101402_lag1,Brent_USD_per_barrel*x*EUR_mean
+102,Global_Cereals_Index_roll3,BDI_Close_range_lag12
+103,PI211444*x*general_index,SDR_range_lag6
+104,YEN_median_std12,USD_std_std12
+105,BDI_Close_max_lag12,PI201035_std12
+106,PI201051_lag2,Global_Cereals_Index_std6
+107,PI101122_std12,ZAR_pct_change_std6
+108,USD_median_lag12,EUR_range_std3
+109,Global_Oils_Index_std12,imported_tradeables_inflation_lag6
+110,PI201001_lag1,PI101204_std12
+111,PI201053_roll3,Global_Dairy_Index_roll12
+112,BDI_High_median_lag12,EUR_mean_pct_change
+113,general_index,PI101141
+114,PI101102_roll12,GBP_std_std6
+115,PI201001,EUR_pct_change
+116,Global_Cereals_Index_std12,BDI_High_pct_change_trend
+117,Global_Meat_Index_roll12,SDR_pct_change_roll12
+118,Global_Food_Price_Index,BDI_Close_first_lag3
+119,general_index_lag6,BDI_Close_count_lag12
+120,PI101124_lag2,PI101102_std6
+121,general_index_lag1,Global_Dairy_Index_std12
+122,GBP_median_roll12,YEN_std_std3
+123,BDI_Low_median_lag12,USD_mean_lag6
+124,BDI_Close_mean_lag12,EUR_range_lag2
+125,BDI_Close_range_roll12,Global_Food_Price_Index_lag12
+126,Global_Food_Price_Index_roll6,PI201092_trend
+127,PI101103_roll3,PI101004_lag2
+128,PI201071*x*general_index,Global_Sugar_Index_lag12
+129,Global_Oils_Index_lag3,ZAR_pct_change_pct_change
+130,PI101405_roll6,BDI_Close_range_lag1
+131,PI101005_roll3,PI101152_lag12
+132,SDR_mean_lag12,PI101124_roll12
+133,Global_Oils_Index_lag2,general_index_trend
+134,Food_and_Non_Alcoholic_Beverages_Index_std12,PI101125_roll6
+135,PI201053_lag2,SDR_std_lag6
+136,PI101161_lag1,GBP_range_lag2
+137,EUR_range_roll12,BDI_Close_range_std3
+138,PI101131_roll12,EUR_pct_change_std6
+139,Global_Food_Price_Index*x*USD_mean,GBP_pct_change_roll12
+140,Imported Tradeables Index,SDR_std_std6
+141,general_index_roll3,PI201062_std3
+142,Global_Oils_Index_roll6,BDI_Close_last_std3
+143,PI101124_lag3,PI101172_std12
+144,BDI_High_range_roll6,BDI_Close_pct_change_std12
+145,PI211442_lag2,BDI_Close_mean_std3
+146,BDI_Low_mean_roll12,YEN_pct_change_roll6
+147,Global_Cereals_Index_lag6,ZAR_median_lag12
+148,BDI_High_range_roll12,YEN_pct_change_trend
+149,BDI_High_min_roll12,USD_range_lag12
+150,PI101432_std12,USD_pct_change
+151,Global_Cereals_Index_lag2,GBP_pct_change_lag12
+152,PI101142_std6,BDI_Close_pct_change_lag12
+153,BDI_Close_median_roll12,BDI_Close_std_lag3
+154,general_index_lag12,BDI_Close_first_trend
+155,PI201003,Brent_USD_per_barrel*x*SDR_std
+156,PI201134_std12,PI101002_std12
+157,PI201053_roll6,general_index_pct_change
+158,PI201083_roll12,GBP_pct_change_lag3
+159,PI201051_lag1,Global_Oils_Index_lag1
+160,food_index_lag3,BDI_Close_max
+161,Global_Oils_Index_roll3,YEN_pct_change_std3
+162,PI101125_lag2,SDR_std_pct_change
+163,USD_mean_roll12,PI101125_roll12
+164,PI201051,Global_Food_Price_Index*x*EUR_mean
+165,BDI_Low_std_std6,PI201032_trend
+166,BDI_Close_first_std6,ZAR_range_lag3
+167,BDI_Close_first_lag6,SDR_mean_std3
+168,BDI_High_range_std6,Global_Sugar_Index_lag3
+169,Global_Food_Price_Index*x*EUR_median,Global_Sugar_Index
+170,PI201103_lag2,Global_Meat_Index_std3
+171,PI101125_roll3,YEN_mean_lag12
+172,GBP_mean_roll12,BDI_Close_variance_lag12
+173,PI201081_lag2,Global_Dairy_Index_std3
+174,BDI_High_mean_lag6,Global_Cereals_Index_std3
+175,PI201103_roll6,YEN_pct_change_lag6
+176,PI101402,BDI_Close_mean_lag2
+177,PI101143_roll6,YEN_std_lag6
+178,PI101004_std6,PI101142*x*general_index
+179,BDI_Low_mean_std12,BDI_Close_pct_change_lag2
+180,PI101161_roll6,PI101132_std6
+181,PI201004,Imported Tradeables Index_roll12
+182,Global_Cereals_Index_lag3,BDI_Close_mean_roll6
+183,Global_Cereals_Index,BDI_Close_median_std12
+184,Global_Food_Price_Index*x*SDR_mean,food_index_trend
+185,USD_std_std12,Brent_USD_per_barrel_std3
+186,PI101405*x*general_index,BDI_Close_variance_trend
+187,Global_Oils_Index_lag1,BDI_Close_max_std12
+188,food_index_roll6,SDR_pct_change_std12
+189,BDI_Close_max_lag6,YEN_mean_std3
+190,PI101124_std12,USD_mean_trend
+191,PI201001_lag3,Global_Sugar_Index_roll6
+192,BDI_Close_min_lag6,BDI_Close_std_roll3
+193,food_index_lag2,PI101155_std12
+194,PI201053_lag12,BDI_Close_pct_change_pct_change
+195,USD_range_std12,EUR_median_pct_change
+196,BDI_Close_median_roll6,PI201111_std6
+197,Global_Food_Price_Index_lag2,BDI_Close_last_std6
+198,PI101001_lag2,ZAR_mean_std6
+199,food_index_lag1,BDI_Close_count_roll6
+200,YEN_range_roll3,YEN_pct_change_lag1
+201,PI101122_roll6,PI101152_lag1
+202,YEN_median_roll12,PI101154_std3
+203,PI201003_lag2,SDR_std_lag1
+204,Global_Oils_Index_roll12,PI101205_std3
+205,Groundnuts_KG/HA,SDR_pct_change_std6
+206,Global_Food_Price_Index_std12,USD_mean_std12
+207,Global_Cereals_Index_lag1,USD_median_std12
+208,Global_Cereals_Index_roll6,SDR_median_std12
+209,BDI_Low_mean_lag6,PI101125_std12
+210,BDI_Close_min_lag12,PI101141_roll6
+211,Global_Food_Price_Index_roll3,USD_pct_change_roll3
+212,PI211444_roll3,PI101155_roll3
+213,PI201103_roll12,SDR_range_roll12
+214,PI101405_lag1,YEN_pct_change_roll3
+215,SDR_mean_roll12,ZAR_pct_change_roll6
+216,Global_Oils_Index,SDR_std_std12
+217,EUR_mean_lag12,PI101123_std6
+218,PI211445*x*general_index,ZAR_std_std3
+219,PI201051_lag3,Brent_USD_per_barrel_lag12
+220,Global_Oils_Index_lag6,USD_mean_lag12
+221,PI201103_lag3,PI101445_std6
+222,general_index_roll6,YEN_pct_change_lag12
+223,BDI_High_mean_std6,BDI_Close_mean_roll3
+224,SDR_median_std12,policy_rate_std12
+225,PI211442_lag6,Brent_USD_per_barrel_std6
+226,PI101005_lag1,YEN_pct_change
+227,PI201101_roll6,PI201004_pct_change
+228,Global_Food_Price_Index*x*YEN_median,ZAR_std
+229,BDI_Close_mean_lag3,ZAR_range
+230,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag12,PI101152_pct_change
+231,SDR_median_roll12,Groundnuts_KG/HA_lag2
+232,PI201052_lag3,BDI_Close_range_roll12
+233,PI201003_lag1,BDI_Close_max_roll6
+234,Global_Food_Price_Index_lag12,YEN_range_pct_change
+235,headline_cpi_lag12,YEN_mean_pct_change
+236,Inflation (%)_lag1,USD_std_pct_change
+237,Global_Meat_Index_lag3,ZAR_std_lag12
+238,Food_and_Non_Alcoholic_Beverages_Index_roll12,USD_mean_pct_change
+239,Global_Cereals_Index_roll12,PI101122_lag3
+240,PI201011_lag12,EUR_std_pct_change
+241,PI101205_std6,BDI_Close_last_pct_change
+242,PI101432_lag12,PI101104_lag3
+243,PI101005_lag3,GBP_range_lag3
+244,PI101131_std12,USD_pct_change_lag3
+245,PI201101_roll12,Millet_metric tonnes_lag12
+246,GBP_mean_lag6,USD_range_trend
+247,PI101101_lag3,ZAR_std_lag3
+248,PI201083_lag1,BDI_High_variance
+249,PI101001_roll6,GBP_pct_change_std3
+250,Food_and_Non_Alcoholic_Beverages_Index_roll3,PI201002_std12
+251,food_index,GBP_range_std6
+252,Imports_Fuel_roll6,GBP_std_roll12
+253,EUR_std_roll12,GBP_std_std3
+254,PI201103_lag1,GBP_median_std3
+255,PI101143_lag2,USD_std_lag2
+256,Inflation (%)_roll12,Global_Cereals_Index_lag2
+257,Global_Food_Price_Index*x*GBP_median,Global_Oils_Index_lag2
+258,PI201001_roll3,EUR_median_std12
+259,Food_and_Non_Alcoholic_Beverages_Index_roll6,BDI_Low_pct_change_roll12
+260,Global_Food_Price_Index*x*SDR_median,PI201065_std12
+261,headline_cpi_roll6,BDI_High_range_roll3
+262,SDR_range_std12,Sorghum_Thousand Hectares_lag3
+263,PI201083_roll6,ZAR_mean_lag6
+264,PI201103_std6,ZAR_std_lag6
+265,PI101161_roll3,EUR_mean
+266,food_index_roll3,Global_Oils_Index_lag6
+267,PI201003_roll3,BDI_Close_pct_change_std6
+268,Global_Food_Price_Index_roll12,PI201055_lag6
+269,SDR_median_roll3,BDI_Close_first_std3
+270,PI101161_lag3,PI101005_lag6
+271,PI201101,PI101205_lag12
+272,food_index_roll12,PI201061_lag3
+273,general_index_lag2,SDR_mean_lag12
+274,core_inflation,PI101151_lag3
+275,PI101131,Global_Dairy_Index_lag12
+276,USD_median_roll12,ZAR_pct_change_std12
+277,PI101124_lag1,EUR_range_lag6
+278,PI101001_std12,USD_std_lag6
+279,PI101101_roll12,GBP_range_lag6
+280,headline_cpi_roll12,BDI_Close_first_lag6
+281,PI101101,BDI_Close_range_lag2
+282,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_std12,GBP_pct_change_std12
+283,PI201071_lag1,GBP_median_std6
+284,ZAR_median_lag12,EUR_pct_change_roll3
+285,headline_cpi_lag1,PI101152_lag2
+286,imported_tradeables_inflation_lag3,SDR_mean_std6
+287,BDI_High_mean_lag12,BDI_Close_count_std12
+288,USD_std_roll12,SDR_median_std3
+289,PI101101_roll6,BDI_Close_count_std3
+290,policy_rate_std12,BDI_Close_variance_std6
+291,PI101121_lag12,BDI_Close_std_roll6
+292,Imported Tradeables Index_std12,SDR_range_roll3
+293,GBP_range_std12,SDR_range_std3
+294,core_inflation_roll6,ZAR_std_pct_change
+295,EUR_median_roll12,BDI_Close_range_roll3
+296,PI101133_lag1,BDI_Close_max_std6
+297,SDR_mean_std12,PI201091_lag2
+298,SDR_std_roll12,BDI_Close_mean_std6
+299,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_roll12,general_index_std3
+300,Global_Food_Price_Index_lag1,YEN_mean_std12
+301,core_inflation_lag2,YEN_median_std3
+302,Imported Tradeables Index_roll12,ZAR_median_std3
+303,core_inflation_roll3,ZAR_median_std6
+304,Global_Food_Price_Index_lag3,GBP_pct_change_pct_change
+305,EUR_mean_roll6,ZAR_std_roll12
+306,Cattle_Number_lag12,ZAR_range_std6
+307,Global_Sugar_Index_roll12,SDR_range_lag3
+308,PI201083_lag6,YEN_pct_change_lag3
+309,PI201094_lag6,SDR_pct_change_roll3
+310,PI201053,GBP_pct_change_trend
+311,USD_median,PI201005_trend
+312,food_index_pct_change,EUR_std
+313,PI101133,PI201004_roll3
+314,Inflation (%)_lag2,PI101205_std6
+315,PI201051_roll6,Brent_USD_per_barrel*x*EUR_std
+316,PI201004_roll6,YEN_std_trend
+317,Brent_USD_per_barrel*x*YEN_mean,GBP_std_lag1
+318,PI201081_roll6,PI201053
+319,PI101001_lag1,PI101104_std3
+320,PI201101_lag2,PI101102_std12
+321,GBP_std_roll12,PI101152_std6
+322,YEN_pct_change_std12,Month_cos
+323,PI201132_lag3,PI101204_std3
+324,Imports_Fuel_lag1,SDR_pct_change
+325,PI201071_roll6,USD_pct_change_std6
+326,BDI_Close_mean_roll12,PI201113_std6
+327,PI201101_lag1,Global_Sugar_Index_roll12
+328,USD_range_roll6,PI201094_std3
+329,PI201132_std12,BDI_Close_range_trend
+330,Imported Tradeables Index_roll6,ZAR_mean_lag1
+331,general_index_std6,PI101142
+332,EUR_range_std12,PI101162_std12
+333,imported_tradeables_inflation_std6,Global_Oils_Index
+334,PI201003_roll6,Global_Food_Price_Index*x*USD_mean
+335,BDI_High_pct_change_std12,PI101445_std3
+336,Global_Meat_Index_lag6,Global_Food_Price_Index*x*ZAR_mean
+337,Imports_Fuel_lag2,BDI_Close_mean_pct_change
+338,PI201011_lag3,GBP_range_roll3
+339,PI101205,GBP_median_std12
+340,Global_Meat_Index_lag2,EUR_pct_change_lag3
+341,ZAR_mean_roll3,PI201004_trend
+342,PI101103,EUR_pct_change_lag2
+343,Imported Tradeables Index_lag6,PI201032_std12
+344,GBP_median_roll6,Brent_USD_per_barrel_pct_change
+345,core_inflation_lag1,general_index_lag1
+346,PI201001_roll6,PI101184_std3
+347,headline_cpi,PI101201_roll3
+348,Global_Food_Price_Index_lag6,Groundnuts_KG/HA_lag1
+349,SDR_median_lag1,PI101004_lag12
+350,PI101133_roll3,PI101201_std12
+351,ZAR_pct_change_roll12,USD_range_roll12
+352,imported_tradeables_inflation,PI101203_std12
+353,Global_Sugar_Index_roll6,USD_std_std3
+354,PI101004_std12,GBP_mean_lag2
+355,PI201031_lag2,Brent_USD_per_barrel_lag2
+356,PI201101_lag6,BDI_Close_last_lag1
+357,food_inflation_roll3,Food_and_Non_Alcoholic_Beverages_Index_trend
+358,Imports_Fuel_lag3,BDI_Close_max_lag1
+359,Food_and_Non_Alcoholic_Beverages_Index_lag2,Maize_KG/HA_lag12
+360,YEN_median_lag12,PI201111_trend
+361,PI101003_std12,BDI_Close_mean_lag1
+362,PI201083_lag3,Millet_KG/HA_lag12
+363,Inflation (%)_lag6,USD_median_std6
+364,PI101143_roll3,EUR_mean_std12
+365,USD_std_roll6,EUR_mean_std6
+366,Global_Food_Price_Index*x*YEN_mean,PI201094_pct_change
+367,ZAR_mean_lag12,BDI_Low_pct_change_std3
+368,GBP_std_std12,PI201111_pct_change
+369,ZAR_mean_lag2,Food_and_Non_Alcoholic_Beverages_Index_pct_change
+370,PI101103_roll12,EUR_median_trend
+371,USD_median_lag1,BDI_Low_range_roll6
+372,PI101153*x*general_index,BDI_High_variance_std3
+373,PI201052,Pulses_Thousand Hectares_lag3
+374,imported_tradeables_inflation_lag2,BDI_Close_min_std12
+375,GBP_median_lag6,BDI_Close_range_roll6
+376,Global_Food_Price_Index*x*USD_median,PI201132_roll12
+377,general_index_lag3,BDI_Close_count_std6
+378,PI101143_lag1,Inflation (%)
+379,Global_Dairy_Index_std6,BDI_Close_std_std3
+380,USD_mean_roll3,BDI_Close_variance_roll6
+381,Sunflower_metric tonnes,BDI_Close_variance_roll12
+382,food_index_lag12,BDI_Close_last_std12
+383,Food_and_Non_Alcoholic_Beverages_Index,Imported Tradeables Index_std6
+384,SDR_range_roll12,Global_Sugar_Index_trend
+385,food_index_std3,Groundnuts_KG/HA
+386,PI201032_std12,GBP_mean_std6
+387,Inflation (%)_roll3,Global_Dairy_Index_trend
+388,BDI_High_std_roll6,GBP_mean_std3
+389,PI201011_lag6,BDI_Close_variance_lag3
+390,PI201001*x*general_index,USD_median_pct_change
+391,Global_Sugar_Index_lag2,YEN_range_lag2
+392,imported_tradeables_inflation_roll12,SDR_pct_change_pct_change
+393,GBP_median_roll3,EUR_std_std3
+394,Global_Food_Price_Index*x*GBP_mean,EUR_pct_change_roll12
+395,food_inflation_lag2,EUR_pct_change_roll6
+396,PI101135_roll6,ZAR_median_pct_change
+397,Food_and_Non_Alcoholic_Beverages_Index_std3,Global_Meat_Index_lag2
+398,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_roll6,USD_std_trend
+399,PI201103_std12,Global_Oils_Index_pct_change
+400,YEN_mean_lag12,Global_Sugar_Index_lag2
+401,PI101204_lag12,EUR_std_std6
+402,YEN_std_roll12,PI101184_pct_change
+403,Groundnuts_KG/HA_lag2,PI201064_std3
+404,ZAR_std_std12,YEN_range_trend
+405,imported_tradeables_inflation_lag1,USD_pct_change_lag1
+406,PI101181*x*general_index,ZAR_mean
+407,PI101161_lag2,SDR_pct_change_lag1
+408,Brent_USD_per_barrel_roll12,PI101203_lag1
+409,PI101131_lag2,SDR_pct_change_lag12
+410,PI101005_lag2,YEN_std_lag1
+411,PI201091_roll3,Brent_USD_per_barrel*x*ZAR_range
+412,BDI_Close_pct_change_roll12,SDR_range
+413,BDI_Close_last_roll3,Global_Meat_Index_roll6
+414,PI101123_roll12,YEN_range_std6
+415,Inflation (%)_roll6,USD_range
+416,Global_Dairy_Index_roll3,PI101111_std12
+417,food_inflation_std6,Brent_USD_per_barrel*x*ZAR_std
+418,USD_median_roll3,USD_std_lag1
+419,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_roll3,YEN_range_lag6
+420,USD_mean_std12,Brent_USD_per_barrel*x*ZAR_mean
+421,BDI_High_pct_change_roll12,GBP_mean_lag12
+422,PI101003_lag1,ZAR_std_lag1
+423,PI101005,Brent_USD_per_barrel*x*YEN_pct_change
+424,food_inflation_roll12,EUR_std_lag12
+425,BDI_Close_std_std6,EUR_median_lag12
+426,YEN_std_roll6,BDI_Close_last_lag12
+427,YEN_range_roll12,Global_Dairy_Index_lag6
+428,PI101103_lag2,BDI_Close_std_lag12
+429,PI101133_roll12,Brent_USD_per_barrel*x*USD_pct_change
+430,PI101154_lag6,PI101124_std3
+431,PI201052_roll3,PI201081_lag6
+432,policy_rate_roll12,PI101121_roll12
+433,PI201081_std12,EUR_std_lag6
+434,PI201092_roll6,ZAR_pct_change_lag12
+435,Imports_Food_Beverages_Tobacco_std6,Global_Oils_Index_roll3
+436,SDR_range_roll3,Global_Sugar_Index_roll3
+437,PI101143,SDR_range_lag12
+438,BDI_Close_max_roll3,BDI_Close_first_roll6
+439,USD_mean_lag1,PI101171_std3
+440,BDI_Close_range_std6,Global_Cereals_Index_std12
+441,GBP_pct_change_std12,PI101124_lag3
+442,Imports_Fuel_roll12,EUR_pct_change_lag6
+443,PI101001*x*general_index,PI101182_std3
+444,PI201055_roll12,Global_Food_Price_Index*x*USD_std
+445,Global_Oils_Index_std6,food_inflation
+446,PI101144,BDI_Close_mean
+447,PI201101_lag3,BDI_Close_range_lag6
+448,Imported Tradeables Index_lag12,Food_and_Non_Alcoholic_Beverages_Index_lag1
+449,PI201132_lag2,USD_pct_change_std12
+450,Global_Meat_Index_roll6,PI101172_std3
+451,PI201071_lag2,PI201032_pct_change
+452,PI101205_lag2,BDI_Close_min_lag6
+453,PI201092_lag1,PI201031_pct_change
+454,USD_mean,PI201005_pct_change
+455,PI201001_lag2,PI201003_lag2
+456,EUR_mean_roll12,GBP_median_trend
+457,Food_and_Non_Alcoholic_Beverages_Index_lag1,PI101202_pct_change
+458,core_inflation_std12,Brent_USD_per_barrel*x*SDR_pct_change
+459,Inflation (%)_lag12,PI101172_pct_change
+460,PI201011_roll3,PI101125_lag6
+461,GBP_median_lag12,PI101204_lag6
+462,PI101142_std12,Brent_USD_per_barrel*x*GBP_std
+463,Imported Tradeables Index_lag3,ZAR_range_lag6
+464,BDI_Close_last_roll6,general_index
+465,PI201064_lag1,PI919001_std6
+466,Global_Dairy_Index_lag3,BDI_Close_min_std6
+467,PI201073_std6,GBP_pct_change_lag6
+468,PI101125_std12,Food_and_Non_Alcoholic_Beverages_Index_std12
+469,PI101001_roll12,BDI_Close_max_roll12
+470,food_inflation_std12,PI953221*x*general_index
+471,ZAR_range_std12,PI201134_lag6
+472,Sheep_Number_lag12,Brent_USD_per_barrel*x*ZAR_pct_change
+473,PI101161_roll12,BDI_Close_range
+474,BDI_Low_mean_roll6,PI201055_lag2
+475,USD_median_lag2,BDI_Close_last_trend
+476,PI101154_roll3,YEN_median_lag6
+477,PI201081_lag6,Brent_USD_per_barrel
+478,PI101005_roll6,PI201125_std6
+479,PI101133_lag3,BDI_Close_std_std6
+480,BDI_Low_pct_change_roll12,BDI_Close_variance_roll3
+481,Inflation (%),PI201062_pct_change
+482,ZAR_median_roll12,Sorghum_Thousand Hectares_lag2
+483,BDI_High_mean_roll6,Brent_USD_per_barrel_trend
+484,PI201101_roll3,GBP_mean_lag3
+485,BDI_High_std_lag12,SDR_median_lag12
+486,Inflation (%)_std12,PI101184_trend
+487,Imported Tradeables Index_lag1,YEN_std
+488,BDI_Close_pct_change_roll6,YEN_range_lag12
+489,Food_and_Non_Alcoholic_Beverages_Index_lag12,Pulses_metric tonnes_lag12
+490,SDR_mean_roll3,PI201094_trend
+491,YEN_mean_roll12,Global_Food_Price_Index*x*SDR_mean
+492,headline_cpi_std6,YEN_mean_lag3
+493,PI101123,Sorghum_Thousand Hectares_lag12
+494,PI101154,PI101432_lag12
+495,Sunflower_metric tonnes_lag12,imported_tradeables_inflation_lag3
+496,PI101003_roll12,BDI_Close_first_roll12
+497,PI101143_std6,Global_Food_Price_Index
+498,PI101103*x*general_index,Global_Dairy_Index_lag3
+499,USD_mean_lag2,Global_Meat_Index
+500,imported_tradeables_inflation_lag12,Global_Cereals_Index_lag3
+501,PI201083_lag2,PI101101
+502,food_inflation_lag12,imported_tradeables_inflation_lag12
+503,PI101003_lag2,Global_Food_Price_Index*x*EUR_range
+504,GBP_mean_roll3,PI101154_lag12
+505,Imports_Fuel,Global_Meat_Index_lag12
+506,Global_Sugar_Index_lag1,Global_Cereals_Index_lag12
+507,PI201132_lag1,Global_Food_Price_Index*x*GBP_median
+508,PI101205_roll3,Global_Oils_Index_lag12
+509,PI201103_lag6,Global_Food_Price_Index*x*GBP_range
+510,food_inflation_roll6,PI101102
+511,PI101143_std12,Global_Food_Price_Index_pct_change
+512,Global_Oils_Index_lag12,SDR_range_trend
+513,imported_tradeables_inflation_roll3,ZAR_range_pct_change
+514,policy_rate,Sorghum_metric tonnes_lag6
+515,Imports_Food_Beverages_Tobacco_std12,YEN_mean_trend
+516,Brent_USD_per_barrel_std6,BDI_Close_mean_lag12
+517,PI201013_lag12,GBP_std
+518,PI101101_lag1,Global_Food_Price_Index*x*ZAR_range
+519,Global_Food_Price_Index*x*ZAR_median,USD_mean
+520,Pulses_KG/HA_lag12,ZAR_mean_trend
+521,PI101155_roll12,PI101205_lag3
+522,PI101104_lag6,ZAR_pct_change_trend
+523,ZAR_mean_lag3,Global_Food_Price_Index*x*YEN_std
+524,PI201011_roll6,Global_Food_Price_Index_trend
+525,BDI_High_median,Global_Cereals_Index_trend
+526,EUR_mean_lag6,EUR_pct_change_lag12
+527,PI101143_lag3,PI101154
+528,Imports_Food_Beverages_Tobacco_lag6,GBP_mean_pct_change
+529,PI101154_lag1,EUR_range_pct_change
+530,imported_tradeables_inflation_roll6,GBP_median_lag12
+531,Global_Dairy_Index,PI101152
+532,ZAR_mean_lag6,PI101122_trend
+533,PI201122_std12,PI101152_trend
+534,PI101162_lag2,PI101155_lag3
+535,BDI_Low_mean_lag1,PI101154_trend
+536,EUR_range_roll3,EUR_range_lag3
+537,PI201063_lag1,PI101203_lag3
+538,food_index_lag6,PI201035_std3
+539,PI101445*x*general_index,PI101152_roll3
+540,SDR_median_lag6,SDR_std_lag2
+541,PI101124_lag12,SDR_pct_change_lag2
+542,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag3,YEN_mean_lag2
+543,PI201103_roll3,YEN_std_roll6
+544,PI101121_roll6,YEN_std_lag2
+545,imported_tradeables_inflation_lag6,YEN_range_roll12
+546,PI101205_lag1,YEN_range_std12
+547,Groundnuts_metric tonnes_lag3,PI101142_std6
+548,PI101124_roll3,YEN_pct_change_lag2
+549,Global_Cereals_Index_lag12,ZAR_mean_lag2
+550,PI101101_std12,BDI_Low_std_std6
+551,PI201132_roll3,PI201052_std12
+552,PI101101_lag2,PI201055_std3
+553,PI101154_std12,ZAR_mean_std3
+554,PI101112*x*general_index,ZAR_pct_change_lag1
+555,BDI_Close_variance_std6,BDI_Close_pct_change_lag1
+556,Brent_USD_per_barrel_roll6,ZAR_std_roll3
+557,Imported Tradeables Index_roll3,PI101135_std12
+558,Inflation (%)_lag3,EUR_std_roll12
+559,food_inflation_lag6,Groundnuts_Thousand Hectares
+560,PI101172_roll6,EUR_median_std6
+561,EUR_std_roll6,EUR_median_std3
+562,PI211442_lag3,EUR_mean_std3
+563,GBP_mean_roll6,EUR_pct_change_std12
+564,PI201002_std12,USD_median_std3
+565,PI101183_roll12,PI101205_roll3
+566,PI201122_lag3,USD_mean_roll12
+567,PI201081_roll3,BDI_Close_variance_lag1
+568,BDI_Close_range_roll6,BDI_Close_max_lag2
+569,EUR_range_std6,SDR_median_std6
+570,Goats_Number_lag6,SDR_std_roll3
+571,PI201002_lag6,PI201002_std3
+572,Global_Dairy_Index_roll6,PI101154_lag1
+573,PI201052_roll6,SDR_std_std3
+574,Imported Tradeables Index_lag2,Brent_USD_per_barrel_lag1
+575,EUR_std_std6,SDR_std_roll6
+576,PI201071_lag3,YEN_median_roll12
+577,PI101122_lag6,GBP_pct_change_roll3
+578,PI201061_roll6,GBP_range_roll6
+579,policy_rate_roll6,PI101155_std6
+580,PI101001_lag3,GBP_std_std12
+581,BDI_High_min_roll6,SDR_range_std6
+582,GBP_range_std6,GBP_pct_change_lag1
+583,PI953221_std12,GBP_std_roll3
+584,PI101003,PI101154_std12
+585,general_index_roll12,PI101152_roll6
+586,PI101124_roll6,GBP_std_lag2
+587,Food_and_Non_Alcoholic_Beverages_Index_std6,YEN_median_std6
+588,GBP_median_std12,PI201032_std6
+589,Food_and_Non_Alcoholic_Beverages_Index_lag3,EUR_pct_change_lag1
+590,policy_rate_roll3,BDI_High_variance_std6
+591,PI201081_std6,Global_Cereals_Index_roll3
+592,PI101131_lag1,Maize_Thousand Hectares
+593,SDR_mean,PI101004_std6
+594,PI201122_std6,PI201065_std3
+595,Global_Meat_Index_lag12,Food_and_Non_Alcoholic_Beverages_Index
+596,Pulses_metric tonnes_lag12,PI201071_std3
+597,imported_tradeables_inflation_std12,PI101005_roll6
+598,core_inflation_roll12,food_inflation_roll3
+599,ZAR_median_lag6,BDI_High_min_std3
+600,SDR_median_lag2,Global_Sugar_Index_std6
+601,PI201064_roll12,Global_Dairy_Index_std6
+602,core_inflation_lag12,PI201095_std12
+603,Millet_metric tonnes_lag3,BDI_High_range_std3
+604,USD_mean_lag6,PI101142_roll3
+605,PI101204_lag6,PI101122_std6
+606,USD_mean_roll6,PI101124_std6
+607,GBP_std_roll6,YEN_median_std12
+608,GBP_mean_lag3,SDR_range_std12
+609,BDI_High_median_lag2,PI101155_std3
+610,USD_pct_change_roll12,PI101005_std12
+611,Brent_USD_per_barrel*x*GBP_mean,SDR_pct_change_lag6
+612,Global_Sugar_Index_lag3,Global_Food_Price_Index*x*SDR_median
+613,YEN_range_std12,PI101154_std6
+614,PI101141,Global_Food_Price_Index*x*SDR_pct_change
+615,PI201093_lag12,SDR_std_lag12
+616,PI201094_lag2,YEN_mean_std6
+617,PI201061,Global_Dairy_Index_roll6
+618,PI201094_lag3,YEN_mean_roll12
+619,PI201131,USD_pct_change_lag6
+620,PI101141_lag3,PI101105*x*general_index
+621,PI101105_lag6,Maize_KG/HA_lag3
+622,PI953221_lag6,USD_std_roll3
+623,PI201004_lag2,USD_std_std6
+624,ZAR_median_std12,PI101155_lag12
+625,Brent_USD_per_barrel_lag6,Sunflower_KG/HA_lag3
+626,Brent_USD_per_barrel*x*SDR_median,Sorghum_metric tonnes_lag3
+627,PI101205_std3,USD_range_roll3
+628,PI201095_lag6,PI101202_std3
+629,PI101445_lag1,PI101135_lag12
+630,PI101153_lag3,PI101201_std6
+631,PI201035,PI101171_roll3
+632,YEN_mean_roll6,Global_Food_Price_Index*x*YEN_mean
+633,core_inflation_lag6,BDI_Close_max_lag6
+634,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag6,PI101002_std6
+635,Brent_USD_per_barrel*x*EUR_median,BDI_Close_first
+636,BDI_Low_std_roll6,BDI_Close_last_lag6
+637,BDI_High_median_roll6,BDI_Close_pct_change_lag6
+638,ZAR_median_lag1,PI101004_std3
+639,BDI_High_min_std6,SDR_std_roll12
+640,PI101405_lag12,Global_Cereals_Index_roll12
+641,PI101105_roll12,PI101162_std3
+642,ZAR_mean_roll6,PI101004_std12
+643,YEN_pct_change_roll12,PI101405*x*general_index
+644,PI201055_lag3,PI101002_std3
+645,BDI_High_mean_lag1,Brent_USD_per_barrel*x*USD_range
+646,BDI_Low_range_lag12,Brent_USD_per_barrel*x*GBP_range
+647,PI953221_lag3,BDI_Close_min_lag12
+648,ZAR_pct_change_std6,PI101122_lag6
+649,Chicken_Number,ZAR_std_std6
+650,headline_cpi_std3,Brent_USD_per_barrel*x*EUR_range
+651,Global_Sugar_Index_roll3,Sheep_Number_lag6
+652,PI101132*x*general_index,Pulses_metric tonnes_lag6
+653,PI101202_lag2,PI101141_lag6
+654,YEN_mean_std12,PI101135_std3
+655,BDI_High_range_lag12,PI101142_lag6
+656,PI201004_lag1,PI101112_std12
+657,PI201035_std12,PI101132_std12
+658,BDI_Low_mean_std6,PI101132_std3
+659,Global_Sugar_Index,PI201083_lag6
+660,EUR_median_lag1,PI101125_std6
+661,PI101141_roll3,Brent_USD_per_barrel*x*EUR_pct_change
+662,ZAR_median_lag3,PI201005_lag6
+663,PI201134_lag3,ZAR_pct_change_roll3
+664,PI953221_roll6,PI201003_lag6
+665,EUR_median_lag6,PI201002_lag6
+666,PI101004_lag12,PI101125_std3
+667,Sunflower_KG/HA_lag12,PI101202_lag6
+668,Global_Sugar_Index_std12,PI101152_lag6
+669,headline_cpi_lag6,YEN_std_roll3
+670,Global_Food_Price_Index_std6,YEN_mean_lag6
+671,Brent_USD_per_barrel_roll3,PI101102_roll6
+672,PI101183_roll3,Global_Food_Price_Index_roll6
+673,SDR_std_roll6,Global_Food_Price_Index*x*YEN_range
+674,SDR_mean_lag3,core_inflation_std6
+675,SDR_std_std12,YEN_range_roll6
+676,PI201033_roll12,Brent_USD_per_barrel*x*YEN_range
+677,Goats_Number_lag2,core_inflation_roll6
+678,PI201131_roll3,ZAR_pct_change_lag6
+679,BDI_Close_max_std6,Global_Food_Price_Index_lag6
+680,Pigs_Number_lag6,PI101141_std12
+681,BDI_Close_std_roll3,EUR_range_lag12
+682,Global_Dairy_Index_lag6,headline_cpi_roll6
+683,PI201062_lag2,YEN_pct_change_roll12
+684,Global_Meat_Index_lag1,YEN_pct_change_std12
+685,BDI_High_median_lag6,EUR_mean_lag12
+686,Pulses_Thousand Hectares_2_lag1,BDI_High_range_lag12
+687,PI201094_roll6,Global_Food_Price_Index*x*ZAR_median
+688,PI101405_lag6,Global_Food_Price_Index*x*ZAR_std
+689,Brent_USD_per_barrel*x*YEN_median,PI101122_std12
+690,USD_std_roll3,ZAR_mean_roll12
+691,PI201004_lag3,ZAR_mean_std12
+692,PI201093_lag3,PI101142_std3
+693,PI201035_lag3,BDI_Close_mean_std12
+694,PI201055_roll3,BDI_Close_mean_roll12
+695,BDI_Close_pct_change_std12,Food_and_Non_Alcoholic_Beverages_Index_std3
+696,PI101162,BDI_High_std_roll12
+697,Global_Dairy_Index_lag2,Month
+698,Cattle_Number,Brent_USD_per_barrel_roll12
+699,Brent_USD_per_barrel*x*USD_median,Brent_USD_per_barrel_roll6
+700,GBP_range_roll12,BDI_Close_std_trend
+701,core_inflation_lag3,Brent_USD_per_barrel_roll3
+702,PI201094_roll3,BDI_High_pct_change_roll6
+703,Global_Meat_Index_std12,BDI_Close_count_trend
+704,ZAR_range_std6,BDI_Low_std_roll6
+705,PI201095_lag2,BDI_Low_mean_trend
+706,PI101141_roll6,BDI_Low_std_trend
+707,PI201052_lag2,PI201002_std6
+708,PI211445_roll6,PI919001_pct_change
+709,Global_Food_Price_Index*x*ZAR_range,PI201113_pct_change
+710,BDI_Low_pct_change_std12,BDI_Low_variance_roll6
+711,BDI_Close_mean,BDI_Low_pct_change_roll6
+712,PI201055_lag2,EUR_pct_change_trend
+713,Brent_USD_per_barrel*x*USD_range,PI201064_pct_change
+714,Cattle_Number_lag1,PI201064_std6
+715,PI201035_lag2,PI201052_pct_change
+716,PI101002_roll12,PI201035_pct_change
+717,EUR_pct_change_std12,EUR_median_roll6
+718,YEN_median_std6,PI101204_pct_change
+719,policy_rate_lag1,EUR_std_roll3
+720,SDR_mean_lag1,EUR_std_roll6
+721,ZAR_std_std6,PI101182_pct_change
+722,PI101184_std12,BDI_Low_std_roll12
+723,BDI_Low_range_std6,BDI_Close_first_std12
+724,BDI_High_std_lag6,PI201095_std3
+725,Global_Sugar_Index_lag6,BDI_Close_variance_std12
+726,PI101125*x*general_index,BDI_Close_pct_change_roll3
+727,BDI_Close_median_roll3,PI201124_std6
+728,USD_median_std12,PI201093_roll3
+729,Imports_Fuel*x*Brent_USD_per_barrel,BDI_Close_variance_std3
+730,PI101422_lag6,PI201092_std12
+731,BDI_High_mean_roll12,BDI_Close_std_roll12
+732,PI101154_pct_change,PI201092_std6
+733,EUR_median_lag2,PI201124_std12
+734,USD_std_lag12,PI201092_std3
+735,SDR_range_lag12,BDI_Close_count_roll12
+736,BDI_Close_median,PI201083_roll12
+737,PI101001_roll3,BDI_Close_median_roll3
+738,BDI_Close_range_roll3,BDI_High_min_roll3
+739,PI201064_roll3,PI201135_std6
+740,BDI_High_std,PI201135_roll12
+741,BDI_Close_last,PI919001_std3
+742,PI201091_lag1,PI201073_roll12
+743,PI201034_std12,PI953221_std6
+744,PI211442_roll3,PI101422_std3
+745,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag1,PI101432_std6
+746,PI101202_lag3,BDI_Close_min_roll12
+747,PI201052_lag1,PI201071_roll6
+748,PI201133_std6,BDI_Close_min_roll6
+749,BDI_Close_first_roll6,BDI_Close_min_std3
+750,PI101104_lag2,BDI_Close_min_roll3
+751,BDI_Close_min_lag2,BDI_High_range_std12
+752,PI101122*x*general_index,PI201134_std6
+753,PI101155_lag12,BDI_Low_mean_pct_change
+754,PI201013_std12,PI101125_trend
+755,BDI_High_median_roll3,PI201032_std3
+756,Global_Meat_Index_std6,BDI_Close_first_pct_change
+757,SDR_pct_change_std12,BDI_Close_variance_pct_change
+758,Imports_Fuel_std6,PI201031_std12
+759,BDI_Close_median_std6,PI201004_std12
+760,PI101102_std12,PI201004_std6
+761,ZAR_median_lag2,PI201004_std3
+762,PI201133*x*general_index,BDI_Close_median_pct_change
+763,PI211445_roll3,GBP_range_std3
+764,ZAR_range_roll6,GBP_range_roll12
+765,Global_Food_Price_Index*x*ZAR_mean,PI201062_trend
+766,SDR_median_roll6,Sunflower_metric tonnes_lag12
+767,GBP_mean_std12,PI101155_pct_change
+768,PI201013*x*general_index,GBP_pct_change_roll6
+769,YEN_median_lag1,USD_mean_roll3
+770,EUR_median_std12,USD_mean_std3
+771,food_inflation,Pulses_Thousand Hectares_2_lag12
+772,PI201005_lag1,Maize_Thousand Hectares_lag12
+773,GBP_median_lag2,PI101205_roll6
+774,Millet_KG/HA_lag12,PI201113_trend
+775,YEN_median_roll3,PI201122_trend
+776,GBP_range_roll6,Global_Food_Price_Index*x*EUR_median
+777,BDI_Close_min_lag3,PI201135_lag12
+778,PI101121_roll3,PI201132_lag12
+779,Imports_Food_Beverages_Tobacco_roll6,Global_Food_Price_Index*x*EUR_std
+780,PI101184_trend,PI201111_lag12
+781,PI201054_roll6,PI201055_lag12
+782,PI101102_lag1,PI201063_trend
+783,BDI_High_min,GBP_range_trend
+784,PI201002_lag1,PI101123_pct_change
+785,Global_Dairy_Index_roll12,PI101102_pct_change
+786,imported_tradeables_inflation_pct_change,PI201063_std3
+787,PI101205_lag3,Global_Sugar_Index_pct_change
+788,PI101181_roll12,PI201062_std6
+789,Goats_Number_lag12,PI201061_std3
+790,PI201034_roll3,SDR_mean_trend
+791,ZAR_mean,SDR_median_trend
+792,Imports_Fuel_roll3,EUR_range_roll3
+793,EUR_mean_std6,EUR_range_std12
+794,BDI_High_mean,SDR_pct_change_trend
+795,PI201001_lag12,PI201053_std12
+796,PI201032_std6,ZAR_mean_pct_change
+797,BDI_High_range_roll3,BDI_Low_std_pct_change
+798,Imports_Food_Beverages_Tobacco_roll3,PI201052_std6
+799,PI101172_roll12,SDR_median_pct_change
+800,USD_range_roll12,ZAR_median_trend
+801,PI201002_std6,USD_range_pct_change
+802,YEN_std_std12,ZAR_std_trend
+803,PI201002_roll3,ZAR_range_trend
+804,PI201132_lag6,GBP_mean_roll3
+805,BDI_Close_range_lag12,GBP_mean_roll6
+806,YEN_median,PI201051_std6
+807,PI919001,GBP_range_pct_change
+808,BDI_Close_last_lag12,GBP_std_pct_change
+809,GBP_mean_std3,GBP_median_roll3
+810,Global_Dairy_Index_lag1,PI201033_std3
+811,PI101204_roll3,PI101102_trend
+812,PI101132_lag6,YEN_median_trend
+813,Global_Food_Price_Index*x*USD_range,BDI_Close_last_lag3
+814,EUR_std_lag6,PI201071_lag3
+815,PI201123_std12,SDR_pct_change_lag3
+816,EUR_range_roll6,PI201081_lag2
+817,PI201095_lag1,food_index_lag1
+818,BDI_Close_mean_lag6,Brent_USD_per_barrel_lag3
+819,Millet_metric tonnes,Sorghum_KG/HA
+820,Imports_Food_Beverages_Tobacco,core_inflation_lag3
+821,PI201133,PI201092_lag2
+822,PI201062_roll6,BDI_Close_first_lag1
+823,PI101422_trend,Goats_Number_lag2
+824,PI101141_std6,Sorghum_Thousand Hectares_lag1
+825,Millet_metric tonnes_lag2,GBP_median
+826,ZAR_mean_lag1,Millet_KG/HA
+827,GBP_std_std3,GBP_pct_change
+828,PI201065,Global_Food_Price_Index_lag1
+829,PI201052_lag6,BDI_Close_min_lag1
+830,PI201093_lag6,Imported Tradeables Index
+831,BDI_High_mean_roll3,USD_std
+832,BDI_Close_variance_lag6,PI101124_lag1
+833,PI953221_roll3,PI101202_lag3
+834,ZAR_mean_roll12,GBP_std_lag3
+835,PI201013,SDR_median_lag1
+836,Millet_KG/HA_lag2,EUR_std_lag2
+837,SDR_mean_std6,USD_std_lag3
+838,BDI_Low_variance_roll6,PI201034_lag2
+839,Imports_Food_Beverages_Tobacco*x*Global_Food_Price_Index,GBP_range_lag1
+840,BDI_Close_variance_roll3,USD_range_lag2
+841,ZAR_mean_std12,Global_Sugar_Index_lag1
+842,PI919001_std12,SDR_mean_lag2
+843,PI201064_lag3,SDR_range_lag2
+844,Global_Food_Price_Index*x*GBP_std,BDI_Close_count_lag3
+845,Brent_USD_per_barrel*x*GBP_median,ZAR_std_lag2
+846,headline_cpi_lag2,ZAR_range_lag2
+847,BDI_Low_median_roll3,PI201061_lag2
+848,PI201134_roll6,Global_Meat_Index_lag3
+849,PI201095_std6,YEN_range_lag1
+850,Inflation (%)_std6,EUR_range_lag1
+851,PI201035_roll12,Global_Food_Price_Index_lag2
+852,BDI_Close_mean_std6,PI201135
+853,PI201031_lag3,EUR_std_lag1
+854,SDR_range_lag6,BDI_Close_last_lag2
+855,PI201055_roll6,PI101131
+856,PI101122_roll12,PI201093*x*general_index
+857,PI101442_lag2,PI101135_lag1
+858,GBP_median_lag1,PI101204_lag1
+859,EUR_mean_lag1,Global_Dairy_Index
+860,PI201062_trend,PI101161_lag3
+861,BDI_High_variance_roll6,ZAR_range_lag1
+862,PI201135_lag12,Global_Cereals_Index
+863,Brent_USD_per_barrel*x*USD_mean,Sorghum_KG/HA_lag1
+864,USD_range_std3,PI101205
+865,PI101152_lag12,Pulses_Thousand Hectares_lag2
+866,ZAR_std_lag12,PI101142_lag3
+867,PI101122_lag2,PI101142_lag2
+868,YEN_mean_lag6,PI101161
+869,SDR_median,PI101202
+870,YEN_mean_lag1,BDI_Close_min
+871,PI101204_lag3,PI101141_lag2
+872,PI201062_lag1,PI101161_lag1
+873,PI101003_roll3,Millet_KG/HA_lag1
+874,PI101111_pct_change,PI101004
+875,PI101154_std6,Millet_metric tonnes_lag1
+876,BDI_High_std_std6,PI101204
+877,GBP_std_std6,Imports_Food_Beverages_Tobacco_lag2
+878,EUR_median,BDI_Close_count_lag1
+879,PI101105,BDI_High_pct_change
+880,EUR_mean_std12,Sunflower_KG/HA_lag2
+881,EUR_pct_change_std3,Cattle_Number_lag1
+882,SDR_pct_change_roll12,YEN_range_lag3
+883,PI101125_lag12,Maize_KG/HA_lag2
+884,Global_Sugar_Index_std3,ZAR_pct_change
+885,ZAR_range_roll12,ZAR_mean_lag3
+886,PI201122_roll12,SDR_std
+887,PI101101_lag6,PI201031_roll3
+888,core_inflation_std6,PI201013_std12
+889,USD_range_lag3,PI201033_roll12
+890,PI101442_roll12,PI201013_roll12
+891,PI101104_lag12,PI201033_std6
+892,Sunflower_metric tonnes_lag1,Millet_metric tonnes
+893,PI101203_roll12,PI201034_std12
+894,PI201083_std12,PI201013_std6
+895,Millet_KG/HA_lag3,PI201013_roll6
+896,Year,PI201013_std3
+897,Brent_USD_per_barrel*x*SDR_range,Maize_metric tonnes
+898,Inflation (%)_trend,PI201013_roll3
+899,BDI_High_median_lag3,PI201033_roll6
+900,Cattle_Number_lag3,PI201034_std6
+901,BDI_Close_min,PI201032_roll6
+902,Sunflower_metric tonnes_lag2,Groundnuts_metric tonnes_2
+903,BDI_Close_std_lag12,PI201034_roll6
+904,PI101162_std12,PI201034_std3
+905,YEN_range_roll6,Sunflower_metric tonnes
+906,GBP_std_lag12,PI201032_roll3
+907,PI201034_std6,PI201032_roll12
+908,Brent_USD_per_barrel_pct_change,PI201031_std3
+909,EUR_median_std6,Cattle_Number
+910,PI101202_lag1,Pulses_metric tonnes
+911,PI201111_lag2,PI201034_roll12
+912,ZAR_median_roll6,PI201031_roll12
+913,BDI_Low_variance_lag6,PI201031_std6
+914,Sorghum_Thousand Hectares_2_lag12,PI201033_std12
+915,PI101101*x*general_index,PI201031_roll6
+916,Brent_USD_per_barrel*x*SDR_mean,PI201033_roll3
+917,Brent_USD_per_barrel_std12,PI201034_roll3
+918,PI201092_lag2,PI201001_std6
+919,ZAR_std_roll3,PI201001_roll6
+920,PI101121*x*general_index,PI201001_std3
+921,PI201003_lag3,PI201001_roll3
+922,PI101002_lag12,PI101205_std12
+923,Global_Food_Price_Index_trend,PI101205_roll12
+924,PI919001_std6,BDI_Close_std_lag1
+925,PI101002_lag6,BDI_High_mean_lag1
+926,PI101121_std12,PI101204_roll12
+927,BDI_High_pct_change_roll6,BDI_High_median_lag1
+928,EUR_std_roll3,PI101204_roll6
+929,PI201094_std3,BDI_High_min_lag1
+930,SDR_mean_lag6,PI101204_roll3
+931,PI201062_lag3,BDI_High_range_lag1
+932,SDR_range_std6,PI201035_roll3
+933,BDI_High_std_roll3,BDI_High_std_lag1
+934,BDI_High_min_roll3,PI101203_roll6
+935,PI201095_lag3,PI101203_std3
+936,GBP_mean_lag2,PI101203_roll3
+937,PI201073_lag12,PI101202_std12
+938,Brent_USD_per_barrel_lag1,PI101202_roll12
+939,YEN_mean,PI101202_std6
+940,SDR_range_roll6,PI101202_roll6
+941,PI101171_roll6,BDI_High_variance_lag1
+942,PI919001_roll3,PI101202_roll3
+943,PI201013_roll6,BDI_High_pct_change_lag1
+944,SDR_pct_change_std6,PI101201_roll12
+945,GBP_pct_change_roll6,BDI_Low_mean_lag1
+946,PI201093,PI101201_roll6
+947,BDI_Low_variance_lag2,BDI_Low_median_lag1
+948,Brent_USD_per_barrel*x*EUR_mean,PI101203_roll12
+949,PI101405_lag3,PI201011_std12
+950,Pulses_Thousand Hectares_lag2,PI201011_roll12
+951,Global_Sugar_Index_lag12,PI201011_std6
+952,PI101103_roll6,PI201011_roll6
+953,PI101154_roll12,PI201011_std3
+954,headline_cpi_pct_change,PI201011_roll3
+955,BDI_High_min_lag6,PI201005_std12
+956,BDI_High_mean_std3,PI201005_roll12
+957,BDI_High_mean_lag3,PI201005_std6
+958,BDI_Close_variance_roll6,PI201005_roll6
+959,BDI_Low_median_lag3,PI201005_std3
+960,Goats_Number_lag3,PI201005_roll3
+961,EUR_range_lag12,Goats_Number
+962,Imports_Food_Beverages_Tobacco_lag12,PI201004_roll12
+963,BDI_Close_first_lag3,PI201001_roll12
+964,SDR_std_lag6,PI201004_roll6
+965,GBP_std_roll3,Chicken_Number
+966,SDR_range,Pigs_Number
+967,BDI_Close_variance,PI201003_std12
+968,PI101004_lag3,PI201003_roll12
+969,PI101123*x*general_index,PI201003_std6
+970,PI211442_roll6,PI201003_roll6
+971,USD_pct_change_pct_change,PI201003_std3
+972,Global_Meat_Index_pct_change,PI201003_roll3
+973,BDI_Close_max_lag2,PI201002_roll12
+974,PI101135_lag12,policy_rate_lag1
+975,PI211444_lag2,PI201002_roll6
+976,Global_Meat_Index_trend,BDI_Close_median_lag1
+977,USD_mean_std6,PI201002_roll3
+978,PI101123_lag1,PI201001_std12
+979,YEN_median_lag6,Sheep_Number
+980,EUR_std_std12,SEI00003
+981,PI101205*x*general_index,PI201092_roll6
+982,GBP_pct_change_roll12,PI201092_roll3
+983,ZAR_range_lag12,PI201091_std12
+984,PI101154_lag12,PI201091_roll12
+985,PI201133_std12,PI201091_std6
+986,PI101405_std6,PI201091_roll6
+987,SDR_pct_change_roll6,PI201091_std3
+988,EUR_mean_roll3,PI201091_roll3
+989,PI101162_lag1,PI201083_std12
+990,Global_Dairy_Index_pct_change,Core Monthly Inflation Rate (Trimmed Mean) (percentage)
+991,USD_range_roll3,PI201083_std6
+992,ZAR_std_roll6,PI201083_roll6
+993,PI201071_roll12,PI201083_std3
+994,PI101002_roll6,PI201083_roll3
+995,PI201035_roll6,PI101201_std3
+996,PI201052_lag12,PI201081_roll12
+997,Maize_Thousand Hectares_lag6,PI201081_std6
+998,GBP_range_roll3,PI201081_roll6
+999,GBP_std,PI201081_std3
+1000,BDI_High_median_roll12,PI201081_roll3
+1001,YEN_std_lag6,PI201073_std12
+1002,PI201081_roll12,Imports_Food_Beverages_Tobacco
+1003,PI101144_lag1,PI201073_std6
+1004,SDR_mean_pct_change,PI201073_roll6
+1005,ZAR_pct_change_std12,PI201073_std3
+1006,USD_pct_change_std12,PI201073_roll3
+1007,BDI_Low_median,PI201071_std12
+1008,ZAR_std_roll12,PI201071_roll12
+1009,BDI_Close_std_lag3,PI201071_std6
+1010,Global_Dairy_Index_trend,Imports_Fuel
+1011,PI201092_lag6,PI201081_std12
+1012,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_std6,PI201111_roll3
+1013,Brent_USD_per_barrel*x*ZAR_std,PI201103_roll12
+1014,USD_median_lag6,PI201103_std6
+1015,Brent_USD_per_barrel*x*ZAR_mean,PI201103_roll6
+1016,USD_std_std6,PI201103_std3
+1017,YEN_pct_change_std6,PI201103_roll3
+1018,PI201033_std6,PI201101_std12
+1019,GBP_median_lag3,PI201101_roll12
+1020,USD_pct_change_lag12,PI201101_std6
+1021,PI101104_std12,PI201101_roll6
+1022,PI201092_roll12,PI201101_std3
+1023,BDI_Close_mean_roll6,PI201101_roll3
+1024,PI201003_std6,PI101442
+1025,PI201092_std6,PI201095_roll12
+1026,Goats_Number_lag1,PI201095_std6
+1027,YEN_std_roll3,PI201092_roll12
+1028,USD_median_roll6,PI101445
+1029,PI201064_lag2,PI201095_roll3
+1030,BDI_Close_last_lag2,PI201094_std12
+1031,PI201032_roll6,PI201094_roll12
+1032,PI201062_lag6,PI201094_std6
+1033,Global_Food_Price_Index*x*GBP_range,PI201094_roll6
+1034,ZAR_std_lag6,PI211442
+1035,PI101103_std6,PI201094_roll3
+1036,USD_pct_change_std3,PI201093_std12
+1037,PI201122_trend,PI201093_roll12
+1038,BDI_Close_median_lag6,PI201093_std6
+1039,Sorghum_KG/HA_lag12,PI201093_roll6
+1040,Global_Food_Price_Index*x*ZAR_std,PI201093_std3
+1041,PI201062,PI211444
+1042,ZAR_median,PI211445
+1043,BDI_Close_pct_change_roll3,PI201095_roll6
+1044,PI201062_roll12,PI201055_roll12
+1045,BDI_Low_mean,PI201055_std6
+1046,PI201093_roll3,PI201055_roll6
+1047,BDI_Close_max_roll6,Groundnuts_metric tonnes
+1048,policy_rate_std6,PI201055_roll3
+1049,food_inflation_std3,PI201054_std12
+1050,BDI_High_min_lag3,PI201054_roll12
+1051,SDR_mean_roll6,PI201054_std6
+1052,USD_std_lag1,PI201054_roll6
+1053,GBP_pct_change_std3,PI201054_std3
+1054,USD_range_lag6,PI201054_roll3
+1055,ZAR_mean_std3,PI201053_roll12
+1056,PI101142_roll12,PI201053_std6
+1057,YEN_median_lag3,PI201053_roll6
+1058,food_index_trend,PI201053_std3
+1059,PI101005_lag6,Sorghum_Thousand Hectares
+1060,Global_Dairy_Index_lag12,Maize_KG/HA
+1061,PI101001_lag12,PI201052_roll12
+1062,PI101442*x*general_index,PI201052_roll6
+1063,PI101002_roll3,PI201052_std3
+1064,USD_pct_change_lag3,PI201052_roll3
+1065,USD_mean_lag3,Pulses_KG/HA
+1066,PI101141_std12,PI201051_roll12
+1067,PI201003_lag12,Sunflower_KG/HA
+1068,Global_Meat_Index,PI201051_roll6
+1069,PI201061_roll3,PI201051_std3
+1070,USD_range_std6,PI201051_roll3
+1071,PI101152_lag1,Sorghum_metric tonnes
+1072,PI101201_trend,PI201035_roll12
+1073,PI101151_std12,PI201035_std6
+1074,BDI_High_std_lag3,PI201035_roll6
+1075,PI101102_lag12,PI201053_roll3
+1076,PI201135_lag6,PI201071_roll3
+1077,PI211445_lag3,Millet_Thousand Hectares
+1078,PI101133*x*general_index,PI201065_roll12
+1079,BDI_Low_median_roll6,PI201065_std6
+1080,PI201134_roll3,PI201065_roll6
+1081,GBP_pct_change_lag12,Pulses_Thousand Hectares
+1082,YEN_mean_std6,PI201065_roll3
+1083,PI201132_std6,PI201064_std12
+1084,YEN_median_std3,PI201064_roll12
+1085,Brent_USD_per_barrel_lag12,Sunflower_Thousand Hectares
+1086,PI101142_roll6,PI201064_roll6
+1087,PI101184_roll6,Sorghum_Thousand Hectares_2
+1088,BDI_Close_min_std6,PI201064_roll3
+1089,Brent_USD_per_barrel*x*SDR_std,PI201063_std12
+1090,PI201111_roll6,PI201063_roll12
+1091,BDI_Low_median_lag2,PI201055_std12
+1092,PI201083_roll3,PI201063_roll6
+1093,PI201035_roll3,Maize_Thousand Hectares_2
+1094,PI101121_roll12,PI201063_roll3
+1095,YEN_median_roll6,PI201062_std12
+1096,PI201123,PI201062_roll12
+1097,ZAR_median_roll3,Millet_Thousand Hectares_2
+1098,YEN_range_lag6,PI201062_roll6
+1099,Groundnuts_metric tonnes_lag1,Pulses_Thousand Hectares_2
+1100,PI201134_std6,PI201062_roll3
+1101,BDI_Close_last_lag1,PI201061_std12
+1102,PI201094_roll12,PI201061_roll12
+1103,PI101141_lag1,PI201061_std6
+1104,PI101122_lag12,PI201061_roll6
+1105,PI201095_roll12,Sunflower_Thousand Hectares_2
+1106,Global_Food_Price_Index_std3,PI201061_roll3
+1107,GBP_range_lag12,PI201063_std6
+1108,BDI_Low_range_lag2,PI101124_roll3
+1109,PI201005_std12,PI101123_std12
+1110,GBP_std_lag1,PI101123_roll12
+1111,GBP_median,PI101103_lag1
+1112,PI201064,PI101123_roll6
+1113,PI201004_std6,PI101123_std3
+1114,PI201122_roll3,PI101123_roll3
+1115,PI201002_lag3,PI101104_lag1
+1116,PI953221_lag2,PI101122_roll12
+1117,BDI_Close_range_lag6,PI101105_lag1
+1118,PI201032_lag1,PI101122_roll6
+1119,PI101445_roll3,PI101122_std3
+1120,BDI_Close_count_trend,PI101122_roll3
+1121,food_inflation_pct_change,PI101121_std12
+1122,BDI_Close_last_lag3,PI201103_std12
+1123,Maize_Thousand Hectares_lag3,PI101112_lag1
+1124,PI101162_roll6,PI101121_roll6
+1125,Global_Food_Price_Index*x*SDR_range,PI101121_std3
+1126,SDR_std_std3,PI101121_roll3
+1127,PI101205_std12,PI101115_std12
+1128,BDI_High_range,PI101115_roll12
+1129,PI201051_roll12,PI101115_std6
+1130,Pulses_Thousand Hectares_2_lag6,PI101115_roll6
+1131,PI101115_roll6,PI101115_std3
+1132,BDI_High_pct_change_lag1,PI101115_roll3
+1133,Millet_KG/HA_lag6,PI101115_lag1
+1134,PI101203_std12,PI101112_roll12
+1135,USD_median_std6,PI101112_std6
+1136,PI101123_lag12,PI101112_roll6
+1137,PI101005_lag12,PI101112_std3
+1138,YEN_pct_change_roll6,PI101111_lag1
+1139,BDI_Low_std_lag1,PI101134_std6
+1140,BDI_Close_mean_roll3,PI101134_roll6
+1141,YEN_median_lag2,PI101134_std3
+1142,PI201091_lag2,PI101134_roll3
+1143,EUR_mean_lag3,PI101133_std12
+1144,BDI_Close_range_lag3,PI101133_roll12
+1145,ZAR_range_lag3,PI101133_std6
+1146,EUR_range,PI101133_roll6
+1147,Brent_USD_per_barrel_trend,PI101133_std3
+1148,PI201003_std12,PI101133_roll3
+1149,BDI_Close_min_roll6,Global_Meat_Index_lag1
+1150,YEN_range_lag12,PI101132_roll12
+1151,Groundnuts_metric tonnes_2_lag2,Global_Dairy_Index_lag1
+1152,PI101162_lag3,PI101132_roll6
+1153,PI201065_lag2,Global_Cereals_Index_lag1
+1154,BDI_Close_max_lag1,PI101102_lag1
+1155,Maize_metric tonnes,PI101131_std12
+1156,PI101203,PI101131_roll12
+1157,Pulses_Thousand Hectares_2_lag2,PI101131_std6
+1158,PI101172_lag12,PI101131_roll6
+1159,PI101445_std6,PI101131_std3
+1160,Global_Meat_Index_roll3,PI101131_roll3
+1161,BDI_Low_variance_lag1,PI101001_lag1
+1162,Brent_USD_per_barrel*x*YEN_std,PI101002_lag1
+1163,PI201124_lag1,PI101003_lag1
+1164,PI101132_lag12,PI101004_lag1
+1165,PI101442_lag3,PI101125_roll3
+1166,PI201094_lag1,PI101124_std12
+1167,PI201125_roll6,PI101005_lag1
+1168,PI101154_std3,PI101101_lag1
+1169,PI201092_roll3,PI101124_roll6
+1170,BDI_Close_max,PI101132_roll3
+1171,PI101004_roll12,PI101101_roll6
+1172,PI201011_std12,PI101101_std3
+1173,ZAR_range_lag2,PI101101_roll3
+1174,PI101155_lag6,PI101131_lag1
+1175,USD_median_std3,PI101005_roll12
+1176,BDI_Close_std_roll6,PI101005_std6
+1177,PI201002_lag12,PI101132_lag1
+1178,general_index_std3,PI101005_std3
+1179,PI101202_lag12,PI101005_roll3
+1180,Brent_USD_per_barrel*x*ZAR_median,PI101133_lag1
+1181,YEN_mean_roll3,PI101004_roll12
+1182,PI101102_lag6,PI101134_lag1
+1183,Brent_USD_per_barrel*x*ZAR_range,PI101004_roll6
+1184,EUR_median_trend,PI101004_roll3
+1185,PI101103_std12,PI101003_std12
+1186,Pigs_Number_lag2,PI101112_roll3
+1187,PI101153_lag12,PI101003_std6
+1188,BDI_Close_count_std6,PI101003_roll6
+1189,PI101445_pct_change,PI101003_std3
+1190,PI101151_lag3,PI101003_roll3
+1191,PI201123_roll3,PI101141_lag1
+1192,BDI_High_std_std3,PI101002_roll12
+1193,PI101183_std12,PI101142_lag1
+1194,EUR_median_roll3,PI101002_roll6
+1195,PI201091_lag12,PI101143_lag1
+1196,BDI_Close_pct_change,PI101002_roll3
+1197,PI101445_lag3,PI101001_std12
+1198,PI101184_lag12,PI101001_roll12
+1199,Global_Cereals_Index_pct_change,PI101001_std6
+1200,BDI_Close_min_roll3,PI101001_roll6
+1201,Food_and_Non_Alcoholic_Beverages_Index_pct_change,PI101001_roll3
+1202,PI101112_lag12,PI101003_roll12
+1203,YEN_std_lag1,PI101121_lag1
+1204,PI101181_lag12,PI101111_roll12
+1205,Maize_metric tonnes_lag2,PI101111_std6
+1206,BDI_Low_mean_lag2,PI101111_roll6
+1207,PI201124*x*general_index,PI101111_std3
+1208,EUR_pct_change_roll6,PI101111_roll3
+1209,EUR_range_pct_change,PI101105_std12
+1210,PI201113,PI101105_roll12
+1211,PI201122_roll6,PI101105_std6
+1212,GBP_range_std3,PI101105_roll6
+1213,ZAR_range_std3,PI101105_std3
+1214,PI101103_lag6,PI101105_roll3
+1215,PI101132_lag3,PI101104_std12
+1216,PI201065_roll6,PI101104_roll12
+1217,BDI_Low_variance_std6,PI101104_std6
+1218,Sorghum_Thousand Hectares_2_lag2,PI101101_std6
+1219,PI101131_lag12,PI101122_lag1
+1220,Millet_KG/HA_lag1,PI101104_roll3
+1221,PI101154_lag2,PI101103_std12
+1222,BDI_Close_last_std6,PI101103_roll12
+1223,PI101442_roll3,PI101103_std6
+1224,Sorghum_metric tonnes_lag2,PI101103_roll6
+1225,PI201124_std12,PI101103_std3
+1226,PI201065_lag6,PI101103_roll3
+1227,SDR_pct_change_std3,PI101123_lag1
+1228,PI201113_std6,PI101102_roll12
+1229,PI101202_roll6,PI101125_lag1
+1230,PI201091_roll12,PI101102_std3
+1231,EUR_range_lag3,PI101102_roll3
+1232,PI211445_lag6,PI101101_std12
+1233,Global_Dairy_Index_std3,PI101101_roll12
+1234,BDI_Low_variance_pct_change,PI101104_roll6
+1235,PI201061_lag3,PI101175_std6
+1236,PI101154*x*general_index,PI101175_roll6
+1237,PI101183_roll6,PI101175_std3
+1238,PI201062_std3,PI101175_roll3
+1239,BDI_High_variance_std3,BDI_Low_variance_lag1
+1240,imported_tradeables_inflation_std3,PI101172_roll12
+1241,EUR_std_lag2,PI101172_std6
+1242,BDI_Close_first_roll3,PI101172_roll6
+1243,BDI_Low_variance,BDI_Low_pct_change_lag1
+1244,PI211445,PI101172_roll3
+1245,PI101121_lag3,PI101171_std12
+1246,Pulses_Thousand Hectares,PI101171_roll12
+1247,PI101204,PI101171_std6
+1248,BDI_Close_range,PI101171_roll6
+1249,PI201113_std12,PI101134_roll12
+1250,Sorghum_Thousand Hectares_lag2,EUR_median_lag1
+1251,GBP_pct_change_std6,PI101165_std12
+1252,YEN_mean_lag3,PI101165_roll12
+1253,SDR_pct_change_pct_change,PI101165_std6
+1254,YEN_range,PI101165_roll6
+1255,PI201073_lag6,PI101165_std3
+1256,PI101142,PI101165_roll3
+1257,PI101122,PI101162_roll12
+1258,PI101445_std3,PI101162_roll6
+1259,PI201124_lag3,GBP_mean_lag1
+1260,BDI_Close_range_lag1,PI101162_roll3
+1261,Brent_USD_per_barrel,PI101161_std12
+1262,BDI_Close_variance_std3,PI101161_roll12
+1263,PI101132_std6,PI101161_std6
+1264,ZAR_std_lag3,PI101161_roll6
+1265,BDI_Low_range_roll6,EUR_mean_lag1
+1266,Imported Tradeables Index_std3,PI101185_std12
+1267,PI101002_lag3,PI101185_roll12
+1268,Global_Sugar_Index_std6,PI101185_std6
+1269,PI201094_std12,PI101185_roll6
+1270,PI201134_lag6,PI101185_std3
+1271,PI201032,PI101185_roll3
+1272,BDI_Close_count_lag12,PI101184_std12
+1273,SDR_median_std3,PI101184_roll12
+1274,YEN_std_lag12,PI101184_std6
+1275,EUR_range_lag6,PI101184_roll6
+1276,PI101162_std3,BDI_Low_range_lag1
+1277,USD_mean_pct_change,PI101184_roll3
+1278,PI201095_std12,PI101183_std12
+1279,BDI_Low_variance_lag12,PI101183_roll12
+1280,BDI_High_variance_lag3,PI101183_std6
+1281,Pulses_Thousand Hectares_lag3,PI101175_roll12
+1282,PI101182_roll6,PI101183_std3
+1283,YEN_range_std3,PI101183_roll3
+1284,PI101104_roll6,PI101182_std12
+1285,PI101102_roll6,PI101182_roll12
+1286,GBP_range,PI101182_std6
+1287,Imports_Fuel_lag12,PI101182_roll6
+1288,PI201083*x*general_index,BDI_Low_std_lag1
+1289,PI201054_std12,PI101182_roll3
+1290,PI101145_roll12,PI101181_std12
+1291,PI201011*x*general_index,PI101181_roll12
+1292,PI101122_roll3,PI101181_std6
+1293,SDR_std_lag2,PI101181_roll6
+1294,Chicken_Number_lag1,PI101181_std3
+1295,PI101162_roll3,PI101181_roll3
+1296,BDI_Close_range_lag2,PI101175_std12
+1297,GBP_range_lag1,PI101183_roll6
+1298,USD_pct_change_std6,PI101145_std3
+1299,PI201005_roll6,PI101145_roll3
+1300,Brent_USD_per_barrel*x*GBP_std,PI101144_std12
+1301,Sorghum_Thousand Hectares_lag3,PI101144_roll12
+1302,PI201073_roll3,PI101144_std6
+1303,PI201035_std6,PI101144_roll6
+1304,PI201132_roll12,PI101144_std3
+1305,USD_std_lag6,PI101144_roll3
+1306,PI201121,PI101143_std12
+1307,EUR_pct_change_lag6,PI101143_roll12
+1308,SDR_range_std3,PI101143_std6
+1309,PI201071_pct_change,PI101143_roll6
+1310,PI201101_std6,PI101143_std3
+1311,PI201064_lag6,PI101143_roll3
+1312,PI101004_lag2,PI101142_std12
+1313,GBP_mean_std6,PI101161_std3
+1314,Maize_KG/HA_lag6,ZAR_median_lag1
+1315,EUR_mean_lag2,PI101142_roll6
+1316,GBP_mean,headline_cpi_lag1
+1317,PI101172_std6,imported_tradeables_inflation_lag1
+1318,BDI_Low_range_lag6,PI101141_roll12
+1319,BDI_Close_min_trend,PI101141_std6
+1320,GBP_std_lag2,food_inflation_lag1
+1321,PI101182_std12,PI101141_std3
+1322,Core Monthly Inflation Rate (Trimmed Mean) (percentage),PI101141_roll3
+1323,PI101102_std6,core_inflation_lag1
+1324,PI101162_std6,PI101135_roll12
+1325,PI919001_std3,PI101135_std6
+1326,BDI_Close_median_std3,PI101135_roll6
+1327,PI201035_lag1,PI101135_roll3
+1328,PI101172_lag3,PI101134_std12
+1329,PI101202,PI101142_roll12
+1330,PI101445_trend,PI101161_roll3
+1331,PI101182_lag2,GBP_median_lag1
+1332,BDI_Close_median_lag2,PI101155_roll12
+1333,PI201133_lag12,PI101155_roll6
+1334,PI101101_lag12,USD_mean_lag1
+1335,USD_median_lag3,USD_median_lag1
+1336,BDI_High_pct_change,USD_range_lag1
+1337,PI101133_std6,PI101154_roll12
+1338,USD_median_pct_change,SDR_mean_lag1
+1339,PI101133_lag2,PI101154_roll6
+1340,PI201032_lag12,PI101154_roll3
+1341,BDI_Close_max_pct_change,PI101153_std12
+1342,PI101445_roll6,PI101153_roll12
+1343,PI101181_lag3,PI101153_std6
+1344,PI101145*x*general_index,PI101153_roll6
+1345,PI201091,PI101145_roll6
+1346,GBP_std_lag6,PI101153_roll3
+1347,SDR_std_std6,PI101152_std12
+1348,Maize_KG/HA_lag1,PI101152_roll12
+1349,PI101131_std6,YEN_mean_lag1
+1350,PI101105_std12,YEN_median_lag1
+1351,BDI_High_range_lag6,PI101152_std3
+1352,GBP_pct_change,PI101151_std12
+1353,Global_Dairy_Index_std12,PI101151_roll12
+1354,PI101151,PI101151_std6
+1355,PI101005_std6,PI101151_roll6
+1356,PI201031_lag12,PI101151_std3
+1357,PI201004_lag6,PI101151_roll3
+1358,PI201094_lag12,PI101145_std12
+1359,EUR_pct_change_std6,PI101145_roll12
+1360,PI201063_roll12,PI101145_std6
+1361,Sorghum_KG/HA_lag1,PI101153_std3
+1362,BDI_Close_std_lag2,Imported Tradeables Index_trend
+1363,Groundnuts_KG/HA_lag3,PI101111
+1364,Sunflower_KG/HA_lag1,PI211445_trend
+1365,GBP_mean_lag1,PI211444_trend
+1366,GBP_median_trend,PI211442_trend
+1367,core_inflation_std3,PI101445_trend
+1368,ZAR_pct_change_std3,PI101442_trend
+1369,YEN_pct_change_roll3,PI101432_trend
+1370,ZAR_std_std3,PI101422_trend
+1371,Brent_USD_per_barrel_lag2,PI101405_trend
+1372,PI101132_roll12,PI101404_trend
+1373,PI201124_std6,PI101402_trend
+1374,GBP_range_lag6,PI953221_trend
+1375,ZAR_std,PI919001_trend
+1376,PI101203_lag3,PI201135_trend
+1377,Sheep_Number_lag3,PI101001_std3
+1378,PI201005_std3,PI201133_trend
+1379,PI201053*x*general_index,PI201132_trend
+1380,PI101152_std6,PI201131_trend
+1381,USD_pct_change_roll6,PI201125_trend
+1382,ZAR_pct_change_roll3,PI201124_trend
+1383,PI201111_std6,PI201123_trend
+1384,BDI_Close_count_roll3,PI101112
+1385,SDR_std,PI201121_trend
+1386,PI101141_lag2,PI101115
+1387,PI101003_lag12,PI101121
+1388,PI201054_roll12,PI201103_trend
+1389,PI101204_std12,PI201101_trend
+1390,PI201134_roll12,PI201095_trend
+1391,PI101162_lag12,PI101122
+1392,ZAR_range_roll3,PI201093_trend
+1393,PI101005_std3,PI201134_trend
+1394,BDI_Low_range_roll3,Brent_USD_per_barrel*x*GBP_mean
+1395,Brent_USD_per_barrel*x*EUR_std,EUR_median
+1396,ZAR_std_lag2,EUR_range
+1397,PI101145_std12,GBP_mean
+1398,PI101002_lag1,Brent_USD_per_barrel*x*EUR_median
+1399,Maize_metric tonnes_lag3,Global_Food_Price_Index*x*ZAR_pct_change
+1400,ZAR_pct_change_lag1,USD_median
+1401,core_inflation_trend,SDR_mean
+1402,PI201064_std12,SDR_median
+1403,BDI_Close_median_lag3,YEN_mean
+1404,PI201125_lag12,Global_Food_Price_Index*x*YEN_median
+1405,PI201061*x*general_index,YEN_median
+1406,YEN_pct_change_lag12,YEN_range
+1407,BDI_Low_std_lag3,ZAR_median
+1408,Pulses_Thousand Hectares_2_lag12,headline_cpi
+1409,Global_Food_Price_Index*x*EUR_pct_change,Inflation (%)_trend
+1410,PI101201_roll12,core_inflation
+1411,GBP_median_std3,Global_Food_Price_Index*x*USD_range
+1412,USD_std_trend,Global_Food_Price_Index*x*USD_median
+1413,PI201071_roll3,Global_Food_Price_Index*x*GBP_pct_change
+1414,YEN_mean_std3,PI101001
+1415,PI201034_roll6,PI101002
+1416,PI201063_std6,PI101003
+1417,PI211444_std6,Global_Food_Price_Index*x*EUR_pct_change
+1418,PI201063,PI101005
+1419,PI201063*x*general_index,PI101103
+1420,PI101004_lag6,PI101104
+1421,PI101105_pct_change,PI101105
+1422,BDI_Low_range,Imports_Fuel_trend
+1423,PI201063_roll3,Imports_Food_Beverages_Tobacco_trend
+1424,YEN_range_lag1,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_trend
+1425,PI101111_lag12,imported_tradeables_inflation
+1426,BDI_Close_std,PI101183_trend
+1427,BDI_High_min_lag2,PI101182_trend
+1428,PI201064*x*general_index,PI101181_trend
+1429,BDI_Low_std_lag12,PI101175_trend
+1430,BDI_Close_count_roll6,PI101172_trend
+1431,PI201125_std12,PI101171_trend
+1432,Sorghum_KG/HA,PI101165_trend
+1433,Food_and_Non_Alcoholic_Beverages_Index_lag6,PI101162_trend
+1434,BDI_Low_pct_change_roll6,PI101161_trend
+1435,YEN_pct_change_std3,PI101155_trend
+1436,PI101172_lag1,PI101135
+1437,Brent_USD_per_barrel*x*YEN_range,PI101153_trend
+1438,PI101135*x*general_index,PI101143
+1439,Sunflower_metric tonnes_lag6,PI101151_trend
+1440,GBP_pct_change_roll3,PI101145_trend
+1441,PI101445_lag6,PI101123
+1442,PI201092_std12,PI101143_trend
+1443,BDI_High_mean_lag2,PI101142_trend
+1444,BDI_High_pct_change_lag6,PI101141_trend
+1445,PI101184,PI101135_trend
+1446,BDI_Close_variance_trend,PI101134_trend
+1447,PI101135_lag3,PI101133_trend
+1448,Millet_metric tonnes_lag6,PI101132_trend
+1449,USD_pct_change_roll3,PI101131_trend
+1450,PI101422,PI101144
+1451,Groundnuts_metric tonnes_lag6,PI101124_trend
+1452,PI201032_lag6,PI101123_trend
+1453,PI201092,PI101145
+1454,PI101203_lag1,PI101121_trend
+1455,PI101122_trend,PI101115_trend
+1456,EUR_mean_std3,PI101112_trend
+1457,PI201092*x*general_index,PI101144_trend
+1458,SDR_median_lag3,PI201091_trend
+1459,PI201055_std12,PI201083_trend
+1460,USD_pct_change_lag2,PI201081_trend
+1461,Brent_USD_per_barrel*x*GBP_range,PI201073_trend
+1462,PI101121,PI201071_trend
+1463,PI201002,PI201065_trend
+1464,PI101123_roll6,PI201064_trend
+1465,PI101201_lag6,PI101124
+1466,SDR_range_lag3,PI101125
+1467,PI101405_lag2,PI201061_trend
+1468,YEN_std,PI201055_trend
+1469,BDI_Low_pct_change_lag3,PI201054_trend
+1470,Millet_KG/HA,PI201053_trend
+1471,BDI_Close_first,PI201052_trend
+1472,PI101124,PI201051_trend
+1473,PI101442_lag6,PI101134
+1474,Imports_Fuel_trend,PI101185_trend
+1475,Global_Oils_Index_std3,PI101201_trend
+1476,EUR_median_lag3,PI101202_trend
+1477,BDI_Close_count_std12,PI101203_trend
+1478,PI101125_std6,PI101204_trend
+1479,BDI_High_variance_lag6,PI101205_trend
+1480,ZAR_pct_change_lag2,PI201001_trend
+1481,PI201004_roll12,PI201035_trend
+1482,PI101145_std3,PI201003_trend
+1483,Sunflower_KG/HA_lag6,PI101133
+1484,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_pct_change,PI101132
+1485,PI101005_std12,PI201011_trend
+1486,PI201132,PI201013_trend
+1487,PI101141_roll12,PI201031_trend
+1488,Brent_USD_per_barrel_lag3,PI201033_trend
+1489,PI211445_std3,PI201034_trend
+1490,PI201093_lag1,PI201002_trend
+1491,PI101405_std3,PI201065*x*general_index
+1492,PI101175_roll12,PI201064*x*general_index
+1493,PI211445_lag2,PI201063*x*general_index
+1494,EUR_mean_trend,PI201062*x*general_index
+1495,PI101203_lag12,PI201061*x*general_index
+1496,PI201103*x*general_index,PI201055*x*general_index
+1497,Global_Food_Price_Index*x*SDR_std,PI201054*x*general_index
+1498,PI201134_lag1,PI201053*x*general_index
+1499,PI101172_lag6,PI201052*x*general_index
+1500,PI201132_lag12,PI201051*x*general_index
+1501,PI101432_lag1,PI201035*x*general_index
+1502,PI101442_std12,PI201034*x*general_index
+1503,PI211445_std6,PI201033*x*general_index
+1504,BDI_High_variance_lag1,PI201032*x*general_index
+1505,YEN_mean_lag2,PI201031*x*general_index
+1506,SDR_pct_change_trend,Brent_USD_per_barrel*x*GBP_median
+1507,BDI_Close_last_lag6,PI201011*x*general_index
+1508,SDR_std_roll3,PI201005*x*general_index
+1509,SDR_pct_change_lag2,PI201004*x*general_index
+1510,YEN_median_trend,PI201003*x*general_index
+1511,PI201113_pct_change,PI201002*x*general_index
+1512,ZAR_mean_std6,PI201001*x*general_index
+1513,PI201132_pct_change,PI101205*x*general_index
+1514,Brent_USD_per_barrel*x*USD_std,PI101204*x*general_index
+1515,Maize_Thousand Hectares_2,PI101203*x*general_index
+1516,PI101104_std6,PI101202*x*general_index
+1517,BDI_Close_mean_lag1,PI101201*x*general_index
+1518,PI953221*x*general_index,PI101185*x*general_index
+1519,PI201063_pct_change,PI101184*x*general_index
+1520,BDI_High_median_lag1,PI101183*x*general_index
+1521,Millet_Thousand Hectares_2_lag6,PI101182*x*general_index
+1522,Chicken_Number_lag3,PI201013*x*general_index
+1523,PI201051_lag12,BDI_Close_median
+1524,EUR_pct_change_lag12,BDI_High_std
+1525,PI101155_roll6,BDI_High_range
+1526,BDI_Close_pct_change_std6,BDI_High_min
+1527,ZAR_pct_change_pct_change,BDI_High_median
+1528,USD_pct_change,BDI_High_mean
+1529,PI101122_std6,BDI_Close_count
+1530,Global_Food_Price_Index*x*EUR_range,BDI_Low_mean
+1531,Sunflower_KG/HA_lag2,PI201133*x*general_index
+1532,BDI_Low_variance_lag3,BDI_Close_variance
+1533,Brent_USD_per_barrel*x*SDR_pct_change,BDI_Close_std
+1534,Pulses_metric tonnes_lag3,PI201132*x*general_index
+1535,BDI_Low_pct_change_lag12,food_index
+1536,PI201002_roll12,PI201092*x*general_index
+1537,PI101001_std6,PI211444*x*general_index
+1538,BDI_High_pct_change_pct_change,PI201071*x*general_index
+1539,Sorghum_Thousand Hectares,PI101445*x*general_index
+1540,PI953221_lag12,PI101444*x*general_index
+1541,Pulses_metric tonnes_lag2,PI101442*x*general_index
+1542,PI201073_std12,PI101432*x*general_index
+1543,PI101125_pct_change,PI101422*x*general_index
+1544,Global_Food_Price_Index*x*ZAR_pct_change,PI101404*x*general_index
+1545,PI919001_roll12,PI101402*x*general_index
+1546,BDI_Close_mean_std3,PI201094*x*general_index
+1547,Pulses_metric tonnes_lag1,PI919001*x*general_index
+1548,PI101121_std6,PI201135*x*general_index
+1549,BDI_High_min_pct_change,PI201134*x*general_index
+1550,PI101125_std3,PI201095*x*general_index
+1551,PI101103_lag3,PI201083*x*general_index
+1552,PI201134,PI201081*x*general_index
+1553,PI201094_trend,PI201073*x*general_index
+1554,Brent_USD_per_barrel_std3,PI211442*x*general_index
+1555,PI201055_lag6,PI101101*x*general_index
+1556,PI201111_lag12,PI101005*x*general_index
+1557,PI101201_roll6,PI101004*x*general_index
+1558,GBP_range_lag2,PI101003*x*general_index
+1559,PI101002_lag2,PI101002*x*general_index
+1560,SDR_pct_change_roll3,PI101001*x*general_index
+1561,BDI_Low_std_std3,Imports_Food_Beverages_Tobacco*x*Global_Food_Price_Index
+1562,SDR_range_lag1,Imports_Fuel*x*Brent_USD_per_barrel
+1563,PI201132_roll6,PI201111*x*general_index
+1564,BDI_High_variance_lag2,PI201113*x*general_index
+1565,PI201033_lag3,PI201121*x*general_index
+1566,Sorghum_metric tonnes_lag3,Brent_USD_per_barrel*x*ZAR_median
+1567,PI201135_lag2,PI201122*x*general_index
+1568,SDR_mean_lag2,PI201123*x*general_index
+1569,BDI_Close_std_std3,PI201124*x*general_index
+1570,PI101165_std12,PI101181*x*general_index
+1571,core_inflation_pct_change,Brent_USD_per_barrel*x*YEN_median
+1572,PI101202_std12,PI201125*x*general_index
+1573,PI201073_lag3,PI201131*x*general_index
+1574,GBP_mean_pct_change,PI211445*x*general_index
+1575,BDI_Low_median_std3,BDI_Low_median
+1576,BDI_Close_variance_lag12,Brent_USD_per_barrel*x*SDR_median
+1577,BDI_High_range_lag1,Brent_USD_per_barrel*x*SDR_mean
+1578,PI201122_lag6,BDI_Low_range
+1579,YEN_std_std3,BDI_Low_std
+1580,EUR_std,Brent_USD_per_barrel*x*USD_std
+1581,PI201094_std6,Brent_USD_per_barrel*x*USD_median
+1582,PI101112_std12,Brent_USD_per_barrel*x*USD_mean
+1583,PI101182_lag6,Brent_USD_per_barrel*x*GBP_pct_change
+1584,headline_cpi_roll3,BDI_Low_variance
+1585,PI201035_pct_change,BDI_Low_pct_change
+1586,PI201113_roll6,Brent_USD_per_barrel*x*YEN_std
+1587,PI101151_lag1,PI101175*x*general_index
+1588,SDR_median_trend,PI101172*x*general_index
+1589,PI201004_lag12,PI101171*x*general_index
+1590,PI101102,PI101165*x*general_index
+1591,Sorghum_Thousand Hectares_2_lag3,PI101162*x*general_index
+1592,BDI_Close_variance_lag2,PI101161*x*general_index
+1593,Maize_Thousand Hectares_lag12,PI101155*x*general_index
+1594,PI101101_trend,PI101154*x*general_index
+1595,YEN_pct_change_lag6,PI101153*x*general_index
+1596,PI201135_lag3,PI101152*x*general_index
+1597,Global_Food_Price_Index*x*USD_pct_change,PI101151*x*general_index
+1598,PI101162_roll12,PI101145*x*general_index
+1599,USD_std,PI101144*x*general_index
+1600,PI201063_std3,PI101143*x*general_index
+1601,Sheep_Number_lag1,PI201101*x*general_index
+1602,PI201132_trend,PI101102*x*general_index
+1603,PI101152_lag6,PI101103*x*general_index
+1604,PI101152_roll3,PI101104*x*general_index
+1605,PI201062_pct_change,PI201103*x*general_index
+1606,EUR_median_roll6,PI101111*x*general_index
+1607,ZAR_mean_pct_change,PI101112*x*general_index
+1608,PI201135*x*general_index,PI101115*x*general_index
+1609,BDI_Close_variance_lag3,PI101121*x*general_index
+1610,GBP_median_pct_change,PI101141*x*general_index
+1611,PI201002_std3,PI101123*x*general_index
+1612,ZAR_pct_change,PI101124*x*general_index
+1613,PI101103_trend,PI101125*x*general_index
+1614,PI101171_roll3,PI101131*x*general_index
+1615,PI201071_lag6,PI101132*x*general_index
+1616,PI101124_std6,PI101133*x*general_index
+1617,PI101105_trend,PI101134*x*general_index
+1618,PI101172_lag2,PI101135*x*general_index
+1619,SDR_std_lag3,PI101122*x*general_index
+1620,YEN_pct_change_pct_change,PI101405_std3
+1621,PI211444_roll12,PI101405_roll3
+1622,PI101162_lag6,PI101404_std12
+1623,PI101132,PI101404_roll12
+1624,PI201101_trend,PI101404_std6
+1625,Global_Cereals_Index_std3,PI101404_roll6
+1626,PI201032_roll12,PI101404_std3
+1627,PI101405_pct_change,PI101404_roll3
+1628,BDI_Close_mean_lag2,PI101402_std12
+1629,PI101004_pct_change,PI101402_roll12
+1630,PI201135_std3,PI101402_std6
+1631,Chicken_Number_lag2,PI101402_roll6
+1632,Sheep_Number,PI101402_std3
+1633,PI201124_lag6,PI101402_roll3
+1634,PI201091_std12,PI953221_std12
+1635,BDI_Low_median_trend,PI101111_trend
+1636,PI101001,PI201123
+1637,GBP_std_lag3,PI953221_roll6
+1638,PI201092_lag3,PI953221_std3
+1639,BDI_Low_range_std3,PI953221_roll3
+1640,PI101405,PI919001_std12
+1641,general_index_pct_change,PI919001_roll12
+1642,PI201131_std6,PI201124
+1643,PI101175_lag1,PI919001_roll6
+1644,Imported Tradeables Index_pct_change,PI201125
+1645,PI953221_std3,PI919001_roll3
+1646,BDI_High_median_std6,PI201131
+1647,Imports_Fuel_std12,PI201132
+1648,EUR_std_lag12,PI201133
+1649,PI101154_roll6,PI201135_roll6
+1650,ZAR_median_std6,PI201135_std3
+1651,BDI_High_pct_change_std6,PI953221_roll12
+1652,PI101172_pct_change,PI211442_std6
+1653,ZAR_range,PI211442_roll6
+1654,PI201035_std3,PI211442_std3
+1655,Pigs_Number_lag3,PI211442_roll3
+1656,Month,PI101445_std12
+1657,BDI_Low_variance_std3,PI101445_roll12
+1658,BDI_High_min_lag1,PI201111
+1659,BDI_Close_std_lag1,PI101445_roll6
+1660,Global_Food_Price_Index*x*YEN_range,PI201113
+1661,BDI_Low_pct_change_roll3,PI101445_roll3
+1662,PI101404_lag12,PI101442_std12
+1663,PI211444_roll6,PI101442_roll12
+1664,PI101002*x*general_index,PI101442_std6
+1665,BDI_Low_std_lag6,PI101442_roll6
+1666,BDI_Low_median_lag6,PI101442_std3
+1667,EUR_range_std3,PI101405_roll6
+1668,USD_std_pct_change,PI101432_std12
+1669,SDR_median_std6,PI101432_roll12
+1670,PI101442_std6,PI201121
+1671,PI201064_pct_change,PI101432_roll6
+1672,GBP_range_lag3,PI101432_std3
+1673,PI201095,PI101432_roll3
+1674,PI201002_lag2,PI101422_std12
+1675,PI201034_lag3,PI101422_roll12
+1676,Cattle_Number_lag2,PI101422_std6
+1677,PI201122_lag1,PI101422_roll6
+1678,PI201124_roll6,PI201122
+1679,BDI_High_pct_change_roll3,PI101422_roll3
+1680,SDR_mean_std3,PI101405_std12
+1681,PI201125*x*general_index,PI101405_roll12
+1682,Pulses_Thousand Hectares_lag1,PI101405_std6
+1683,PI101422_lag12,PI101442_roll3
+1684,PI201122_lag12,PI201124_std3
+1685,BDI_Close_std_pct_change,PI201124_roll3
+1686,BDI_Low_range_lag1,PI201123_std12
+1687,BDI_Close_first_lag1,PI201123_roll12
+1688,PI201063_roll6,PI201123_std6
+1689,Sorghum_Thousand Hectares_2_lag1,PI201123_roll6
+1690,PI201123_lag12,PI201123_std3
+1691,PI201122_lag2,PI201123_roll3
+1692,PI101203_lag2,PI201122_std12
+1693,PI201032_lag3,PI201122_roll12
+1694,PI201132_std3,PI201122_std6
+1695,PI101004_std3,PI201122_roll6
+1696,BDI_Close_median_trend,PI201122_std3
+1697,GBP_pct_change_lag1,PI201122_roll3
+1698,PI201093_pct_change,PI201121_std12
+1699,PI101133_lag6,PI201135_roll3
+1700,PI101204_lag1,PI201121_std6
+1701,Groundnuts_metric tonnes_lag12,PI201121_roll6
+1702,Groundnuts_Thousand Hectares_lag6,PI201121_std3
+1703,Goats_Number,PI201121_roll3
+1704,PI101143_trend,PI201113_std12
+1705,YEN_range_lag3,PI201113_roll12
+1706,PI101133_std12,PI101405
+1707,BDI_Close_pct_change_lag2,PI201113_roll6
+1708,PI201124_lag12,PI201113_std3
+1709,BDI_Close_min_lag1,PI201113_roll3
+1710,Brent_USD_per_barrel*x*YEN_pct_change,PI201111_std12
+1711,PI101184_roll12,PI201111_roll12
+1712,Groundnuts_KG/HA_lag1,PI101422
+1713,BDI_Close_max_lag3,PI201111_roll6
+1714,BDI_Low_pct_change_lag6,PI101432
+1715,Millet_Thousand Hectares_lag3,PI201121_roll12
+1716,PI101161_std3,PI201134
+1717,BDI_Low_std_lag2,PI201134_roll12
+1718,PI101204_roll12,PI201134_roll6
+1719,PI101404_roll12,PI201134_std3
+1720,BDI_High_variance_lag12,PI201134_roll3
+1721,PI201133_lag1,PI201133_std12
+1722,PI101102_std3,PI201133_roll12
+1723,Maize_metric tonnes_lag12,PI201133_std6
+1724,BDI_Close_range_trend,PI201133_roll6
+1725,GBP_pct_change_lag3,PI201133_std3
+1726,Quarter,PI201133_roll3
+1727,BDI_Low_pct_change_lag1,PI201132_std12
+1728,general_index_trend,PI919001
+1729,PI101152_lag3,PI201132_std6
+1730,PI101204_std6,PI201132_roll6
+1731,PI201073_lag1,PI201124_roll6
+1732,PI101135_lag1,PI101404
+1733,PI101203_roll6,PI201124_roll12
+1734,BDI_High_pct_change_lag3,PI101402
+1735,PI101175*x*general_index,PI201125_roll3
+1736,Pulses_Thousand Hectares_2_lag3,PI201125_std3
+1737,PI201052_std12,PI201125_roll6
+1738,EUR_mean,PI953221
+1739,PI201124_roll12,PI201132_std3
+1740,USD_range_lag12,PI201125_std12
+1741,EUR_pct_change_lag2,PI201131_roll3
+1742,PI101142_lag3,PI201131_std3
+1743,PI101171_lag12,PI201131_roll6
+1744,PI201061_lag1,PI201131_std6
+1745,PI201005_std6,PI201131_roll12
+1746,SDR_pct_change_lag12,PI201131_std12
+1747,SDR_std_lag12,PI201132_roll3
+1748,PI101422_std6,PI201125_roll12
+1749,Brent_USD_per_barrel*x*ZAR_pct_change,PI201004
+1750,Sorghum_metric tonnes_lag1,PI201005
+1751,SDR_median_pct_change,USD_median_trend
+1752,PI201033_std3,PI201011
+1753,Sheep_Number_lag6,PI201013
+1754,BDI_Low_std_roll3,PI201031
+1755,BDI_High_pct_change_std3,GBP_std_trend
+1756,PI101111_std6,PI201032
+1757,Global_Food_Price_Index*x*YEN_pct_change,GBP_mean_trend
+1758,Millet_metric tonnes_lag12,PI201033
+1759,Groundnuts_metric tonnes_2_lag3,EUR_range_trend
+1760,PI201091_roll6,EUR_std_trend
+1761,BDI_High_median_std3,PI201034
+1762,PI101202_lag6,PI201035
+1763,BDI_Low_mean_roll3,BDI_Low_pct_change_trend
+1764,PI101161_std6,PI211442_roll12
+1765,SDR_std_trend,PI201051
+1766,PI101171_roll12,BDI_Low_range_trend
+1767,PI101105_lag12,BDI_Low_median_trend
+1768,PI201053_std6,PI201052
+1769,EUR_pct_change,PI201054
+1770,GBP_median_std6,BDI_High_variance_trend
+1771,Sunflower_KG/HA,BDI_High_std_trend
+1772,BDI_Low_mean_lag3,BDI_High_range_trend
+1773,ZAR_pct_change_lag6,BDI_High_min_trend
+1774,PI101161_lag12,BDI_High_median_trend
+1775,PI101155_lag1,BDI_High_mean_trend
+1776,BDI_Close_last_pct_change,PI201055
+1777,PI101002_std3,PI201061
+1778,PI201051_std12,PI201062
+1779,PI201121_lag12,PI201063
+1780,Pulses_Thousand Hectares_lag6,BDI_Low_variance_trend
+1781,PI201035*x*general_index,PI101105_trend
+1782,PI101103_lag1,PI101104_trend
+1783,BDI_Low_median_lag1,PI101103_trend
+1784,PI201064_roll6,PI101151
+1785,BDI_High_range_lag2,PI101101_trend
+1786,SDR_range_lag2,PI101005_trend
+1787,PI201091_std6,PI101004_trend
+1788,USD_median_trend,PI101003_trend
+1789,PI201005_lag12,PI101002_trend
+1790,BDI_Close_last_std3,PI101001_trend
+1791,PI201131_std12,PI101153
+1792,PI101004_lag1,PI101155
+1793,PI201113_roll12,PI101162
+1794,PI101155_std12,PI101165
+1795,PI101152_roll6,PI101171
+1796,PI101152_lag2,PI201003
+1797,BDI_Close_max_std3,food_inflation_trend
+1798,PI101203_lag6,imported_tradeables_inflation_trend
+1799,PI101162*x*general_index,headline_cpi_trend
+1800,PI201071_lag12,PI101172
+1801,PI101004_roll3,PI101175
+1802,Sunflower_metric tonnes_lag3,PI101181
+1803,PI201113_roll3,PI101182
+1804,Millet_Thousand Hectares_2_lag1,PI101183
+1805,SDR_mean_trend,PI101184
+1806,YEN_range_pct_change,PI101185
+1807,Pulses_Thousand Hectares_lag12,PI101201
+1808,PI101122_std3,PI101203
+1809,PI101102_lag3,SDR_std_trend
+1810,BDI_Close_pct_change_lag6,PI201001
+1811,PI201063_lag3,PI201002
+1812,PI201013_std6,core_inflation_trend
+1813,BDI_High_variance_roll3,Inflation (%)_std12
+1814,PI201001_std3,Inflation (%)_roll12
+1815,PI101112_pct_change,Inflation (%)_std6
+1816,YEN_pct_change_lag3,Inflation (%)_roll6
+1817,Global_Oils_Index_pct_change,Inflation (%)_std3
+1818,Millet_Thousand Hectares,Inflation (%)_roll3
+1819,PI101181_std6,Imported Tradeables Index_std12
+1820,BDI_Low_pct_change_std6,PI201093
+1821,PI101102*x*general_index,PI201094
+1822,BDI_High_min_std3,PI201095
+1823,PI101141_std3,Imported Tradeables Index_std3
+1824,PI101422_lag1,Imported Tradeables Index_roll3
+1825,Global_Food_Price_Index*x*EUR_std,PI201101
+1826,PI101153,Food_and_Non_Alcoholic_Beverages_Index_roll12
+1827,PI953221_lag1,Food_and_Non_Alcoholic_Beverages_Index_std6
+1828,PI201063_std12,PI201064
+1829,YEN_pct_change_trend,PI201103
+1830,PI101103_lag12,Food_and_Non_Alcoholic_Beverages_Index_roll3
+1831,EUR_std_std3,PI211445_std12
+1832,BDI_Low_pct_change_trend,PI211445_roll12
+1833,PI201032_pct_change,PI211445_std6
+1834,PI101143_lag6,PI211445_roll6
+1835,PI201065_std3,PI211445_std3
+1836,PI201073*x*general_index,PI211445_roll3
+1837,PI101145_std6,PI211444_std12
+1838,USD_std_std3,PI211444_roll12
+1839,Millet_Thousand Hectares_2_lag12,PI211444_std6
+1840,BDI_Low_variance_trend,PI211444_roll6
+1841,PI201031_std6,PI211444_std3
+1842,PI201001_std12,PI211444_roll3
+1843,PI101155*x*general_index,PI211442_std12
+1844,BDI_Close_mean_pct_change,Food_and_Non_Alcoholic_Beverages_Index_roll6
+1845,PI211445_roll12,PI201065
+1846,PI101134*x*general_index,PI201071
+1847,PI201055*x*general_index,BDI_Close_max_trend
+1848,USD_pct_change_trend,BDI_Close_min_trend
+1849,USD_std_lag3,BDI_Close_median_trend
+1850,Groundnuts_KG/HA_lag12,BDI_Close_mean_trend
+1851,PI201071_std12,policy_rate_trend
+1852,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_trend,PI201073
+1853,PI101422_std12,PI201081
+1854,PI201032_lag2,PI201083
+1855,BDI_Low_mean_trend,PI201091
+1856,Global_Cereals_Index_std6,Month_sin
+1857,PI919001_lag12,Year
+1858,EUR_pct_change_lag3,Quarter
+1859,EUR_std_lag1,PI201092
+1860,PI101153_std12,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_roll3
+1861,PI101161_std12,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_std3
+1862,BDI_Low_pct_change_lag2,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_roll6
+1863,USD_mean_std3,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_std6
+1864,Brent_USD_per_barrel*x*EUR_range,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_roll12
+1865,Pulses_Thousand Hectares_2,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_std12
+1866,PI201052_roll12,Imports_Food_Beverages_Tobacco_roll3
+1867,PI101132_lag2,Imports_Food_Beverages_Tobacco_std3
+1868,PI201002*x*general_index,Imports_Fuel_std12
+1869,PI101445_lag2,Imports_Food_Beverages_Tobacco_std6
+1870,Millet_Thousand Hectares_lag12,Imports_Food_Beverages_Tobacco_roll12
+1871,PI201134_std3,Imports_Food_Beverages_Tobacco_std12
+1872,BDI_Close_median_pct_change,Imports_Fuel_roll3
+1873,BDI_Close_std_lag6,Imports_Fuel_std3
+1874,PI201033_std12,Imports_Fuel_roll6
+1875,PI101112_roll12,Imports_Fuel_std6
+1876,PI101171_std12,Imports_Fuel_roll12
+1877,Sheep_Number_lag2,Imports_Food_Beverages_Tobacco_roll6
+1878,PI201111,PI201002_lag12
+1879,PI201005_roll12,PI201001_lag12
+1880,PI201062_lag12,PI101204_lag12
+1881,BDI_Low_mean_pct_change,PI101203_lag12
+1882,PI919001_roll6,PI101202_lag12
+1883,BDI_Close_pct_change_lag3,PI101201_lag12
+1884,Sorghum_metric tonnes_lag6,PI101185_lag12
+1885,PI201122_std3,PI101184_lag12
+1886,PI201032_std3,PI101183_lag12
+1887,PI201122_pct_change,PI101182_lag12
+1888,USD_mean_trend,PI101181_lag12
+1889,USD_range_lag2,PI101175_lag12
+1890,PI101132_lag1,PI101172_lag12
+1891,BDI_High_pct_change_trend,PI101171_lag12
+1892,PI201053_std12,PI101165_lag12
+1893,PI919001_lag3,policy_rate
+1894,PI201123_roll12,PI101161_lag12
+1895,PI201005_roll3,PI101001_lag3
+1896,YEN_range_std6,PI101002_lag3
+1897,BDI_Low_range_pct_change,PI101153_lag12
+1898,Inflation (%)_pct_change,PI101003_lag3
+1899,PI201113_lag6,PI101151_lag12
+1900,PI201002_pct_change,PI101145_lag12
+1901,PI101204*x*general_index,PI101144_lag12
+1902,PI201095_roll3,PI101143_lag12
+1903,Millet_Thousand Hectares_lag1,PI101142_lag12
+1904,PI201133_std3,PI101141_lag12
+1905,Groundnuts_KG/HA_lag6,PI101004_lag3
+1906,PI201055_trend,PI101134_lag12
+1907,EUR_std_lag3,PI101133_lag12
+1908,BDI_Close_pct_change_lag1,PI101132_lag12
+1909,EUR_pct_change_roll12,PI101162_lag12
+1910,PI101002_std6,food_inflation_lag3
+1911,BDI_Low_mean_std3,PI201103_lag12
+1912,SDR_std_lag1,PI201101_lag12
+1913,PI101152_std12,PI201095_lag12
+1914,PI201004_std12,PI201094_lag12
+1915,PI201064_lag12,PI201093_lag12
+1916,PI201095_lag12,PI201092_lag12
+1917,PI101202*x*general_index,PI201091_lag12
+1918,PI101202_pct_change,PI201083_lag12
+1919,BDI_Close_count_lag1,PI201081_lag12
+1920,PI101141_pct_change,PI201073_lag12
+1921,PI201011,PI201071_lag12
+1922,Global_Food_Price_Index*x*USD_std,PI201065_lag12
+1923,Maize_Thousand Hectares_2_lag3,PI201064_lag12
+1924,ZAR_median_pct_change,PI201063_lag12
+1925,policy_rate_lag6,PI201003_lag12
+1926,PI201031_trend,PI201061_lag12
+1927,BDI_Close_count_lag3,Global_Food_Price_Index_lag3
+1928,PI101105*x*general_index,PI201054_lag12
+1929,food_inflation_lag1,PI201053_lag12
+1930,BDI_Close_pct_change_std3,PI201052_lag12
+1931,PI101105_std3,PI201051_lag12
+1932,ZAR_range_lag1,PI201035_lag12
+1933,PI101445_std12,PI201034_lag12
+1934,PI101422_roll12,PI201033_lag12
+1935,PI101182_std3,PI201032_lag12
+1936,BDI_High_range_pct_change,PI201031_lag12
+1937,PI101141_lag12,PI201013_lag12
+1938,BDI_High_range_trend,PI201011_lag12
+1939,Maize_Thousand Hectares_lag2,PI201005_lag12
+1940,Global_Food_Price_Index*x*SDR_pct_change,PI201004_lag12
+1941,GBP_std_trend,PI201062_lag12
+1942,BDI_High_mean_pct_change,PI101133_lag3
+1943,PI101124_std3,PI101134_lag3
+1944,PI101184_lag6,PI101135_lag3
+1945,USD_range_lag1,YEN_std_lag12
+1946,imported_tradeables_inflation_trend,YEN_median_lag12
+1947,PI201113_std3,PI101141_lag3
+1948,PI201002_trend,PI101143_lag3
+1949,Cattle_Number_lag6,PI101144_lag3
+1950,PI201122*x*general_index,PI101145_lag3
+1951,PI101422_std3,PI101152_lag3
+1952,PI101144_lag12,PI101153_lag3
+1953,PI101152*x*general_index,PI101154_lag3
+1954,PI953221_std6,USD_median_lag12
+1955,PI101104_std3,PI101162_lag3
+1956,PI101123_std3,PI101165_lag3
+1957,Brent_USD_per_barrel*x*GBP_pct_change,PI101131_lag12
+1958,Global_Sugar_Index_pct_change,GBP_std_lag12
+1959,PI101162_pct_change,PI101171_lag3
+1960,BDI_Low_std_trend,PI101172_lag3
+1961,BDI_Close_min_pct_change,PI101175_lag3
+1962,PI201004_std3,PI101181_lag3
+1963,PI101142_lag12,PI101182_lag3
+1964,PI919001_pct_change,PI101183_lag3
+1965,YEN_std_pct_change,PI101184_lag3
+1966,PI101165_roll6,BDI_Low_pct_change_lag12
+1967,Sorghum_KG/HA_lag3,BDI_Low_variance_lag12
+1968,ZAR_pct_change_lag3,BDI_Low_std_lag12
+1969,Brent_USD_per_barrel*x*USD_pct_change,BDI_Low_range_lag12
+1970,PI201131_lag12,BDI_Low_median_lag12
+1971,BDI_Low_variance_roll3,BDI_Low_mean_lag12
+1972,PI201103_lag12,BDI_High_pct_change_lag12
+1973,PI201061_trend,GBP_range_lag12
+1974,Food_and_Non_Alcoholic_Beverages_Index_trend,PI101125_lag12
+1975,PI101143_pct_change,PI101124_lag12
+1976,EUR_pct_change_roll3,PI101123_lag12
+1977,YEN_std_lag2,PI101122_lag12
+1978,PI101135_roll12,PI101121_lag12
+1979,YEN_mean_pct_change,PI101115_lag12
+1980,PI101184_std6,PI101112_lag12
+1981,Chicken_Number_lag6,PI101111_lag12
+1982,ZAR_range_trend,PI101105_lag12
+1983,PI201013_roll3,PI101104_lag12
+1984,PI101201_lag1,PI101103_lag12
+1985,PI201033_trend,PI101102_lag12
+1986,PI201125_roll12,PI101101_lag12
+1987,PI201135_std6,PI101005_lag12
+1988,PI101155_roll3,PI101005_lag3
+1989,Millet_Thousand Hectares_2_lag2,PI101132_lag3
+1990,YEN_std_lag3,PI101002_lag12
+1991,GBP_std_pct_change,PI101001_lag12
+1992,PI101154_lag3,PI101101_lag3
+1993,PI201131_std3,PI101102_lag3
+1994,PI101172,PI101103_lag3
+1995,PI201134_lag2,PI101105_lag3
+1996,PI211444_std12,PI101111_lag3
+1997,ZAR_pct_change_roll6,PI101112_lag3
+1998,policy_rate_lag2,core_inflation_lag12
+1999,ZAR_pct_change_lag12,food_inflation_lag12
+2000,PI101442_roll6,PI101115_lag3
+2001,Month_sin,PI101121_lag3
+2002,PI201063_lag2,PI101123_lag3
+2003,PI101171_lag6,PI101125_lag3
+2004,EUR_pct_change_lag1,PI101131_lag3
+2005,PI201125_lag1,PI101003_lag12
+2006,PI201124_roll3,policy_rate_lag3
+2007,ZAR_range_lag6,SDR_mean_pct_change
+2008,EUR_range_lag1,BDI_Close_mean_lag3
+2009,PI101432,BDI_Close_median_lag3
+2010,PI101004,BDI_Close_min_lag3
+2011,PI101201_std12,BDI_Close_max_lag3
+2012,BDI_Close_first_lag2,BDI_High_mean_lag3
+2013,PI101112_std6,BDI_High_median_lag3
+2014,PI101005*x*general_index,GBP_median_pct_change
+2015,PI201034_std3,BDI_High_min_lag3
+2016,PI101171_lag2,BDI_High_range_lag3
+2017,PI101201*x*general_index,BDI_High_std_lag3
+2018,PI101124*x*general_index,BDI_High_variance_lag3
+2019,BDI_Low_median_pct_change,BDI_High_pct_change_lag3
+2020,PI101135_std12,BDI_Low_mean_lag3
+2021,PI201131_lag3,PI201121_lag12
+2022,PI101103_pct_change,BDI_Low_variance_pct_change
+2023,Sorghum_Thousand Hectares_lag6,BDI_Low_median_lag3
+2024,PI101181_lag1,BDI_Low_range_pct_change
+2025,PI101202_std6,BDI_Low_median_pct_change
+2026,PI101102_lag2,BDI_Low_range_lag3
+2027,PI101132_std3,BDI_High_pct_change_pct_change
+2028,Global_Sugar_Index_trend,BDI_High_variance_pct_change
+2029,BDI_High_std_trend,BDI_High_std_pct_change
+2030,PI201031_std3,BDI_High_range_pct_change
+2031,PI101203*x*general_index,BDI_High_min_pct_change
+2032,BDI_High_range_lag3,BDI_High_median_pct_change
+2033,PI101001_lag6,BDI_High_mean_pct_change
+2034,BDI_Close_count_pct_change,BDI_Close_count_pct_change
+2035,PI201064_std6,BDI_Low_std_lag3
+2036,EUR_mean_pct_change,BDI_Low_variance_lag3
+2037,Maize_KG/HA_lag12,BDI_Low_pct_change_pct_change
+2038,ZAR_pct_change_trend,PI101115_pct_change
+2039,PI101142_lag6,PI101112_pct_change
+2040,PI201131_roll12,PI101111_pct_change
+2041,PI201011_lag1,PI101105_pct_change
+2042,PI201125_lag2,PI101104_pct_change
+2043,EUR_range_lag2,PI101103_pct_change
+2044,PI101104_lag3,PI101101_pct_change
+2045,PI201001_roll12,PI101005_pct_change
+2046,PI101183_std6,PI101004_pct_change
+2047,PI101182_lag12,PI101003_pct_change
+2048,PI201002_roll6,PI101002_pct_change
+2049,GBP_pct_change_lag2,PI101001_pct_change
+2050,Maize_metric tonnes_lag6,Pulses_KG/HA_lag2
+2051,EUR_std_pct_change,Global_Cereals_Index_pct_change
+2052,Maize_Thousand Hectares_2_lag6,Sorghum_metric tonnes_lag2
+2053,YEN_std_std6,SDR_range_pct_change
+2054,ZAR_std_trend,Millet_metric tonnes_lag2
+2055,BDI_Close_median_lag1,core_inflation_pct_change
+2056,Maize_Thousand Hectares_2_lag2,food_inflation_pct_change
+2057,ZAR_mean_trend,imported_tradeables_inflation_pct_change
+2058,Millet_Thousand Hectares_lag2,headline_cpi_pct_change
+2059,PI101153_lag2,Pulses_metric tonnes_lag2
+2060,PI201135_roll12,Sunflower_metric tonnes_lag2
+2061,PI101135_roll3,Groundnuts_metric tonnes_2_lag2
+2062,BDI_High_std_lag1,Cattle_Number_lag2
+2063,Sorghum_Thousand Hectares_2_lag6,Sheep_Number_lag2
+2064,PI101402_trend,Chicken_Number_lag2
+2065,Sorghum_Thousand Hectares_lag12,Pigs_Number_lag2
+2066,PI101151_lag12,YEN_median_pct_change
+2067,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_std3,food_index_lag3
+2068,BDI_High_variance_pct_change,general_index_lag3
+2069,PI101101_std6,Maize_metric tonnes_lag2
+2070,BDI_High_median_trend,Sunflower_Thousand Hectares_lag12
+2071,PI101003_std6,Pulses_Thousand Hectares_lag12
+2072,BDI_Close_count_roll12,Millet_Thousand Hectares_lag12
+2073,PI101152_pct_change,YEN_std_lag3
+2074,PI201055_lag12,Imports_Fuel_lag12
+2075,PI101111*x*general_index,Imports_Food_Beverages_Tobacco_lag12
+2076,BDI_Close_first_trend,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag12
+2077,PI101201,Inflation (%)_lag12
+2078,PI101101_pct_change,Food_and_Non_Alcoholic_Beverages_Index_lag12
+2079,PI201032*x*general_index,SEI00003_lag12
+2080,PI101122_lag3,PI211445_lag12
+2081,SDR_pct_change_lag6,PI211444_lag12
+2082,BDI_Low_pct_change_std3,PI211442_lag12
+2083,PI101182_roll12,PI101445_lag12
+2084,PI201062*x*general_index,PI101442_lag12
+2085,Groundnuts_metric tonnes_2_lag12,BDI_Low_pct_change_lag3
+2086,Maize_Thousand Hectares,PI101422_lag12
+2087,PI201013_roll12,PI101405_lag12
+2088,ZAR_std_pct_change,PI101404_lag12
+2089,PI201092_pct_change,PI101402_lag12
+2090,PI101205_roll12,PI953221_lag12
+2091,BDI_Close_last_trend,PI919001_lag12
+2092,BDI_High_min_trend,ZAR_pct_change_lag3
+2093,PI201133_lag2,PI201134_lag12
+2094,PI201055_std3,PI201133_lag12
+2095,BDI_Close_pct_change_lag12,headline_cpi_lag3
+2096,PI101151_roll12,PI201131_lag12
+2097,PI101205_lag12,PI201125_lag12
+2098,PI201065_std6,PI201124_lag12
+2099,PI101144_std12,PI201123_lag12
+2100,PI101123_lag6,PI201122_lag12
+2101,PI201053_std3,ZAR_median_lag3
+2102,BDI_Close_range_std3,EUR_mean_lag3
+2103,BDI_Low_std,BDI_Close_std_pct_change
+2104,PI101111_lag6,BDI_Close_range_pct_change
+2105,ZAR_std_lag1,EUR_median_lag3
+2106,PI101204_pct_change,BDI_Close_min_pct_change
+2107,PI201131_pct_change,GBP_median_lag3
+2108,PI201092_lag12,policy_rate_pct_change
+2109,PI101172_trend,USD_mean_lag3
+2110,BDI_Close_std_trend,USD_median_lag3
+2111,BDI_High_pct_change_lag2,Pigs_Number_lag12
+2112,PI101171_lag1,Chicken_Number_lag12
+2113,SDR_pct_change_lag1,Sheep_Number_lag12
+2114,PI101442_lag12,Goats_Number_lag12
+2115,SDR_range_trend,Cattle_Number_lag12
+2116,YEN_pct_change,Groundnuts_metric tonnes_2_lag12
+2117,PI101134_lag12,Groundnuts_Thousand Hectares_lag12
+2118,BDI_Close_pct_change_pct_change,SDR_mean_lag3
+2119,BDI_Close_range_pct_change,SDR_median_lag3
+2120,SDR_range_pct_change,Maize_metric tonnes_lag12
+2121,Pigs_Number,Sorghum_metric tonnes_lag12
+2122,PI101123_lag2,Groundnuts_KG/HA_lag12
+2123,PI101182_std6,Sunflower_KG/HA_lag12
+2124,PI101132_roll3,Pulses_KG/HA_lag12
+2125,Maize_KG/HA_lag3,SDR_std_lag3
+2126,PI101432_lag3,Sorghum_KG/HA_lag12
+2127,BDI_Close_count_std3,Groundnuts_metric tonnes_lag12
+2128,PI201033_lag12,Sunflower_Thousand Hectares_2_lag12
+2129,PI201011_std3,YEN_median_lag3
+2130,YEN_range_trend,Millet_Thousand Hectares_2_lag12
+2131,PI101204_std3,Maize_Thousand Hectares_2_lag12
+2132,Pulses_metric tonnes,Sorghum_Thousand Hectares_2_lag12
+2133,PI101204_roll6,USD_range_lag3
+2134,PI101202_roll12,Global_Sugar_Index_lag6
+2135,PI101135_lag2,PI201093_lag3
+2136,PI101144_lag3,PI201094_lag3
+2137,PI201081_lag12,PI201095_lag3
+2138,PI101144_pct_change,Global_Meat_Index_lag6
+2139,PI201035_lag12,PI201101_lag3
+2140,GBP_pct_change_pct_change,core_inflation_lag6
+2141,PI211445_lag1,food_inflation_lag6
+2142,USD_pct_change_lag6,PI201103_lag3
+2143,PI101172_std3,headline_cpi_lag6
+2144,PI101102_trend,PI201111_lag3
+2145,PI101104,PI201113_lag3
+2146,BDI_Close_first_std3,PI201121_lag3
+2147,Maize_metric tonnes_lag1,ZAR_median_lag6
+2148,Pulses_KG/HA_lag6,PI201122_lag3
+2149,PI201125_lag3,BDI_High_variance_lag12
+2150,PI101175_std3,PI201124_lag3
+2151,GBP_range_pct_change,PI201125_lag3
+2152,PI201093_lag2,PI201131_lag3
+2153,PI201132*x*general_index,PI201132_lag3
+2154,BDI_Close_min_std3,PI201133_lag3
+2155,ZAR_range_pct_change,PI201134_lag3
+2156,PI201134*x*general_index,PI201135_lag3
+2157,PI201111_pct_change,SDR_median_lag6
+2158,PI201032_trend,SDR_mean_lag6
+2159,BDI_Close_variance_lag1,PI919001_lag3
+2160,BDI_High_variance,USD_range_lag6
+2161,PI201061_lag6,PI953221_lag3
+2162,PI201133_trend,USD_median_lag6
+2163,Global_Cereals_Index_trend,PI101402_lag3
+2164,USD_range_pct_change,PI101404_lag3
+2165,PI101153_lag6,PI201123_lag3
+2166,EUR_median_pct_change,PI101155_lag6
+2167,PI101133_pct_change,PI101154_lag6
+2168,PI201033_pct_change,PI101153_lag6
+2169,PI101001_trend,PI101151_lag6
+2170,PI201071_std3,PI101145_lag6
+2171,PI201081*x*general_index,PI101144_lag6
+2172,EUR_pct_change_pct_change,PI101143_lag6
+2173,PI201131*x*general_index,PI201073_lag3
+2174,PI201063_trend,PI201081_lag3
+2175,PI201052_std6,PI101135_lag6
+2176,PI201071_std6,PI101134_lag6
+2177,SDR_std_pct_change,PI101133_lag6
+2178,PI101152,PI101132_lag6
+2179,PI211445_std12,PI101131_lag6
+2180,PI101111_std12,PI201083_lag3
+2181,PI101123_pct_change,PI101001_lag6
+2182,PI101143_roll12,PI101123_lag6
+2183,YEN_mean_trend,PI201091_lag3
+2184,PI201134_pct_change,PI101121_lag6
+2185,PI201034_lag2,PI101115_lag6
+2186,PI201013_std3,PI101112_lag6
+2187,PI101165_lag12,PI101111_lag6
+2188,PI101004*x*general_index,PI101105_lag6
+2189,PI101405_std12,PI101104_lag6
+2190,PI101442_lag1,PI101103_lag6
+2191,PI101181_lag6,PI101102_lag6
+2192,PI101422_roll3,PI101101_lag6
+2193,PI201121_std12,PI201092_lag3
+2194,PI101184_std3,PI101004_lag6
+2195,USD_std_lag2,PI101003_lag6
+2196,BDI_Low_pct_change_pct_change,PI101002_lag6
+2197,PI201133_lag3,PI101124_lag6
+2198,PI101005_trend,policy_rate_lag6
+2199,PI201005*x*general_index,Brent_USD_per_barrel_lag6
+2200,Imports_Fuel_pct_change,general_index_lag6
+2201,USD_pct_change_lag1,food_index_lag6
+2202,PI101172_std12,Pigs_Number_lag3
+2203,PI201004_pct_change,Chicken_Number_lag3
+2204,GBP_pct_change_trend,Sheep_Number_lag3
+2205,PI919001_lag1,Goats_Number_lag3
+2206,PI201095*x*general_index,Cattle_Number_lag3
+2207,PI201125,Groundnuts_metric tonnes_2_lag3
+2208,PI201094*x*general_index,Sunflower_metric tonnes_lag3
+2209,YEN_pct_change_lag2,Pulses_metric tonnes_lag3
+2210,PI101445_lag12,Millet_metric tonnes_lag3
+2211,YEN_std_trend,Maize_metric tonnes_lag3
+2212,PI101122_pct_change,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag3
+2213,BDI_Close_pct_change_trend,PI101405_lag3
+2214,PI101104*x*general_index,Imports_Food_Beverages_Tobacco_lag3
+2215,PI201113*x*general_index,Pulses_KG/HA_lag3
+2216,PI101004_trend,Millet_KG/HA_lag3
+2217,PI201093_std6,Imports_Fuel_lag3
+2218,PI101183_std3,Sorghum_KG/HA_lag3
+2219,PI201001_trend,Groundnuts_metric tonnes_lag3
+2220,PI201095_std3,Sunflower_Thousand Hectares_2_lag3
+2221,PI201134_lag12,Pulses_Thousand Hectares_2_lag3
+2222,PI101402_std6,Millet_Thousand Hectares_2_lag3
+2223,PI201123_lag2,Maize_Thousand Hectares_2_lag3
+2224,PI201101_pct_change,Sorghum_Thousand Hectares_2_lag3
+2225,PI101202_trend,Groundnuts_Thousand Hectares_lag3
+2226,PI101153_pct_change,Sunflower_Thousand Hectares_lag3
+2227,PI101155,Maize_Thousand Hectares_lag3
+2228,PI101101_roll3,Millet_Thousand Hectares_lag3
+2229,Maize_Thousand Hectares_2_lag1,Groundnuts_KG/HA_lag3
+2230,PI101184_lag3,PI101422_lag3
+2231,Millet_Thousand Hectares_2_lag3,GBP_median_lag6
+2232,PI201011_roll12,GBP_mean_lag6
+2233,PI101151_roll6,PI101432_lag3
+2234,PI101171_pct_change,PI101442_lag3
+2235,PI201073_roll6,PI101445_lag3
+2236,BDI_Low_pct_change,EUR_median_lag6
+2237,BDI_Close_mean_trend,PI211442_lag3
+2238,SEI00003_lag2,BDI_Low_pct_change_lag6
+2239,PI101202_roll3,BDI_Low_variance_lag6
+2240,SDR_pct_change_lag3,BDI_Low_std_lag6
+2241,Global_Meat_Index_std3,BDI_Low_range_lag6
+2242,PI201052_std3,BDI_Low_median_lag6
+2243,BDI_High_variance_trend,BDI_Low_mean_lag6
+2244,PI201111_lag1,BDI_High_pct_change_lag6
+2245,PI101155_pct_change,BDI_Close_mean_lag6
+2246,Maize_Thousand Hectares_2_lag12,BDI_High_std_lag6
+2247,Pigs_Number_lag12,BDI_High_range_lag6
+2248,YEN_range_lag2,BDI_High_min_lag6
+2249,PI953221,BDI_High_median_lag6
+2250,PI201005_lag2,BDI_High_mean_lag6
+2251,PI101161_lag6,BDI_Close_count_lag6
+2252,PI101145_lag6,PI211444_lag3
+2253,Pulses_KG/HA_lag2,PI211445_lag3
+2254,Chicken_Number_lag12,SEI00003_lag3
+2255,Global_Food_Price_Index_pct_change,BDI_Close_variance_lag6
+2256,PI101201_lag3,BDI_Close_std_lag6
+2257,PI201135_trend,Food_and_Non_Alcoholic_Beverages_Index_lag3
+2258,PI201061_lag12,Imported Tradeables Index_lag3
+2259,EUR_median_std3,Inflation (%)_lag3
+2260,YEN_median_pct_change,BDI_Close_median_lag6
+2261,BDI_Close_max_trend,BDI_High_variance_lag6
+2262,PI101432_pct_change,Pulses_KG/HA_lag6
+2263,PI201094,Millet_KG/HA_lag6
+2264,PI101203_roll3,Maize_KG/HA_lag6
+2265,PI201131_trend,Sorghum_KG/HA_lag6
+2266,PI101183_lag2,Groundnuts_metric tonnes_lag6
+2267,Pulses_KG/HA,Sunflower_Thousand Hectares_2_lag6
+2268,PI201091_lag6,Pulses_Thousand Hectares_2_lag6
+2269,USD_range,Millet_Thousand Hectares_2_lag6
+2270,PI101183*x*general_index,Maize_Thousand Hectares_2_lag6
+2271,PI101201_std6,Sorghum_Thousand Hectares_2_lag6
+2272,PI201092_std3,Groundnuts_Thousand Hectares_lag6
+2273,PI101132_trend,Sunflower_Thousand Hectares_lag6
+2274,PI201003_lag6,Pulses_Thousand Hectares_lag6
+2275,Imports_Food_Beverages_Tobacco_lag1,Millet_Thousand Hectares_lag6
+2276,BDI_Close_count,Maize_Thousand Hectares_lag6
+2277,PI101125_trend,PI101161_lag6
+2278,PI101004_roll6,Imports_Fuel_lag6
+2279,PI101171*x*general_index,Imports_Food_Beverages_Tobacco_lag6
+2280,Global_Oils_Index_trend,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag6
+2281,USD_range_trend,Inflation (%)_lag6
+2282,PI101203_std3,PI201035_lag3
+2283,PI201081_std3,Food_and_Non_Alcoholic_Beverages_Index_lag6
+2284,PI201032_roll3,SEI00003_lag6
+2285,PI101123_trend,PI211445_lag6
+2286,PI101184_lag1,PI211444_lag6
+2287,BDI_High_pct_change_lag12,PI211442_lag6
+2288,PI101155_trend,PI101445_lag6
+2289,Imported Tradeables Index_std6,PI101442_lag6
+2290,BDI_Close_first_pct_change,PI101432_lag6
+2291,Groundnuts_metric tonnes_2_lag1,PI101422_lag6
+2292,PI201081,PI101405_lag6
+2293,BDI_Low_range_lag3,Sorghum_Thousand Hectares_lag6
+2294,PI101182*x*general_index,BDI_High_std_lag12
+2295,BDI_High_median_pct_change,PI101185_lag3
+2296,PI201101_std12,BDI_High_min_lag12
+2297,GBP_range_trend,BDI_High_median_lag12
+2298,PI101102_pct_change,BDI_High_mean_lag12
+2299,EUR_pct_change_trend,PI101201_lag3
+2300,PI201121_pct_change,PI101204_lag3
+2301,PI101134_roll12,PI201001_lag3
+2302,PI101204_lag2,PI201002_lag3
+2303,PI101422_lag3,PI201003_lag3
+2304,PI101142_trend,PI201004_lag3
+2305,PI201051_trend,PI201005_lag3
+2306,BDI_Close_variance_pct_change,PI201011_lag3
+2307,headline_cpi_trend,BDI_Close_median_lag12
+2308,PI101001_pct_change,PI201013_lag3
+2309,BDI_High_mean_trend,Sunflower_KG/HA_lag6
+2310,PI101152_std3,PI201031_lag3
+2311,PI101112,general_index_lag12
+2312,GBP_mean_trend,food_index_lag12
+2313,PI101202_std3,Pigs_Number_lag6
+2314,BDI_Low_range_trend,Chicken_Number_lag6
+2315,food_inflation_lag3,PI201032_lag3
+2316,PI201071,Goats_Number_lag6
+2317,PI201095_pct_change,Cattle_Number_lag6
+2318,PI201135_lag1,Groundnuts_metric tonnes_2_lag6
+2319,PI101182_roll3,Sunflower_metric tonnes_lag6
+2320,PI919001*x*general_index,PI201033_lag3
+2321,ZAR_median_std3,Millet_metric tonnes_lag6
+2322,PI201061_std12,Maize_metric tonnes_lag6
+2323,PI201133_lag6,PI201034_lag3
+2324,PI101205_lag6,Groundnuts_KG/HA_lag6
+2325,PI101121_trend,policy_rate_lag12
+2326,PI101103_std3,PI201054_lag6
+2327,PI201033,PI201053_lag6
+2328,PI101111_roll3,PI201052_lag6
+2329,Sorghum_metric tonnes_lag12,PI201051_lag6
+2330,EUR_std_trend,PI201035_lag6
+2331,PI101123_roll3,PI201034_lag6
+2332,PI201125_std6,PI201033_lag6
+2333,PI101144_lag6,PI201032_lag6
+2334,YEN_pct_change_lag1,PI201031_lag6
+2335,PI101155_std6,PI201013_lag6
+2336,PI201055_lag1,PI201011_lag6
+2337,PI101111_lag1,PI201055_lag3
+2338,SDR_pct_change,PI201004_lag6
+2339,Brent_USD_per_barrel*x*EUR_pct_change,PI201062_lag3
+2340,PI101115_roll12,PI201063_lag3
+2341,PI101184_lag2,PI101404_lag6
+2342,PI201061_roll12,PI101205_lag6
+2343,Imported Tradeables Index_trend,PI201064_lag3
+2344,PI201065_pct_change,PI101203_lag6
+2345,PI101151_lag6,PI201065_lag3
+2346,PI953221_roll12,PI101201_lag6
+2347,PI201061_lag2,PI101185_lag6
+2348,PI101112_lag3,PI101184_lag6
+2349,PI101121_std3,PI101183_lag6
+2350,PI201054_lag3,PI101182_lag6
+2351,PI201121_std6,PI101181_lag6
+2352,BDI_High_std_pct_change,PI101175_lag6
+2353,PI201133_pct_change,PI101172_lag6
+2354,PI101124_trend,PI101171_lag6
+2355,PI101122_lag1,PI101165_lag6
+2356,PI101182_lag1,PI101162_lag6
+2357,PI101111_lag3,PI201001_lag6
+2358,PI201111_roll12,PI101402_lag6
+2359,PI101124_pct_change,PI953221_lag6
+2360,PI919001_lag2,PI919001_lag6
+2361,PI919001_lag6,PI201135_lag6
+2362,PI101201_lag12,PI201051_lag3
+2363,PI201003_roll12,PI201133_lag6
+2364,PI201083,PI201132_lag6
+2365,PI201004*x*general_index,PI201131_lag6
+2366,PI201035_lag6,PI201125_lag6
+2367,PI211442_std6,PI201124_lag6
+2368,PI201123_lag3,PI201123_lag6
+2369,PI101143_std3,PI201122_lag6
+2370,PI101112_trend,PI201121_lag6
+2371,PI101183_lag6,PI201113_lag6
+2372,PI101111_std3,PI201111_lag6
+2373,PI101115_std6,PI201054_lag3
+2374,PI101205_pct_change,PI201101_lag6
+2375,PI201051_std3,PI201095_lag6
+2376,PI101442_pct_change,PI201094_lag6
+2377,PI101104_trend,PI201093_lag6
+2378,PI101112_std3,PI201092_lag6
+2379,PI201005_pct_change,PI201091_lag6
+2380,PI101142_pct_change,PI201052_lag3
+2381,PI201051*x*general_index,PI201053_lag3
+2382,PI101203_std6,PI201073_lag6
+2383,PI201052*x*general_index,PI201071_lag6
+2384,Global_Food_Price_Index*x*YEN_std,PI201065_lag6
+2385,PI201061_pct_change,PI201064_lag6
+2386,PI101142_lag2,PI201063_lag6
+2387,PI101131_lag6,PI201062_lag6
+2388,PI201124_pct_change,PI201061_lag6
+2389,PI201103_std3,PI201103_lag6
+2390,PI101104_lag1,Chicken_Number_lag1
+2391,PI101154_trend,Pigs_Number_lag1
+2392,PI101153_lag1,USD_median_roll12
+2393,Pulses_KG/HA_lag3,food_index_lag2
+2394,PI201062_roll3,USD_median_roll6
+2395,PI101153_roll12,general_index_lag2
+2396,BDI_High_std_lag2,USD_median_roll3
+2397,PI201065_roll12,policy_rate_lag2
+2398,PI201065_std12,BDI_Close_median_lag2
+2399,PI201113_lag3,BDI_Close_min_lag2
+2400,PI201013_pct_change,USD_mean_roll6
+2401,PI201051_pct_change,BDI_Close_first_lag2
+2402,PI201103_trend,BDI_Close_count_lag2
+2403,GBP_pct_change_lag6,BDI_High_mean_lag2
+2404,PI101144_std3,GBP_pct_change_std6
+2405,PI201005,PI101121_pct_change
+2406,PI201065_lag12,BDI_High_min_lag2
+2407,PI101111_roll12,BDI_High_range_lag2
+2408,SEI00003_lag12,BDI_High_std_lag2
+2409,PI101155_std3,BDI_High_variance_lag2
+2410,PI101112_lag2,BDI_High_pct_change_lag2
+2411,PI211442_lag12,BDI_Low_mean_lag2
+2412,PI101171_trend,BDI_Low_median_lag2
+2413,PI201011_pct_change,BDI_Low_range_lag2
+2414,PI201113_lag1,BDI_Low_std_lag2
+2415,PI201103,BDI_Low_variance_lag2
+2416,PI101171,BDI_Low_pct_change_lag2
+2417,PI101201_pct_change,GBP_std_roll6
+2418,PI101132_pct_change,EUR_mean_lag2
+2419,PI201054*x*general_index,EUR_median_lag2
+2420,PI101152_trend,GBP_median_roll12
+2421,PI101104_roll3,BDI_High_median_lag2
+2422,ZAR_median_trend,Imports_Fuel_lag1
+2423,BDI_Low_std_pct_change,Maize_Thousand Hectares_lag1
+2424,PI101142_std3,Millet_Thousand Hectares_lag1
+2425,PI201121_lag6,Pulses_Thousand Hectares_lag1
+2426,PI101183_lag12,Sunflower_Thousand Hectares_lag1
+2427,PI101181_trend,Groundnuts_Thousand Hectares_lag1
+2428,PI101123_std6,Sorghum_Thousand Hectares_2_lag1
+2429,Imports_Food_Beverages_Tobacco_roll12,Maize_Thousand Hectares_2_lag1
+2430,PI101123_lag3,SDR_median_roll12
+2431,Pulses_KG/HA_lag1,Millet_Thousand Hectares_2_lag1
+2432,PI201011_std6,SDR_median_roll6
+2433,Maize_Thousand Hectares_lag1,Pulses_Thousand Hectares_2_lag1
+2434,PI101112_roll6,SDR_median_roll3
+2435,PI201131_lag2,Sunflower_Thousand Hectares_2_lag1
+2436,PI201111_std12,SDR_mean_roll12
+2437,PI201073_trend,Sheep_Number_lag1
+2438,PI101422_lag2,SDR_mean_roll6
+2439,PI101112_roll3,SDR_mean_roll3
+2440,PI201135,Maize_KG/HA_lag1
+2441,PI201133_roll12,Pulses_KG/HA_lag1
+2442,PI201053_roll12,Sunflower_KG/HA_lag1
+2443,EUR_range_trend,Sorghum_metric tonnes_lag1
+2444,PI101151_pct_change,Maize_metric tonnes_lag1
+2445,PI101143_lag12,Pulses_metric tonnes_lag1
+2446,Millet_Thousand Hectares_2,USD_range_std6
+2447,PI101432_std3,USD_range_roll6
+2448,PI201052_pct_change,Sunflower_metric tonnes_lag1
+2449,PI201005_trend,Groundnuts_metric tonnes_2_lag1
+2450,PI201133_roll3,USD_std_roll12
+2451,PI101135_lag6,Goats_Number_lag1
+2452,PI201111_trend,USD_std_roll6
+2453,PI101131_pct_change,Groundnuts_metric tonnes_lag1
+2454,PI201101_lag12,EUR_mean_roll3
+2455,PI201111_roll3,BDI_Low_pct_change_std12
+2456,Inflation (%)_std3,PI101121_lag2
+2457,PI201053_lag6,BDI_Low_pct_change_std6
+2458,PI201123_roll6,PI101122_lag2
+2459,PI201111_lag3,PI101123_lag2
+2460,PI101442_std3,BDI_Low_pct_change_roll3
+2461,PI101105_std6,BDI_Low_variance_std12
+2462,Maize_KG/HA,BDI_Low_variance_roll12
+2463,PI101115_lag12,BDI_Low_variance_std6
+2464,PI201123_pct_change,PI101124_lag2
+2465,PI201083_std6,BDI_Low_variance_std3
+2466,PI101184_roll3,BDI_Low_variance_roll3
+2467,PI201065*x*general_index,BDI_Low_std_std12
+2468,PI101145_lag1,PI101125_lag2
+2469,PI919001_trend,GBP_median_lag2
+2470,PI101003_pct_change,PI101132_lag2
+2471,PI101135_std6,BDI_Low_std_std3
+2472,PI101104_pct_change,BDI_Low_std_roll3
+2473,PI101445,BDI_Low_range_std12
+2474,PI101171_lag3,BDI_Low_range_roll12
+2475,PI101141_trend,BDI_Low_range_std6
+2476,Groundnuts_Thousand Hectares_lag12,PI101133_lag2
+2477,PI101405_roll12,BDI_Low_range_std3
+2478,PI101203_trend,BDI_Low_range_roll3
+2479,PI101151*x*general_index,BDI_Low_median_std12
+2480,Groundnuts_metric tonnes_2,BDI_Low_median_roll12
+2481,PI101144_roll3,BDI_Low_median_std6
+2482,PI201031_lag1,BDI_Low_median_roll6
+2483,PI101101_std3,BDI_Low_median_std3
+2484,PI201033*x*general_index,BDI_Low_median_roll3
+2485,PI201053_pct_change,PI101131_lag2
+2486,PI201131_roll6,GBP_median_roll6
+2487,PI101422_roll6,USD_mean_lag2
+2488,BDI_Close_count_lag2,USD_median_lag2
+2489,PI201113_trend,GBP_mean_roll12
+2490,PI101182_pct_change,SDR_median_lag2
+2491,PI101181_roll3,YEN_median_lag2
+2492,PI101155_lag2,ZAR_median_lag2
+2493,Imports_Food_Beverages_Tobacco_lag3,ZAR_pct_change_lag2
+2494,PI101204_trend,headline_cpi_lag2
+2495,PI101121_pct_change,imported_tradeables_inflation_lag2
+2496,PI201034_pct_change,food_inflation_lag2
+2497,PI201101*x*general_index,EUR_range_roll12
+2498,PI201133_roll6,EUR_range_std6
+2499,PI201001_std6,EUR_range_roll6
+2500,PI201055_pct_change,core_inflation_lag2
+2501,Sunflower_Thousand Hectares_2_lag12,PI101115_lag2
+2502,Pigs_Number_lag1,PI101001_lag2
+2503,PI201111_std3,PI101002_lag2
+2504,SEI00003,PI101003_lag2
+2505,PI101001_std3,PI101005_lag2
+2506,PI201093_roll6,PI101101_lag2
+2507,PI201081_pct_change,PI101102_lag2
+2508,PI101183,EUR_median_roll12
+2509,Sorghum_metric tonnes,PI101103_lag2
+2510,PI201061_std3,PI101104_lag2
+2511,PI201005_lag6,PI101105_lag2
+2512,PI101171_std6,EUR_median_roll3
+2513,PI211445_lag12,PI101111_lag2
+2514,PI101002,EUR_mean_roll12
+2515,PI201031_roll12,PI101112_lag2
+2516,PI201055_std6,EUR_mean_roll6
+2517,BDI_High_range_std3,Global_Dairy_Index_lag2
+2518,PI201131_lag6,PI201033_lag1
+2519,PI201034_trend,Global_Food_Price_Index_roll3
+2520,PI201054_lag2,core_inflation_std12
+2521,PI201031_pct_change,core_inflation_roll12
+2522,Global_Food_Price_Index*x*GBP_pct_change,PI201034_lag1
+2523,PI101132_roll6,PI201035_lag1
+2524,Sunflower_KG/HA_lag3,core_inflation_std3
+2525,PI211444_std3,core_inflation_roll3
+2526,PI101115_std12,food_inflation_std12
+2527,PI101442,food_inflation_roll12
+2528,PI101153_trend,food_inflation_std6
+2529,PI101142*x*general_index,food_inflation_roll6
+2530,PI201135_pct_change,food_inflation_std3
+2531,PI201031,PI201051_lag1
+2532,Sorghum_KG/HA_lag2,imported_tradeables_inflation_std12
+2533,PI101181_std3,SDR_range_roll6
+2534,Maize_KG/HA_lag2,imported_tradeables_inflation_std6
+2535,PI201134_trend,imported_tradeables_inflation_roll6
+2536,PI101162_trend,imported_tradeables_inflation_std3
+2537,PI201064_trend,imported_tradeables_inflation_roll3
+2538,PI101123_std12,headline_cpi_std12
+2539,PI201034_lag1,headline_cpi_roll12
+2540,PI201062_std6,headline_cpi_std6
+2541,Groundnuts_metric tonnes_2_lag6,PI201052_lag1
+2542,PI101151_std3,headline_cpi_std3
+2543,PI101131_std3,headline_cpi_roll3
+2544,PI201091_lag3,PI201053_lag1
+2545,Imports_Fuel_std3,ZAR_pct_change_roll12
+2546,PI201063_lag6,PI201054_lag1
+2547,PI211442_roll12,PI201055_lag1
+2548,PI201001_pct_change,PI201061_lag1
+2549,PI201123_std6,imported_tradeables_inflation_roll12
+2550,PI201123_lag6,PI101144_lag1
+2551,PI201033_roll6,PI101145_lag1
+2552,PI101201_std3,PI101151_lag1
+2553,PI201005_lag3,PI101153_lag1
+2554,PI201064_std3,PI101155_lag1
+2555,Millet_metric tonnes_lag1,PI101162_lag1
+2556,PI101125,PI101165_lag1
+2557,PI101133_trend,PI101171_lag1
+2558,Sunflower_Thousand Hectares_2,PI101172_lag1
+2559,PI101184_pct_change,PI101175_lag1
+2560,PI101144_lag2,PI101181_lag1
+2561,PI201073_lag2,PI101182_lag1
+2562,PI101002_trend,PI101183_lag1
+2563,PI201052_trend,PI101184_lag1
+2564,BDI_Close_count_lag6,Global_Cereals_Index_roll6
+2565,PI101184*x*general_index,PI201032_lag1
+2566,PI201013_lag1,PI101201_lag1
+2567,PI201123*x*general_index,PI101202_lag1
+2568,PI201135_roll6,PI101205_lag1
+2569,PI101135_std3,PI201001_lag1
+2570,PI101135_pct_change,PI201002_lag1
+2571,PI101151_std6,Global_Dairy_Index_roll3
+2572,PI201121_std3,PI201003_lag1
+2573,PI201031*x*general_index,Global_Meat_Index_roll12
+2574,PI101161*x*general_index,PI201004_lag1
+2575,PI101005_pct_change,PI201005_lag1
+2576,PI201001_lag6,PI201011_lag1
+2577,PI101151_roll3,Global_Meat_Index_roll3
+2578,PI201092_trend,PI201013_lag1
+2579,PI201123_std3,Global_Food_Price_Index_roll12
+2580,Sorghum_Thousand Hectares_2,PI201031_lag1
+2581,PI201103_pct_change,PI101185_lag1
+2582,PI101144_std6,PI201125_lag1
+2583,Month_cos,PI201131_lag1
+2584,Groundnuts_metric tonnes,PI201132_lag1
+2585,PI201013_lag2,YEN_range_roll3
+2586,PI101161_trend,YEN_std_std12
+2587,PI101003_roll6,YEN_std_roll12
+2588,PI101185_roll6,YEN_std_std6
+2589,PI201135_roll3,PI201133_lag1
+2590,PI201095_roll6,PI201134_lag1
+2591,PI201124_trend,PI201135_lag1
+2592,PI953221_trend,PI919001_lag1
+2593,PI201003_pct_change,PI953221_lag1
+2594,PI211442_std12,PI101402_lag1
+2595,PI101172_roll3,YEN_median_roll6
+2596,PI101115,PI101404_lag1
+2597,PI101153_std6,PI201062_lag1
+2598,PI201031_roll6,PI101405_lag1
+2599,PI201121*x*general_index,PI101422_lag1
+2600,PI201054_lag12,PI101432_lag1
+2601,PI101161_pct_change,YEN_mean_roll6
+2602,PI201034*x*general_index,PI101442_lag1
+2603,PI101111_trend,YEN_mean_roll3
+2604,PI211445_trend,PI101445_lag1
+2605,PI101133_std3,PI211442_lag1
+2606,PI101135_trend,PI211444_lag1
+2607,PI201073_pct_change,PI211445_lag1
+2608,PI101205_trend,SEI00003_lag1
+2609,PI201031_std12,Imported Tradeables Index_lag1
+2610,PI101142_lag1,Inflation (%)_lag1
+2611,PI201013_trend,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag1
+2612,Millet_Thousand Hectares_2_pct_change,Imports_Food_Beverages_Tobacco_lag1
+2613,PI101115*x*general_index,YEN_median_roll3
+2614,PI201035_trend,PI201063_lag1
+2615,PI101153_roll3,ZAR_range_roll12
+2616,PI101135,PI201064_lag1
+2617,PI201004_roll3,ZAR_range_roll6
+2618,PI201004_trend,ZAR_range_std3
+2619,PI101153_std3,ZAR_range_roll3
+2620,PI201095_trend,PI201065_lag1
+2621,PI201121_roll12,PI201071_lag1
+2622,PI101102_roll3,PI201073_lag1
+2623,PI101153_roll6,ZAR_std_roll6
+2624,headline_cpi_lag3,PI201081_lag1
+2625,PI201033_lag1,PI201083_lag1
+2626,food_inflation_trend,ZAR_median_std12
+2627,PI201124_std3,ZAR_median_roll12
+2628,PI101404_trend,PI201091_lag1
+2629,PI201121_trend,PI201124_lag1
+2630,PI201081_lag1,PI201092_lag1
+2631,PI201125_lag6,ZAR_median_roll3
+2632,Sorghum_KG/HA_lag6,PI201093_lag1
+2633,Imports_Food_Beverages_Tobacco_lag2,PI201094_lag1
+2634,Pulses_KG/HA_pct_change,PI201095_lag1
+2635,PI101404_lag2,ZAR_mean_roll6
+2636,PI101003_lag3,PI201101_lag1
+2637,PI201125_pct_change,ZAR_mean_roll3
+2638,PI101111_lag2,PI201103_lag1
+2639,PI201054_std6,PI201111_lag1
+2640,PI201083_lag12,YEN_pct_change_std6
+2641,PI101111_roll6,PI201113_lag1
+2642,PI201003*x*general_index,PI201121_lag1
+2643,PI201093_roll12,PI201122_lag1
+2644,PI101182_trend,PI201123_lag1
+2645,PI101003_trend,ZAR_median_roll6
+2646,PI201091_std3,Imports_Food_Beverages_Tobacco_pct_change
+2647,PI101144*x*general_index,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_pct_change
+2648,PI201093_std3,Inflation (%)_pct_change
+2649,PI101003_std3,Imported Tradeables Index_pct_change
+2650,PI101151_trend,PI211442_lag2
+2651,PI201125_std3,PI211445_pct_change
+2652,PI201111_lag6,PI211444_pct_change
+2653,PI201123_lag1,PI211442_pct_change
+2654,PI101181_lag2,PI101445_pct_change
+2655,PI201121_lag1,PI101442_pct_change
+2656,PI201051_std6,PI101432_pct_change
+2657,PI101201_lag2,PI101422_pct_change
+2658,PI201121_roll3,PI101405_pct_change
+2659,PI201011_lag2,PI101404_pct_change
+2660,PI201034_lag6,PI101402_pct_change
+2661,PI101131_trend,BDI_Low_mean_std12
+2662,PI211445_pct_change,PI211444_lag2
+2663,PI101121_lag6,PI201135_pct_change
+2664,PI101145_lag2,PI201134_pct_change
+2665,PI201031_roll3,PI201133_pct_change
+2666,PI201034_lag12,PI201132_pct_change
+2667,PI201093_trend,PI201131_pct_change
+2668,PI201065_roll3,PI201125_pct_change
+2669,PI201125_trend,PI201124_pct_change
+2670,PI201011_trend,PI201123_pct_change
+2671,PI101171_std3,PI201122_pct_change
+2672,PI101115_lag3,PI201121_pct_change
+2673,PI201013_lag3,PI211445_lag2
+2674,PI201091_trend,SEI00003_lag2
+2675,PI201071_trend,PI201103_pct_change
+2676,PI201083_trend,PI201101_pct_change
+2677,PI101142_roll3,PI953221_pct_change
+2678,PI101165*x*general_index,PI101445_lag2
+2679,PI211442_trend,food_index_roll3
+2680,PI201073_std3,Pigs_Number_pct_change
+2681,PI101155_lag3,Chicken_Number_pct_change
+2682,Sheep_Number_pct_change,Sheep_Number_pct_change
+2683,PI211442_pct_change,Goats_Number_pct_change
+2684,PI101002_pct_change,Cattle_Number_pct_change
+2685,SEI00003_lag1,Groundnuts_metric tonnes_2_pct_change
+2686,Sorghum_Thousand Hectares_lag1,Sunflower_metric tonnes_pct_change
+2687,Pulses_metric tonnes_lag6,Pulses_metric tonnes_pct_change
+2688,PI201124_lag2,Millet_metric tonnes_pct_change
+2689,headline_cpi_std12,Maize_metric tonnes_pct_change
+2690,PI101422_pct_change,Sorghum_metric tonnes_pct_change
+2691,PI101003*x*general_index,Groundnuts_KG/HA_pct_change
+2692,PI211442_std3,Sunflower_KG/HA_pct_change
+2693,PI101144_roll6,Imports_Fuel_pct_change
+2694,PI101181_pct_change,Millet_KG/HA_pct_change
+2695,PI101175_roll6,Maize_KG/HA_pct_change
+2696,PI201083_std3,Sorghum_KG/HA_pct_change
+2697,PI101402_std3,Groundnuts_metric tonnes_pct_change
+2698,PI201054_lag1,Sunflower_Thousand Hectares_2_pct_change
+2699,PI101404_std12,Pulses_Thousand Hectares_2_pct_change
+2700,PI211444_trend,Millet_Thousand Hectares_2_pct_change
+2701,PI201111*x*general_index,Maize_Thousand Hectares_2_pct_change
+2702,PI201121_lag2,Sorghum_Thousand Hectares_2_pct_change
+2703,PI101181_roll6,Groundnuts_Thousand Hectares_pct_change
+2704,PI101121_lag2,Sunflower_Thousand Hectares_pct_change
+2705,PI101112_lag1,Pulses_Thousand Hectares_pct_change
+2706,Millet_Thousand Hectares_lag6,Millet_Thousand Hectares_pct_change
+2707,PI101141_lag6,Maize_Thousand Hectares_pct_change
+2708,PI201003_trend,Sorghum_Thousand Hectares_pct_change
+2709,PI201065_lag3,Pulses_KG/HA_pct_change
+2710,Imports_Food_Beverages_Tobacco_trend,PI101201_pct_change
+2711,PI201083_pct_change,PI101185_pct_change
+2712,PI201093_std12,Maize_Thousand Hectares_2_lag2
+2713,PI101402_pct_change,PI101183_pct_change
+2714,SEI00003_lag3,Millet_Thousand Hectares_2_lag2
+2715,Imports_Fuel_lag6,PI101181_pct_change
+2716,PI201034_roll12,PI101175_pct_change
+2717,PI101111,Pulses_Thousand Hectares_2_lag2
+2718,PI101183_lag3,PI101171_pct_change
+2719,PI101115_trend,PI101165_pct_change
+2720,PI201122,PI101162_pct_change
+2721,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag2,PI101161_pct_change
+2722,PI201033_lag6,Sunflower_Thousand Hectares_2_lag2
+2723,PI201031_lag6,PI101154_pct_change
+2724,PI953221_pct_change,PI101153_pct_change
+2725,PI101402_std12,PI201095_pct_change
+2726,PI201065_lag1,PI101151_pct_change
+2727,Groundnuts_Thousand Hectares_lag1,PI101145_pct_change
+2728,PI211444_pct_change,PI101144_pct_change
+2729,PI201061_std6,PI101143_pct_change
+2730,PI101181_std12,PI101142_pct_change
+2731,PI201123_trend,PI101141_pct_change
+2732,PI101165,PI101135_pct_change
+2733,PI101151_lag2,PI101134_pct_change
+2734,policy_rate_lag3,PI101133_pct_change
+2735,PI201091_pct_change,PI101132_pct_change
+2736,PI201003_std3,PI101131_pct_change
+2737,PI201034,PI101125_pct_change
+2738,PI101003_lag6,PI101124_pct_change
+2739,Millet_metric tonnes_pct_change,Sorghum_KG/HA_lag2
+2740,PI101432_lag2,PI101122_pct_change
+2741,PI211444_lag12,Groundnuts_metric tonnes_lag2
+2742,PI201131_lag1,Food_and_Non_Alcoholic_Beverages_Index_lag2
+2743,PI201055,PI201093_pct_change
+2744,PI201124,PI201092_pct_change
+2745,PI101134_lag1,PI201091_pct_change
+2746,PI101172*x*general_index,PI201083_pct_change
+2747,PI201094_pct_change,PI201081_pct_change
+2748,PI201054_trend,PI201073_pct_change
+2749,PI201065_trend,PI201071_pct_change
+2750,PI101134_lag6,PI201065_pct_change
+2751,policy_rate_pct_change,Inflation (%)_lag2
+2752,PI101185_lag2,PI201063_pct_change
+2753,PI101175_lag2,Core Monthly Inflation Rate (Trimmed Mean) (percentage)_lag2
+2754,PI101115_lag6,PI201061_pct_change
+2755,PI101404_lag1,PI201055_pct_change
+2756,PI101144_roll12,PI201054_pct_change
+2757,PI201073_roll12,Sorghum_Thousand Hectares_2_lag2
+2758,PI101165_lag6,PI201051_pct_change
+2759,PI101134_std6,Imports_Fuel_lag2
+2760,PI101134_roll6,PI201034_pct_change
+2761,PI101185*x*general_index,PI201033_pct_change
+2762,PI101134_std12,Maize_Thousand Hectares_lag2
+2763,PI101185_roll3,Millet_Thousand Hectares_lag2
+2764,PI101185_trend,PI201013_pct_change
+2765,Imports_Food_Beverages_Tobacco_std3,PI201011_pct_change
+2766,Millet_Thousand Hectares_pct_change,Sunflower_Thousand Hectares_lag2
+2767,Pulses_Thousand Hectares_pct_change,PI201003_pct_change
+2768,Sunflower_Thousand Hectares_pct_change,PI201002_pct_change
+2769,Groundnuts_Thousand Hectares_pct_change,PI201001_pct_change
+2770,Sorghum_Thousand Hectares_2_pct_change,PI101205_pct_change
+2771,PI101134_roll3,Groundnuts_Thousand Hectares_lag2
+2772,PI101134_std3,PI101203_pct_change
+2773,PI101175_lag6,PI201053_pct_change
+2774,PI101165_lag2,PI101161_lag2
+2775,Goats_Number_pct_change,BDI_High_median_std12
+2776,Cattle_Number_pct_change,BDI_High_median_roll12
+2777,Groundnuts_metric tonnes_2_pct_change,BDI_High_median_std6
+2778,Sunflower_metric tonnes_pct_change,BDI_High_median_roll6
+2779,Maize_metric tonnes_pct_change,BDI_High_median_std3
+2780,Pulses_metric tonnes_pct_change,BDI_High_median_roll3
+2781,PI201054_pct_change,BDI_High_mean_std12
+2782,Sorghum_metric tonnes_pct_change,BDI_High_mean_roll12
+2783,Chicken_Number_pct_change,BDI_High_mean_std6
+2784,Pigs_Number_pct_change,BDI_High_mean_roll6
+2785,Groundnuts_Thousand Hectares,BDI_High_mean_std3
+2786,Sunflower_Thousand Hectares,BDI_High_mean_roll3
+2787,PI101185_lag3,PI101162_lag2
+2788,PI101183_trend,PI101165_lag2
+2789,PI101175_lag3,food_index_roll6
+2790,PI101182_lag3,PI101172_lag2
+2791,Groundnuts_metric tonnes_pct_change,PI101175_lag2
+2792,Millet_KG/HA_pct_change,BDI_Close_count_roll3
+2793,Maize_KG/HA_pct_change,PI101181_lag2
+2794,PI101175_trend,PI101182_lag2
+2795,policy_rate_trend,PI101183_lag2
+2796,PI101165_trend,PI101184_lag2
+2797,Groundnuts_KG/HA_pct_change,PI101185_lag2
+2798,Sunflower_KG/HA_pct_change,PI101201_lag2
+2799,Pulses_Thousand Hectares_2_pct_change,PI101202_lag2
+2800,Sunflower_Thousand Hectares_2_pct_change,BDI_Close_last_roll12
+2801,PI201081_trend,PI101203_lag2
+2802,Sorghum_KG/HA_pct_change,BDI_Close_last_roll6
+2803,Maize_Thousand Hectares_2_pct_change,PI101204_lag2
+2804,PI201053_trend,BDI_Close_last_roll3
+2805,PI101165_roll3,PI101171_lag2
+2806,PI101404_roll3,BDI_Low_mean_roll12
+2807,PI201073,BDI_Low_mean_std6
+2808,PI101145_trend,BDI_Low_mean_roll6
+2809,PI101144_trend,BDI_Low_mean_std3
+2810,PI101134_trend,BDI_Low_mean_roll3
+2811,PI101201_roll3,BDI_High_pct_change_std12
+2812,PI201121_lag3,BDI_High_pct_change_roll12
+2813,PI101185_lag12,BDI_High_pct_change_std6
+2814,PI201063_lag12,PI101134_lag2
+2815,PI101175_lag12,BDI_High_pct_change_std3
+2816,PI101145_lag12,BDI_High_pct_change_roll3
+2817,policy_rate_lag12,PI101135_lag2
+2818,PI101404_lag3,BDI_High_variance_roll12
+2819,PI101203_pct_change,PI101143_lag2
+2820,PI101185_pct_change,BDI_High_variance_roll3
+2821,PI101404_std3,PI101155_lag2
+2822,PI101432_roll3,PI101145_lag2
+2823,PI101405_trend,BDI_High_std_std6
+2824,PI101165_std6,BDI_High_std_roll6
+2825,PI101165_std3,BDI_High_std_std3
+2826,PI101404_std6,BDI_High_std_roll3
+2827,PI101145_lag3,PI101151_lag2
+2828,PI101134_lag3,BDI_High_range_roll12
+2829,PI101432_trend,BDI_High_range_std6
+2830,PI101442_trend,BDI_High_range_roll6
+2831,Imports_Food_Beverages_Tobacco_pct_change,PI101153_lag2
+2832,Sunflower_Thousand Hectares_lag12,PI101154_lag2
+2833,PI201113_lag2,BDI_High_min_std12
+2834,PI101404_roll6,BDI_High_min_roll12
+2835,PI101432_std6,BDI_High_min_std6
+2836,policy_rate_std3,BDI_High_min_roll6
+2837,PI101445_roll12,PI101144_lag2
+2838,PI101165_lag3,BDI_Close_median_std6
+2839,PI101115_lag1,BDI_Close_median_roll6
+2840,SEI00003_lag6,BDI_Close_median_std3
+2841,Groundnuts_Thousand Hectares_lag3,PI201113_lag2
+2842,Sunflower_Thousand Hectares_lag3,PI201121_lag2
+2843,Sunflower_Thousand Hectares_2_lag1,PI201122_lag2
+2844,Sunflower_Thousand Hectares_lag1,PI201123_lag2
+2845,Sunflower_Thousand Hectares_2_lag6,PI201124_lag2
+2846,PI201125_roll3,PI201125_lag2
+2847,PI101185,PI201131_lag2
+2848,PI101175_pct_change,PI201132_lag2
+2849,PI101165_pct_change,policy_rate_roll12
+2850,PI101145_pct_change,policy_rate_std6
+2851,PI101181,policy_rate_roll6
+2852,PI101182,policy_rate_std3
+2853,PI101175,PI101205_lag2
+2854,PI201054,PI201133_lag2
+2855,Sunflower_Thousand Hectares_2_lag3,PI201134_lag2
+2856,PI201033_roll3,PI201135_lag2
+2857,PI101145,PI919001_lag2
+2858,PI101115_pct_change,PI953221_lag2
+2859,PI101134_pct_change,PI101402_lag2
+2860,PI101134,PI101404_lag2
+2861,Sunflower_Thousand Hectares_lag6,general_index_roll12
+2862,PI101121_lag1,PI101405_lag2
+2863,PI211444_lag6,general_index_roll6
+2864,PI201054_roll3,PI101422_lag2
+2865,PI201054_std3,general_index_roll3
+2866,PI101115_roll3,PI101432_lag2
+2867,PI101115_std3,food_index_roll12
+2868,PI201121_roll6,PI101442_lag2
+2869,PI101404_lag6,policy_rate_roll3
+2870,PI101183_pct_change,PI201001_lag2
+2871,Groundnuts_metric tonnes_lag2,BDI_Close_first_std6
+2872,Sunflower_Thousand Hectares_2_lag2,PI201002_lag2
+2873,Groundnuts_Thousand Hectares_lag2,PI201004_lag2
+2874,PI101115_lag2,BDI_Close_first_roll3
+2875,PI101185_lag6,PI201005_lag2
+2876,PI201101_std3,PI201011_lag2
+2877,PI201051_lag6,PI201013_lag2
+2878,PI201054_lag6,PI201031_lag2
+2879,PI101145_roll6,PI201032_lag2
+2880,PI101165_lag1,PI201033_lag2
+2881,PI101185_lag1,BDI_Close_std_std12
+2882,PI101183_lag1,PI201035_lag2
+2883,PI101145_roll3,PI201051_lag2
+2884,Sorghum_Thousand Hectares_pct_change,PI201052_lag2
+2885,PI101404,BDI_Close_median_roll12
+2886,Maize_Thousand Hectares_pct_change,PI201111_lag2
+2887,PI101112_lag6,PI201103_lag2
+2888,PI101131*x*general_index,PI201101_lag2
+2889,PI201033_lag2,PI201095_lag2
+2890,PI101131_lag3,PI201094_lag2
+2891,PI101165_roll12,PI201093_lag2
+2892,PI101175_roll3,BDI_Close_max_roll3
+2893,PI101175_std12,PI201053_lag2
+2894,PI101404_pct_change,PI201073_lag2
+2895,Sunflower_Thousand Hectares_lag2,PI201071_lag2
+2896,PI201013_lag6,PI201065_lag2
+2897,PI101175_std6,PI201064_lag2
+2898,PI101134_lag2,PI201063_lag2
+2899,PI101185_std3,PI201062_lag2
+2900,PI101185_std6,PI201054_lag2
+2901,PI101185_roll12,BDI_Close_range_std12
+2902,PI101185_std12,PI201083_lag2
